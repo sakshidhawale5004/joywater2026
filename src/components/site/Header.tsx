@@ -30,7 +30,7 @@ export function Header() {
       </div>
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
-          <img src={logo} alt="Joy Water" className="h-12 w-auto transition-transform duration-500 group-hover:scale-105" />
+          <img src={logo} alt="Joy Water" className="h-14 w-auto transition-transform duration-500 group-hover:scale-105" style={{ imageRendering: "-webkit-optimize-contrast" }} />
         </Link>
         <nav className="hidden lg:flex items-center gap-4" onMouseLeave={() => setOpen(null)}>
           <Link to="/" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Home</Link>
