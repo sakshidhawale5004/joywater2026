@@ -38,7 +38,7 @@ export function Header() {
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
           <img
-            src="/images/Black-Horizontal.jpg.jpeg"
+            src="/FINAL-LOGO.png"
             alt="Joy Water"
             className="h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
@@ -48,7 +48,7 @@ export function Header() {
             to="/"
             className="px-4 py-3 hover:opacity-80 transition-opacity flex items-center"
           >
-            <img src="/images/Black-Horizontal.jpg.jpeg" alt="Home" className="h-5 w-auto object-contain" />
+            <img src="/FINAL-LOGO.png" alt="Home" className="h-5 w-auto object-contain" />
           </Link>
           <Link
             to="/about"
