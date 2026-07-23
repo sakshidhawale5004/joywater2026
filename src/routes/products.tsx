@@ -9,7 +9,11 @@ export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
       { title: "All Products — Joy Water" },
-      { name: "description", content: "Browse 400+ Joy Water luxury faucets, showers, basins and sanitaryware across every finish and series." },
+      {
+        name: "description",
+        content:
+          "Browse 400+ Joy Water luxury faucets, showers, basins and sanitaryware across every finish and series.",
+      },
       { property: "og:title", content: "All Products — Joy Water" },
       { property: "og:description", content: "The complete Joy Water catalogue." },
     ],
@@ -22,11 +26,14 @@ function ProductsPage() {
   const [visible, setVisible] = useState(48);
 
   const groups = ["all", "faucets", "showers", "basins", "toilets", "components"];
-  const finishes = useMemo(() => ["all", ...Array.from(new Set(products.map(p => p.finish)))], []);
+  const finishes = useMemo(
+    () => ["all", ...Array.from(new Set(products.map((p) => p.finish)))],
+    [],
+  );
 
   const filtered = useMemo(() => {
-    return products.filter(p => {
-      const cat = categories.find(c => c.slug === p.category);
+    return products.filter((p) => {
+      const cat = categories.find((c) => c.slug === p.category);
       const okGroup = group === "all" || cat?.group === group;
       const okFinish = finish === "all" || p.finish === finish;
       return okGroup && okFinish;
@@ -39,38 +46,66 @@ function ProductsPage() {
         <div className="max-w-7xl mx-auto px-8">
           <p className="text-xs uppercase tracking-[0.3em] text-gold mb-4">Catalogue</p>
           <h1 className="font-serif text-5xl md:text-6xl">All Products</h1>
-          <p className="mt-4 text-primary-foreground/70 max-w-2xl">{products.length} curated pieces across faucets, showers, basins, sanitaryware and bath components.</p>
+          <p className="mt-4 text-primary-foreground/70 max-w-2xl">
+            {products.length} curated pieces across faucets, showers, basins, sanitaryware and bath
+            components.
+          </p>
         </div>
       </section>
 
       <section className="max-w-7xl mx-auto px-8 py-12">
         <div className="flex flex-wrap gap-6 items-center justify-between mb-10 pb-6 border-b border-border">
           <div className="flex flex-wrap gap-2">
-            {groups.map(g => (
+            {groups.map((g) => (
               <button
                 key={g}
-                onClick={() => { setGroup(g); setVisible(48); }}
+                onClick={() => {
+                  setGroup(g);
+                  setVisible(48);
+                }}
                 className={`px-4 py-2 text-xs uppercase tracking-widest border transition-colors ${group === g ? "bg-primary text-primary-foreground border-primary" : "border-border hover:border-gold hover:text-gold"}`}
-              >{g}</button>
+              >
+                {g}
+              </button>
             ))}
           </div>
-          <select value={finish} onChange={e => { setFinish(e.target.value); setVisible(48); }} className="border border-border px-4 py-2 text-xs uppercase tracking-widest bg-background">
-            {finishes.map(f => <option key={f} value={f}>{f === "all" ? "All Finishes" : f}</option>)}
+          <select
+            value={finish}
+            onChange={(e) => {
+              setFinish(e.target.value);
+              setVisible(48);
+            }}
+            className="border border-border px-4 py-2 text-xs uppercase tracking-widest bg-background"
+          >
+            {finishes.map((f) => (
+              <option key={f} value={f}>
+                {f === "all" ? "All Finishes" : f}
+              </option>
+            ))}
           </select>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
-          {filtered.slice(0, visible).map(p => <ProductCard key={p.id} product={p} />)}
+          {filtered.slice(0, visible).map((p) => (
+            <ProductCard key={p.id} product={p} />
+          ))}
         </div>
 
         {visible < filtered.length && (
           <div className="text-center mt-16">
-            <button onClick={() => setVisible(v => v + 48)} className="border border-primary px-10 py-4 text-xs uppercase tracking-[0.3em] hover:bg-primary hover:text-primary-foreground transition-all">
+            <button
+              onClick={() => setVisible((v) => v + 48)}
+              className="border border-primary px-10 py-4 text-xs uppercase tracking-[0.3em] hover:bg-primary hover:text-primary-foreground transition-all"
+            >
               Load More ({filtered.length - visible} remaining)
             </button>
           </div>
         )}
-        {filtered.length === 0 && <p className="text-center text-muted-foreground py-20">No products match these filters.</p>}
+        {filtered.length === 0 && (
+          <p className="text-center text-muted-foreground py-20">
+            No products match these filters.
+          </p>
+        )}
       </section>
     </SiteLayout>
   );

@@ -7,14 +7,19 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery — Joy Water" },
-      { name: "description", content: "Explore our collection of timeless luxury bath fittings in our visual gallery." },
+      {
+        name: "description",
+        content: "Explore our collection of timeless luxury bath fittings in our visual gallery.",
+      },
     ],
   }),
 });
 
 function Gallery() {
   // Filter out tiny icons or favicons if we want, but let's show most
-  const galleryImages = imageList.filter(img => !img.includes("favicon") && !img.includes("logo") && !img.endsWith(".svg"));
+  const galleryImages = imageList.filter(
+    (img) => !img.includes("favicon") && !img.includes("logo") && !img.endsWith(".svg"),
+  );
 
   return (
     <SiteLayout>
@@ -29,7 +34,10 @@ function Gallery() {
 
         <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6">
           {galleryImages.map((img, i) => (
-            <div key={img} className="break-inside-avoid relative group overflow-hidden rounded-sm bg-secondary">
+            <div
+              key={img}
+              className="break-inside-avoid relative group overflow-hidden rounded-sm bg-secondary"
+            >
               <img
                 src={`/images/${img}`}
                 alt={`Gallery image ${i + 1}`}

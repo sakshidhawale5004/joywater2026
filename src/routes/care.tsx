@@ -6,7 +6,11 @@ export const Route = createFileRoute("/care")({
   head: () => ({
     meta: [
       { title: "Care & Maintenance — Joy Water" },
-      { name: "description", content: "How to care for PVD, matt black, brushed gold and chrome Joy Water bath fittings." },
+      {
+        name: "description",
+        content:
+          "How to care for PVD, matt black, brushed gold and chrome Joy Water bath fittings.",
+      },
       { property: "og:title", content: "Care & Maintenance" },
       { property: "og:description", content: "Keep every finish looking new." },
     ],
@@ -25,11 +29,17 @@ function CarePage() {
       <section className="max-w-3xl mx-auto px-8 py-16 space-y-8 text-foreground/80 leading-relaxed">
         <div>
           <h3 className="font-serif text-2xl mb-3">Daily care</h3>
-          <p>Wipe fittings dry with a soft microfibre cloth after use. Standing water is the primary cause of watermarks on all finishes.</p>
+          <p>
+            Wipe fittings dry with a soft microfibre cloth after use. Standing water is the primary
+            cause of watermarks on all finishes.
+          </p>
         </div>
         <div>
           <h3 className="font-serif text-2xl mb-3">Weekly cleaning</h3>
-          <p>Use warm water with a small amount of mild pH-neutral soap. Rinse and dry immediately with a soft cloth.</p>
+          <p>
+            Use warm water with a small amount of mild pH-neutral soap. Rinse and dry immediately
+            with a soft cloth.
+          </p>
         </div>
         <div>
           <h3 className="font-serif text-2xl mb-3">Never use</h3>
@@ -41,7 +51,10 @@ function CarePage() {
         </div>
         <div>
           <h3 className="font-serif text-2xl mb-3">Stone basins</h3>
-          <p>Reseal natural stone basins every 12 months with a food-safe stone sealer. Blot spills immediately — do not wipe.</p>
+          <p>
+            Reseal natural stone basins every 12 months with a food-safe stone sealer. Blot spills
+            immediately — do not wipe.
+          </p>
         </div>
       </section>
     </SiteLayout>

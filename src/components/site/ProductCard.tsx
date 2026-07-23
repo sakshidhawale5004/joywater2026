@@ -3,7 +3,7 @@ import type { Product } from "@/lib/catalog/data";
 
 const FINISH_STYLES: Record<string, string> = {
   "Matt Black": "from-neutral-900 to-neutral-700",
-  "Chrome": "from-slate-300 to-slate-500",
+  Chrome: "from-slate-300 to-slate-500",
   "Brushed Gold": "from-amber-300 to-yellow-600",
   "Rose Gold": "from-rose-300 to-pink-500",
   "Venetian Gold": "from-yellow-400 to-amber-700",
@@ -16,22 +16,42 @@ const FINISH_STYLES: Record<string, string> = {
 export function ProductCard({ product }: { product: Product }) {
   const gradient = FINISH_STYLES[product.finish] ?? "from-neutral-200 to-neutral-400";
   return (
-    <Link
-      to="/product/$slug"
-      params={{ slug: product.slug }}
-      className="group block"
-    >
+    <Link to="/product/$slug" params={{ slug: product.slug }} className="group block">
       <div className="relative aspect-square overflow-hidden bg-secondary rounded-sm">
         {product.image ? (
-          <img src={product.image} alt={product.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+          <img
+            src={product.image}
+            alt={product.name}
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy"
+          />
         ) : (
           <>
-            <div className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-90 transition-transform duration-700 group-hover:scale-110`} />
+            <div
+              className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-90 transition-transform duration-700 group-hover:scale-110`}
+            />
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.35),transparent_60%)]" />
-            <svg viewBox="0 0 200 200" className="absolute inset-0 w-full h-full text-white/80 mix-blend-overlay p-10">
-              <path d="M60 40 v40 a20 20 0 0 0 40 0 v-40" fill="none" stroke="currentColor" strokeWidth="3"/>
-              <rect x="70" y="80" width="60" height="90" fill="none" stroke="currentColor" strokeWidth="3" rx="4"/>
-              <circle cx="100" cy="130" r="10" fill="currentColor" opacity="0.4"/>
+            <svg
+              viewBox="0 0 200 200"
+              className="absolute inset-0 w-full h-full text-white/80 mix-blend-overlay p-10"
+            >
+              <path
+                d="M60 40 v40 a20 20 0 0 0 40 0 v-40"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <rect
+                x="70"
+                y="80"
+                width="60"
+                height="90"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="3"
+                rx="4"
+              />
+              <circle cx="100" cy="130" r="10" fill="currentColor" opacity="0.4" />
             </svg>
           </>
         )}
@@ -40,7 +60,9 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
       <div className="pt-3 space-y-1">
-        <h3 className="text-sm font-medium text-foreground group-hover:text-gold transition-colors">{product.name}</h3>
+        <h3 className="text-sm font-medium text-foreground group-hover:text-gold transition-colors">
+          {product.name}
+        </h3>
         <p className="text-xs text-muted-foreground">{product.finish}</p>
         <p className="text-sm font-serif text-primary">₹ {product.price.toLocaleString("en-IN")}</p>
       </div>

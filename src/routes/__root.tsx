@@ -78,10 +78,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Joy Water — Timeless Luxury Bath Fittings" },
-      { name: "description", content: "Joy Water crafts timeless luxury bath fittings, designer basins, showers and sanitaryware for discerning homes." },
+      {
+        name: "description",
+        content:
+          "Joy Water crafts timeless luxury bath fittings, designer basins, showers and sanitaryware for discerning homes.",
+      },
       { name: "author", content: "Joy Water" },
       { property: "og:title", content: "Joy Water — Timeless Luxury" },
-      { property: "og:description", content: "Handcrafted luxury faucets, showers, basins and sanitaryware." },
+      {
+        property: "og:description",
+        content: "Handcrafted luxury faucets, showers, basins and sanitaryware.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -93,7 +100,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,

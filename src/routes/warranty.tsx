@@ -6,7 +6,11 @@ export const Route = createFileRoute("/warranty")({
   head: () => ({
     meta: [
       { title: "Warranty — Joy Water" },
-      { name: "description", content: "Joy Water offers a 10-year warranty on all faucets and showers, and lifetime service support." },
+      {
+        name: "description",
+        content:
+          "Joy Water offers a 10-year warranty on all faucets and showers, and lifetime service support.",
+      },
       { property: "og:title", content: "Warranty — Joy Water" },
       { property: "og:description", content: "10-year product warranty and lifetime service." },
     ],
@@ -23,8 +27,15 @@ function WarrantyPage() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-8 py-16 space-y-6 text-foreground/80 leading-relaxed">
-        <p>Every Joy Water faucet and shower is covered by a <strong>10-year manufacturing warranty</strong> on the brass body and a <strong>7-year warranty</strong> on the PVD finish, from the date of installation.</p>
-        <p>Ceramic sanitaryware and stone basins carry a <strong>5-year structural warranty</strong> against manufacturing defects.</p>
+        <p>
+          Every Joy Water faucet and shower is covered by a{" "}
+          <strong>10-year manufacturing warranty</strong> on the brass body and a{" "}
+          <strong>7-year warranty</strong> on the PVD finish, from the date of installation.
+        </p>
+        <p>
+          Ceramic sanitaryware and stone basins carry a <strong>5-year structural warranty</strong>{" "}
+          against manufacturing defects.
+        </p>
         <h3 className="font-serif text-2xl pt-6">What is covered</h3>
         <ul className="list-disc pl-6 space-y-2">
           <li>Defects in materials and workmanship under normal use.</li>
@@ -37,7 +48,13 @@ function WarrantyPage() {
           <li>Improper installation by non-certified plumbers.</li>
           <li>Wear on consumable parts such as aerators and washers.</li>
         </ul>
-        <p className="pt-6">To register a warranty claim, please contact our team at <a className="text-gold underline" href="tel:+919325948289">+91 93259 48289</a> with the product reference code and your date of purchase.</p>
+        <p className="pt-6">
+          To register a warranty claim, please contact our team at{" "}
+          <a className="text-gold underline" href="tel:+919325948289">
+            +91 93259 48289
+          </a>{" "}
+          with the product reference code and your date of purchase.
+        </p>
       </section>
     </SiteLayout>
   );
