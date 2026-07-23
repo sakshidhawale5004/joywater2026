@@ -2,7 +2,6 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
-import bgImage from "@/assets/hero-faucet.jpg";
 import { megaMenu } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
 
@@ -14,13 +13,7 @@ export function Header() {
   const [mobile, setMobile] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60" onMouseLeave={() => setOpen(null)}>
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${bgImage})` }}
-      />
-      <div className="absolute inset-0 bg-background/85 backdrop-blur-xl" />
-
+    <header className="sticky top-0 z-50 bg-background border-b border-border/60" onMouseLeave={() => setOpen(null)}>
       <div className="relative z-10 hidden md:flex items-center justify-between px-8 py-2 text-xs tracking-widest uppercase text-muted-foreground bg-primary/90 text-primary-foreground/80">
         <span>Timeless Luxury · Handcrafted Bath Fittings</span>
         <div className="flex gap-6">
