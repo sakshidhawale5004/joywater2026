@@ -20,8 +20,10 @@ export const Route = createFileRoute("/warranty")({
 function WarrantyPage() {
   return (
     <SiteLayout>
-      <section className="bg-primary text-primary-foreground py-24">
-        <div className="max-w-4xl mx-auto px-8">
+      <section className="relative bg-primary text-primary-foreground py-24 overflow-hidden">
+        <img src="/images/two-02.jpg.jpeg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-8 z-10">
           <p className="text-xs uppercase tracking-[0.4em] text-gold mb-4">Assurance</p>
           <h1 className="font-serif text-5xl md:text-6xl">Product Warranty</h1>
         </div>

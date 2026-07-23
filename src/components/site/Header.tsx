@@ -40,7 +40,7 @@ export function Header() {
           <img
             src="/images/Black-Horizontal.jpg.jpeg"
             alt="Joy Water"
-            className="h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+            className="h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
         <nav className="hidden lg:flex items-center gap-4">

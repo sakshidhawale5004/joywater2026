@@ -21,8 +21,10 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <SiteLayout>
-      <section className="bg-primary text-primary-foreground py-24">
-        <div className="max-w-7xl mx-auto px-8">
+      <section className="relative bg-primary text-primary-foreground py-24 overflow-hidden">
+        <img src="/images/m5-01.png" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-8 z-10">
           <p className="text-xs uppercase tracking-[0.4em] text-gold mb-4">Get in touch</p>
           <h1 className="font-serif text-5xl md:text-7xl">Visit. Call. Enquire.</h1>
           <p className="mt-6 text-primary-foreground/70 max-w-2xl">
