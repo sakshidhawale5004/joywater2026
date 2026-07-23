@@ -49,12 +49,13 @@ function Index() {
     <SiteLayout>
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-primary">
-        <img
-          src={hero}
-          alt="Luxury matt black faucet"
-          className="absolute inset-0 h-full w-full object-cover opacity-70 scale-110 animate-drift"
-          width={1600}
-          height={1200}
+        <video
+          src="/VIDEOFORHEROSECTIO.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover opacity-70"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-primary/30" />

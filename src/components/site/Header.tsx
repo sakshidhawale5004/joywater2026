@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 import bgImage from "@/assets/hero-faucet.jpg";
 import { megaMenu } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
@@ -13,7 +14,7 @@ export function Header() {
   const [mobile, setMobile] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60">
+    <header className="sticky top-0 z-50 border-b border-border/60" onMouseLeave={() => setOpen(null)}>
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -36,11 +37,13 @@ export function Header() {
       </div>
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
-          <span className="text-2xl font-light tracking-[0.3em] uppercase text-foreground transition-colors group-hover:text-gold">
-            Joy Water
-          </span>
+          <img
+            src={logo}
+            alt="Joy Water"
+            className="h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+          />
         </Link>
-        <nav className="hidden lg:flex items-center gap-4" onMouseLeave={() => setOpen(null)}>
+        <nav className="hidden lg:flex items-center gap-4">
           <Link
             to="/"
             className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
