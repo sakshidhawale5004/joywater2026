@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
-import logo from "@/assets/logo.png";
 import bgImage from "@/assets/hero-faucet.jpg";
 import { megaMenu } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
@@ -37,12 +36,9 @@ export function Header() {
       </div>
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
-          <img
-            src={logo}
-            alt="Joy Water"
-            className="h-14 w-auto transition-transform duration-500 group-hover:scale-105"
-            style={{ imageRendering: "-webkit-optimize-contrast" as "auto" }}
-          />
+          <span className="text-2xl font-light tracking-[0.3em] uppercase text-foreground transition-colors group-hover:text-gold">
+            Joy Water
+          </span>
         </Link>
         <nav className="hidden lg:flex items-center gap-4" onMouseLeave={() => setOpen(null)}>
           <Link
@@ -89,7 +85,7 @@ export function Header() {
 
       {open && (
         <div
-          className="hidden lg:block absolute left-0 right-0 top-full bg-background border-t border-border shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)] animate-reveal"
+          className="hidden lg:block absolute left-0 right-0 top-full bg-background border-t border-border shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)]"
           onMouseEnter={() => setOpen(open)}
           onMouseLeave={() => setOpen(null)}
         >
@@ -120,7 +116,7 @@ export function Header() {
       )}
 
       {mobile && (
-        <div className="lg:hidden border-t border-border bg-background max-h-[70vh] overflow-y-auto animate-reveal">
+        <div className="lg:hidden border-t border-border bg-background max-h-[70vh] overflow-y-auto">
           <Link
             to="/"
             onClick={() => setMobile(false)}
