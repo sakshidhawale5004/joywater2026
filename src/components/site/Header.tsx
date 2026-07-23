@@ -39,9 +39,9 @@ export function Header() {
         <nav className="hidden lg:flex items-center gap-4">
           <Link
             to="/"
-            className="px-4 py-3 hover:opacity-80 transition-opacity flex items-center"
+            className="px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
           >
-            <img src="/FINAL-LOGO.png" alt="Home" className="h-5 w-auto object-contain" />
+            Home
           </Link>
           <Link
             to="/about"
