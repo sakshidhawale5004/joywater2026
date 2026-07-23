@@ -16,36 +16,36 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60">
       <div 
-        className="absolute inset-0 bg-cover bg-center z-[-1]" 
+        className="absolute inset-0 bg-cover bg-center" 
         style={{ backgroundImage: `url(${bgImage})` }} 
       />
-      <div className="absolute inset-0 bg-background/85 backdrop-blur-xl z-[-1]" />
+      <div className="absolute inset-0 bg-background/85 backdrop-blur-xl" />
       
-      <div className="hidden md:flex items-center justify-between px-8 py-2 text-xs tracking-widest uppercase text-muted-foreground bg-primary/90 text-primary-foreground/80">
+      <div className="relative z-10 hidden md:flex items-center justify-between px-8 py-2 text-xs tracking-widest uppercase text-muted-foreground bg-primary/90 text-primary-foreground/80">
         <span>Timeless Luxury · Handcrafted Bath Fittings</span>
         <div className="flex gap-6">
           <a href="tel:+919325948289" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone className="h-3 w-3"/> +91 93259 48289</a>
           <Link to="/contact" className="flex items-center gap-2 hover:text-gold transition-colors"><MapPin className="h-3 w-3"/> Pune, India</Link>
         </div>
       </div>
-      <div className="flex items-center justify-between px-6 md:px-10 py-4">
+      <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
           <img src={logo} alt="Joy Water" className="h-12 w-auto transition-transform duration-500 group-hover:scale-105" />
         </Link>
         <nav className="hidden lg:flex items-center gap-4" onMouseLeave={() => setOpen(null)}>
-          <Link to="/" className="px-4 py-3 text-sm uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Home</Link>
-          <Link to="/about" className="px-4 py-3 text-sm uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">About</Link>
+          <Link to="/" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Home</Link>
+          <Link to="/about" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">About</Link>
           {NAV.map((label) => (
             <div key={label} onMouseEnter={() => setOpen(label)} className="relative">
               <button className={cn(
-                "px-4 py-3 text-sm uppercase tracking-[0.15em] font-medium transition-colors",
+                "px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium transition-colors",
                 open === label ? "text-gold" : "text-foreground hover:text-gold"
               )}>
                 {label}
               </button>
             </div>
           ))}
-          <Link to="/contact" className="px-4 py-3 text-sm uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Contact</Link>
+          <Link to="/contact" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Contact</Link>
         </nav>
         <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
           {mobile ? <X /> : <Menu />}
@@ -69,7 +69,7 @@ export function Header() {
                         to="/category/$slug"
                         params={{ slug }}
                         onClick={() => setOpen(null)}
-                        className="text-sm text-muted-foreground hover:text-gold transition-colors story-link"
+                        className="text-xs text-muted-foreground hover:text-gold transition-colors story-link"
                       >
                         {formatSlug(slug)}
                       </Link>
@@ -84,11 +84,11 @@ export function Header() {
 
       {mobile && (
         <div className="lg:hidden border-t border-border bg-background max-h-[70vh] overflow-y-auto animate-reveal">
-          <Link to="/" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-sm uppercase tracking-widest">Home</Link>
-          <Link to="/about" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-sm uppercase tracking-widest">About</Link>
+          <Link to="/" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-xs uppercase tracking-widest">Home</Link>
+          <Link to="/about" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-xs uppercase tracking-widest">About</Link>
           {NAV.map((label) => (
             <details key={label} className="border-b border-border">
-              <summary className="px-6 py-4 text-sm uppercase tracking-widest cursor-pointer">{label}</summary>
+              <summary className="px-6 py-4 text-xs uppercase tracking-widest cursor-pointer">{label}</summary>
               <div className="px-6 pb-4 space-y-2">
                 {Object.entries(megaMenu[label]).flatMap(([, slugs]) =>
                   (slugs as readonly string[]).map((slug) => (
@@ -97,7 +97,7 @@ export function Header() {
                       to="/category/$slug"
                       params={{ slug }}
                       onClick={() => setMobile(false)}
-                      className="block text-sm text-muted-foreground py-1"
+                      className="block text-xs text-muted-foreground py-1"
                     >
                       {formatSlug(slug)}
                     </Link>
@@ -106,7 +106,7 @@ export function Header() {
               </div>
             </details>
           ))}
-          <Link to="/contact" onClick={() => setMobile(false)} className="block px-6 py-4 text-sm uppercase tracking-widest">Contact</Link>
+          <Link to="/contact" onClick={() => setMobile(false)} className="block px-6 py-4 text-xs uppercase tracking-widest">Contact</Link>
         </div>
       )}
     </header>
