@@ -1,5 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
+import { ProductCard } from "@/components/site/ProductCard";
+import { products } from "@/lib/catalog/data";
 import hero from "@/assets/hero-faucet.jpg";
 import catFaucets from "@/assets/cat-faucets.jpg";
 import catShowers from "@/assets/cat-showers.jpg";
@@ -98,6 +100,24 @@ function Index() {
         </div>
       </section>
 
+      {/* FEATURED SERIES */}
+      <section className="bg-background py-24">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+            <div>
+              <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Signature Pieces</p>
+              <h2 className="font-serif text-4xl md:text-5xl max-w-2xl">Selected Works</h2>
+            </div>
+            <Link to="/products" className="text-sm uppercase tracking-widest hover:text-gold transition-colors story-link self-start md:self-auto">View all products</Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            {products.slice(0, 4).map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* PHILOSOPHY */}
       <section className="bg-primary text-primary-foreground py-28">
         <div className="max-w-5xl mx-auto px-8 text-center">
@@ -126,6 +146,29 @@ function Index() {
         </div>
       </section>
 
+      {/* THE ATELIER PROCESS */}
+      <section className="py-24 border-b border-border/50">
+        <div className="max-w-7xl mx-auto px-8">
+          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3 text-center">Our Craft</p>
+          <h2 className="font-serif text-4xl md:text-5xl text-center mb-16">The Atelier Process</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {[
+              { step: "01", title: "Precision Machining", desc: "Every solid brass billet is CNC-machined to tolerances of a fraction of a millimeter, ensuring flawless internal waterways and perfectly smooth lever action." },
+              { step: "02", title: "PVD Bonding", desc: "Unlike traditional electroplating, our Physical Vapor Deposition (PVD) process integrates the finish into the metal itself, preventing tarnishing, scratching, and fading." },
+              { step: "03", title: "Hand Assembled", desc: "Each fitting is hand-assembled, calibrated, and subjected to rigorous high-pressure testing before it ever leaves our studio in Pune." }
+            ].map((s) => (
+              <div key={s.step} className="group relative">
+                <div className="text-6xl font-serif text-muted/30 absolute -top-8 -left-4 z-0 group-hover:text-gold/20 transition-colors">{s.step}</div>
+                <div className="relative z-10 pt-4">
+                  <h3 className="font-serif text-2xl mb-4">{s.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FINISHES */}
       <section className="max-w-7xl mx-auto px-8 py-24">
         <div className="text-center mb-14">
@@ -146,6 +189,18 @@ function Index() {
               <p className="text-xs uppercase tracking-widest text-center mt-3">{n}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* COMMITMENT */}
+      <section className="bg-primary text-primary-foreground py-20 text-center relative overflow-hidden">
+        <div className="absolute inset-0 bg-gold/5" />
+        <div className="max-w-3xl mx-auto px-8 relative z-10">
+          <p className="text-xs uppercase tracking-[0.4em] text-gold mb-6">Sustainable Luxury</p>
+          <h2 className="font-serif text-3xl md:text-4xl mb-6">Water is finite. Elegance is not.</h2>
+          <p className="text-primary-foreground/70 leading-relaxed text-lg">
+            Our aerators are engineered to reduce water consumption by up to 40% without compromising the volumetric feel of the flow. We believe that true luxury must be responsible to the environment it draws from.
+          </p>
         </div>
       </section>
 
