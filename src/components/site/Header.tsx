@@ -38,7 +38,7 @@ export function Header() {
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
           <img
-            src={logo}
+            src="/images/Black-Horizontal.jpg.jpeg"
             alt="Joy Water"
             className="h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
@@ -46,9 +46,9 @@ export function Header() {
         <nav className="hidden lg:flex items-center gap-4">
           <Link
             to="/"
-            className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-4 py-3 hover:opacity-80 transition-opacity flex items-center"
           >
-            Home
+            <img src="/images/Black-Horizontal.jpg.jpeg" alt="Home" className="h-5 w-auto object-contain" />
           </Link>
           <Link
             to="/about"

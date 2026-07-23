@@ -1,6 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { ProductCard } from "@/components/site/ProductCard";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import { products } from "@/lib/catalog/data";
 const hero = "/images/Black-Horizontal.jpg.jpeg";
 const catFaucets = "/images/five-01.png";
@@ -239,22 +246,76 @@ function Index() {
             A palette engineered to age gracefully.
           </h2>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
-          {[
-            ["Matt Black", "from-neutral-900 to-neutral-700"],
-            ["Brushed Gold", "from-amber-300 to-yellow-600"],
-            ["Rose Gold", "from-rose-300 to-pink-500"],
-            ["Venetian Gold", "from-yellow-400 to-amber-700"],
-            ["Graphite Grey", "from-neutral-500 to-neutral-800"],
-            ["Chrome", "from-slate-200 to-slate-500"],
-          ].map(([n, g]) => (
-            <div key={n} className="group">
-              <div
-                className={`aspect-square bg-gradient-to-br ${g} rounded-full transition-transform duration-500 group-hover:scale-105 shadow-[inset_0_2px_20px_rgba(255,255,255,0.35)]`}
-              />
-              <p className="text-xs uppercase tracking-widest text-center mt-3">{n}</p>
-            </div>
-          ))}
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full max-w-5xl mx-auto"
+        >
+          <CarouselContent>
+            {[
+              ["Matt Black", "from-neutral-900 to-neutral-700"],
+              ["Brushed Gold", "from-amber-300 to-yellow-600"],
+              ["Rose Gold", "from-rose-300 to-pink-500"],
+              ["Venetian Gold", "from-yellow-400 to-amber-700"],
+              ["Graphite Grey", "from-neutral-500 to-neutral-800"],
+              ["Chrome", "from-slate-200 to-slate-500"],
+            ].map(([n, g]) => (
+              <CarouselItem key={n} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                <div className="group p-4">
+                  <div
+                    className={`aspect-square bg-gradient-to-br ${g} rounded-full transition-transform duration-500 group-hover:scale-105 shadow-[inset_0_2px_20px_rgba(255,255,255,0.35)]`}
+                  />
+                  <p className="text-xs uppercase tracking-widest text-center mt-6">{n}</p>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
+        </Carousel>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section className="bg-secondary py-24 border-t border-border/50">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="text-center mb-14">
+            <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Testimonials</p>
+            <h2 className="font-serif text-4xl md:text-5xl">
+              Trusted by visionaries.
+            </h2>
+          </div>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full max-w-5xl mx-auto"
+          >
+            <CarouselContent>
+              {[
+                { text: "Joy Water's faucets completely transformed our master bathroom. The quality is simply unmatched.", author: "Arun K.", role: "Architect" },
+                { text: "We specified Joy Water for our luxury hotel project. The PVD finishes look brand new even after years of use.", author: "Priya S.", role: "Interior Designer" },
+                { text: "The weight and feel of their solid brass fittings speak volumes about their commitment to craft.", author: "Rajesh M.", role: "Homeowner" },
+                { text: "Unparalleled elegance and durability. Joy Water products are a staple in all our premium builds.", author: "Vikram R.", role: "Developer" },
+              ].map((t, i) => (
+                <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-4 h-full">
+                    <div className="bg-background p-8 rounded-xl h-full flex flex-col justify-between border border-border/50 shadow-sm hover:shadow-md transition-shadow">
+                      <p className="text-muted-foreground italic mb-6">"{t.text}"</p>
+                      <div>
+                        <p className="font-medium">{t.author}</p>
+                        <p className="text-xs text-gold uppercase tracking-widest mt-1">{t.role}</p>
+                      </div>
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
+          </Carousel>
         </div>
       </section>
 
