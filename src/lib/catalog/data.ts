@@ -106,6 +106,8 @@ const FINISHES = [
 ];
 const SERIES = ["Svelte", "Pebble", "Shield", "Oblikue", "Wave", "Crystal", "Slender", "Cube", "Zero", "Heritage", "Regalia", "Prestige"];
 
+import imageList from './imageList.json';
+
 // Deterministic PRNG so product list is stable across renders.
 function mulberry32(a: number) {
   return function () {
@@ -121,6 +123,10 @@ function generateProducts(count: number): Product[] {
   const rand = mulberry32(20260723);
   const productable = categories.filter((c) => ["faucets", "showers", "basins", "toilets", "components"].includes(c.group));
   const out: Product[] = [];
+  
+  // Filter out some specific images we might want for hero/categories so products get mostly typical product images
+  const productImages = imageList.filter(img => !img.includes("favicon") && !img.includes("logo") && !img.includes("Black-Horizontal"));
+  
   for (let i = 1; i <= count; i++) {
     const cat = productable[Math.floor(rand() * productable.length)];
     const finish = FINISHES[Math.floor(rand() * FINISHES.length)];
@@ -129,6 +135,8 @@ function generateProducts(count: number): Product[] {
     const price = 2400 + Math.floor(rand() * 78) * 250;
     const code = `JW-${cat.slug.slice(0, 3).toUpperCase()}-${num}`;
     const name = `${series} ${cat.title.split(" ")[0]} ${num}`;
+    const image = `/images/${productImages[Math.floor(rand() * productImages.length)]}`;
+    
     out.push({
       id: `p${i}`,
       slug: `jw-${i}`,
@@ -137,6 +145,7 @@ function generateProducts(count: number): Product[] {
       finish,
       price,
       code,
+      image,
     });
   }
   return out;

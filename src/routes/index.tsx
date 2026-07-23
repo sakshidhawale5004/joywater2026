@@ -2,12 +2,12 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { ProductCard } from "@/components/site/ProductCard";
 import { products } from "@/lib/catalog/data";
-import hero from "@/assets/hero-faucet.jpg";
-import catFaucets from "@/assets/cat-faucets.jpg";
-import catShowers from "@/assets/cat-showers.jpg";
-import catBasins from "@/assets/cat-basins.jpg";
-import catToilets from "@/assets/cat-toilets.jpg";
-import catAccessories from "@/assets/cat-accessories.jpg";
+const hero = "/images/Black-Horizontal.jpg.jpeg";
+const catFaucets = "/images/five-01.png";
+const catShowers = "/images/shower-01-1.jpg.jpeg";
+const catBasins = "/images/basin-01-1.jpg.jpeg";
+const catToilets = "/images/p-tb-01.jpg.jpeg";
+const catAccessories = "/images/A4-RoundMaster-8007-Square.jpg.jpeg";
 import { ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({

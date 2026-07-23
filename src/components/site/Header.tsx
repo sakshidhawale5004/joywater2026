@@ -35,6 +35,7 @@ export function Header() {
         <nav className="hidden lg:flex items-center gap-4" onMouseLeave={() => setOpen(null)}>
           <Link to="/" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Home</Link>
           <Link to="/about" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">About</Link>
+          <Link to="/gallery" className="px-4 py-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors">Gallery</Link>
           {NAV.map((label) => (
             <div key={label} onMouseEnter={() => setOpen(label)} className="relative">
               <button className={cn(
@@ -86,6 +87,7 @@ export function Header() {
         <div className="lg:hidden border-t border-border bg-background max-h-[70vh] overflow-y-auto animate-reveal">
           <Link to="/" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-xs uppercase tracking-widest">Home</Link>
           <Link to="/about" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-xs uppercase tracking-widest">About</Link>
+          <Link to="/gallery" onClick={() => setMobile(false)} className="block px-6 py-4 border-b border-border text-xs uppercase tracking-widest">Gallery</Link>
           {NAV.map((label) => (
             <details key={label} className="border-b border-border">
               <summary className="px-6 py-4 text-xs uppercase tracking-widest cursor-pointer">{label}</summary>
