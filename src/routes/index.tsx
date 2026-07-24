@@ -16,6 +16,32 @@ const catBasins = "/images/basin-01-1.jpg.jpeg";
 const catToilets = "/images/p-tb-01.jpg.jpeg";
 const catAccessories = "/images/A4-RoundMaster-8007-Square.jpg.jpeg";
 import { ArrowRight } from "lucide-react";
+import * as React from "react";
+import Autoplay from "embla-carousel-autoplay";
+
+const heroSlides = [
+  {
+    image: "/images/BANNERFORHOME.jpg",
+    title: "Rain & Cascade Showers",
+    subtitle: "Experience the ultimate downpour.",
+    category: "Showers",
+    link: "/category/rain-showers"
+  },
+  {
+    image: "/images/PDF1_P1_IMG1.png",
+    title: "Designer Mirrors",
+    subtitle: "Reflections of pure elegance.",
+    category: "Mirrors",
+    link: "/category/bath-accessories"
+  },
+  {
+    image: "/images/PDF1_P53_IMG2.png",
+    title: "Sanitaryware",
+    subtitle: "Intelligent design, maximum comfort.",
+    category: "Sanitary",
+    link: "/category/intelligent-wc"
+  }
+];
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -55,48 +81,58 @@ function Index() {
   return (
     <SiteLayout>
       {/* HERO */}
-      <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-primary">
-        <video
-          src="/VIDEOFORHEROSECTIO.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 h-full w-full object-cover opacity-70"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-primary/30" />
-        <div className="relative max-w-7xl mx-auto px-8 py-24 text-primary-foreground animate-reveal">
-          <p className="text-xs uppercase tracking-[0.4em] text-gold mb-6">
-            Timeless · Handcrafted · Since 1998
-          </p>
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-4xl">
-            Bath fittings, <br />
-            reimagined as <span className="text-shimmer italic">quiet luxury</span>.
-          </h1>
-          <p className="mt-8 text-lg text-primary-foreground/70 max-w-xl leading-relaxed">
-            From matt-black minimalism to hand-carved stone basins, every Joy Water piece is
-            engineered to outlast trends and elevate the everyday ritual of water.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Link
-              to="/products"
-              className="group inline-flex items-center gap-3 bg-gold text-primary px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-primary hover:text-gold border border-gold transition-all"
-            >
-              Explore the Collection{" "}
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-3 border border-primary-foreground/40 px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-primary-foreground hover:text-primary transition-all"
-            >
-              Visit Display Centre
-            </Link>
+      <section className="relative min-h-[92vh] w-full overflow-hidden bg-primary group">
+        <Carousel
+          plugins={[
+            Autoplay({
+              delay: 6000,
+              stopOnInteraction: false,
+            }),
+          ]}
+          opts={{ loop: true, watchDrag: false }}
+          className="w-full h-full absolute inset-0 z-0"
+        >
+          <CarouselContent className="h-full">
+            {heroSlides.map((slide, i) => (
+              <CarouselItem key={i} className="min-w-0 flex-[0_0_100%] h-[92vh] relative">
+                <img
+                  src={slide.image}
+                  alt={slide.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent" />
+
+                <div className="relative z-10 max-w-7xl mx-auto px-8 py-32 h-full flex flex-col justify-end pb-32">
+                  <div className="animate-reveal">
+                    <p className="text-xs uppercase tracking-[0.4em] text-gold mb-6">
+                      {slide.category}
+                    </p>
+                    <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-4xl text-primary-foreground">
+                      {slide.title}
+                    </h2>
+                    <p className="mt-8 text-lg text-primary-foreground/90 max-w-xl leading-relaxed">
+                      {slide.subtitle}
+                    </p>
+                    <div className="mt-10 flex gap-4">
+                      <Link
+                        to={slide.link}
+                        className="group/btn inline-flex items-center gap-3 bg-gold text-primary px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-primary hover:text-gold border border-gold transition-all"
+                      >
+                        Explore <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <div className="absolute bottom-12 right-12 flex gap-4 z-20">
+            <CarouselPrevious className="static translate-y-0 h-14 w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
+            <CarouselNext className="static translate-y-0 h-14 w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
           </div>
-        </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-primary-foreground/50 text-[10px] uppercase tracking-[0.4em] animate-drift">
-          Scroll to discover
-        </div>
+        </Carousel>
       </section>
 
       {/* COLLECTIONS */}
