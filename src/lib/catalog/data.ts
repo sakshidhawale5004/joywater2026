@@ -558,32 +558,9 @@ function generateProducts(count: number): Product[] {
   );
   const out: Product[] = [];
 
-  // Use an explicit list of known good product images to avoid logos or banners
-  const productImages = [
-    "1011.jpg.jpeg",
-    "5-FLOW-DIVERTOR-scaled.jpg.jpeg",
-    "A4-RoundMaster-8007-Square.jpg.jpeg",
-    "basin-01-1.jpg.jpeg",
-    "Ferrari-2-FINAL-Big-Size1-scaled.jpg.jpeg",
-    "Mastre7.jpg.jpeg",
-    "PY-101-scaled-700x798.jpg.jpeg",
-    "PY-104-scaled-700x798.jpg.jpeg",
-    "PY-105-scaled-700x798.jpg.jpeg",
-    "PY-106-scaled-700x798.jpg.jpeg",
-    "SP-G-102-scaled.jpg.jpeg",
-    "shower-01-1.jpg.jpeg",
-    "JOYWATER (1).jpeg",
-    "JOYWATER (2).jpeg",
-    "JOYWATER (3).jpeg",
-    "JOYWATER (4).jpeg",
-    "JOYWATER (5).jpeg",
-    "JOYWATER (6).jpeg",
-    "JOYWATER (7).jpeg",
-    "JOYWATER (8).jpeg",
-    "JOYWATER (9).jpeg",
-    "JOYWATER (10).jpeg",
-    "JOYWATER (11).jpeg",
-  ];
+  // Since we have explicitly copied only product images to the new imageList,
+  // we can use all of them.
+  const productImages = imageList;
 
   for (let i = 1; i <= count; i++) {
     const cat = productable[Math.floor(rand() * productable.length)];
