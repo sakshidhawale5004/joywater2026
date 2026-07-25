@@ -10,11 +10,11 @@ import {
 } from "@/components/ui/carousel";
 import { products } from "@/lib/catalog/data";
 const hero = "/images/Black-Horizontal.jpg.jpeg";
-const catFaucets = "/images/five-01.png";
-const catShowers = "/images/shower-01-1.jpg.jpeg";
-const catBasins = "/images/basin-01-1.jpg.jpeg";
-const catToilets = "/images/p-tb-01.jpg.jpeg";
-const catAccessories = "/images/A4-RoundMaster-8007-Square.jpg.jpeg";
+const catFaucets = "/images/PDF1_P10_IMG1.png";
+const catShowers = "/images/PDF1_P20_IMG2.png";
+const catBasins = "/images/PDF1_P30_IMG1.png";
+const catToilets = "/images/PDF1_P40_IMG1.png";
+const catAccessories = "/images/PDF1_P50_IMG1.png";
 import { ArrowRight } from "lucide-react";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
