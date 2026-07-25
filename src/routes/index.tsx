@@ -200,7 +200,7 @@ function Index() {
 
       {/* FEATURED SERIES */}
       <section className="bg-background py-24">
-        <div className="max-w-7xl mx-auto px-8">
+        <div className="max-w-7xl mx-auto px-8 relative">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Signature Pieces</p>
@@ -213,11 +213,23 @@ function Index() {
               View all products
             </Link>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {products.slice(0, 4).map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-4 md:-ml-8">
+              {products.map((p) => (
+                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <ProductCard product={p} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex -left-4 md:-left-12" />
+            <CarouselNext className="hidden md:flex -right-4 md:-right-12" />
+          </Carousel>
         </div>
       </section>
 
