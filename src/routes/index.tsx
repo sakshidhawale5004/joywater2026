@@ -95,7 +95,7 @@ function Index() {
   return (
     <SiteLayout>
       {/* HERO */}
-      <section className="relative min-h-[92vh] w-full overflow-hidden bg-primary group">
+      <section className="relative w-full overflow-hidden bg-black group">
         <Carousel
           plugins={[
             Autoplay({
@@ -104,37 +104,37 @@ function Index() {
             }),
           ]}
           opts={{ loop: true, watchDrag: false }}
-          className="w-full h-full absolute inset-0 z-0"
+          className="w-full relative z-0"
         >
-          <CarouselContent className="h-full">
+          <CarouselContent>
             {heroSlides.map((slide, i) => (
-              <CarouselItem key={i} className="min-w-0 flex-[0_0_100%] h-[92vh] relative">
+              <CarouselItem key={i} className="min-w-0 flex-[0_0_100%] relative">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="w-full h-auto object-contain max-h-[92vh]"
                 />
                 <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent" />
 
-                <div className="relative z-10 max-w-7xl mx-auto px-8 py-32 h-full flex flex-col justify-end pb-32">
+                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-8 flex flex-col justify-center sm:justify-end pb-8 sm:pb-20 md:pb-32">
                   <div className="animate-reveal">
-                    <p className="text-xs uppercase tracking-[0.4em] text-gold mb-6">
+                    <p className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-gold mb-2 sm:mb-6">
                       {slide.category}
                     </p>
-                    <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-4xl text-primary-foreground">
+                    <h2 className="font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-4xl text-white">
                       {slide.title}
                     </h2>
-                    <p className="mt-8 text-lg text-primary-foreground/90 max-w-xl leading-relaxed">
+                    <p className="mt-4 sm:mt-8 text-sm sm:text-lg text-white/90 max-w-xl leading-relaxed">
                       {slide.subtitle}
                     </p>
-                    <div className="mt-10 flex gap-4">
+                    <div className="mt-6 sm:mt-10 flex gap-4">
                       <Link
                         to={slide.link}
-                        className="group/btn inline-flex items-center gap-3 bg-gold text-primary px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-primary hover:text-gold border border-gold transition-all"
+                        className="group/btn inline-flex items-center gap-2 sm:gap-3 bg-gold text-black px-6 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-sm uppercase tracking-[0.2em] font-medium hover:bg-white hover:text-black transition-all"
                       >
-                        Explore <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                        Explore <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4 transition-transform group-hover/btn:translate-x-1" />
                       </Link>
                     </div>
                   </div>
@@ -142,9 +142,9 @@ function Index() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="absolute bottom-12 right-12 flex gap-4 z-20">
-            <CarouselPrevious className="static translate-y-0 h-14 w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
-            <CarouselNext className="static translate-y-0 h-14 w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
+          <div className="absolute bottom-6 sm:bottom-12 right-6 sm:right-12 flex gap-4 z-20">
+            <CarouselPrevious className="static translate-y-0 h-10 w-10 sm:h-14 sm:w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
+            <CarouselNext className="static translate-y-0 h-10 w-10 sm:h-14 sm:w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
           </div>
         </Carousel>
       </section>
