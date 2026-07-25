@@ -214,6 +214,12 @@ function Index() {
             </Link>
           </div>
           <Carousel
+            plugins={[
+              Autoplay({
+                delay: 3000,
+                stopOnInteraction: true,
+              }),
+            ]}
             opts={{
               align: "start",
               loop: true,
