@@ -21,25 +21,39 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroSlides = [
   {
-    image: "/images/BANNERFORHOME.jpg",
-    title: "Rain & Cascade Showers",
-    subtitle: "Experience the ultimate downpour.",
+    image: "/banner1.jpg",
+    title: "The Art of Water",
+    subtitle: "Discover our latest collection of premium bath fittings.",
+    category: "Exclusives",
+    link: "/products"
+  },
+  {
+    image: "/banner2.jpg",
+    title: "Striking a Chord",
+    subtitle: "Experience luxury in every single drop.",
     category: "Showers",
     link: "/category/rain-showers"
   },
   {
-    image: "/images/PDF1_P1_IMG1.png",
-    title: "Designer Mirrors",
-    subtitle: "Reflections of pure elegance.",
-    category: "Mirrors",
-    link: "/category/bath-accessories"
+    image: "/banner3.png",
+    title: "Refined Aesthetics",
+    subtitle: "Transform your bathroom into a modern sanctuary.",
+    category: "Collections",
+    link: "/category/svelte-series"
   },
   {
-    image: "/images/PDF1_P53_IMG2.png",
-    title: "Sanitaryware",
-    subtitle: "Intelligent design, maximum comfort.",
-    category: "Sanitary",
+    image: "/banner4.jpg",
+    title: "Intelligent Design",
+    subtitle: "Where cutting-edge technology meets ultimate comfort.",
+    category: "Innovation",
     link: "/category/intelligent-wc"
+  },
+  {
+    image: "/banner5.png",
+    title: "Timeless Craft",
+    subtitle: "Handcrafted accessories for an elegant finish.",
+    category: "Accessories",
+    link: "/category/bath-accessories"
   }
 ];
 
