@@ -39,7 +39,7 @@ function CategoryPage() {
     .slice(0, 6);
 
   // If a specific bannerImage is provided, use it, otherwise use default
-  const heroImg = cat.bannerImage || "/images/w3-01.png";
+  const heroImg = cat.bannerImage || cat.image || "/images/w3-01.png";
 
   return (
     <SiteLayout>

@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
-import { megaMenu } from "@/lib/catalog/data";
+import { megaMenu, getCategory } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
 
 type MenuKey = keyof typeof megaMenu;
@@ -85,29 +85,72 @@ export function Header() {
           onMouseEnter={() => setOpen(open)}
           onMouseLeave={() => setOpen(null)}
         >
-          <div className="max-w-7xl mx-auto grid grid-cols-4 gap-10 px-10 py-10">
-            {Object.entries(megaMenu[open]).map(([section, slugs]) => (
-              <div key={section}>
-                <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
-                  {section}
-                </h4>
-                <ul className="space-y-3">
-                  {(slugs as readonly string[]).map((slug) => (
-                    <li key={slug}>
-                      <Link
-                        to="/category/$slug"
-                        params={{ slug }}
-                        onClick={() => setOpen(null)}
-                        className="text-xs text-muted-foreground hover:text-gold transition-colors story-link"
-                      >
-                        {formatSlug(slug)}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+          {(() => {
+            const allSlugs = Object.values(megaMenu[open]).flat();
+            const hasImages = allSlugs.some((s) => Boolean(getCategory(s)?.image));
+            return hasImages ? (
+              <div className="max-w-7xl mx-auto px-10 py-8">
+                {Object.entries(megaMenu[open]).map(([section, slugs]) => (
+                  <div key={section} className="mb-6 last:mb-0">
+                    <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-6 text-primary">
+                      {section}
+                    </h4>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+                      {(slugs as readonly string[]).map((slug) => {
+                        const cat = getCategory(slug);
+                        return (
+                          <Link
+                            key={slug}
+                            to="/category/$slug"
+                            params={{ slug }}
+                            onClick={() => setOpen(null)}
+                            className="group flex flex-col rounded-lg border border-border/60 bg-card/40 hover:bg-card hover:border-gold/60 transition-all duration-300 overflow-hidden shadow-sm hover:shadow-md p-3"
+                          >
+                            <div className="w-full h-28 flex items-center justify-center bg-muted/20 rounded-md mb-3 overflow-hidden">
+                              {cat?.image ? (
+                                <img
+                                  src={cat.image}
+                                  alt={cat.title || formatSlug(slug)}
+                                  className="w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"
+                                />
+                              ) : null}
+                            </div>
+                            <span className="text-[11px] font-medium text-foreground group-hover:text-gold transition-colors text-center line-clamp-2 leading-snug">
+                              {cat?.title || formatSlug(slug)}
+                            </span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            ) : (
+              <div className="max-w-7xl mx-auto grid grid-cols-4 gap-10 px-10 py-10">
+                {Object.entries(megaMenu[open]).map(([section, slugs]) => (
+                  <div key={section}>
+                    <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
+                      {section}
+                    </h4>
+                    <ul className="space-y-3">
+                      {(slugs as readonly string[]).map((slug) => (
+                        <li key={slug}>
+                          <Link
+                            to="/category/$slug"
+                            params={{ slug }}
+                            onClick={() => setOpen(null)}
+                            className="text-xs text-muted-foreground hover:text-gold transition-colors story-link"
+                          >
+                            {formatSlug(slug)}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            );
+          })()}
         </div>
       )}
 
@@ -139,20 +182,56 @@ export function Header() {
               <summary className="px-6 py-4 text-xs uppercase tracking-widest cursor-pointer">
                 {label}
               </summary>
-              <div className="px-6 pb-4 space-y-2">
-                {Object.entries(megaMenu[label]).flatMap(([, slugs]) =>
-                  (slugs as readonly string[]).map((slug) => (
-                    <Link
-                      key={slug}
-                      to="/category/$slug"
-                      params={{ slug }}
-                      onClick={() => setMobile(false)}
-                      className="block text-xs text-muted-foreground py-1"
-                    >
-                      {formatSlug(slug)}
-                    </Link>
-                  )),
-                )}
+              <div className="px-6 pb-4">
+                {(() => {
+                  const labelSlugs = Object.values(megaMenu[label]).flat();
+                  const showImages = labelSlugs.some((s) => Boolean(getCategory(s)?.image));
+                  return showImages ? (
+                    <div className="grid grid-cols-2 gap-3 pt-2">
+                      {labelSlugs.map((slug) => {
+                        const cat = getCategory(slug);
+                        return (
+                          <Link
+                            key={slug}
+                            to="/category/$slug"
+                            params={{ slug }}
+                            onClick={() => setMobile(false)}
+                            className="flex flex-col items-center rounded-md border border-border/50 bg-card/30 p-2.5 text-center hover:border-gold/50 transition-colors"
+                          >
+                            <div className="h-20 w-full flex items-center justify-center mb-1.5">
+                              {cat?.image ? (
+                                <img
+                                  src={cat.image}
+                                  alt={cat.title || formatSlug(slug)}
+                                  className="max-h-full max-w-full object-contain"
+                                />
+                              ) : null}
+                            </div>
+                            <span className="text-[10px] leading-tight text-muted-foreground font-medium">
+                              {cat?.title || formatSlug(slug)}
+                            </span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <div className="space-y-2">
+                      {Object.entries(megaMenu[label]).flatMap(([, slugs]) =>
+                        (slugs as readonly string[]).map((slug) => (
+                          <Link
+                            key={slug}
+                            to="/category/$slug"
+                            params={{ slug }}
+                            onClick={() => setMobile(false)}
+                            className="block text-xs text-muted-foreground py-1"
+                          >
+                            {formatSlug(slug)}
+                          </Link>
+                        )),
+                      )}
+                    </div>
+                  );
+                })()}
               </div>
             </details>
           ))}
