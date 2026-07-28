@@ -32,6 +32,57 @@ export const Route = createFileRoute("/category/$slug")({
   ),
 });
 
+function getHeroSectionImage(slug: string): string {
+  const map: Record<string, string> = {
+    // Showers
+    "2-function-shower-rain-mist": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+    "3-function-shower-rain-mist-dual-waterfall": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    "3-function-shower-rain-mist-large-single-waterfall": "/HEROSECTIONIMAGES/3 Function Shower (Large Waterfall).png",
+    "2-function-shower-rain-large-single-waterfall": "/HEROSECTIONIMAGES/2 Function Shower (Large Waterfall).jpg",
+    "4-function-shower-chromotherapy": "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
+    "single-function-shower-rain": "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
+    "waterfall-showers": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+    "2-function-wall-mounted-shower-arm": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    "body-jets-2-function": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+    "one-line-series": "/HEROSECTIONIMAGES/One Line Series.jpg",
+    "eminence-series": "/HEROSECTIONIMAGES/Eminence Series.jpg",
+    "multifunctional-showers": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+
+    // Diverters
+    "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
+    "6-function-diverter": "/HEROSECTIONIMAGES/6 Function Diverter.png",
+    "thermostatic-diverter-three-outlet": "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
+    "lever-diverter-three-outlet": "/HEROSECTIONIMAGES/Lever Diverter.jpg",
+
+    // Tile Insert Drainers
+    "tile-insert-drain": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
+
+    // Basin Mixers
+    "round-controller-basin-mixer": "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
+    "thermostatic-click-controller-basin-mixer": "/HEROSECTIONIMAGES/thermostatic-click-controller-basin-mixer.png",
+    "lever-basin-mixer": "/HEROSECTIONIMAGES/Lever Basin Mixer.png",
+    "table-mounted-basin-mixer": "/HEROSECTIONIMAGES/Table Mounted Basin Mixer.png",
+    "progressive-controller-waterfall-basin-mixer": "/HEROSECTIONIMAGES/Progressive Controller Waterfall Basin Mixer.jpg",
+    "ceiling-mounted-basin-mixer": "/HEROSECTIONIMAGES/Ceiling Mounted Basin Mixer.png",
+
+    // Sanitaryware
+    "sanitaryware-collections": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
+
+    // Accessories
+    "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
+
+    // Mirrors
+    "metal-led-mirrors": "/HEROSECTIONIMAGES/Metal LED Mirrors.jpg",
+    "metal-mirrors": "/HEROSECTIONIMAGES/Metal Mirrors.webp",
+    "led-mirrors": "/HEROSECTIONIMAGES/LED Mirrors.jpg",
+    "3d-mirrors": "/HEROSECTIONIMAGES/3D Mirrors.jpg",
+    "plain-mirrors": "/HEROSECTIONIMAGES/Plain Mirrors.jpg",
+  };
+
+  return map[slug] || "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg";
+}
+
 function CategoryPage() {
   const { cat, products } = Route.useLoaderData();
   const related = categories
@@ -97,6 +148,77 @@ function CategoryPage() {
           <div className="p-4 border-l border-border/50">
             <p className="font-serif text-2xl md:text-3xl text-gold">PVD Bonded</p>
             <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Corrosion Resistant Finish</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Category Hero Showcase Section from HEROSECTIONIMAGES (Above Product Images) */}
+      <section className="max-w-7xl mx-auto px-8 py-16 border-b border-border/60">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+          {/* Left Side - Hero Section Image */}
+          <div className="lg:col-span-6">
+            <div className="relative group rounded-2xl overflow-hidden border border-border/80 shadow-2xl bg-secondary/30">
+              <img
+                src={encodeURI(getHeroSectionImage(cat.slug))}
+                alt={cat.title}
+                className="w-full h-[380px] md:h-[480px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80" />
+              <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
+                <span className="inline-block bg-black/70 backdrop-blur-md text-gold border border-gold/40 px-4 py-1.5 rounded-full text-xs uppercase tracking-widest font-medium">
+                  Joy Water · Handcrafted
+                </span>
+                <span className="text-white/80 text-xs tracking-wider uppercase font-light">
+                  {cat.group.replace(/-/g, " ")}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Side - Content About That Page */}
+          <div className="lg:col-span-6 flex flex-col justify-center">
+            <div className="inline-flex items-center gap-2 text-gold text-xs uppercase tracking-[0.25em] font-medium mb-3">
+              <span className="h-2 w-2 rounded-full bg-gold inline-block" />
+              {cat.group.replace(/-/g, " ")} · Featured Collection
+            </div>
+            <h2 className="font-serif text-3xl md:text-5xl text-foreground leading-tight">
+              {cat.title}
+            </h2>
+            <div className="h-1 w-20 bg-gold my-6 rounded-full" />
+            <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+              {cat.description}
+            </p>
+
+            {cat.features && cat.features.length > 0 && (
+              <div className="mt-8">
+                <h3 className="text-xs uppercase tracking-[0.2em] text-foreground font-semibold mb-4">
+                  Collection Highlights & Engineering
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {cat.features.map((feature, i) => (
+                    <div
+                      key={i}
+                      className="flex items-center gap-3 bg-secondary/60 border border-border/50 rounded-lg px-4 py-3 text-sm text-foreground/90"
+                    >
+                      <span className="flex-shrink-0 h-2 w-2 rounded-full bg-gold" />
+                      <span>{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="mt-10 pt-8 border-t border-border/60 flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground uppercase tracking-wider">
+              <div className="flex items-center gap-2">
+                <span className="text-gold font-semibold">✓</span> 100% Solid Brass / Grade 304 SS
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-gold font-semibold">✓</span> 11 Years Unmatched Assurance
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-gold font-semibold">✓</span> PVD Finish
+              </div>
+            </div>
           </div>
         </div>
       </section>
