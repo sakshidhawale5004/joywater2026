@@ -186,32 +186,26 @@ function Index() {
             View all products
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-6 gap-4 auto-rows-[280px]">
-          {collections.map((c, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {collections.map((c) => (
             <Link
               key={c.slug}
               to="/category/$slug"
               params={{ slug: c.slug }}
-              className={`group relative overflow-hidden bg-secondary card-3d hover:card-3d-hover ${
-                i === 0
-                  ? "md:col-span-3 md:row-span-2"
-                  : i === 1
-                    ? "md:col-span-3"
-                    : "md:col-span-2"
-              }`}
+              className="group relative overflow-hidden bg-secondary rounded-2xl border border-border/60 shadow-md hover:shadow-xl transition-all duration-500 h-[380px] sm:h-[420px] flex flex-col justify-end p-8 md:p-10"
             >
               <img
                 src={c.image}
                 alt={c.title}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" />
-              <div className="absolute bottom-0 p-6 text-primary-foreground">
-                <p className="text-[10px] uppercase tracking-[0.3em] text-gold mb-2">{c.tag}</p>
-                <h3 className="font-serif text-2xl md:text-3xl">{c.title}</h3>
-                <span className="inline-flex items-center gap-2 mt-3 text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
-                  Explore <ArrowRight className="h-3 w-3" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-500 group-hover:opacity-95" />
+              <div className="relative z-10">
+                <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3 font-semibold">{c.tag}</p>
+                <h3 className="font-serif text-2xl md:text-3xl text-white mb-4 leading-snug font-normal">{c.title}</h3>
+                <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-white/90 group-hover:text-gold transition-colors font-medium">
+                  Explore <ArrowRight className="h-3.5 w-3.5" />
                 </span>
               </div>
             </Link>
