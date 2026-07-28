@@ -249,6 +249,14 @@ export const categories: Category[] = [
 
   // 6. SANITARYWARE
   {
+    slug: "sanitaryware-collections",
+    title: "Sanitaryware Collections",
+    group: "sanitaryware",
+    description: "Sanitaryware Collections featuring timeless porcelain ceramics, high-efficiency flushing technology, and ergonomic contours.",
+    bannerImage: "/images/PDF1_P40_IMG1.png",
+    features: ["Rimless Design", "High Efficiency Flush", "Soft Close Seat", "11 Years Unmatched Assurance"]
+  },
+  {
     slug: "premium-sanitaryware-collections",
     title: "Premium Sanitaryware Collections",
     group: "sanitaryware",
@@ -648,6 +656,115 @@ const realCategoryProducts: Product[] = [
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (8).png",
     ]
   ),
+
+  // Basin Mixers
+  ...createCategoryProducts(
+    "round-controller-basin-mixer",
+    "Round Controller Basin Mixer",
+    "JW-RCB",
+    24000,
+    [
+      "/basinmixer/Round Controller Basin Mixer (1).png",
+      "/basinmixer/Round Controller Basin Mixer (2).png",
+      "/basinmixer/Round Controller Basin Mixer (3).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "thermostatic-click-controller-basin-mixer",
+    "Thermostatic Click Controller Basin Mixer",
+    "JW-THB",
+    32000,
+    [
+      "/basinmixer/Thermostatic Click Controller Basin Mixer (1).png",
+      "/basinmixer/Thermostatic Click Controller Basin Mixer (2).png",
+      "/basinmixer/Thermostatic Click Controller Basin Mixer (3).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "lever-basin-mixer",
+    "Lever Basin Mixer",
+    "JW-LVB",
+    18000,
+    [
+      "/basinmixer/Lever Basin Mixer (1).png",
+      "/basinmixer/Lever Basin Mixer (2).png",
+      "/basinmixer/Lever Basin Mixer (3).png",
+      "/basinmixer/Lever Basin Mixer (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "table-mounted-basin-mixer",
+    "Table Mounted Basin Mixer",
+    "JW-TMB",
+    26000,
+    [
+      "/basinmixer/Table Mounted Basin Mixer (1).png",
+      "/basinmixer/Table Mounted Basin Mixer (2).png",
+      "/basinmixer/Table Mounted Basin Mixer (3).png",
+      "/basinmixer/Table Mounted Basin Mixer (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "progressive-controller-waterfall-basin-mixer",
+    "Progressive Controller Waterfall Basin Mixer",
+    "JW-PWB",
+    34000,
+    [
+      "/basinmixer/Progressive Controller Waterfall Basin Mixer.png",
+      "/basinmixer/Progressive Controller Waterfall Basin Mixer (1).png",
+      "/basinmixer/Progressive Controller Waterfall Basin Mixer (2).png",
+      "/basinmixer/Progressive Controller Waterfall Basin Mixer (3).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "ceiling-mounted-basin-mixer",
+    "Ceiling Mounted Basin Mixer",
+    "JW-CMB",
+    42000,
+    [
+      "/basinmixer/Ceiling Mounted Basin Mixer (1).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (2).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (4).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (5).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (6).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (7).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (8).png",
+      "/basinmixer/Ceiling Mounted Basin Mixer (9).png",
+    ]
+  ),
+
+  // Sanitaryware
+  ...createCategoryProducts(
+    "sanitaryware-collections",
+    "Sanitaryware Collection",
+    "JW-SW",
+    28000,
+    Array.from({ length: 33 }, (_, i) => `/SANITYWARE/Sanitaryware Collections (${i + 1}).jpg`)
+  ),
+  ...createCategoryProducts(
+    "premium-sanitaryware-collections",
+    "Premium Sanitaryware Collection",
+    "JW-PSW",
+    48000,
+    [
+      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (1).png",
+      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (2).png",
+      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (3).png",
+      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (4).png",
+    ]
+  ),
+
+  // Others / Accessories
+  ...createCategoryProducts(
+    "bathroom-accessories-fittings",
+    "Bathroom Accessories & Fittings",
+    "JW-BAF",
+    8000,
+    [
+      "/OTHERS/Bathroom Accessories & Fittings.png",
+      ...Array.from({ length: 39 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 1}).png`),
+    ]
+  ),
 ];
 
 export const products: Product[] = [
@@ -717,6 +834,7 @@ export const megaMenu = {
   },
   "Sanitaryware": {
     "Collections": [
+      "sanitaryware-collections",
       "premium-sanitaryware-collections"
     ]
   },
