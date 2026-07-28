@@ -39,19 +39,19 @@ export function Header() {
         <nav className="hidden lg:flex items-center gap-4">
           <Link
             to="/"
-            className="px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
           >
             About
           </Link>
           <Link
             to="/gallery"
-            className="px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
           >
             Gallery
           </Link>
@@ -59,7 +59,7 @@ export function Header() {
             <div key={label} onMouseEnter={() => setOpen(label)} className="relative">
               <button
                 className={cn(
-                  "px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium transition-colors",
+                  "px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium transition-colors",
                   open === label ? "text-gold" : "text-foreground hover:text-gold",
                 )}
               >
@@ -69,7 +69,7 @@ export function Header() {
           ))}
           <Link
             to="/contact"
-            className="px-4 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
           >
             Contact
           </Link>

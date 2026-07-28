@@ -1,503 +1,232 @@
+export type CategoryGroup =
+  | "showers"
+  | "multi-functional-body-showers"
+  | "diverters"
+  | "tile-insert-drainers"
+  | "basin-mixers"
+  | "sanitaryware"
+  | "others-accessories";
+
 export type Category = {
   slug: string;
   title: string;
-  group: "faucets" | "showers" | "basins" | "toilets" | "components" | "resources";
+  group: CategoryGroup;
   description: string;
   image?: string;
+  bannerImage?: string;
+  features?: string[];
 };
 
 export const categories: Category[] = [
-  // Faucets
+  // 1. SHOWERS
   {
-    slug: "graphite-grey",
-    title: "Graphite Grey Faucets",
-    group: "faucets",
-    description: "Faucets finished in deep graphite grey PVD.",
+    slug: "2-function-shower-rain-mist",
+    title: "2 Function Shower",
+    group: "showers",
+    description: "Rain & Mist Spray shower for a refreshing experience.",
+    features: ["Rain Spray", "Mist Spray", "Anti-clog nozzles"]
   },
   {
-    slug: "rose-gold",
-    title: "Rose Gold Faucets",
-    group: "faucets",
-    description: "Warm rose gold PVD faucets.",
+    slug: "3-function-shower-rain-mist-dual-waterfall",
+    title: "3 Function Shower",
+    group: "showers",
+    description: "Rain, 4 Mist Spray & Dual Waterfall shower.",
+    features: ["Rain Spray", "4 Mist Spray", "Dual Waterfall"]
   },
   {
-    slug: "rose-gold-chrome",
-    title: "Rose Gold + Chrome",
-    group: "faucets",
-    description: "Dual-tone rose gold and chrome faucets.",
+    slug: "3-function-shower-rain-mist-large-single-waterfall",
+    title: "3 Function Shower (Large Waterfall)",
+    group: "showers",
+    description: "Rain, 4 Mist Spray & Large Single Waterfall.",
+    features: ["Rain Spray", "4 Mist Spray", "Large Single Waterfall"]
   },
   {
-    slug: "matt-black",
-    title: "Matt Black Faucets",
-    group: "faucets",
-    description: "Signature matte black bathroom faucets.",
+    slug: "2-function-shower-rain-large-single-waterfall",
+    title: "2 Function Shower (Large Waterfall)",
+    group: "showers",
+    description: "Rain & Large Single Waterfall.",
+    features: ["Rain Spray", "Large Single Waterfall"]
   },
   {
-    slug: "matt-black-rose-gold",
-    title: "Matt Black + Rose Gold",
-    group: "faucets",
-    description: "Contrasting matt black with rose gold accents.",
+    slug: "4-function-shower-chromotherapy",
+    title: "4 Function Shower",
+    group: "showers",
+    description: "Chromotherapy LED Light, Rain, Six Mist Spray, Water Column & Dual Waterfall.",
+    features: ["Chromotherapy LED Light", "Rain", "6 Mist Spray", "Water Column", "Dual Waterfall"]
   },
   {
-    slug: "venetian-gold",
-    title: "Venetian Gold",
-    group: "faucets",
-    description: "Rich venetian gold PVD faucets.",
+    slug: "multifunctional-showers",
+    title: "Multifunctional Showers",
+    group: "showers",
+    description: "Rain, Water Column & Four Waterfall.",
+    features: ["Rain", "Water Column", "4 Waterfall"]
   },
   {
-    slug: "brushed-gold",
-    title: "Brushed Gold Faucets",
-    group: "faucets",
-    description: "Softly brushed gold PVD faucets.",
+    slug: "single-function-shower-rain",
+    title: "Single Function Shower",
+    group: "showers",
+    description: "Classic Rain shower.",
+    features: ["Rain"]
   },
   {
-    slug: "brushed-rose-gold",
-    title: "Brushed Rose Gold Faucets",
-    group: "faucets",
-    description: "Brushed rose gold PVD faucets.",
+    slug: "waterfall-showers",
+    title: "Waterfall Showers",
+    group: "showers",
+    description: "Elegant Waterfall showers.",
+    features: ["Cascade Flow"]
   },
   {
-    slug: "matt-white-rose-gold",
-    title: "Matt White + Rose Gold",
-    group: "faucets",
-    description: "Matt white with rose gold detailing.",
+    slug: "2-function-wall-mounted-shower-arm",
+    title: "2 Function Wall Mounted Shower with Shower Arm",
+    group: "showers",
+    description: "Rain & Mist wall mounted shower.",
+    features: ["Rain", "Mist", "Wall Mounted"]
   },
   {
-    slug: "crystal-series",
-    title: "Crystal Series",
-    group: "faucets",
-    description: "Crystal handle chrome faucets.",
-  },
-  {
-    slug: "slender-series",
-    title: "Slender Series",
-    group: "faucets",
-    description: "Slim silhouette chrome faucets.",
-  },
-  {
-    slug: "cube-series",
-    title: "Cube Series",
-    group: "faucets",
-    description: "Cubic architecture faucets.",
-  },
-  {
-    slug: "zero-series",
-    title: "Zero Series",
-    group: "faucets",
-    description: "Zero-radius modern faucets.",
-  },
-  {
-    slug: "basin-faucets-exclusive",
-    title: "Basin Faucets — Exclusive",
-    group: "faucets",
-    description: "Exclusive basin faucet collection.",
-  },
-  {
-    slug: "basin-mixers",
-    title: "Basin Mixers",
-    group: "faucets",
-    description: "Single and dual-lever basin mixers.",
-  },
-  {
-    slug: "svelte-series",
-    title: "Svelte Series",
-    group: "faucets",
-    description: "Svelte designer faucet series.",
-  },
-  {
-    slug: "pebble-series",
-    title: "Pebble Series",
-    group: "faucets",
-    description: "Pebble-inspired organic faucets.",
-  },
-  {
-    slug: "shield-316-series",
-    title: "Shield 316 Series",
-    group: "faucets",
-    description: "316 stainless steel corrosion-shield faucets.",
-  },
-  {
-    slug: "oblikue-series",
-    title: "Oblikue Series",
-    group: "faucets",
-    description: "Angular oblique-form faucets.",
-  },
-  {
-    slug: "wave-series",
-    title: "Wave Series",
-    group: "faucets",
-    description: "Fluid wave-form designer faucets.",
-  },
-  {
-    slug: "click-select-series",
-    title: "Click-Select Series",
-    group: "faucets",
-    description: "Click-select flow control faucets.",
-  },
-  {
-    slug: "prestige-collection",
-    title: "Prestige Collection",
-    group: "faucets",
-    description: "Prestige designer faucet collection.",
-  },
-  {
-    slug: "heritage-series",
-    title: "Heritage Series",
-    group: "faucets",
-    description: "Heritage classical faucet series.",
-  },
-  {
-    slug: "regalia-series",
-    title: "Regalia Series",
-    group: "faucets",
-    description: "Regalia luxury faucet series.",
-  },
-  {
-    slug: "kitchen-faucets-ro",
-    title: "Kitchen Faucets with RO Connection",
-    group: "faucets",
-    description: "Kitchen faucets with integrated RO outlet.",
-  },
-  {
-    slug: "kitchen-sink-mixers",
-    title: "Kitchen Sink-Mixers & Sink-Cocks",
-    group: "faucets",
-    description: "Kitchen sink mixers and sink cocks.",
+    slug: "multifunctional-wall-mounted-shower",
+    title: "Multifunctional Wall Mounted Shower (2 Function)",
+    group: "showers",
+    description: "Spot Foam, Spot Waterfall, Spot Rain.",
+    features: ["Spot Foam", "Spot Waterfall", "Spot Rain"]
   },
 
-  // Showers
+  // 2. MULTI-FUNCTIONAL BODY SHOWERS
   {
-    slug: "shower-graphite-grey",
-    title: "Graphite Grey Showers",
-    group: "showers",
-    description: "Showers in graphite grey PVD.",
+    slug: "body-jets-2-function",
+    title: "Body Jets (2 Function)",
+    group: "multi-functional-body-showers",
+    description: "Rain & Mist body jets.",
+    features: ["Rain", "Mist", "Recessed Installation"]
   },
   {
-    slug: "shower-rose-gold",
-    title: "Rose Gold Showers",
-    group: "showers",
-    description: "Rose gold PVD showers.",
+    slug: "one-line-series",
+    title: "One Line Series",
+    group: "multi-functional-body-showers",
+    description: "One Line Series body showers.",
+    features: ["Minimalist Design", "High Pressure"]
   },
   {
-    slug: "shower-matt-black",
-    title: "Matt Black Showers",
-    group: "showers",
-    description: "Matt black shower systems.",
-  },
-  {
-    slug: "brushed-gold-shower",
-    title: "Brushed Gold Shower",
-    group: "showers",
-    description: "Brushed gold shower systems.",
-  },
-  {
-    slug: "brushed-rose-gold-shower",
-    title: "Brushed Rose Gold Shower",
-    group: "showers",
-    description: "Brushed rose gold shower systems.",
-  },
-  {
-    slug: "shower-venetian-gold",
-    title: "Venetian Gold Showers",
-    group: "showers",
-    description: "Venetian gold showers.",
-  },
-  {
-    slug: "shower-panels",
-    title: "Shower Panels",
-    group: "showers",
-    description: "Wall-mounted shower panels.",
-  },
-  {
-    slug: "brass-shower",
-    title: "Brass Shower",
-    group: "showers",
-    description: "Solid brass shower heads.",
-  },
-  {
-    slug: "multi-function-showers",
-    title: "Multi-Function Showers",
-    group: "showers",
-    description: "Multiple spray-pattern showers.",
-  },
-  {
-    slug: "abs-showers",
-    title: "ABS Showers",
-    group: "showers",
-    description: "Lightweight ABS showers.",
-  },
-  {
-    slug: "cascade-flow-showers",
-    title: "Cascade-Flow Showers",
-    group: "showers",
-    description: "Cascade waterfall showers.",
-  },
-  {
-    slug: "hand-showers",
-    title: "Hand Showers",
-    group: "showers",
-    description: "Hand-held showers.",
-  },
-  {
-    slug: "rain-showers",
-    title: "Rain Showers",
-    group: "showers",
-    description: "Overhead rain showers.",
-  },
-  {
-    slug: "shower-arms",
-    title: "Shower Arms",
-    group: "showers",
-    description: "Wall and ceiling shower arms.",
-  },
-  {
-    slug: "shower-rails",
-    title: "Shower Rails",
-    group: "showers",
-    description: "Adjustable shower rails.",
-  },
-  {
-    slug: "body-showers",
-    title: "Body Showers",
-    group: "showers",
-    description: "Recessed body showers.",
-  },
-  {
-    slug: "body-sprays",
-    title: "Body Sprays",
-    group: "showers",
-    description: "Adjustable body sprays.",
+    slug: "eminence-series",
+    title: "Eminence Series",
+    group: "multi-functional-body-showers",
+    description: "Eminence Series body showers.",
+    features: ["Luxury Finish", "Precision Sprays"]
   },
 
-  // Basins
+  // 3. DIVERTERS
   {
-    slug: "stone-pedestal-basins",
-    title: "Stone Pedestal Basins",
-    group: "basins",
-    description: "Hand-carved stone pedestal wash basins.",
+    slug: "5-function-diverter",
+    title: "5 Function Diverter",
+    group: "diverters",
+    description: "5 Function Diverter for complex shower systems.",
+    features: ["5 Functions", "Smooth Rotation"]
   },
   {
-    slug: "marble-table-top-basins",
-    title: "Marble Table Top Basins",
-    group: "basins",
-    description: "Marble table-top wash basins.",
+    slug: "6-function-diverter",
+    title: "6 Function Diverter",
+    group: "diverters",
+    description: "6 Function Diverter.",
+    features: ["6 Functions", "Durable Brass Core"]
   },
   {
-    slug: "onyx-table-mounted-basins",
-    title: "Onyx Table Mounted Basins",
-    group: "basins",
-    description: "Translucent onyx table-mounted basins.",
+    slug: "thermostatic-diverter-three-outlet",
+    title: "Thermostatic Diverter (Three Outlet)",
+    group: "diverters",
+    description: "Thermostatic Diverter with Three Outlets.",
+    features: ["Thermostatic Control", "3 Outlets", "Safety Lock"]
   },
   {
-    slug: "concrete-basins",
-    title: "Concrete Basins",
-    group: "basins",
-    description: "Architectural concrete basins.",
-  },
-  {
-    slug: "stainless-steel-basins",
-    title: "Stainless Steel Basins",
-    group: "basins",
-    description: "Grade 304 stainless steel basins.",
-  },
-  {
-    slug: "ceramic-special-finish-wash-basins",
-    title: "Ceramic Special Finish Wash Basins",
-    group: "basins",
-    description: "Ceramic basins in special glazes.",
-  },
-  {
-    slug: "ceramic-pedestal-wash-basins",
-    title: "Ceramic Pedestal Wash Basins",
-    group: "basins",
-    description: "Classic ceramic pedestal basins.",
-  },
-  {
-    slug: "regular-ceramic-washbasins",
-    title: "Regular Ceramic Washbasins",
-    group: "basins",
-    description: "Everyday ceramic washbasins.",
+    slug: "lever-diverter-three-outlet",
+    title: "Lever Diverter (Three Outlet)",
+    group: "diverters",
+    description: "Lever Diverter with Three Outlets.",
+    features: ["Lever Handle", "3 Outlets"]
   },
 
-  // Toilets
+  // 4. TILE INSERT DRAINERS
   {
-    slug: "intelligent-wc",
-    title: "Intelligent WC",
-    group: "toilets",
-    description: "Smart heated-seat, self-cleaning intelligent toilets.",
+    slug: "tile-insert-drain",
+    title: "Tile Insert Drain",
+    group: "tile-insert-drainers",
+    description: "Seamless Tile Insert Drain.",
+    features: ["Seamless Look", "Easy to Clean"]
   },
   {
-    slug: "special-finish-toilets",
-    title: "Special Finish Toilets",
-    group: "toilets",
-    description: "Toilets in bespoke matt and metallic finishes.",
-  },
-  {
-    slug: "premium-white-toilets",
-    title: "Premium White Toilets",
-    group: "toilets",
-    description: "Premium white ceramic toilets.",
-  },
-  {
-    slug: "regular-white-toilets",
-    title: "Regular White Toilets",
-    group: "toilets",
-    description: "Standard white ceramic toilets.",
-  },
-  {
-    slug: "couple-suite-toilets",
-    title: "Couple Suite Toilets",
-    group: "toilets",
-    description: "Coupled cistern suite toilets.",
-  },
-  {
-    slug: "urinals",
-    title: "Urinals",
-    group: "toilets",
-    description: "Wall-mounted ceramic urinals.",
+    slug: "tile-insert-125x125",
+    title: "Tile Insert (125 x 125 MM)",
+    group: "tile-insert-drainers",
+    description: "125 x 125 MM Tile Insert Drain.",
+    features: ["125x125 MM size", "Stainless Steel"]
   },
 
-  // Bath components
+  // 5. BASIN MIXERS
   {
-    slug: "shower-drains",
-    title: "Shower Drains",
-    group: "components",
-    description: "Linear and square shower drains.",
+    slug: "round-controller-basin-mixer",
+    title: "Round Controller Basin Mixer",
+    group: "basin-mixers",
+    description: "Round Controller Basin Mixer.",
+    features: ["Round Controller", "Aerated Flow"]
   },
   {
-    slug: "bath-chairs",
-    title: "Bath Chairs",
-    group: "components",
-    description: "Bathroom-grade seating.",
+    slug: "thermostatic-click-controller-basin-mixer",
+    title: "Thermostatic Click Controller Basin Mixer",
+    group: "basin-mixers",
+    description: "Thermostatic Click Controller Basin Mixer.",
+    features: ["Thermostatic", "Click Controller"]
   },
   {
-    slug: "bath-spouts",
-    title: "Bath Spouts",
-    group: "components",
-    description: "Wall and deck bath spouts.",
+    slug: "lever-basin-mixer",
+    title: "Lever Basin Mixer",
+    group: "basin-mixers",
+    description: "Classic Lever Basin Mixer.",
+    features: ["Single Lever", "Smooth Operation"]
   },
   {
-    slug: "cosmetic-mirrors",
-    title: "Cosmetic Mirrors",
-    group: "components",
-    description: "Magnifying and LED mirrors.",
+    slug: "table-mounted-basin-mixer",
+    title: "Table Mounted Basin Mixer",
+    group: "basin-mixers",
+    description: "Tall Table Mounted Basin Mixer.",
+    features: ["Table Mounted", "Tall Profile"]
   },
   {
-    slug: "health-faucets",
-    title: "Health-Faucets",
-    group: "components",
-    description: "Health faucets and holders.",
+    slug: "progressive-controller-waterfall-basin-mixer",
+    title: "Progressive Controller Waterfall Basin Mixer",
+    group: "basin-mixers",
+    description: "Progressive Controller with Waterfall flow.",
+    features: ["Progressive Controller", "Waterfall Spout"]
   },
   {
-    slug: "misc-components",
-    title: "Misc. Components",
-    group: "components",
-    description: "Bathroom miscellaneous parts.",
-  },
-  {
-    slug: "bath-accessories",
-    title: "Bath Accessories",
-    group: "components",
-    description: "Towel rails, hooks, holders and more.",
+    slug: "ceiling-mounted-basin-mixer",
+    title: "Ceiling Mounted Basin Mixer",
+    group: "basin-mixers",
+    description: "Dramatic Ceiling Mounted Basin Mixer.",
+    features: ["Ceiling Mounted", "Statement Piece"]
   },
 
-  // Bathroom Accessories & Faucet Series
+  // 6. SANITARYWARE
   {
-    slug: "folding-rack",
-    title: "Folding Rack",
-    group: "components",
-    description: "Bathroom folding rack.",
+    slug: "premium-sanitaryware-collections",
+    title: "Premium Sanitaryware Collections",
+    group: "sanitaryware",
+    description: "Premium Sanitaryware Collections.",
+    features: ["Premium Glaze", "Rimless Design", "Soft Close Seat"]
+  },
+
+  // 7. OTHERS / ACCESSORIES
+  {
+    slug: "bathroom-accessories-fittings",
+    title: "Bathroom Accessories & Fittings",
+    group: "others-accessories",
+    description: "Bathroom Accessories & Fittings.",
+    features: ["Solid Brass Construction", "Matching Finishes"]
   },
   {
-    slug: "shelfs",
-    title: "Shelfs",
-    group: "components",
-    description: "Bathroom shelfs.",
-  },
-  {
-    slug: "khutti-accessories",
-    title: "Khutti/Accessories",
-    group: "components",
-    description: "Khutti and other accessories.",
-  },
-  {
-    slug: "mackup-magnifying-mirror",
-    title: "Mackup Magnifying Mirror",
-    group: "components",
-    description: "Makeup magnifying mirror.",
-  },
-  {
-    slug: "floor-accessories",
-    title: "Floor Accessories",
-    group: "components",
-    description: "Floor accessories.",
-  },
-  {
-    slug: "tile-shower-drainers",
-    title: "Tile / Shower Drainers",
-    group: "components",
-    description: "Tile and shower drainers.",
-  },
-  {
-    slug: "showers-allied",
-    title: "Showers & Allied",
-    group: "components",
-    description: "Showers and allied products.",
-  },
-  {
-    slug: "angle-valves",
-    title: "Angle Valves",
-    group: "components",
-    description: "Angle valves.",
-  },
-  {
-    slug: "couplings",
-    title: "Couplings",
-    group: "components",
-    description: "Couplings.",
-  },
-  {
-    slug: "allied-products",
-    title: "Allied Products",
-    group: "components",
-    description: "Allied products.",
-  },
-  {
-    slug: "gasket-tape",
-    title: "Gasket & Tape",
-    group: "components",
-    description: "Gasket and tape.",
-  },
-  { slug: "pyramid-series", title: "Pyramid Series", group: "faucets", description: "Pyramid series." },
-  { slug: "signature-series", title: "Signature Series", group: "faucets", description: "Signature series." },
-  { slug: "fortune-series", title: "Fortune Series", group: "faucets", description: "Fortune series." },
-  { slug: "solitaire-series", title: "Solitaire Series", group: "faucets", description: "Solitaire series." },
-  { slug: "swatch-series", title: "Swatch Series", group: "faucets", description: "Swatch series." },
-  { slug: "unity-series", title: "Unity Series", group: "faucets", description: "Unity series." },
-  { slug: "supreme-series", title: "Supreme Series", group: "faucets", description: "Supreme series." },
-  { slug: "sigma-series", title: "Sigma Series", group: "faucets", description: "Sigma series." },
-  { slug: "iris-series", title: "Iris Series", group: "faucets", description: "Iris series." },
-  { slug: "oyster-series", title: "Oyster Series", group: "faucets", description: "Oyster series." },
-  { slug: "ovilio-series", title: "Ovilio Series", group: "faucets", description: "Ovilio series." },
-  { slug: "grace-series", title: "Grace Series", group: "faucets", description: "Grace series." },
-  { slug: "rectus-series", title: "Rectus Series", group: "faucets", description: "Rectus series." },
-  { slug: "duluxe-series", title: "Duluxe Series", group: "faucets", description: "Duluxe series." },
-  { slug: "swatch-gold", title: "Swatch Gold", group: "faucets", description: "Swatch gold." },
-  { slug: "supreme-gold", title: "Supreme Gold", group: "faucets", description: "Supreme gold." },
-  { slug: "sigma-gold", title: "Sigma Gold", group: "faucets", description: "Sigma gold." },
-  { slug: "iris-gold", title: "Iris Gold", group: "faucets", description: "Iris gold." },
-  { slug: "grace-gold", title: "Grace Gold", group: "faucets", description: "Grace gold." },
-  { slug: "rectus-gold", title: "Rectus Gold", group: "faucets", description: "Rectus gold." },
-  { slug: "swatch-rose-gold", title: "Swatch Rose Gold", group: "faucets", description: "Swatch rose gold." },
-  { slug: "supreme-rose-gold", title: "Supreme Rose Gold", group: "faucets", description: "Supreme rose gold." },
-  { slug: "sigma-rose-gold", title: "Sigma Rose Gold", group: "faucets", description: "Sigma rose gold." },
-  { slug: "iris-rose-gold", title: "Iris Rose Gold", group: "faucets", description: "Iris rose gold." },
-  { slug: "oyster-rose-gold", title: "Oyster Rose Gold", group: "faucets", description: "Oyster rose gold." },
-  { slug: "grace-rose-gold", title: "Grace Rose Gold", group: "faucets", description: "Grace rose gold." },
-  { slug: "rectus-rose-gold", title: "Rectus Rose Gold", group: "faucets", description: "Rectus rose gold." },
-  { slug: "oyster-black", title: "Oyster Black", group: "faucets", description: "Oyster black." },
-  { slug: "grace-black", title: "Grace Black", group: "faucets", description: "Grace black." },
-  { slug: "rectus-black", title: "Rectus Black", group: "faucets", description: "Rectus black." },
+    slug: "mirrors",
+    title: "Mirrors",
+    group: "others-accessories",
+    description: "Bathroom Mirrors & Vanity Mirrors.",
+    features: ["LED Backlit options", "Magnifying options", "Anti-fog"]
+  }
 ];
 
 export type Product = {
@@ -554,7 +283,7 @@ function mulberry32(a: number) {
 function generateProducts(count: number): Product[] {
   const rand = mulberry32(20260723);
   const productable = categories.filter((c) =>
-    ["faucets", "showers", "basins", "toilets", "components"].includes(c.group),
+    ["showers", "multi-functional-body-showers", "diverters", "tile-insert-drainers", "basin-mixers", "sanitaryware", "others-accessories"].includes(c.group),
   );
   const out: Product[] = [];
 
@@ -596,158 +325,62 @@ export function getProductsByCategory(slug: string) {
   return products.filter((p) => p.category === slug);
 }
 
+
 export const megaMenu = {
-  Faucets: {
-    "Designer Faucets": [
-      "svelte-series",
-      "pebble-series",
-      "shield-316-series",
-      "oblikue-series",
-      "wave-series",
-      "click-select-series",
-      "prestige-collection",
-      "heritage-series",
-      "regalia-series",
-    ],
-    "Series": [
-      "pyramid-series",
-      "signature-series",
-      "fortune-series",
-      "solitaire-series",
-      "swatch-series",
-      "unity-series",
-      "supreme-series",
-      "sigma-series",
-      "iris-series",
-      "oyster-series",
-      "ovilio-series",
-      "grace-series",
-      "rectus-series",
-      "duluxe-series",
-    ],
-    "Gold Series": [
-      "swatch-gold",
-      "supreme-gold",
-      "sigma-gold",
-      "iris-gold",
-      "grace-gold",
-      "rectus-gold",
-    ],
-    "Rose Gold Series": [
-      "swatch-rose-gold",
-      "supreme-rose-gold",
-      "sigma-rose-gold",
-      "iris-rose-gold",
-      "oyster-rose-gold",
-      "grace-rose-gold",
-      "rectus-rose-gold",
-    ],
-    "Black Series": [
-      "oyster-black",
-      "grace-black",
-      "rectus-black",
-    ],
-    "Faucets in PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "rose-gold-chrome",
-      "matt-black",
-      "matt-black-rose-gold",
-      "venetian-gold",
-      "brushed-gold",
-      "brushed-rose-gold",
-      "matt-white-rose-gold",
-    ],
-    "Faucets in Chrome Finish": [
-      "crystal-series",
-      "slender-series",
-      "cube-series",
-      "zero-series",
-      "basin-faucets-exclusive",
-      "basin-mixers",
-    ],
-    "Kitchen Faucets": ["kitchen-faucets-ro", "kitchen-sink-mixers"],
+  "Showers": {
+    "All Showers": [
+      "2-function-shower-rain-mist",
+      "3-function-shower-rain-mist-dual-waterfall",
+      "3-function-shower-rain-mist-large-single-waterfall",
+      "2-function-shower-rain-large-single-waterfall",
+      "4-function-shower-chromotherapy",
+      "multifunctional-showers",
+      "single-function-shower-rain",
+      "waterfall-showers",
+      "2-function-wall-mounted-shower-arm",
+      "multifunctional-wall-mounted-shower"
+    ]
   },
-  Showers: {
-    "Showers in PVD Finishes": [
-      "shower-graphite-grey",
-      "shower-rose-gold",
-      "shower-matt-black",
-      "brushed-gold-shower",
-      "brushed-rose-gold-shower",
-      "shower-venetian-gold",
-      "shower-panels",
-    ],
-    "Shower Heads": [
-      "brass-shower",
-      "multi-function-showers",
-      "abs-showers",
-      "cascade-flow-showers",
-      "hand-showers",
-      "rain-showers",
-      "shower-arms",
-      "shower-rails",
-    ],
-    "Body Jets": ["body-showers", "body-sprays"],
-    "Designer Showers": ["svelte-series", "pebble-series", "shield-316-series", "heritage-series"],
+  "Multi-Functional Body Showers": {
+    "Body Showers": [
+      "body-jets-2-function",
+      "one-line-series",
+      "eminence-series"
+    ]
   },
-  Basins: {
-    "Designer Basins": [
-      "stone-pedestal-basins",
-      "marble-table-top-basins",
-      "onyx-table-mounted-basins",
-      "concrete-basins",
-      "stainless-steel-basins",
-    ],
-    "Ceramic Basins": [
-      "ceramic-special-finish-wash-basins",
-      "ceramic-pedestal-wash-basins",
-      "regular-ceramic-washbasins",
-    ],
+  "Diverters": {
+    "All Diverters": [
+      "5-function-diverter",
+      "6-function-diverter",
+      "thermostatic-diverter-three-outlet",
+      "lever-diverter-three-outlet"
+    ]
   },
-  Sanitaryware: {
-    Toilets: [
-      "intelligent-wc",
-      "special-finish-toilets",
-      "premium-white-toilets",
-      "regular-white-toilets",
-      "couple-suite-toilets",
-    ],
-    Urinals: ["urinals"],
+  "Tile Insert Drainers": {
+    "Drainers": [
+      "tile-insert-drain",
+      "tile-insert-125x125"
+    ]
   },
-  "Bath Components": {
-    "All Bath Components": [
-      "shower-drains",
-      "bath-chairs",
-      "bath-spouts",
-      "cosmetic-mirrors",
-      "health-faucets",
-      "misc-components",
-      "bath-accessories",
-    ],
+  "Basin Mixers": {
+    "All Basin Mixers": [
+      "round-controller-basin-mixer",
+      "thermostatic-click-controller-basin-mixer",
+      "lever-basin-mixer",
+      "table-mounted-basin-mixer",
+      "progressive-controller-waterfall-basin-mixer",
+      "ceiling-mounted-basin-mixer"
+    ]
   },
-  "Bathroom Accessories": {
-    "Accessories": [
-      "folding-rack",
-      "shelfs",
-      "khutti-accessories",
-      "mackup-magnifying-mirror",
-      "floor-accessories",
-      "tile-shower-drainers",
-      "showers-allied",
-      "angle-valves",
-      "couplings",
-      "allied-products",
-      "gasket-tape",
-    ],
-    "All Bath Components": [
-      "shower-drains",
-      "bath-chairs",
-      "bath-spouts",
-      "cosmetic-mirrors",
-      "health-faucets",
-      "misc-components",
-      "bath-accessories",
-    ],
+  "Sanitaryware": {
+    "Collections": [
+      "premium-sanitaryware-collections"
+    ]
   },
+  "Others / Accessories": {
+    "Accessories & Mirrors": [
+      "bathroom-accessories-fittings",
+      "mirrors"
+    ]
+  }
 } as const;
