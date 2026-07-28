@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/carousel";
 import { products } from "@/lib/catalog/data";
 const hero = "/images/Black-Horizontal.jpg.jpeg";
-const catFaucets = "/images/PDF1_P10_IMG1.png";
+const catFaucets = "/images/designer-faucets-new.jpg";
 const catShowers = "/images/PDF1_P20_IMG2.png";
-const catBasins = "/images/PDF1_P30_IMG1.png";
+const catBasins = "/images/stone-basins-new.jpg";
 const catToilets = "/images/PDF1_P40_IMG1.png";
 const catAccessories = "/images/PDF1_P50_IMG1.png";
 import { ArrowRight } from "lucide-react";
