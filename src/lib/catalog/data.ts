@@ -362,52 +362,297 @@ function generateProducts(count: number): Product[] {
   return out;
 }
 
-const special2FunctionShowerProducts: Product[] = [
-  {
-    id: "jw-10011-graphite",
-    slug: "2-function-shower-jw-10011",
-    name: "2 Function Shower JW-10011",
-    category: "2-function-shower-rain-mist",
-    finish: "Graphite Grey",
-    price: 48000,
-    code: "JW-10011",
-    image: "/images/PDF1_P7_IMG3.png",
-  },
-  {
-    id: "jw-10012-gold",
-    slug: "2-function-shower-jw-10012-gold",
-    name: "2 Function Shower JW-10012",
-    category: "2-function-shower-rain-mist",
-    finish: "Brushed Gold",
-    price: 48000,
-    code: "JW-10012",
-    image: "/images/PDF1_P7_IMG4.png",
-  },
-  {
-    id: "jw-10013-rosegold",
-    slug: "2-function-shower-jw-10013",
-    name: "2 Function Shower JW-10013",
-    category: "2-function-shower-rain-mist",
-    finish: "Rose Gold",
-    price: 48000,
-    code: "JW-10013",
-    image: "/images/PDF1_P7_IMG7.png",
-  },
-  {
-    id: "jw-10012-brushed-2",
-    slug: "2-function-shower-jw-10012-brushed-2",
-    name: "2 Function Shower JW-10012 (Brushed)",
-    category: "2-function-shower-rain-mist",
-    finish: "Brushed Gold",
-    price: 48000,
-    code: "JW-10012",
-    image: "/images/PDF1_P7_IMG9.png",
-  },
+function createCategoryProducts(
+  categorySlug: string,
+  titlePrefix: string,
+  codePrefix: string,
+  basePrice: number,
+  imagePaths: string[]
+): Product[] {
+  const finishes = [
+    "PVD Chrome",
+    "Brushed Gold",
+    "Rose Gold",
+    "Matte Black",
+    "Graphite Grey",
+    "Polished Chrome",
+    "Gunmetal",
+    "Brushed Nickel",
+  ];
+  return imagePaths.map((image, idx) => {
+    const finish = finishes[idx % finishes.length];
+    const num = idx + 1;
+    return {
+      id: `${categorySlug}-${num}`,
+      slug: `${categorySlug}-${num}`,
+      name: `${titlePrefix} (${finish})`,
+      category: categorySlug,
+      finish,
+      price: basePrice + (idx % 3) * 2000,
+      code: `${codePrefix}-100${num}`,
+      image,
+    };
+  });
+}
+
+const realCategoryProducts: Product[] = [
+  // Showers
+  ...createCategoryProducts(
+    "2-function-shower-rain-mist",
+    "2 Function Shower",
+    "JW-2FS",
+    48000,
+    [
+      "/showers/2 Function Shower (1).png",
+      "/showers/2 Function Shower (2).png",
+      "/showers/2 Function Shower (3).png",
+      "/showers/2 Function Shower (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "3-function-shower-rain-mist-dual-waterfall",
+    "3 Function Shower (Rain, Mist & Dual Waterfall)",
+    "JW-3FSW",
+    58000,
+    [
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (3).png",
+      "/showers/3 Function Shower (1).png",
+      "/showers/3 Function Shower (2).png",
+      "/showers/3 Function Shower (3).png",
+      "/showers/3 Function Shower (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "3-function-shower-rain-mist-large-single-waterfall",
+    "3 Function Shower (Large Waterfall)",
+    "JW-3FSL",
+    62000,
+    [
+      "/showers/3 Function Shower (Large Waterfall) (1).png",
+      "/showers/3 Function Shower (Large Waterfall) (2).png",
+      "/showers/3 Function Shower (Large Waterfall) (3).png",
+      "/showers/3 Function Shower (Large Waterfall) (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "2-function-shower-rain-large-single-waterfall",
+    "2 Function Shower (Large Waterfall)",
+    "JW-2FSL",
+    52000,
+    [
+      "/showers/2 Function Shower (Large Waterfall).png",
+      "/showers/2 Function Shower (Large Waterfall) (2).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "4-function-shower-chromotherapy",
+    "4 Function Shower (Chromotherapy)",
+    "JW-4FS",
+    78000,
+    [
+      "/showers/4 Function Shower (1).png",
+      "/showers/4 Function Shower (2).png",
+      "/showers/4 Function Shower (3).png",
+      "/showers/4 Function Shower (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "multifunctional-showers",
+    "Multifunctional Shower System",
+    "JW-MFS",
+    84000,
+    [
+      "/showers/Multifunctional Showers (1).png",
+      "/showers/Multifunctional Showers (2).png",
+      "/showers/Multifunctional Showers (3).png",
+      "/showers/Multifunctional Showers (4).png",
+      "/showers/Multifunctional Showers (5).png",
+      "/showers/Multifunctional Showers (6).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "single-function-shower-rain",
+    "Single Function Rain Shower",
+    "JW-1FS",
+    28000,
+    [
+      "/showers/Single Function Shower (1).png",
+      "/showers/Single Function Shower (2).png",
+      "/showers/Single Function Shower (3).png",
+      "/showers/Single Function Shower (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "waterfall-showers",
+    "Waterfall Shower",
+    "JW-WFS",
+    34000,
+    [
+      "/showers/Waterfall Showers (1).png",
+      "/showers/Waterfall Showers (2).png",
+      "/showers/Waterfall Showers (3).png",
+      "/showers/Waterfall Showers (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "2-function-wall-mounted-shower-arm",
+    "2 Function Wall Mounted Shower with Arm",
+    "JW-2FWM",
+    44000,
+    [
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "multifunctional-wall-mounted-shower",
+    "Multifunctional Wall Mounted Shower (2 Function)",
+    "JW-MFWM",
+    64000,
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (3).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (7).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (8).png",
+    ]
+  ),
+
+  // Multi-Functional Body Showers
+  ...createCategoryProducts(
+    "body-jets-2-function",
+    "Body Jets (2 Function)",
+    "JW-BJ2",
+    26000,
+    [
+      "/Body Showers/Body Jets (2 Function) (1).png",
+      "/Body Showers/Body Jets (2 Function) (2).png",
+      "/Body Showers/Body Jets (2 Function) (3).png",
+      "/Body Showers/Body Jets (2 Function) (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "one-line-series",
+    "One Line Series Body Shower",
+    "JW-OLS",
+    29000,
+    [
+      "/Body Showers/One Line Series (1).png",
+      "/Body Showers/One Line Series (2).png",
+      "/Body Showers/One Line Series (3).png",
+      "/Body Showers/One Line Series (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "eminence-series",
+    "Eminence Series Body Shower",
+    "JW-EMS",
+    32000,
+    [
+      "/Body Showers/Eminence Series (1).png",
+      "/Body Showers/Eminence Series (2).png",
+      "/Body Showers/Eminence Series (3).png",
+      "/Body Showers/Eminence Series (4).png",
+    ]
+  ),
+
+  // Diverters
+  ...createCategoryProducts(
+    "5-function-diverter",
+    "5 Function Diverter",
+    "JW-5FD",
+    38000,
+    [
+      "/diverters/5 Function Diverter (1).png",
+      "/diverters/5 Function Diverter (2).png",
+      "/diverters/5 Function Diverter (3).png",
+      "/diverters/5 Function Diverter (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "6-function-diverter",
+    "6 Function Diverter",
+    "JW-6FD",
+    45000,
+    [
+      "/diverters/6 Function Diverter (1).png",
+      "/diverters/6 Function Diverter (2).png",
+      "/diverters/6 Function Diverter (3).png",
+      "/diverters/6 Function Diverter (4).png",
+      "/diverters/6 Function Diverter (5).png",
+      "/diverters/6 Function Diverter (6).png",
+      "/diverters/6 Function Diverter (7).png",
+      "/diverters/6 Function Diverter (8).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "thermostatic-diverter-three-outlet",
+    "Thermostatic Diverter (Three Outlet)",
+    "JW-THD",
+    52000,
+    [
+      "/diverters/Thermostatic Diverter (1).png",
+      "/diverters/Thermostatic Diverter (2).png",
+      "/diverters/Thermostatic Diverter (3).png",
+      "/diverters/Thermostatic Diverter (4).png",
+      "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
+      "/diverters/Thermostatic Diverter (Three Outlet) (2).png",
+      "/diverters/Thermostatic Diverter (Three Outlet) (3).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "lever-diverter-three-outlet",
+    "Lever Diverter (Three Outlet)",
+    "JW-LVD",
+    34000,
+    [
+      "/diverters/Lever Diverter Three Outlet (1).png",
+      "/diverters/Lever Diverter Three Outlet (2).png",
+      "/diverters/Lever Diverter Three Outlet (3).png",
+      "/diverters/Lever Diverter Three Outlet (4).png",
+    ]
+  ),
+
+  // Tile Insert Drainers
+  ...createCategoryProducts(
+    "tile-insert-drain",
+    "Tile Insert Drain",
+    "JW-TID",
+    18000,
+    [
+      "/Tile Insert Drain/Tile Insert Drain (1).png",
+      "/Tile Insert Drain/Tile Insert Drain (2).png",
+      "/Tile Insert Drain/Tile Insert Drain (3).png",
+      "/Tile Insert Drain/Tile Insert Drain (4).png",
+    ]
+  ),
+  ...createCategoryProducts(
+    "tile-insert-125x125",
+    "Tile Insert Drain (125 x 125 MM)",
+    "JW-T125",
+    16000,
+    [
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (1).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (2).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (3).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (4).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (5).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (6).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (7).png",
+      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (8).png",
+    ]
+  ),
 ];
 
 export const products: Product[] = [
-  ...special2FunctionShowerProducts,
-  ...generateProducts(400),
+  ...realCategoryProducts,
+  ...generateProducts(100),
 ];
 
 export function getCategory(slug: string) {
@@ -415,8 +660,9 @@ export function getCategory(slug: string) {
 }
 
 export function getProductsByCategory(slug: string) {
-  if (slug === "2-function-shower-rain-mist") {
-    return special2FunctionShowerProducts;
+  const exact = realCategoryProducts.filter((p) => p.category === slug);
+  if (exact.length > 0) {
+    return exact;
   }
   return products.filter((p) => p.category === slug);
 }
