@@ -36,22 +36,22 @@ export function Header() {
             className="h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
-        <nav className="hidden lg:flex items-center gap-4">
+        <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
           <Link
             to="/"
-            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium hover:text-gold transition-colors whitespace-nowrap"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium hover:text-gold transition-colors whitespace-nowrap"
           >
             About
           </Link>
           <Link
             to="/gallery"
-            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium hover:text-gold transition-colors whitespace-nowrap"
           >
             Gallery
           </Link>
@@ -59,7 +59,7 @@ export function Header() {
             <div key={label} onMouseEnter={() => setOpen(label)} className="relative">
               <button
                 className={cn(
-                  "px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium transition-colors",
+                  "px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium transition-colors whitespace-nowrap",
                   open === label ? "text-gold" : "text-foreground hover:text-gold",
                 )}
               >
@@ -69,7 +69,7 @@ export function Header() {
           ))}
           <Link
             to="/contact"
-            className="px-2 xl:px-3 py-3 text-[10px] uppercase tracking-[0.15em] font-medium hover:text-gold transition-colors"
+            className="px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium hover:text-gold transition-colors whitespace-nowrap"
           >
             Contact
           </Link>

@@ -79,6 +79,28 @@ function CategoryPage() {
         </div>
       </section>
 
+      {/* PDF Assurance Info Section */}
+      <section className="bg-secondary/50 border-y border-border/50 py-10">
+        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div className="p-4">
+            <p className="font-serif text-2xl md:text-3xl text-gold">11 Years</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Unmatched Assurance</p>
+          </div>
+          <div className="p-4 border-l border-border/50">
+            <p className="font-serif text-2xl md:text-3xl text-gold">10+1 Years</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Extended Warranty</p>
+          </div>
+          <div className="p-4 border-l border-border/50">
+            <p className="font-serif text-2xl md:text-3xl text-gold">Vernet Inside</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">French Thermostatic Cartridge</p>
+          </div>
+          <div className="p-4 border-l border-border/50">
+            <p className="font-serif text-2xl md:text-3xl text-gold">PVD Bonded</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Corrosion Resistant Finish</p>
+          </div>
+        </div>
+      </section>
+
       <section className="max-w-7xl mx-auto px-8 py-16">
         {products.length > 0 ? (
           <>
