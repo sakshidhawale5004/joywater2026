@@ -32,28 +32,28 @@ const heroSlides = [
     title: "Striking a Chord",
     subtitle: "Experience luxury in every single drop.",
     category: "Showers",
-    link: "/category/rain-showers"
+    link: "/category/2-function-shower-rain-mist"
   },
   {
     image: "/banner3.png",
     title: "Refined Aesthetics",
     subtitle: "Transform your bathroom into a modern sanctuary.",
-    category: "Collections",
-    link: "/category/svelte-series"
+    category: "Basin Mixers",
+    link: "/category/round-controller-basin-mixer"
   },
   {
     image: "/banner4.jpg",
     title: "Intelligent Design",
     subtitle: "Where cutting-edge technology meets ultimate comfort.",
-    category: "Innovation",
-    link: "/category/intelligent-wc"
+    category: "Sanitaryware",
+    link: "/category/sanitaryware-collections"
   },
   {
     image: "/banner5.png",
     title: "Timeless Craft",
     subtitle: "Handcrafted accessories for an elegant finish.",
     category: "Accessories",
-    link: "/category/bath-accessories"
+    link: "/category/metal-led-mirrors"
   }
 ];
 
@@ -74,20 +74,41 @@ export const Route = createFileRoute("/")({
 });
 
 const collections = [
-  { title: "Designer Faucets", slug: "svelte-series", image: catFaucets, tag: "PVD & Chrome" },
-  { title: "Rain & Cascade Showers", slug: "rain-showers", image: catShowers, tag: "Overhead" },
   {
-    title: "Stone & Marble Basins",
-    slug: "stone-pedestal-basins",
-    image: catBasins,
-    tag: "Handcrafted",
+    title: "Rain & Cascade Showers",
+    slug: "2-function-shower-rain-mist",
+    image: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    tag: "Overhead Luxury",
   },
-  { title: "Intelligent WC", slug: "intelligent-wc", image: catToilets, tag: "Smart" },
   {
-    title: "Bath Accessories",
-    slug: "bath-accessories",
-    image: catAccessories,
-    tag: "Complete Sets",
+    title: "Body Showers & Jets",
+    slug: "body-jets-2-function",
+    image: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+    tag: "Hydrotherapy",
+  },
+  {
+    title: "Precision Diverters",
+    slug: "5-function-diverter",
+    image: "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
+    tag: "Thermostatic Control",
+  },
+  {
+    title: "Luxury Basin Mixers",
+    slug: "round-controller-basin-mixer",
+    image: "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
+    tag: "Solid Brass Billet",
+  },
+  {
+    title: "Sanitaryware Collections",
+    slug: "sanitaryware-collections",
+    image: "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    tag: "Ceramic Excellence",
+  },
+  {
+    title: "Mirrors & Accessories",
+    slug: "metal-led-mirrors",
+    image: "/HEROSECTIONIMAGES/Metal LED Mirrors.jpg",
+    tag: "Finishing Touches",
   },
 ];
 
@@ -467,14 +488,14 @@ function Index() {
               Book a Visit <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-4">
             <div
-              className="aspect-[3/4] bg-cover bg-center"
-              style={{ backgroundImage: `url(${catBasins})` }}
+              className="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl border border-border/80 transition-transform duration-700 hover:scale-[1.03]"
+              style={{ backgroundImage: `url('/images/PDF1_P20_IMG2.png')` }}
             />
             <div
-              className="aspect-[3/4] bg-cover bg-center mt-8"
-              style={{ backgroundImage: `url(${catAccessories})` }}
+              className="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl border border-border/80 mt-8 transition-transform duration-700 hover:scale-[1.03]"
+              style={{ backgroundImage: `url('/HEROSECTIONIMAGES/Round Controller Basin Mixer.png')` }}
             />
           </div>
         </div>

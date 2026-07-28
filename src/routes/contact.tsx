@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Send, CheckCircle2 } from "lucide-react";
+import { useState } from "react";
 
 export const Route = createFileRoute("/contact")({
   component: ContactPage,
@@ -19,6 +20,20 @@ export const Route = createFileRoute("/contact")({
 });
 
 function ContactPage() {
+  const [submitted, setSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    inquiryType: "Book a Showroom Visit",
+    message: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
   return (
     <SiteLayout>
       <section className="relative bg-primary text-primary-foreground py-24 overflow-hidden">
@@ -33,6 +48,7 @@ function ContactPage() {
         </div>
       </section>
 
+      {/* DIRECT CONTACT CARDS */}
       <section className="max-w-7xl mx-auto px-8 py-16 grid md:grid-cols-3 gap-8">
         {[
           {
@@ -72,7 +88,129 @@ function ContactPage() {
         ))}
       </section>
 
-      <section className="max-w-7xl mx-auto px-8 pb-24 grid md:grid-cols-2 gap-12 items-start">
+      {/* LUXURY STUDIO VISIT & INQUIRY FORM */}
+      <section className="max-w-7xl mx-auto px-8 py-16 border-t border-border/60">
+        <div className="max-w-3xl mx-auto bg-secondary/40 border border-border/80 rounded-2xl p-8 md:p-12 shadow-sm">
+          <div className="text-center mb-10">
+            <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Online Inquiry</p>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground">
+              Request a Studio Consultation or Custom Quote
+            </h2>
+            <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+              Connect directly with our senior design consultants in Pune for architectural specifications, project pricing, or to book a private showroom tour.
+            </p>
+          </div>
+
+          {submitted ? (
+            <div className="bg-background border border-gold/40 rounded-xl p-8 text-center space-y-4">
+              <CheckCircle2 className="h-12 w-12 text-gold mx-auto" />
+              <h3 className="font-serif text-2xl text-foreground">Inquiry Received</h3>
+              <p className="text-sm text-muted-foreground max-w-md mx-auto leading-relaxed">
+                Thank you for reaching out to Joy Water. Your inquiry has been forwarded directly to <strong className="text-foreground">Manoj Pandey</strong> and <strong className="text-foreground">Swapnil Jain</strong>. Our studio will contact you within 24 hours.
+              </p>
+              <button
+                onClick={() => {
+                  setSubmitted(false);
+                  setFormData({
+                    name: "",
+                    phone: "",
+                    email: "",
+                    inquiryType: "Book a Showroom Visit",
+                    message: "",
+                  });
+                }}
+                className="mt-4 inline-block text-xs uppercase tracking-widest text-gold hover:underline"
+              >
+                Send Another Inquiry
+              </button>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
+                    Full Name *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={formData.name}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    placeholder="Arun Kumar"
+                    className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-colors"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
+                    Phone / WhatsApp *
+                  </label>
+                  <input
+                    type="tel"
+                    required
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    placeholder="+91 98765 43210"
+                    className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-colors"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    placeholder="arun@example.com"
+                    className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-colors"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
+                    Inquiry Type
+                  </label>
+                  <select
+                    value={formData.inquiryType}
+                    onChange={(e) => setFormData({ ...formData, inquiryType: e.target.value })}
+                    className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-colors"
+                  >
+                    <option value="Book a Showroom Visit">Book a Showroom Visit</option>
+                    <option value="General Product Inquiry">General Product Inquiry</option>
+                    <option value="Architect / Designer Collaboration">Architect / Designer Collaboration</option>
+                    <option value="Project Quotation & Availability">Project Quotation & Availability</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
+                  Message / Project Requirements
+                </label>
+                <textarea
+                  rows={4}
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  placeholder="Tell us about your project, preferred finishes, or collections of interest..."
+                  className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-colors resize-none"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-lg text-xs uppercase tracking-[0.25em] font-medium hover:bg-gold hover:text-primary transition-all shadow-sm"
+              >
+                Send Inquiry to Studio <Send className="h-4 w-4" />
+              </button>
+            </form>
+          )}
+        </div>
+      </section>
+
+      {/* DISPLAY CENTRE & MAP */}
+      <section className="max-w-7xl mx-auto px-8 pb-24 grid md:grid-cols-2 gap-12 items-start border-t border-border/60 pt-16">
         <div>
           <p className="text-xs uppercase tracking-[0.3em] text-gold mb-4">Display Centre</p>
           <h2 className="font-serif text-4xl mb-6">Joy Water, Pune</h2>
@@ -106,12 +244,12 @@ function ContactPage() {
             href="https://www.google.com/maps/place/Joy+Water/@18.4539939,73.8797556,17z"
             target="_blank"
             rel="noreferrer"
-            className="inline-block mt-8 bg-primary text-primary-foreground px-8 py-4 text-xs uppercase tracking-[0.3em] hover:bg-gold hover:text-primary transition-all"
+            className="inline-block mt-8 bg-primary text-primary-foreground px-8 py-4 text-xs uppercase tracking-[0.3em] hover:bg-gold hover:text-primary transition-all rounded-lg"
           >
             Open in Google Maps
           </a>
         </div>
-        <div className="aspect-[4/3] w-full overflow-hidden border border-border">
+        <div className="aspect-[4/3] w-full overflow-hidden border border-border rounded-xl shadow-sm">
           <iframe
             title="Joy Water Pune"
             src="https://www.google.com/maps?q=Joy+Water,+Pune&z=17&output=embed"
