@@ -306,6 +306,51 @@ function Index() {
         </div>
       </section>
 
+      {/* JOY WATER ENGINEERING & UNMATCHED ASSURANCE */}
+      <section className="bg-secondary/40 py-20 border-b border-border/60">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Certified Quality</p>
+            <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-4">
+              11 Years Unmatched Assurance
+            </h2>
+            <p className="text-muted-foreground text-base leading-relaxed">
+              Every Joy Water creation represents a harmonious blend of Indian craftsmanship and European internal technology. We stand behind our fittings for over a decade.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="bg-background border border-border/80 p-6 rounded-xl shadow-sm">
+              <div className="font-serif text-2xl text-gold mb-2">11-Year Warranty</div>
+              <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 text-foreground">10+1 Years Protection</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Comprehensive 10-year base warranty plus 1 additional year of extended assurance on all brass and stainless steel assemblies.
+              </p>
+            </div>
+            <div className="bg-background border border-border/80 p-6 rounded-xl shadow-sm">
+              <div className="font-serif text-2xl text-gold mb-2">Vernet France</div>
+              <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 text-foreground">Thermostatic Precision</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Equipped with genuine French Vernet thermostatic wax elements for instant safety shut-off and exact temperature regulation.
+              </p>
+            </div>
+            <div className="bg-background border border-border/80 p-6 rounded-xl shadow-sm">
+              <div className="font-serif text-2xl text-gold mb-2">Neoperl Swiss</div>
+              <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 text-foreground">Aerated Flow Control</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Swiss-engineered aerators enrich the water stream with micro-bubbles, saving up to 40% water while maintaining luxurious volume.
+              </p>
+            </div>
+            <div className="bg-background border border-border/80 p-6 rounded-xl shadow-sm">
+              <div className="font-serif text-2xl text-gold mb-2">PVD Bonded</div>
+              <h3 className="text-sm font-semibold uppercase tracking-wider mb-2 text-foreground">Corrosion Impervious</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Physical Vapor Deposition (PVD) coating bonds color at the atomic level, resisting harsh water chemistry and daily wear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FINISHES */}
       <section className="max-w-7xl mx-auto px-8 py-24">
         <div className="text-center mb-14">

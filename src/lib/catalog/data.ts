@@ -187,6 +187,15 @@ export const categories: Category[] = [
     image: "/Tile Insert Drain/Tile Insert Drain (1).png",
     features: ["Seamless Look", "Easy to Clean", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "tile-insert-125x125",
+    title: "Tile Insert 125x125",
+    group: "tile-insert-drainers",
+    description: "Architectural 125x125 mm Tile Insert Drain engineered from Grade 304 Stainless Steel for flush floor integration.",
+    bannerImage: "/images/PDF1_P30_IMG1.png",
+    image: "/Tile Insert Drain/Tile Insert Drain (1).png",
+    features: ["125x125 mm Profile", "Seamless Look", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
+  },
 
   // 5. BASIN MIXERS
   {

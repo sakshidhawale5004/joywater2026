@@ -65,6 +65,32 @@ function AboutPage() {
           ))}
         </div>
       </section>
+
+      <section className="max-w-6xl mx-auto px-8 py-24 border-t border-border/60">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Our Standards</p>
+          <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-4">
+            11 Years of Unmatched Assurance
+          </h2>
+          <p className="text-muted-foreground text-base leading-relaxed">
+            We partner with Europe's finest precision component manufacturers to ensure our Indian-crafted fittings deliver flawless performance for over a decade.
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-10">
+          <div className="bg-secondary/30 p-8 border border-border/60 rounded-xl">
+            <h3 className="font-serif text-2xl mb-3 text-gold">French Vernet Cartridges</h3>
+            <p className="text-muted-foreground leading-relaxed text-sm">
+              Our thermostatic diverters and mixers use genuine French Vernet wax elements—the gold standard in temperature stabilization, providing instant safety shut-off against scalding.
+            </p>
+          </div>
+          <div className="bg-secondary/30 p-8 border border-border/60 rounded-xl">
+            <h3 className="font-serif text-2xl mb-3 text-gold">Swiss Neoperl Aerators</h3>
+            <p className="text-muted-foreground leading-relaxed text-sm">
+              Engineered with Neoperl volumetric honeycomb aerators that inject millions of micro-bubbles into the stream, saving up to 40% water without sacrificing pressure.
+            </p>
+          </div>
+        </div>
+      </section>
     </SiteLayout>
   );
 }

@@ -56,6 +56,7 @@ function getHeroSectionImage(slug: string): string {
 
     // Tile Insert Drainers
     "tile-insert-drain": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
+    "tile-insert-125x125": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
 
     // Basin Mixers
     "round-controller-basin-mixer": "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",

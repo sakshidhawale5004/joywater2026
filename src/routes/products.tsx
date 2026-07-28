@@ -25,7 +25,17 @@ function ProductsPage() {
   const [finish, setFinish] = useState<string>("all");
   const [visible, setVisible] = useState(48);
 
-  const groups = ["all", "faucets", "showers", "basins", "toilets", "components"];
+  const groupTabs = [
+    { id: "all", label: "ALL" },
+    { id: "showers", label: "SHOWERS" },
+    { id: "multi-functional-body-showers", label: "BODY SHOWERS" },
+    { id: "diverters", label: "DIVERTERS" },
+    { id: "tile-insert-drainers", label: "DRAINERS" },
+    { id: "basin-mixers", label: "BASIN MIXERS" },
+    { id: "sanitaryware", label: "SANITARYWARE" },
+    { id: "mirrors", label: "MIRRORS" },
+    { id: "accessories", label: "ACCESSORIES" },
+  ];
   const finishes = useMemo(
     () => ["all", ...Array.from(new Set(products.map((p) => p.finish)))],
     [],
@@ -49,8 +59,7 @@ function ProductsPage() {
           <p className="text-xs uppercase tracking-[0.3em] text-gold mb-4">Catalogue</p>
           <h1 className="font-serif text-5xl md:text-6xl">All Products</h1>
           <p className="mt-4 text-primary-foreground/70 max-w-2xl">
-            {products.length} curated pieces across faucets, showers, basins, sanitaryware and bath
-            components.
+            {products.length} curated luxury pieces across showers, body showers, diverters, drainers, basin mixers, sanitaryware, mirrors and accessories.
           </p>
         </div>
       </section>
@@ -58,16 +67,16 @@ function ProductsPage() {
       <section className="max-w-7xl mx-auto px-8 py-12">
         <div className="flex flex-wrap gap-6 items-center justify-between mb-10 pb-6 border-b border-border">
           <div className="flex flex-wrap gap-2">
-            {groups.map((g) => (
+            {groupTabs.map((g) => (
               <button
-                key={g}
+                key={g.id}
                 onClick={() => {
-                  setGroup(g);
+                  setGroup(g.id);
                   setVisible(48);
                 }}
-                className={`px-4 py-2 text-xs uppercase tracking-widest border transition-colors ${group === g ? "bg-primary text-primary-foreground border-primary" : "border-border hover:border-gold hover:text-gold"}`}
+                className={`px-4 py-2 text-xs uppercase tracking-widest border transition-colors ${group === g.id ? "bg-primary text-primary-foreground border-primary font-semibold shadow-sm" : "border-border hover:border-gold hover:text-gold"}`}
               >
-                {g}
+                {g.label}
               </button>
             ))}
           </div>
