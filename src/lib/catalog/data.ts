@@ -187,15 +187,6 @@ export const categories: Category[] = [
     image: "/Tile Insert Drain/Tile Insert Drain (1).png",
     features: ["Seamless Look", "Easy to Clean", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "tile-insert-125x125",
-    title: "Tile Insert (125 x 125 MM)",
-    group: "tile-insert-drainers",
-    description: "125 x 125 MM compact Tile Insert Drain with anti-odor trap and hair strainer.",
-    bannerImage: "/images/PDF1_P31_IMG1.png",
-    image: "/Tile Insert Drain/Tile Insert (125 x 125 MM) (1).png",
-    features: ["125x125 MM size", "Stainless Steel", "Anti-odor Trap", "11 Years Unmatched Assurance"]
-  },
 
   // 5. BASIN MIXERS
   {
@@ -672,14 +663,6 @@ const realCategoryProducts: Product[] = [
       "/Tile Insert Drain/Tile Insert Drain (2).png",
       "/Tile Insert Drain/Tile Insert Drain (3).png",
       "/Tile Insert Drain/Tile Insert Drain (4).png",
-    ]
-  ),
-  ...createCategoryProducts(
-    "tile-insert-125x125",
-    "Tile Insert Drain (125 x 125 MM)",
-    "JW-T125",
-    16000,
-    [
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (1).png",
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (2).png",
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (3).png",
@@ -1039,8 +1022,7 @@ export const megaMenu = {
   },
   "Tile Insert Drainers": {
     "Drainers": [
-      "tile-insert-drain",
-      "tile-insert-125x125"
+      "tile-insert-drain"
     ]
   },
   "Basin Mixers": {
