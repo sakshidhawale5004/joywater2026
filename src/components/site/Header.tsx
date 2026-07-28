@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { megaMenu, getCategory } from "@/lib/catalog/data";
@@ -11,9 +11,38 @@ const NAV = Object.keys(megaMenu) as MenuKey[];
 export function Header() {
   const [open, setOpen] = useState<MenuKey | null>(null);
   const [mobile, setMobile] = useState(false);
+  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleMouseEnter = (label: MenuKey) => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+    setOpen(label);
+  };
+
+  const handleDropdownMouseEnter = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+    }
+    closeTimeoutRef.current = setTimeout(() => {
+      setOpen(null);
+    }, 300);
+  };
 
   return (
-    <header className="sticky top-0 z-50 bg-background border-b border-border/60" onMouseLeave={() => setOpen(null)}>
+    <header
+      className="sticky top-0 z-50 bg-background border-b border-border/60"
+      onMouseLeave={handleMouseLeave}
+      onMouseEnter={handleDropdownMouseEnter}
+    >
       <div className="relative z-10 hidden md:flex items-center justify-between px-8 py-2 text-xs tracking-widest uppercase text-muted-foreground bg-primary/90 text-primary-foreground/80">
         <span>Timeless Luxury · Handcrafted Bath Fittings</span>
         <div className="flex gap-6">
@@ -56,10 +85,15 @@ export function Header() {
             Gallery
           </Link>
           {NAV.map((label) => (
-            <div key={label} onMouseEnter={() => setOpen(label)} className="relative">
+            <div
+              key={label}
+              onMouseEnter={() => handleMouseEnter(label)}
+              className="relative py-3 -my-3 flex items-center"
+            >
               <button
+                onClick={() => setOpen(open === label ? null : label)}
                 className={cn(
-                  "px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium transition-colors whitespace-nowrap",
+                  "px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium transition-colors whitespace-nowrap cursor-pointer",
                   open === label ? "text-gold" : "text-foreground hover:text-gold",
                 )}
               >
@@ -81,9 +115,9 @@ export function Header() {
 
       {open && (
         <div
-          className="hidden lg:block absolute left-0 right-0 top-full bg-background border-t border-border shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)]"
-          onMouseEnter={() => setOpen(open)}
-          onMouseLeave={() => setOpen(null)}
+          className="hidden lg:block absolute left-0 right-0 top-full bg-background border-t border-border shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)] z-50"
+          onMouseEnter={handleDropdownMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           <div className="max-w-7xl mx-auto grid grid-cols-4 gap-10 px-10 py-10">
             {Object.entries(megaMenu[open]).map(([section, slugs]) => (
@@ -178,5 +212,7 @@ function formatSlug(slug: string) {
     .replace(/\babs\b/gi, "ABS")
     .replace(/\bro\b/gi, "RO")
     .replace(/\bwc\b/gi, "WC")
+    .replace(/\bled\b/gi, "LED")
+    .replace(/\b3d\b/gi, "3D")
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
