@@ -34,7 +34,7 @@ function ProductsPage() {
     { id: "basin-mixers", label: "BASIN MIXERS" },
     { id: "sanitaryware", label: "SANITARYWARE" },
     { id: "mirrors", label: "MIRRORS" },
-    { id: "accessories", label: "ACCESSORIES" },
+    { id: "others-accessories", label: "ACCESSORIES" },
   ];
   const finishes = useMemo(
     () => ["all", ...Array.from(new Set(products.map((p) => p.finish)))],

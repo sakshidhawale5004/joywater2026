@@ -77,10 +77,12 @@ function getHeroSectionImage(slug: string): string {
     "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
 
     // Mirrors
-    "metal-led-mirrors": "/HEROSECTIONIMAGES/Metal LED Mirrors.jpg",
-    "metal-mirrors": "/HEROSECTIONIMAGES/Metal Mirrors.webp",
     "led-mirrors": "/HEROSECTIONIMAGES/LED Mirrors.jpg",
     "3d-mirrors": "/HEROSECTIONIMAGES/3D Mirrors.jpg",
+    "metal-led-mirrors": "/HEROSECTIONIMAGES/Metal LED Mirrors.jpg",
+    "metal-mirrors": "/HEROSECTIONIMAGES/Metal Mirrors.webp",
+    "classic-mirrors": "/classicmirrors/externalecho.png",
+    "customized-mirrors": "/customizedmirrors/customizedmirrors (1).jpg",
     "plain-mirrors": "/HEROSECTIONIMAGES/Plain Mirrors.jpg",
   };
 

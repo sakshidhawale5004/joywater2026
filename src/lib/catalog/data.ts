@@ -188,15 +188,6 @@ export const categories: Category[] = [
     image: "/Tile Insert Drain/Tile Insert Drain (1).png",
     features: ["Seamless Look", "Easy to Clean", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "tile-insert-125x125",
-    title: "Tile Insert 125x125",
-    group: "tile-insert-drainers",
-    description: "Architectural 125x125 mm Tile Insert Drain engineered from Grade 304 Stainless Steel for flush floor integration.",
-    bannerImage: "/images/PDF1_P30_IMG1.png",
-    image: "/Tile Insert Drain/Tile Insert Drain (1).png",
-    features: ["125x125 mm Profile", "Seamless Look", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
-  },
 
   // 5. BASIN MIXERS
   {
@@ -276,22 +267,6 @@ export const categories: Category[] = [
     image: "/wallhungwc/25.jpg",
     features: ["Rimless Hygiene", "Soft Close Seat", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "sanitaryware-collections",
-    title: "Sanitaryware Collections",
-    group: "sanitaryware",
-    description: "Sanitaryware Collections featuring timeless porcelain ceramics, high-efficiency flushing technology, and ergonomic contours.",
-    bannerImage: "/images/PDF1_P40_IMG1.png",
-    features: ["Rimless Design", "High Efficiency Flush", "Soft Close Seat", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "premium-sanitaryware-collections",
-    title: "Premium Sanitaryware Collections",
-    group: "sanitaryware",
-    description: "Premium Sanitaryware Collections finished in custom metallic PVD and matte glazes. Rimless hygiene and soft-close seating.",
-    bannerImage: "/images/PDF1_P40_IMG1.png",
-    features: ["Premium Glaze", "Rimless Design", "Soft Close Seat", "11 Years Unmatched Assurance", "Special Finish"]
-  },
 
   // 7. OTHERS / ACCESSORIES
   {
@@ -305,27 +280,11 @@ export const categories: Category[] = [
 
   // 8. MIRRORS
   {
-    slug: "metal-led-mirrors",
-    title: "Metal LED Mirrors",
-    group: "mirrors",
-    description: "Architectural Metal LED Mirrors framed in solid metallic alloys with integrated touch-sensitive LED backlighting and anti-fog heating.",
-    bannerImage: "/MIRRORS/METAL LED MIRRORS (1).jpg",
-    features: ["LED Backlighting", "Metallic Frame", "Anti-Fog Heater", "11 Years Unmatched Assurance", "Touch Sensor"]
-  },
-  {
-    slug: "metal-mirrors",
-    title: "Metal Mirrors",
-    group: "mirrors",
-    description: "Elegant Metal Mirrors framed in sleek brushed and polished metallic profiles for a striking contemporary vanity statement.",
-    bannerImage: "/MIRRORS/METAL MIRRORS (1).jpg",
-    features: ["Metallic Profile", "Corrosion Resistant", "Precision Edge", "11 Years Unmatched Assurance"]
-  },
-  {
     slug: "led-mirrors",
     title: "LED Mirrors",
     group: "mirrors",
     description: "Frameless LED Vanity Mirrors featuring ambient halo illumination, adjustable color temperatures, and crystal-clear float glass.",
-    bannerImage: "/MIRRORS/LED MIRRORS (1).png",
+    bannerImage: "/ledmirroer/ganesh.jpg",
     features: ["Halo Illumination", "Adjustable CCT", "Anti-Fog Heating", "11 Years Unmatched Assurance"]
   },
   {
@@ -333,16 +292,40 @@ export const categories: Category[] = [
     title: "3D Mirrors",
     group: "mirrors",
     description: "Stunning 3D Infinity & Sculptural Mirrors that create deep architectural dimension and modern luxury lighting effects.",
-    bannerImage: "/MIRRORS/3D MIRRORS (1).png",
+    bannerImage: "/3dmirrors/bloomaura.jpg",
     features: ["3D Optical Depth", "LED Integrated", "Sculptural Form", "11 Years Unmatched Assurance"]
   },
   {
-    slug: "plain-mirrors",
-    title: "Plain Mirrors",
+    slug: "metal-led-mirrors",
+    title: "Metal LED Mirrors",
     group: "mirrors",
-    description: "Minimalist High-Definition Plain Vanity Mirrors crafted from distortion-free silver float glass with polished safety edges.",
-    bannerImage: "/MIRRORS/plain MIRRORS (1).png",
-    features: ["HD Silver Glass", "Distortion Free", "Polished Safety Edge", "11 Years Unmatched Assurance"]
+    description: "Architectural Metal LED Mirrors framed in solid metallic alloys with integrated touch-sensitive LED backlighting and anti-fog heating.",
+    bannerImage: "/metalledmirror/GLEAMGUARDGOLD.jpg",
+    features: ["LED Backlighting", "Metallic Frame", "Anti-Fog Heater", "11 Years Unmatched Assurance", "Touch Sensor"]
+  },
+  {
+    slug: "metal-mirrors",
+    title: "Metal Mirrors",
+    group: "mirrors",
+    description: "Elegant Metal Mirrors framed in sleek brushed and polished metallic profiles for a striking contemporary vanity statement.",
+    bannerImage: "/metalmirror/artisiancircle.jpg",
+    features: ["Metallic Profile", "Corrosion Resistant", "Precision Edge", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "classic-mirrors",
+    title: "Classic Mirrors",
+    group: "mirrors",
+    description: "Timeless Classic Vanity Mirrors crafted with precision decorative borders and lead-free crystal float glass.",
+    bannerImage: "/classicmirrors/externalecho.png",
+    features: ["Beveled Edge", "Lead-Free Silver Glass", "Distortion Free", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "customized-mirrors",
+    title: "Customized Mirrors",
+    group: "mirrors",
+    description: "Bespoke Luxury Mirrors custom-designed for architectural residences, boutique hotels, and personal spaces with tailored lighting and dimensions.",
+    bannerImage: "/customizedmirrors/customizedmirrors (1).jpg",
+    features: ["Bespoke Dimensions", "Tailored Illumination", "Smart Add-Ons", "11 Years Unmatched Assurance"]
   }
 ];
 
@@ -385,6 +368,7 @@ const SERIES = [
 
 import imageList from "../imageList.json";
 import { sanitarywareProducts } from "./sanitarywareProducts";
+import { mirrorProducts } from "./mirrorProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function createCategoryProducts(
@@ -868,7 +852,8 @@ const realCategoryProducts: Product[] = [
     ]
   ),
 
-  // Mirrors - Products removed per user request
+  // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
+  ...mirrorProducts,
 ];
 
 export const products: Product[] = [
@@ -948,11 +933,12 @@ export const megaMenu = {
   },
   "Mirrors": {
     "Bathroom Mirrors": [
-      "metal-led-mirrors",
-      "metal-mirrors",
       "led-mirrors",
       "3d-mirrors",
-      "plain-mirrors"
+      "metal-led-mirrors",
+      "metal-mirrors",
+      "classic-mirrors",
+      "customized-mirrors"
     ]
   }
 } as const;

@@ -21,6 +21,41 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroSlides = [
   {
+    image: "/images/BANNERFORHOME.jpg",
+    title: "The Art of Water",
+    subtitle: "Discover our latest collection of premium architectural bath fittings.",
+    category: "Joy Water Exclusives",
+    link: "/products"
+  },
+  {
+    image: "/JOYWATER/JOYWATER (6).jpeg",
+    title: "Timeless Luxury",
+    subtitle: "Experience refined craftsmanship in every single detail.",
+    category: "Signature Series",
+    link: "/products"
+  },
+  {
+    image: "/HEROSECTIONIMAGES/One Line Series.jpg",
+    title: "One Line Series",
+    subtitle: "Minimalist architectural body showers engineered for modern bath sanctuaries.",
+    category: "Body Showers",
+    link: "/category/one-line-series"
+  },
+  {
+    image: "/HEROSECTIONIMAGES/Eminence Series.jpg",
+    title: "Eminence Series",
+    subtitle: "Precision engineering and unmatched brass craftsmanship.",
+    category: "Body Showers",
+    link: "/category/eminence-series"
+  },
+  {
+    image: "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    title: "Sanitaryware Collections",
+    subtitle: "Contemporary ceramic masterpieces crafted for luxury living.",
+    category: "Sanitaryware",
+    link: "/category/sanitaryware-basins"
+  },
+  {
     image: "/banner1.jpg",
     title: "The Art of Water",
     subtitle: "Discover our latest collection of premium bath fittings.",
@@ -106,8 +141,8 @@ const collections = [
   },
   {
     title: "Mirrors & Accessories",
-    slug: "metal-led-mirrors",
-    image: "/HEROSECTIONIMAGES/Metal LED Mirrors.jpg",
+    slug: "led-mirrors",
+    image: "/ledmirroer/ganesh.jpg",
     tag: "Finishing Touches",
   },
 ];

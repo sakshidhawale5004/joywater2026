@@ -1,0 +1,625 @@
+import type { Product } from "./data";
+
+// All 62 authentic mirror products from Joy water mirror.pdf across the 6 collections
+export const mirrorProducts: Product[] = [
+  {
+    "id": "led-mirrors-1",
+    "slug": "led-mirrors-1",
+    "name": "Aura Ova LED Vanity Mirror",
+    "category": "led-mirrors",
+    "finish": "Matte White",
+    "price": 5850,
+    "code": "JW-3032",
+    "image": "/ledmirroer/auraova.jpg"
+  },
+  {
+    "id": "led-mirrors-2",
+    "slug": "led-mirrors-2",
+    "name": "Celestial Contour LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Brushed Gold",
+    "price": 16200,
+    "code": "JW-3027",
+    "image": "/ledmirroer/celestialcontour.jpg"
+  },
+  {
+    "id": "led-mirrors-3",
+    "slug": "led-mirrors-3",
+    "name": "Celestial Trifecta LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Rose Gold",
+    "price": 7500,
+    "code": "JW-3034",
+    "image": "/ledmirroer/celestialtrfecta.jpg"
+  },
+  {
+    "id": "led-mirrors-4",
+    "slug": "led-mirrors-4",
+    "name": "Circlet Luminance LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Chrome",
+    "price": 7900,
+    "code": "JW-3011",
+    "image": "/ledmirroer/circletluminence.jpg"
+  },
+  {
+    "id": "led-mirrors-5",
+    "slug": "led-mirrors-5",
+    "name": "Cirque Luxe LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Matte Black",
+    "price": 18000,
+    "code": "JW-3038",
+    "image": "/ledmirroer/cirqueluxe.jpg"
+  },
+  {
+    "id": "led-mirrors-6",
+    "slug": "led-mirrors-6",
+    "name": "Ganesh LED Vanity Mirror",
+    "category": "led-mirrors",
+    "finish": "Brushed Gold",
+    "price": 16300,
+    "code": "JW-3001",
+    "image": "/ledmirroer/ganesh.jpg"
+  },
+  {
+    "id": "led-mirrors-7",
+    "slug": "led-mirrors-7",
+    "name": "Glow Scape LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Warm LED",
+    "price": 8500,
+    "code": "JW-3025",
+    "image": "/ledmirroer/glowscape.jpg"
+  },
+  {
+    "id": "led-mirrors-8",
+    "slug": "led-mirrors-8",
+    "name": "Lumina Grid LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Silver Glass",
+    "price": 14400,
+    "code": "JW-3016",
+    "image": "/ledmirroer/luminagrid.jpg"
+  },
+  {
+    "id": "led-mirrors-9",
+    "slug": "led-mirrors-9",
+    "name": "Luminous Panel LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Ambient LED",
+    "price": 5850,
+    "code": "JW-3018",
+    "image": "/ledmirroer/luminiuouspanel.jpg"
+  },
+  {
+    "id": "led-mirrors-10",
+    "slug": "led-mirrors-10",
+    "name": "Lunagaze LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Cool White",
+    "price": 7200,
+    "code": "JW-3024",
+    "image": "/ledmirroer/lunagaze.jpg"
+  },
+  {
+    "id": "led-mirrors-11",
+    "slug": "led-mirrors-11",
+    "name": "Lustra Orbit LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Brushed Gold",
+    "price": 16300,
+    "code": "JW-3008",
+    "image": "/ledmirroer/lustraorbit.jpg"
+  },
+  {
+    "id": "led-mirrors-12",
+    "slug": "led-mirrors-12",
+    "name": "Oval Glow LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Warm Gold",
+    "price": 5850,
+    "code": "JW-3029",
+    "image": "/ledmirroer/ovalglow.jpg"
+  },
+  {
+    "id": "led-mirrors-13",
+    "slug": "led-mirrors-13",
+    "name": "Radiant Linear LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Brushed Nickel",
+    "price": 8500,
+    "code": "JW-3020",
+    "image": "/ledmirroer/radiantlinear.jpg"
+  },
+  {
+    "id": "led-mirrors-14",
+    "slug": "led-mirrors-14",
+    "name": "Recta Gleam LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Polished Chrome",
+    "price": 36000,
+    "code": "JW-3015",
+    "image": "/ledmirroer/recta gleam.jpg"
+  },
+  {
+    "id": "led-mirrors-15",
+    "slug": "led-mirrors-15",
+    "name": "Recta Luxe LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Matte Black",
+    "price": 12000,
+    "code": "JW-3037",
+    "image": "/ledmirroer/rectaluxe.jpg"
+  },
+  {
+    "id": "led-mirrors-16",
+    "slug": "led-mirrors-16",
+    "name": "Recta Radiant LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Silver Glass",
+    "price": 10800,
+    "code": "JW-3017",
+    "image": "/ledmirroer/rectaradiant.jpg"
+  },
+  {
+    "id": "led-mirrors-17",
+    "slug": "led-mirrors-17",
+    "name": "Round Aura LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Halo LED",
+    "price": 10800,
+    "code": "JW-3007",
+    "image": "/ledmirroer/roundaura.jpg"
+  },
+  {
+    "id": "led-mirrors-18",
+    "slug": "led-mirrors-18",
+    "name": "Round Gleam LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Brushed Gold",
+    "price": 13500,
+    "code": "JW-3003",
+    "image": "/ledmirroer/roundgleam.jpg"
+  },
+  {
+    "id": "led-mirrors-19",
+    "slug": "led-mirrors-19",
+    "name": "Tri Luxe LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Rose Gold",
+    "price": 14400,
+    "code": "JW-3035",
+    "image": "/ledmirroer/triluxe.jpg"
+  },
+  {
+    "id": "led-mirrors-20",
+    "slug": "led-mirrors-20",
+    "name": "Zenith Round LED Mirror",
+    "category": "led-mirrors",
+    "finish": "Graphite Grey",
+    "price": 10800,
+    "code": "JW-3005",
+    "image": "/ledmirroer/zenithround.jpg"
+  },
+  {
+    "id": "3d-mirrors-1",
+    "slug": "3d-mirrors-1",
+    "name": "Bloom Aura 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "Infinity Glow",
+    "price": 17400,
+    "code": "JW-4005",
+    "image": "/3dmirrors/bloomaura.jpg"
+  },
+  {
+    "id": "3d-mirrors-2",
+    "slug": "3d-mirrors-2",
+    "name": "Flora Gleam 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "3D Sculpted",
+    "price": 17400,
+    "code": "JW-4006",
+    "image": "/3dmirrors/floragleam.jpg"
+  },
+  {
+    "id": "3d-mirrors-3",
+    "slug": "3d-mirrors-3",
+    "name": "Floral Finesse 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "Rose Gold Glow",
+    "price": 17400,
+    "code": "JW-4002",
+    "image": "/3dmirrors/floralfinesse.jpg"
+  },
+  {
+    "id": "3d-mirrors-4",
+    "slug": "3d-mirrors-4",
+    "name": "Flora Luxe 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "Brushed Gold",
+    "price": 17400,
+    "code": "JW-4003",
+    "image": "/3dmirrors/floraluxe.jpg"
+  },
+  {
+    "id": "3d-mirrors-5",
+    "slug": "3d-mirrors-5",
+    "name": "Octa Spectra 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "Geometrical Glow",
+    "price": 17400,
+    "code": "JW-4004",
+    "image": "/3dmirrors/octaspectra.jpg"
+  },
+  {
+    "id": "3d-mirrors-6",
+    "slug": "3d-mirrors-6",
+    "name": "Orbital Radiance 3D Infinity Mirror",
+    "category": "3d-mirrors",
+    "finish": "Deep Infinity",
+    "price": 17400,
+    "code": "JW-4001",
+    "image": "/3dmirrors/orbitalradiance.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-1",
+    "slug": "metal-led-mirrors-1",
+    "name": "Gleam Guard Metal LED Mirror (Black)",
+    "category": "metal-led-mirrors",
+    "finish": "Matte Black",
+    "price": 16500,
+    "code": "JW-1009",
+    "image": "/metalledmirror/GLEAMGUARDBlack.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-2",
+    "slug": "metal-led-mirrors-2",
+    "name": "Gleam Guard Metal LED Mirror (Gold)",
+    "category": "metal-led-mirrors",
+    "finish": "Brushed Gold",
+    "price": 16500,
+    "code": "JW-1010",
+    "image": "/metalledmirror/GLEAMGUARDGOLD.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-3",
+    "slug": "metal-led-mirrors-3",
+    "name": "Gleam Guard Metal LED Mirror (Rose Gold)",
+    "category": "metal-led-mirrors",
+    "finish": "Rose Gold",
+    "price": 16500,
+    "code": "JW-1011",
+    "image": "/metalledmirror/GLEAMGUARDroseGOLD (1).jpg"
+  },
+  {
+    "id": "metal-led-mirrors-4",
+    "slug": "metal-led-mirrors-4",
+    "name": "Metal Aura LED Mirror (Matte Black)",
+    "category": "metal-led-mirrors",
+    "finish": "Matte Black",
+    "price": 36000,
+    "code": "JW-1002",
+    "image": "/metalledmirror/MATTBLACK.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-5",
+    "slug": "metal-led-mirrors-5",
+    "name": "Metal Aura LED Mirror (Matte Gold)",
+    "category": "metal-led-mirrors",
+    "finish": "Matte Gold",
+    "price": 45000,
+    "code": "JW-1001",
+    "image": "/metalledmirror/MATTGOLD.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-6",
+    "slug": "metal-led-mirrors-6",
+    "name": "Metal Eclipse LED Mirror",
+    "category": "metal-led-mirrors",
+    "finish": "Gunmetal",
+    "price": 12600,
+    "code": "JW-1007",
+    "image": "/metalledmirror/METALECLIPSE.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-7",
+    "slug": "metal-led-mirrors-7",
+    "name": "Metal Majesty LED Mirror",
+    "category": "metal-led-mirrors",
+    "finish": "Polished Gold",
+    "price": 12600,
+    "code": "JW-1003",
+    "image": "/metalledmirror/METALMAJESTY.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-8",
+    "slug": "metal-led-mirrors-8",
+    "name": "Metal Mystique LED Mirror",
+    "category": "metal-led-mirrors",
+    "finish": "Brushed Nickel",
+    "price": 12600,
+    "code": "JW-1005",
+    "image": "/metalledmirror/METALMYSTIQUE.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-9",
+    "slug": "metal-led-mirrors-9",
+    "name": "Lumina Metallica LED Mirror",
+    "category": "metal-led-mirrors",
+    "finish": "Gloss Gold",
+    "price": 22500,
+    "code": "JW-1013",
+    "image": "/metalledmirror/luminametallica.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-10",
+    "slug": "metal-led-mirrors-10",
+    "name": "Metallic Vision LED Mirror",
+    "category": "metal-led-mirrors",
+    "finish": "Graphite Grey",
+    "price": 17310,
+    "code": "JW-1012",
+    "image": "/metalledmirror/metallicvision.jpg"
+  },
+  {
+    "id": "metal-mirrors-1",
+    "slug": "metal-mirrors-1",
+    "name": "Metal Arc Contemporary Mirror",
+    "category": "metal-mirrors",
+    "finish": "Matte Gold",
+    "price": 14400,
+    "code": "JW-2013",
+    "image": "/metalmirror/120.jpg"
+  },
+  {
+    "id": "metal-mirrors-2",
+    "slug": "metal-mirrors-2",
+    "name": "Artisan Circle Metal Mirror",
+    "category": "metal-mirrors",
+    "finish": "Matte Black",
+    "price": 18000,
+    "code": "JW-2012",
+    "image": "/metalmirror/artisiancircle.jpg"
+  },
+  {
+    "id": "metal-mirrors-3",
+    "slug": "metal-mirrors-3",
+    "name": "Lustra Oval Metal Mirror",
+    "category": "metal-mirrors",
+    "finish": "Brushed Gold",
+    "price": 10800,
+    "code": "JW-2004",
+    "image": "/metalmirror/lutraoval.jpg"
+  },
+  {
+    "id": "metal-mirrors-4",
+    "slug": "metal-mirrors-4",
+    "name": "Metal Edge Classic Mirror",
+    "category": "metal-mirrors",
+    "finish": "Gloss Gold",
+    "price": 14400,
+    "code": "JW-2003",
+    "image": "/metalmirror/metaledge.jpg"
+  },
+  {
+    "id": "metal-mirrors-5",
+    "slug": "metal-mirrors-5",
+    "name": "Radiant Ring Metal Mirror",
+    "category": "metal-mirrors",
+    "finish": "Matte Black",
+    "price": 8100,
+    "code": "JW-2008",
+    "image": "/metalmirror/metallicvision.jpg"
+  },
+  {
+    "id": "metal-mirrors-6",
+    "slug": "metal-mirrors-6",
+    "name": "Metal Mingle Mirror (Matte Black)",
+    "category": "metal-mirrors",
+    "finish": "Matte Black",
+    "price": 8100,
+    "code": "JW-2006",
+    "image": "/metalmirror/metalmingleblack (1).jpg"
+  },
+  {
+    "id": "metal-mirrors-7",
+    "slug": "metal-mirrors-7",
+    "name": "Metal Mingle Mirror (Gloss Gold)",
+    "category": "metal-mirrors",
+    "finish": "Gloss Gold",
+    "price": 8100,
+    "code": "JW-2007",
+    "image": "/metalmirror/metalminglegold.jpg"
+  },
+  {
+    "id": "metal-mirrors-8",
+    "slug": "metal-mirrors-8",
+    "name": "Miragique Metal Mirror (Rose Gold)",
+    "category": "metal-mirrors",
+    "finish": "Rose Gold",
+    "price": 8100,
+    "code": "JW-2010",
+    "image": "/metalmirror/metalminglerosegold.jpg"
+  },
+  {
+    "id": "metal-mirrors-9",
+    "slug": "metal-mirrors-9",
+    "name": "Ovaluxe Metal Mirror (Matte Black)",
+    "category": "metal-mirrors",
+    "finish": "Matte Black",
+    "price": 18000,
+    "code": "JW-2002",
+    "image": "/metalmirror/ovaluxeblack.jpg"
+  },
+  {
+    "id": "metal-mirrors-10",
+    "slug": "metal-mirrors-10",
+    "name": "Ovaluxe Metal Mirror (Gloss Gold)",
+    "category": "metal-mirrors",
+    "finish": "Gloss Gold",
+    "price": 18000,
+    "code": "JW-2001",
+    "image": "/metalmirror/ovaluxegold.jpg"
+  },
+  {
+    "id": "classic-mirrors-1",
+    "slug": "classic-mirrors-1",
+    "name": "Eternal Echo Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Black Profile",
+    "price": 6660,
+    "code": "JW-5001",
+    "image": "/classicmirrors/externalecho.png"
+  },
+  {
+    "id": "classic-mirrors-2",
+    "slug": "classic-mirrors-2",
+    "name": "Flora Luxe Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Silver Glass",
+    "price": 3330,
+    "code": "JW-5002",
+    "image": "/classicmirrors/floraluxe.png"
+  },
+  {
+    "id": "classic-mirrors-3",
+    "slug": "classic-mirrors-3",
+    "name": "Gleam Square Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Black Marble",
+    "price": 2250,
+    "code": "JW-5007",
+    "image": "/classicmirrors/gleamsquare.png"
+  },
+  {
+    "id": "classic-mirrors-4",
+    "slug": "classic-mirrors-4",
+    "name": "Matrix View Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Beveled Silver",
+    "price": 1620,
+    "code": "JW-5003",
+    "image": "/classicmirrors/matrixview.png"
+  },
+  {
+    "id": "classic-mirrors-5",
+    "slug": "classic-mirrors-5",
+    "name": "Pyra Sphere Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Matte Black",
+    "price": 2430,
+    "code": "JW-5005",
+    "image": "/classicmirrors/pyrasphere.png"
+  },
+  {
+    "id": "classic-mirrors-6",
+    "slug": "classic-mirrors-6",
+    "name": "Quadra Vista Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Brown Marble",
+    "price": 2700,
+    "code": "JW-5006",
+    "image": "/classicmirrors/quadravista.png"
+  },
+  {
+    "id": "classic-mirrors-7",
+    "slug": "classic-mirrors-7",
+    "name": "Quadro Spectrum Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Polished Glass",
+    "price": 1800,
+    "code": "JW-5014",
+    "image": "/classicmirrors/quadrospectrum.jpg"
+  },
+  {
+    "id": "classic-mirrors-8",
+    "slug": "classic-mirrors-8",
+    "name": "Recta Prisma Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Crystal Glass",
+    "price": 1710,
+    "code": "JW-5004",
+    "image": "/classicmirrors/rectaprisma.png"
+  },
+  {
+    "id": "classic-mirrors-9",
+    "slug": "classic-mirrors-9",
+    "name": "Spira Mirage Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Mirror Edge",
+    "price": 1890,
+    "code": "JW-5011",
+    "image": "/classicmirrors/spiramirage.jpg"
+  },
+  {
+    "id": "classic-mirrors-10",
+    "slug": "classic-mirrors-10",
+    "name": "Square Sculpt Classic Mirror",
+    "category": "classic-mirrors",
+    "finish": "Silver Edge",
+    "price": 2250,
+    "code": "JW-5008",
+    "image": "/classicmirrors/squaresculpt.png"
+  },
+  {
+    "id": "customized-mirrors-1",
+    "slug": "customized-mirrors-1",
+    "name": "Customized Bespoke Luxury Mirror - Edition I",
+    "category": "customized-mirrors",
+    "finish": "Bespoke LED",
+    "price": 25000,
+    "code": "JW-6001",
+    "image": "/customizedmirrors/customizedmirrors (1).jpg"
+  },
+  {
+    "id": "customized-mirrors-2",
+    "slug": "customized-mirrors-2",
+    "name": "Customized Bespoke Luxury Mirror - Edition II",
+    "category": "customized-mirrors",
+    "finish": "Bespoke Gold",
+    "price": 28000,
+    "code": "JW-6002",
+    "image": "/customizedmirrors/customizedmirrors (2).jpg"
+  },
+  {
+    "id": "customized-mirrors-3",
+    "slug": "customized-mirrors-3",
+    "name": "Customized Bespoke Luxury Mirror - Edition III",
+    "category": "customized-mirrors",
+    "finish": "Architectural Backlight",
+    "price": 32000,
+    "code": "JW-6003",
+    "image": "/customizedmirrors/customizedmirrors (3).jpg"
+  },
+  {
+    "id": "customized-mirrors-4",
+    "slug": "customized-mirrors-4",
+    "name": "Customized Bespoke Luxury Mirror - Edition IV",
+    "category": "customized-mirrors",
+    "finish": "Bespoke Rose Gold",
+    "price": 35000,
+    "code": "JW-6004",
+    "image": "/customizedmirrors/customizedmirrors (4).jpg"
+  },
+  {
+    "id": "customized-mirrors-5",
+    "slug": "customized-mirrors-5",
+    "name": "Customized Bespoke Luxury Mirror - Edition V",
+    "category": "customized-mirrors",
+    "finish": "Ambient Sensor",
+    "price": 40000,
+    "code": "JW-6005",
+    "image": "/customizedmirrors/customizedmirrors (5).jpg"
+  },
+  {
+    "id": "customized-mirrors-6",
+    "slug": "customized-mirrors-6",
+    "name": "Customized Bespoke Luxury Mirror - Edition VI",
+    "category": "customized-mirrors",
+    "finish": "Luxury Infinity",
+    "price": 45000,
+    "code": "JW-6006",
+    "image": "/customizedmirrors/customizedmirrors (6).jpg"
+  }
+];
