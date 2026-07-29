@@ -372,7 +372,7 @@ function mulberry32(a: number) {
 function generateProducts(count: number): Product[] {
   const rand = mulberry32(20260723);
   const productable = categories.filter((c) =>
-    ["showers", "multi-functional-body-showers", "diverters", "tile-insert-drainers", "basin-mixers", "sanitaryware", "others-accessories"].includes(c.group),
+    ["showers", "multi-functional-body-showers", "diverters", "tile-insert-drainers", "basin-mixers", "others-accessories"].includes(c.group),
   );
   const out: Product[] = [];
 
@@ -760,25 +760,6 @@ const realCategoryProducts: Product[] = [
   ),
 
   // Sanitaryware
-  ...createCategoryProducts(
-    "sanitaryware-collections",
-    "Sanitaryware Collection",
-    "JW-SW",
-    28000,
-    Array.from({ length: 33 }, (_, i) => `/SANITYWARE/Sanitaryware Collections (${i + 1}).jpg`)
-  ),
-  ...createCategoryProducts(
-    "premium-sanitaryware-collections",
-    "Premium Sanitaryware Collection",
-    "JW-PSW",
-    48000,
-    [
-      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (1).png",
-      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (2).png",
-      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (3).png",
-      "/PREMIUMSANITARYWARE/Premium Sanitaryware Collections (4).png",
-    ]
-  ),
 
   // Others / Accessories
   ...createCategoryProducts(
