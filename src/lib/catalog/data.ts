@@ -386,53 +386,7 @@ const SERIES = [
 import imageList from "../imageList.json";
 import { sanitarywareProducts } from "./sanitarywareProducts";
 
-// Deterministic PRNG so product list is stable across renders.
-function mulberry32(a: number) {
-  return function () {
-    a |= 0;
-    a = (a + 0x6d2b79f5) | 0;
-    let t = a;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function generateProducts(count: number): Product[] {
-  const rand = mulberry32(20260723);
-  const productable = categories.filter((c) =>
-    ["showers", "multi-functional-body-showers", "diverters", "tile-insert-drainers", "basin-mixers", "others-accessories"].includes(c.group),
-  );
-  const out: Product[] = [];
-
-  // Since we have explicitly copied only product images to the new imageList,
-  // we can use all of them.
-  const productImages = imageList;
-
-  for (let i = 1; i <= count; i++) {
-    const cat = productable[Math.floor(rand() * productable.length)];
-    const finish = FINISHES[Math.floor(rand() * FINISHES.length)];
-    const series = SERIES[Math.floor(rand() * SERIES.length)];
-    const num = 100 + Math.floor(rand() * 900);
-    const price = 2400 + Math.floor(rand() * 78) * 250;
-    const code = `JW-${cat.slug.slice(0, 3).toUpperCase()}-${num}`;
-    const name = `${series} ${cat.title.split(" ")[0]} ${num}`;
-    const image = `/images/${productImages[Math.floor(rand() * productImages.length)]}`;
-
-    out.push({
-      id: `p${i}`,
-      slug: `jw-${i}`,
-      name,
-      category: cat.slug,
-      finish,
-      price,
-      code,
-      image,
-    });
-  }
-  return out;
-}
-
+// All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function createCategoryProducts(
   categorySlug: string,
   titlePrefix: string,
@@ -441,37 +395,174 @@ function createCategoryProducts(
   imagePaths: string[]
 ): Product[] {
   const finishes = [
-    "PVD Chrome",
-    "Brushed Gold",
-    "Rose Gold",
-    "Matte Black",
     "Graphite Grey",
-    "Polished Chrome",
+    "Brushed Gold",
+    "Brushed Rose Gold",
+    "Matte Black",
+    "PVD Chrome",
     "Gunmetal",
+    "Polished Chrome",
     "Brushed Nickel",
+  ];
+  const pdfCodes = [
+    "JW-10011",
+    "JW-10012",
+    "JW-10013",
+    "JW-10014",
+    "JW-10015",
+    "JW-10016",
+    "JW-10017",
+    "JW-10018",
   ];
   return imagePaths.map((image, idx) => {
     const finish = finishes[idx % finishes.length];
+    const code = pdfCodes[idx % pdfCodes.length];
     const num = idx + 1;
     return {
       id: `${categorySlug}-${num}`,
       slug: `${categorySlug}-${num}`,
-      name: `${titlePrefix} (${finish})`,
+      name: `${titlePrefix} - ${finish}`,
       category: categorySlug,
       finish,
-      price: basePrice + (idx % 3) * 2000,
-      code: `${codePrefix}-100${num}`,
+      price: basePrice,
+      code,
       image,
     };
   });
 }
 
+const bodyJetsProducts: Product[] = [
+  {
+    id: "body-jets-2-function-1",
+    slug: "body-jets-2-function-1",
+    name: "Body Jet (2 Function - Rain & Mist) - Glossy Rose Gold",
+    category: "body-jets-2-function",
+    finish: "Rose Gold",
+    price: 6600,
+    code: "JW-10040",
+    image: "/Body Showers/Body Jets (2 Function) (1).png",
+  },
+  {
+    id: "body-jets-2-function-2",
+    slug: "body-jets-2-function-2",
+    name: "Body Jet (2 Function - Rain & Mist) - Brushed Gold",
+    category: "body-jets-2-function",
+    finish: "Brushed Gold",
+    price: 6600,
+    code: "JW-10039",
+    image: "/Body Showers/Body Jets (2 Function) (2).png",
+  },
+  {
+    id: "body-jets-2-function-3",
+    slug: "body-jets-2-function-3",
+    name: "Body Jet (2 Function - Rain & Mist) - Chrome Finish",
+    category: "body-jets-2-function",
+    finish: "Chrome",
+    price: 3950,
+    code: "JW-10038",
+    image: "/Body Showers/Body Jets (2 Function) (3).png",
+  },
+  {
+    id: "body-jets-2-function-4",
+    slug: "body-jets-2-function-4",
+    name: "Body Jet (2 Function - Rain & Mist) - Matte Black",
+    category: "body-jets-2-function",
+    finish: "Matte Black",
+    price: 6600,
+    code: "JW-10041",
+    image: "/Body Showers/Body Jets (2 Function) (4).png",
+  },
+];
+
+const ceilingMountedMixerProducts: Product[] = [
+  {
+    id: "ceiling-mounted-basin-mixer-1",
+    slug: "ceiling-mounted-basin-mixer-1",
+    name: "Ceiling Mounted Basin Mixer (Long) - Brushed Gold",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Brushed Gold",
+    price: 22500,
+    code: "JW-10099",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (1).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-2",
+    slug: "ceiling-mounted-basin-mixer-2",
+    name: "Ceiling Mounted Basin Mixer (Long) - Brushed Rose Gold",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Brushed Rose Gold",
+    price: 22500,
+    code: "JW-10101",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (2).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-3",
+    slug: "ceiling-mounted-basin-mixer-3",
+    name: "Table Mounted Basin Mixer (Medium) - Brushed Gold",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Brushed Gold",
+    price: 14750,
+    code: "JW-10100",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (4).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-4",
+    slug: "ceiling-mounted-basin-mixer-4",
+    name: "Table Mounted Basin Mixer (Medium) - Brushed Rose Gold",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Brushed Rose Gold",
+    price: 14750,
+    code: "JW-10102",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (5).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-5",
+    slug: "ceiling-mounted-basin-mixer-5",
+    name: "Ceiling Mounted Basin Mixer (Long) - Matte Black",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Matte Black",
+    price: 22500,
+    code: "JW-10103",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (6).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-6",
+    slug: "ceiling-mounted-basin-mixer-6",
+    name: "Table Mounted Basin Mixer (Medium) - Matte Black",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Matte Black",
+    price: 14750,
+    code: "JW-10104",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (7).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-7",
+    slug: "ceiling-mounted-basin-mixer-7",
+    name: "Ceiling Mounted Basin Mixer (Long) - Chrome",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Chrome",
+    price: 18400,
+    code: "JW-10097",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (8).png",
+  },
+  {
+    id: "ceiling-mounted-basin-mixer-8",
+    slug: "ceiling-mounted-basin-mixer-8",
+    name: "Table Mounted Basin Mixer (Medium) - Chrome",
+    category: "ceiling-mounted-basin-mixer",
+    finish: "Chrome",
+    price: 13500,
+    code: "JW-10098",
+    image: "/basinmixer/Ceiling Mounted Basin Mixer (9).png",
+  },
+];
+
 const realCategoryProducts: Product[] = [
   // Showers
   ...createCategoryProducts(
     "2-function-shower-rain-mist",
-    "2 Function Shower",
-    "JW-2FS",
+    "2 Function Shower (Rain & Mist)",
+    "JW-100",
     48000,
     [
       "/showers/2 Function Shower (1).png",
@@ -483,8 +574,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "3-function-shower-rain-mist-dual-waterfall",
     "3 Function Shower (Rain, Mist & Dual Waterfall)",
-    "JW-3FSW",
-    58000,
+    "JW-100",
+    48000,
     [
       "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
       "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
@@ -497,9 +588,9 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-large-single-waterfall",
-    "3 Function Shower (Large Waterfall)",
-    "JW-3FSL",
-    62000,
+    "3 Function Shower (Rain, Mist & Large Waterfall)",
+    "JW-100",
+    48000,
     [
       "/showers/3 Function Shower (Large Waterfall) (1).png",
       "/showers/3 Function Shower (Large Waterfall) (2).png",
@@ -509,9 +600,9 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "2-function-shower-rain-large-single-waterfall",
-    "2 Function Shower (Large Waterfall)",
-    "JW-2FSL",
-    52000,
+    "2 Function Shower (Rain & Large Waterfall)",
+    "JW-100",
+    48000,
     [
       "/showers/2 Function Shower (Large Waterfall).png",
       "/showers/2 Function Shower (Large Waterfall) (2).png",
@@ -519,9 +610,9 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "4-function-shower-chromotherapy",
-    "4 Function Shower (Chromotherapy)",
-    "JW-4FS",
-    78000,
+    "4 Function Shower (Chromotherapy LED & Waterfall)",
+    "JW-100",
+    48000,
     [
       "/showers/4 Function Shower (1).png",
       "/showers/4 Function Shower (2).png",
@@ -532,8 +623,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "multifunctional-showers",
     "Multifunctional Shower System",
-    "JW-MFS",
-    84000,
+    "JW-100",
+    48000,
     [
       "/showers/Multifunctional Showers (1).png",
       "/showers/Multifunctional Showers (2).png",
@@ -546,8 +637,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "single-function-shower-rain",
     "Single Function Rain Shower",
-    "JW-1FS",
-    28000,
+    "JW-100",
+    48000,
     [
       "/showers/Single Function Shower (1).png",
       "/showers/Single Function Shower (2).png",
@@ -557,9 +648,9 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "waterfall-showers",
-    "Waterfall Shower",
-    "JW-WFS",
-    34000,
+    "Waterfall Shower System",
+    "JW-100",
+    48000,
     [
       "/showers/Waterfall Showers (1).png",
       "/showers/Waterfall Showers (2).png",
@@ -570,8 +661,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "2-function-wall-mounted-shower-arm",
     "2 Function Wall Mounted Shower with Arm",
-    "JW-2FWM",
-    44000,
+    "JW-100",
+    48000,
     [
       "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
@@ -581,8 +672,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "multifunctional-wall-mounted-shower",
     "Multifunctional Wall Mounted Shower (2 Function)",
-    "JW-MFWM",
-    64000,
+    "JW-100",
+    48000,
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
@@ -596,23 +687,12 @@ const realCategoryProducts: Product[] = [
   ),
 
   // Multi-Functional Body Showers
-  ...createCategoryProducts(
-    "body-jets-2-function",
-    "Body Jets (2 Function)",
-    "JW-BJ2",
-    26000,
-    [
-      "/Body Showers/Body Jets (2 Function) (1).png",
-      "/Body Showers/Body Jets (2 Function) (2).png",
-      "/Body Showers/Body Jets (2 Function) (3).png",
-      "/Body Showers/Body Jets (2 Function) (4).png",
-    ]
-  ),
+  ...bodyJetsProducts,
   ...createCategoryProducts(
     "one-line-series",
     "One Line Series Body Shower",
-    "JW-OLS",
-    29000,
+    "JW-100",
+    48000,
     [
       "/Body Showers/One Line Series (1).png",
       "/Body Showers/One Line Series (2).png",
@@ -623,8 +703,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "eminence-series",
     "Eminence Series Body Shower",
-    "JW-EMS",
-    32000,
+    "JW-100",
+    48000,
     [
       "/Body Showers/Eminence Series (1).png",
       "/Body Showers/Eminence Series (2).png",
@@ -637,8 +717,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "5-function-diverter",
     "5 Function Diverter",
-    "JW-5FD",
-    38000,
+    "JW-100",
+    48000,
     [
       "/diverters/5 Function Diverter (1).png",
       "/diverters/5 Function Diverter (2).png",
@@ -649,8 +729,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "6-function-diverter",
     "6 Function Diverter",
-    "JW-6FD",
-    45000,
+    "JW-100",
+    48000,
     [
       "/diverters/6 Function Diverter (1).png",
       "/diverters/6 Function Diverter (2).png",
@@ -665,8 +745,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "thermostatic-diverter-three-outlet",
     "Thermostatic Diverter (Three Outlet)",
-    "JW-THD",
-    52000,
+    "JW-100",
+    48000,
     [
       "/diverters/Thermostatic Diverter (1).png",
       "/diverters/Thermostatic Diverter (2).png",
@@ -680,8 +760,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "lever-diverter-three-outlet",
     "Lever Diverter (Three Outlet)",
-    "JW-LVD",
-    34000,
+    "JW-100",
+    48000,
     [
       "/diverters/Lever Diverter Three Outlet (1).png",
       "/diverters/Lever Diverter Three Outlet (2).png",
@@ -694,8 +774,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "tile-insert-drain",
     "Tile Insert Drain",
-    "JW-TID",
-    18000,
+    "JW-100",
+    48000,
     [
       "/Tile Insert Drain/Tile Insert Drain (1).png",
       "/Tile Insert Drain/Tile Insert Drain (2).png",
@@ -716,8 +796,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "round-controller-basin-mixer",
     "Round Controller Basin Mixer",
-    "JW-RCB",
-    24000,
+    "JW-100",
+    48000,
     [
       "/basinmixer/Round Controller Basin Mixer (1).png",
       "/basinmixer/Round Controller Basin Mixer (2).png",
@@ -727,8 +807,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "thermostatic-click-controller-basin-mixer",
     "Thermostatic Click Controller Basin Mixer",
-    "JW-THB",
-    32000,
+    "JW-100",
+    48000,
     [
       "/basinmixer/Thermostatic Click Controller Basin Mixer (1).png",
       "/basinmixer/Thermostatic Click Controller Basin Mixer (2).png",
@@ -738,8 +818,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "lever-basin-mixer",
     "Lever Basin Mixer",
-    "JW-LVB",
-    18000,
+    "JW-100",
+    48000,
     [
       "/basinmixer/Lever Basin Mixer (1).png",
       "/basinmixer/Lever Basin Mixer (2).png",
@@ -750,8 +830,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "table-mounted-basin-mixer",
     "Table Mounted Basin Mixer",
-    "JW-TMB",
-    26000,
+    "JW-100",
+    48000,
     [
       "/basinmixer/Table Mounted Basin Mixer (1).png",
       "/basinmixer/Table Mounted Basin Mixer (2).png",
@@ -762,8 +842,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "progressive-controller-waterfall-basin-mixer",
     "Progressive Controller Waterfall Basin Mixer",
-    "JW-PWB",
-    34000,
+    "JW-100",
+    48000,
     [
       "/basinmixer/Progressive Controller Waterfall Basin Mixer.png",
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (1).png",
@@ -771,22 +851,7 @@ const realCategoryProducts: Product[] = [
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (3).png",
     ]
   ),
-  ...createCategoryProducts(
-    "ceiling-mounted-basin-mixer",
-    "Ceiling Mounted Basin Mixer",
-    "JW-CMB",
-    42000,
-    [
-      "/basinmixer/Ceiling Mounted Basin Mixer (1).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (2).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (4).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (5).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (6).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (7).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (8).png",
-      "/basinmixer/Ceiling Mounted Basin Mixer (9).png",
-    ]
-  ),
+  ...ceilingMountedMixerProducts,
 
   // Sanitaryware
   ...sanitarywareProducts,
@@ -795,8 +860,8 @@ const realCategoryProducts: Product[] = [
   ...createCategoryProducts(
     "bathroom-accessories-fittings",
     "Bathroom Accessories & Fittings",
-    "JW-BAF",
-    8000,
+    "JW-100",
+    48000,
     [
       "/OTHERS/Bathroom Accessories & Fittings.png",
       ...Array.from({ length: 39 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 1}).png`),
@@ -808,7 +873,6 @@ const realCategoryProducts: Product[] = [
 
 export const products: Product[] = [
   ...realCategoryProducts,
-  ...generateProducts(100),
 ];
 
 export function getCategory(slug: string) {
