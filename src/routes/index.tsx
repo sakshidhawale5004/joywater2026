@@ -46,7 +46,7 @@ const heroSlides = [
     title: "Intelligent Design",
     subtitle: "Where cutting-edge technology meets ultimate comfort.",
     category: "Sanitaryware",
-    link: "/category/sanitaryware-collections"
+    link: "/category/sanitaryware-basins"
   },
   {
     image: "/banner5.png",
@@ -99,8 +99,8 @@ const collections = [
     tag: "Solid Brass Billet",
   },
   {
-    title: "Sanitaryware Collections",
-    slug: "sanitaryware-collections",
+    title: "Sanitaryware Basins",
+    slug: "sanitaryware-basins",
     image: "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     tag: "Ceramic Excellence",
   },

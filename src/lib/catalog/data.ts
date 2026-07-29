@@ -5,7 +5,8 @@ export type CategoryGroup =
   | "tile-insert-drainers"
   | "basin-mixers"
   | "sanitaryware"
-  | "others-accessories";
+  | "others-accessories"
+  | "mirrors";
 
 export type Category = {
   slug: string;
@@ -249,6 +250,33 @@ export const categories: Category[] = [
 
   // 6. SANITARYWARE
   {
+    slug: "sanitaryware-basins",
+    title: "Basins",
+    group: "sanitaryware",
+    description: "Handcrafted Luxury Designer Basins in ceramic, glass, stainless steel, and statement silhouettes.",
+    bannerImage: "/images/PDF1_P40_IMG1.png",
+    image: "/premiumbasin/71.jpg",
+    features: ["Ceramic Excellence", "Timeless Luxury", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "stone-is-the-king-of-luxury",
+    title: "Stone is the King of Luxury",
+    group: "sanitaryware",
+    description: "Exclusive Stone Basin Collections crafted from natural marble, terrazzo, and luxury stone blocks. Unapologetic luxury and sculptural beauty.",
+    bannerImage: "/images/PDF1_P40_IMG1.png",
+    image: "/stoneisthekingofluxury/200.jpg",
+    features: ["Natural Stone", "Sculptural Masterpieces", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "wall-hung-wc",
+    title: "Wall Hung WC",
+    group: "sanitaryware",
+    description: "Rimless Wall Hung Water Closets with quiet flush engineering, ergonomic contours, and soft-close seats.",
+    bannerImage: "/images/PDF1_P40_IMG1.png",
+    image: "/wallhungwc/25.jpg",
+    features: ["Rimless Hygiene", "Soft Close Seat", "11 Years Unmatched Assurance"]
+  },
+  {
     slug: "sanitaryware-collections",
     title: "Sanitaryware Collections",
     group: "sanitaryware",
@@ -356,6 +384,7 @@ const SERIES = [
 ];
 
 import imageList from "../imageList.json";
+import { sanitarywareProducts } from "./sanitarywareProducts";
 
 // Deterministic PRNG so product list is stable across renders.
 function mulberry32(a: number) {
@@ -760,6 +789,7 @@ const realCategoryProducts: Product[] = [
   ),
 
   // Sanitaryware
+  ...sanitarywareProducts,
 
   // Others / Accessories
   ...createCategoryProducts(
@@ -1026,9 +1056,10 @@ export const megaMenu = {
     ]
   },
   "Sanitaryware": {
-    "Collections": [
-      "sanitaryware-collections",
-      "premium-sanitaryware-collections"
+    "Sanitaryware": [
+      "sanitaryware-basins",
+      "stone-is-the-king-of-luxury",
+      "wall-hung-wc"
     ]
   },
   "Accessories": {
