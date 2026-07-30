@@ -380,10 +380,10 @@ function createCategoryProducts(
   customFinishes?: string[]
 ): Product[] {
   const finishes = customFinishes || [
+    "Chrome",
     "Brushed Gold",
     "Graphite Grey",
     "Brushed Rose Gold",
-    "Chrome",
     "Rose Gold",
     "Brushed Chrome",
     "Polished Chrome",
@@ -420,11 +420,11 @@ const bodyJetsProducts: Product[] = [
   {
     id: "body-jets-2-function-1",
     slug: "body-jets-2-function-1",
-    name: "Body Jet (2 Function - Rain & Mist) - Glossy Rose Gold",
+    name: "Body Jet (2 Function - Rain & Mist) - Chrome Finish",
     category: "body-jets-2-function",
-    finish: "Rose Gold",
-    price: 6600,
-    code: "JW-10040",
+    finish: "Chrome",
+    price: 3950,
+    code: "JW-10038",
     image: "/Body Showers/Body Jets (2 Function) (1).png",
   },
   {
@@ -440,21 +440,21 @@ const bodyJetsProducts: Product[] = [
   {
     id: "body-jets-2-function-3",
     slug: "body-jets-2-function-3",
-    name: "Body Jet (2 Function - Rain & Mist) - Chrome Finish",
-    category: "body-jets-2-function",
-    finish: "Chrome",
-    price: 3950,
-    code: "JW-10038",
-    image: "/Body Showers/Body Jets (2 Function) (3).png",
-  },
-  {
-    id: "body-jets-2-function-4",
-    slug: "body-jets-2-function-4",
     name: "Body Jet (2 Function - Rain & Mist) - Graphite Grey",
     category: "body-jets-2-function",
     finish: "Graphite Grey",
     price: 6600,
     code: "JW-10041",
+    image: "/Body Showers/Body Jets (2 Function) (3).png",
+  },
+  {
+    id: "body-jets-2-function-4",
+    slug: "body-jets-2-function-4",
+    name: "Body Jet (2 Function - Rain & Mist) - Glossy Rose Gold",
+    category: "body-jets-2-function",
+    finish: "Rose Gold",
+    price: 6600,
+    code: "JW-10040",
     image: "/Body Showers/Body Jets (2 Function) (4).png",
   },
 ];
@@ -689,6 +689,16 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (7).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (8).png",
+    ],
+    [
+      "Graphite Grey",
+      "Matte Black",
+      "Gunmetal",
+      "Brushed Gold",
+      "Chrome",
+      "Gold",
+      "Polished Chrome",
+      "Brushed Nickel",
     ]
   ),
 
