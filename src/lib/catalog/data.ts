@@ -379,10 +379,10 @@ function createCategoryProducts(
   imagePaths: string[]
 ): Product[] {
   const finishes = [
+    "Chrome",
     "Brushed Gold",
     "Graphite Grey",
     "Brushed Rose Gold",
-    "Chrome",
     "Rose Gold",
     "Brushed Chrome",
     "Polished Chrome",
