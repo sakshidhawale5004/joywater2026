@@ -882,9 +882,14 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     48000,
     [
+      ...Array.from({ length: 28 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 1}).png`),
       "/OTHERS/Bathroom Accessories & Fittings.png",
-      ...Array.from({ length: 39 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 1}).png`),
-    ]
+      "/OTHERS/Bathroom Accessories & Fittings (29).png",
+      "/OTHERS/Bathroom Accessories & Fittings (30).png",
+      "/OTHERS/Bathroom Accessories & Fittings (31).png",
+      ...Array.from({ length: 8 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 32}).png`),
+    ],
+    ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]
   ),
 
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
