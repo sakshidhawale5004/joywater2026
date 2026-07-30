@@ -376,13 +376,14 @@ function createCategoryProducts(
   titlePrefix: string,
   codePrefix: string,
   basePrice: number,
-  imagePaths: string[]
+  imagePaths: string[],
+  customFinishes?: string[]
 ): Product[] {
-  const finishes = [
-    "Chrome",
+  const finishes = customFinishes || [
     "Brushed Gold",
     "Graphite Grey",
     "Brushed Rose Gold",
+    "Chrome",
     "Rose Gold",
     "Brushed Chrome",
     "Polished Chrome",
@@ -553,7 +554,8 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Shower (2).png",
       "/showers/2 Function Shower (3).png",
       "/showers/2 Function Shower (4).png",
-    ]
+    ],
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"]
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-dual-waterfall",
@@ -568,6 +570,16 @@ const realCategoryProducts: Product[] = [
       "/showers/3 Function Shower (2).png",
       "/showers/3 Function Shower (3).png",
       "/showers/3 Function Shower (4).png",
+    ],
+    [
+      "Graphite Grey",
+      "Brushed Rose Gold",
+      "Brushed Gold",
+      "Chrome",
+      "Rose Gold",
+      "Brushed Chrome",
+      "Polished Chrome",
+      "Brushed Nickel",
     ]
   ),
   ...createCategoryProducts(
@@ -580,7 +592,8 @@ const realCategoryProducts: Product[] = [
       "/showers/3 Function Shower (Large Waterfall) (2).png",
       "/showers/3 Function Shower (Large Waterfall) (3).png",
       "/showers/3 Function Shower (Large Waterfall) (4).png",
-    ]
+    ],
+    ["Graphite Grey", "Brushed Gold", "Brushed Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "2-function-shower-rain-large-single-waterfall",
@@ -602,7 +615,8 @@ const realCategoryProducts: Product[] = [
       "/showers/4 Function Shower (2).png",
       "/showers/4 Function Shower (3).png",
       "/showers/4 Function Shower (4).png",
-    ]
+    ],
+    ["Graphite Grey", "Brushed Gold", "Brushed Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "multifunctional-showers",
@@ -616,6 +630,14 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Showers (4).png",
       "/showers/Multifunctional Showers (5).png",
       "/showers/Multifunctional Showers (6).png",
+    ],
+    [
+      "Graphite Grey",
+      "Brushed Rose Gold",
+      "Brushed Gold",
+      "Chrome",
+      "Rose Gold",
+      "Brushed Chrome",
     ]
   ),
   ...createCategoryProducts(
