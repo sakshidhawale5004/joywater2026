@@ -428,7 +428,7 @@ export const mirrorProducts: Product[] = [
     "name": "Metal Mingle Mirror (Gloss Gold)",
     "category": "metal-mirrors",
     "finish": "Gloss Gold",
-    "price": 8100,
+    "price": 12600,
     "code": "JW-2007",
     "image": "/metalmirror/metalminglegold.jpg"
   },
@@ -438,7 +438,7 @@ export const mirrorProducts: Product[] = [
     "name": "Miragique Metal Mirror (Rose Gold)",
     "category": "metal-mirrors",
     "finish": "Rose Gold",
-    "price": 8100,
+    "price": 12600,
     "code": "JW-2010",
     "image": "/metalmirror/metalminglerosegold.jpg"
   },
@@ -518,7 +518,7 @@ export const mirrorProducts: Product[] = [
     "name": "Quadra Vista Classic Mirror",
     "category": "classic-mirrors",
     "finish": "Brown Marble",
-    "price": 2700,
+    "price": 2250,
     "code": "JW-5006",
     "image": "/classicmirrors/quadravista.png"
   },

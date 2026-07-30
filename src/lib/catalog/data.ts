@@ -379,12 +379,12 @@ function createCategoryProducts(
   imagePaths: string[]
 ): Product[] {
   const finishes = [
-    "Graphite Grey",
     "Brushed Gold",
+    "Graphite Grey",
     "Brushed Rose Gold",
-    "Matte Black",
-    "PVD Chrome",
-    "Gunmetal",
+    "Chrome",
+    "Rose Gold",
+    "Brushed Chrome",
     "Polished Chrome",
     "Brushed Nickel",
   ];
@@ -449,9 +449,9 @@ const bodyJetsProducts: Product[] = [
   {
     id: "body-jets-2-function-4",
     slug: "body-jets-2-function-4",
-    name: "Body Jet (2 Function - Rain & Mist) - Matte Black",
+    name: "Body Jet (2 Function - Rain & Mist) - Graphite Grey",
     category: "body-jets-2-function",
-    finish: "Matte Black",
+    finish: "Graphite Grey",
     price: 6600,
     code: "JW-10041",
     image: "/Body Showers/Body Jets (2 Function) (4).png",
@@ -502,9 +502,9 @@ const ceilingMountedMixerProducts: Product[] = [
   {
     id: "ceiling-mounted-basin-mixer-5",
     slug: "ceiling-mounted-basin-mixer-5",
-    name: "Ceiling Mounted Basin Mixer (Long) - Matte Black",
+    name: "Ceiling Mounted Basin Mixer (Long) - Brushed Graphite Grey",
     category: "ceiling-mounted-basin-mixer",
-    finish: "Matte Black",
+    finish: "Brushed Graphite Grey",
     price: 22500,
     code: "JW-10103",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (6).png",
@@ -512,9 +512,9 @@ const ceilingMountedMixerProducts: Product[] = [
   {
     id: "ceiling-mounted-basin-mixer-6",
     slug: "ceiling-mounted-basin-mixer-6",
-    name: "Table Mounted Basin Mixer (Medium) - Matte Black",
+    name: "Table Mounted Basin Mixer (Medium) - Brushed Graphite Grey",
     category: "ceiling-mounted-basin-mixer",
-    finish: "Matte Black",
+    finish: "Brushed Graphite Grey",
     price: 14750,
     code: "JW-10104",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (7).png",
@@ -522,9 +522,9 @@ const ceilingMountedMixerProducts: Product[] = [
   {
     id: "ceiling-mounted-basin-mixer-7",
     slug: "ceiling-mounted-basin-mixer-7",
-    name: "Ceiling Mounted Basin Mixer (Long) - Chrome",
+    name: "Ceiling Mounted Basin Mixer (Long) - Brushed Chrome",
     category: "ceiling-mounted-basin-mixer",
-    finish: "Chrome",
+    finish: "Brushed Chrome",
     price: 18400,
     code: "JW-10097",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (8).png",
@@ -532,9 +532,9 @@ const ceilingMountedMixerProducts: Product[] = [
   {
     id: "ceiling-mounted-basin-mixer-8",
     slug: "ceiling-mounted-basin-mixer-8",
-    name: "Table Mounted Basin Mixer (Medium) - Chrome",
+    name: "Table Mounted Basin Mixer (Medium) - Brushed Chrome",
     category: "ceiling-mounted-basin-mixer",
-    finish: "Chrome",
+    finish: "Brushed Chrome",
     price: 13500,
     code: "JW-10098",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (9).png",
