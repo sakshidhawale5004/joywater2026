@@ -28,60 +28,60 @@ const heroSlides = [
     link: "/products"
   },
   {
-    image: "/homepagebannerforslider/banner 2.jpg",
+    image: "/homepagebannerforslider/banner2finalimage.jpg",
     title: "Timeless Luxury",
     subtitle: "Experience refined craftsmanship and luxury in every single drop.",
-    category: "Signature Series",
-    link: "/products"
-  },
-  {
-    image: "/homepagebannerforslider/banner 3.jpg",
-    title: "One Line Series",
-    subtitle: "Minimalist architectural body showers engineered for modern bath sanctuaries.",
-    category: "Body Showers",
-    link: "/category/one-line-series"
-  },
-  {
-    image: "/homepagebannerforslider/banner 4.jpg",
-    title: "Eminence Series",
-    subtitle: "Precision engineering and unmatched brass craftsmanship.",
-    category: "Body Showers",
-    link: "/category/eminence-series"
-  },
-  {
-    image: "/homepagebannerforslider/banner 5.jpg",
-    title: "Sanitaryware Collections",
-    subtitle: "Contemporary ceramic masterpieces crafted for luxury living.",
-    category: "Sanitaryware",
-    link: "/category/sanitaryware-basins"
-  },
-  {
-    image: "/homepagebannerforslider/banner 6.jpg",
-    title: "Rain & Cascade Showers",
-    subtitle: "Immerse yourself in overhead luxury with multi-function shower systems.",
-    category: "Overhead Showers",
+    category: "Showers",
     link: "/category/2-function-shower-rain-mist"
   },
   {
-    image: "/homepagebannerforslider/banner 7.jpg",
-    title: "Refined Aesthetics",
-    subtitle: "Transform your bathroom into a modern sanctuary with precision basin mixers.",
+    image: "/homepagebannerforslider/banner 3.jpg",
+    title: "Body Shower Series",
+    subtitle: "Minimalist architectural body showers engineered for modern bath sanctuaries.",
+    category: "Body Showers",
+    link: "/category/body-jets-2-function"
+  },
+  {
+    image: "/homepagebannerforslider/banner 4.jpg",
+    title: "Luxury Basin Mixers",
+    subtitle: "Precision engineering and unmatched brass craftsmanship.",
     category: "Basin Mixers",
     link: "/category/round-controller-basin-mixer"
   },
   {
+    image: "/homepagebannerforslider/banner 5.jpg",
+    title: "Architectural Mirrors",
+    subtitle: "Handcrafted LED and 3D mirrors engineered for an elegant finish.",
+    category: "Mirrors",
+    link: "/category/led-mirrors"
+  },
+  {
+    image: "/homepagebannerforslider/banner 6.jpg",
+    title: "Bathroom Accessories",
+    subtitle: "Refined finishing touches and solid brass bathroom fittings.",
+    category: "Accessories",
+    link: "/category/bathroom-accessories-fittings"
+  },
+  {
+    image: "/homepagebannerforslider/banner 7.jpg",
+    title: "Waterfall Showers",
+    subtitle: "Immerse yourself in overhead luxury with cascading waterfall shower systems.",
+    category: "Waterfall Showers",
+    link: "/category/waterfall-showers"
+  },
+  {
     image: "/homepagebannerforslider/banner 8.jpg",
-    title: "Thermostatic Control",
-    subtitle: "Intelligent water temperature control for an elevated daily ritual.",
-    category: "Precision Diverters",
-    link: "/category/5-function-diverter"
+    title: "Sanitaryware Basins",
+    subtitle: "Contemporary ceramic and stainless steel wash basins crafted for luxury living.",
+    category: "Basins",
+    link: "/category/sanitaryware-basins"
   },
   {
     image: "/homepagebannerforslider/banner 9.jpg",
-    title: "Timeless Craft",
-    subtitle: "Handcrafted mirrors and architectural accessories for an elegant finish.",
-    category: "Accessories & Mirrors",
-    link: "/category/led-mirrors"
+    title: "Stone is the King of Luxury",
+    subtitle: "Majestic natural stone and pedestal wash basins sculptured for timeless grandeur.",
+    category: "Stone is the King of Luxury",
+    link: "/category/stone-is-the-king-of-luxury"
   }
 ];
 
