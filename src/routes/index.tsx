@@ -21,74 +21,67 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroSlides = [
   {
-    image: "/images/BANNERFORHOME.jpg",
+    image: "/homepagebannerforslider/banner1.jpg",
     title: "The Art of Water",
     subtitle: "Discover our latest collection of premium architectural bath fittings.",
     category: "Joy Water Exclusives",
     link: "/products"
   },
   {
-    image: "/JOYWATER/JOYWATER (6).jpeg",
+    image: "/homepagebannerforslider/banner 2.jpg",
     title: "Timeless Luxury",
-    subtitle: "Experience refined craftsmanship in every single detail.",
+    subtitle: "Experience refined craftsmanship and luxury in every single drop.",
     category: "Signature Series",
     link: "/products"
   },
   {
-    image: "/HEROSECTIONIMAGES/One Line Series.jpg",
+    image: "/homepagebannerforslider/banner 3.jpg",
     title: "One Line Series",
     subtitle: "Minimalist architectural body showers engineered for modern bath sanctuaries.",
     category: "Body Showers",
     link: "/category/one-line-series"
   },
   {
-    image: "/HEROSECTIONIMAGES/Eminence Series.jpg",
+    image: "/homepagebannerforslider/banner 4.jpg",
     title: "Eminence Series",
     subtitle: "Precision engineering and unmatched brass craftsmanship.",
     category: "Body Showers",
     link: "/category/eminence-series"
   },
   {
-    image: "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    image: "/homepagebannerforslider/banner 5.jpg",
     title: "Sanitaryware Collections",
     subtitle: "Contemporary ceramic masterpieces crafted for luxury living.",
     category: "Sanitaryware",
     link: "/category/sanitaryware-basins"
   },
   {
-    image: "/banner1.jpg",
-    title: "The Art of Water",
-    subtitle: "Discover our latest collection of premium bath fittings.",
-    category: "Exclusives",
-    link: "/products"
-  },
-  {
-    image: "/banner2.jpg",
-    title: "Striking a Chord",
-    subtitle: "Experience luxury in every single drop.",
-    category: "Showers",
+    image: "/homepagebannerforslider/banner 6.jpg",
+    title: "Rain & Cascade Showers",
+    subtitle: "Immerse yourself in overhead luxury with multi-function shower systems.",
+    category: "Overhead Showers",
     link: "/category/2-function-shower-rain-mist"
   },
   {
-    image: "/banner3.png",
+    image: "/homepagebannerforslider/banner 7.jpg",
     title: "Refined Aesthetics",
-    subtitle: "Transform your bathroom into a modern sanctuary.",
+    subtitle: "Transform your bathroom into a modern sanctuary with precision basin mixers.",
     category: "Basin Mixers",
     link: "/category/round-controller-basin-mixer"
   },
   {
-    image: "/banner4.jpg",
-    title: "Intelligent Design",
-    subtitle: "Where cutting-edge technology meets ultimate comfort.",
-    category: "Sanitaryware",
-    link: "/category/sanitaryware-basins"
+    image: "/homepagebannerforslider/banner 8.jpg",
+    title: "Thermostatic Control",
+    subtitle: "Intelligent water temperature control for an elevated daily ritual.",
+    category: "Precision Diverters",
+    link: "/category/5-function-diverter"
   },
   {
-    image: "/banner5.png",
+    image: "/homepagebannerforslider/banner 9.jpg",
     title: "Timeless Craft",
-    subtitle: "Handcrafted accessories for an elegant finish.",
-    category: "Accessories",
-    link: "/category/metal-led-mirrors"
+    subtitle: "Handcrafted mirrors and architectural accessories for an elegant finish.",
+    category: "Accessories & Mirrors",
+    link: "/category/led-mirrors"
   }
 ];
 
