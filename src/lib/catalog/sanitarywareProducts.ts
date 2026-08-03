@@ -143,6 +143,116 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/71.jpg"
   },
   {
+    "id": "sanitaryware-basins-63",
+    "name": "Glass Countertop Wash Basin",
+    "slug": "sanitaryware-basins-63",
+    "category": "sanitaryware-basins",
+    "finish": "Luxury Glass",
+    "price": 19500,
+    "code": "JW-6092",
+    "image": "/premiumbasin/173.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-65",
+    "name": "Glass Countertop Wash Basin",
+    "slug": "sanitaryware-basins-65",
+    "category": "sanitaryware-basins",
+    "finish": "Royal Blue Glass",
+    "price": 19500,
+    "code": "JW-6061",
+    "image": "/premiumbasin/176.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-66",
+    "name": "Glass Countertop Washbasin",
+    "slug": "sanitaryware-basins-66",
+    "category": "sanitaryware-basins",
+    "finish": "Mint Green Glass",
+    "price": 18500,
+    "code": "JW-6060",
+    "image": "/premiumbasin/177.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-67",
+    "name": "Black Glass Wash Basin",
+    "slug": "sanitaryware-basins-67",
+    "category": "sanitaryware-basins",
+    "finish": "Black Glass",
+    "price": 16000,
+    "code": "JW-6101",
+    "image": "/premiumbasin/180.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-68",
+    "name": "Green Glass Wash Basin",
+    "slug": "sanitaryware-basins-68",
+    "category": "sanitaryware-basins",
+    "finish": "Green Glass",
+    "price": 16000,
+    "code": "JW-6102",
+    "image": "/premiumbasin/182.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-69",
+    "name": "Beige Marble Print Wash Basin",
+    "slug": "sanitaryware-basins-69",
+    "category": "sanitaryware-basins",
+    "finish": "Beige Marble Print",
+    "price": 10750,
+    "code": "JW-6016",
+    "image": "/premiumbasin/184.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-70",
+    "name": "Countertop Wash Basin 415*415",
+    "slug": "sanitaryware-basins-70",
+    "category": "sanitaryware-basins",
+    "finish": "Ceramic White",
+    "price": 12000,
+    "code": "JW-6063",
+    "image": "/premiumbasin/186.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-71",
+    "name": "Countertop Wash Basin 346*346",
+    "slug": "sanitaryware-basins-71",
+    "category": "sanitaryware-basins",
+    "finish": "Matt Black",
+    "price": 16000,
+    "code": "JW-6064",
+    "image": "/premiumbasin/187.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-72",
+    "name": "Matt Mint Green Wash Basin",
+    "slug": "sanitaryware-basins-72",
+    "category": "sanitaryware-basins",
+    "finish": "Matt Mint Green",
+    "price": 13000,
+    "code": "JW-6007",
+    "image": "/premiumbasin/189.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-73",
+    "name": "Glossy White Wash Basin",
+    "slug": "sanitaryware-basins-73",
+    "category": "sanitaryware-basins",
+    "finish": "Glossy White",
+    "price": 7200,
+    "code": "JW-6027",
+    "image": "/premiumbasin/191.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-74",
+    "name": "Matt Black Wash Basin",
+    "slug": "sanitaryware-basins-74",
+    "category": "sanitaryware-basins",
+    "finish": "Matt Black",
+    "price": 13100,
+    "code": "JW-6038",
+    "image": "/premiumbasin/192.jpg"
+  },
+  {
     "id": "sanitaryware-basins-2",
     "name": "Matt Cappuccino Wash Basin",
     "slug": "sanitaryware-basins-2",
@@ -153,14 +263,54 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/73.jpg"
   },
   {
-    "id": "sanitaryware-basins-3",
-    "name": "Beige Marble Print Wash Basin",
-    "slug": "sanitaryware-basins-3",
+    "id": "sanitaryware-basins-75",
+    "name": "Blue Countertop Wash Basin",
+    "slug": "sanitaryware-basins-75",
     "category": "sanitaryware-basins",
-    "finish": "Beige Marble Print",
-    "price": 10750,
+    "finish": "Royal Blue",
+    "price": 13900,
+    "code": "JW-6006",
+    "image": "/premiumbasin/194.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-76",
+    "name": "Glossy White Wash Basin 505*380*150",
+    "slug": "sanitaryware-basins-76",
+    "category": "sanitaryware-basins",
+    "finish": "Glossy White",
+    "price": 7200,
+    "code": "JW-6026",
+    "image": "/premiumbasin/195.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-77",
+    "name": "Matt Black Wash Basin",
+    "slug": "sanitaryware-basins-77",
+    "category": "sanitaryware-basins",
+    "finish": "Matt Black",
+    "price": 15000,
+    "code": "JW-6001",
+    "image": "/premiumbasin/196.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-78",
+    "name": "Cement Grey Wash Basin",
+    "slug": "sanitaryware-basins-78",
+    "category": "sanitaryware-basins",
+    "finish": "Cement Grey",
+    "price": 15000,
+    "code": "JW-6003",
+    "image": "/premiumbasin/197.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-79",
+    "name": "Matt Cappuccino Wash Basin",
+    "slug": "sanitaryware-basins-79",
+    "category": "sanitaryware-basins",
+    "finish": "Matt Cappuccino",
+    "price": 15000,
     "code": "JW-6002",
-    "image": "/premiumbasin/75.jpg"
+    "image": "/premiumbasin/198.jpg"
   },
   {
     "id": "sanitaryware-basins-4",
@@ -283,16 +433,6 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/96.jpg"
   },
   {
-    "id": "sanitaryware-basins-16",
-    "name": "Brushed Gold Countertop Wash Basin",
-    "slug": "sanitaryware-basins-16",
-    "category": "sanitaryware-basins",
-    "finish": "Brushed Gold",
-    "price": 7450,
-    "code": "JW-6034",
-    "image": "/premiumbasin/97.jpg"
-  },
-  {
     "id": "sanitaryware-basins-17",
     "name": "Glossy White Wash Basin 710*710",
     "slug": "sanitaryware-basins-17",
@@ -363,16 +503,6 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/106.jpg"
   },
   {
-    "id": "sanitaryware-basins-24",
-    "name": "Rose Gold Countertop Wash Basin",
-    "slug": "sanitaryware-basins-24",
-    "category": "sanitaryware-basins",
-    "finish": "Rose Gold",
-    "price": 9500,
-    "code": "JW-6044",
-    "image": "/premiumbasin/108.jpg"
-  },
-  {
     "id": "sanitaryware-basins-25",
     "name": "Matt Blue Countertop Wash Basin",
     "slug": "sanitaryware-basins-25",
@@ -431,16 +561,6 @@ export const sanitarywareProducts: Product[] = [
     "price": 13000,
     "code": "JW-6041",
     "image": "/premiumbasin/116.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-31",
-    "name": "Ceramic White Wash Basin",
-    "slug": "sanitaryware-basins-31",
-    "category": "sanitaryware-basins",
-    "finish": "Ceramic White",
-    "price": 7200,
-    "code": "JW-6036",
-    "image": "/premiumbasin/119.jpg"
   },
   {
     "id": "sanitaryware-basins-32",
@@ -553,16 +673,6 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/136.jpg"
   },
   {
-    "id": "sanitaryware-basins-43",
-    "name": "Matt Mint Green Wash Basin",
-    "slug": "sanitaryware-basins-43",
-    "category": "sanitaryware-basins",
-    "finish": "Mint Green",
-    "price": 6300,
-    "code": "JW-6014",
-    "image": "/premiumbasin/138.jpg"
-  },
-  {
     "id": "sanitaryware-basins-44",
     "name": "Matt Black Wash Basin",
     "slug": "sanitaryware-basins-44",
@@ -613,16 +723,6 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/147.jpg"
   },
   {
-    "id": "sanitaryware-basins-49",
-    "name": "White Countertop Wash Basin",
-    "slug": "sanitaryware-basins-49",
-    "category": "sanitaryware-basins",
-    "finish": "Glossy White",
-    "price": 9700,
-    "code": "JW-6054",
-    "image": "/premiumbasin/148.jpg"
-  },
-  {
     "id": "sanitaryware-basins-50",
     "name": "White Countertop Wash Basin",
     "slug": "sanitaryware-basins-50",
@@ -631,6 +731,16 @@ export const sanitarywareProducts: Product[] = [
     "price": 9500,
     "code": "JW-6051",
     "image": "/premiumbasin/151.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-49",
+    "name": "White Countertop Wash Basin",
+    "slug": "sanitaryware-basins-49",
+    "category": "sanitaryware-basins",
+    "finish": "Glossy White",
+    "price": 9700,
+    "code": "JW-6054",
+    "image": "/premiumbasin/148.jpg"
   },
   {
     "id": "sanitaryware-basins-51",
@@ -651,16 +761,6 @@ export const sanitarywareProducts: Product[] = [
     "price": 8500,
     "code": "JW-6048",
     "image": "/premiumbasin/153.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-53",
-    "name": "Premium Wash Basin",
-    "slug": "sanitaryware-basins-53",
-    "category": "sanitaryware-basins",
-    "finish": "Gold & White",
-    "price": 50000,
-    "code": "JW-6056",
-    "image": "/premiumbasin/156.jpg"
   },
   {
     "id": "sanitaryware-basins-54",
@@ -753,14 +853,64 @@ export const sanitarywareProducts: Product[] = [
     "image": "/premiumbasin/172.jpg"
   },
   {
-    "id": "sanitaryware-basins-63",
-    "name": "Glass Countertop Wash Basin",
-    "slug": "sanitaryware-basins-63",
+    "id": "sanitaryware-basins-53",
+    "name": "Premium Wash Basin",
+    "slug": "sanitaryware-basins-53",
     "category": "sanitaryware-basins",
-    "finish": "Luxury Glass",
-    "price": 19500,
-    "code": "JW-6092",
-    "image": "/premiumbasin/173.jpg"
+    "finish": "Gold & White",
+    "price": 50000,
+    "code": "JW-6056",
+    "image": "/premiumbasin/156.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-3",
+    "name": "Beige Marble Print Wash Basin",
+    "slug": "sanitaryware-basins-3",
+    "category": "sanitaryware-basins",
+    "finish": "Beige Marble Print",
+    "price": 10750,
+    "code": "JW-6002",
+    "image": "/premiumbasin/75.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-16",
+    "name": "Brushed Gold Countertop Wash Basin",
+    "slug": "sanitaryware-basins-16",
+    "category": "sanitaryware-basins",
+    "finish": "Brushed Gold",
+    "price": 7450,
+    "code": "JW-6034",
+    "image": "/premiumbasin/97.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-24",
+    "name": "Rose Gold Countertop Wash Basin",
+    "slug": "sanitaryware-basins-24",
+    "category": "sanitaryware-basins",
+    "finish": "Rose Gold",
+    "price": 9500,
+    "code": "JW-6044",
+    "image": "/premiumbasin/108.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-31",
+    "name": "Ceramic White Wash Basin",
+    "slug": "sanitaryware-basins-31",
+    "category": "sanitaryware-basins",
+    "finish": "Ceramic White",
+    "price": 7200,
+    "code": "JW-6036",
+    "image": "/premiumbasin/119.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-43",
+    "name": "Matt Mint Green Wash Basin",
+    "slug": "sanitaryware-basins-43",
+    "category": "sanitaryware-basins",
+    "finish": "Mint Green",
+    "price": 6300,
+    "code": "JW-6014",
+    "image": "/premiumbasin/138.jpg"
   },
   {
     "id": "sanitaryware-basins-64",
@@ -771,156 +921,6 @@ export const sanitarywareProducts: Product[] = [
     "price": 30000,
     "code": "JW-6067",
     "image": "/premiumbasin/175.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-65",
-    "name": "Glass Countertop Wash Basin",
-    "slug": "sanitaryware-basins-65",
-    "category": "sanitaryware-basins",
-    "finish": "Royal Blue Glass",
-    "price": 19500,
-    "code": "JW-6061",
-    "image": "/premiumbasin/176.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-66",
-    "name": "Glass Countertop Washbasin",
-    "slug": "sanitaryware-basins-66",
-    "category": "sanitaryware-basins",
-    "finish": "Mint Green Glass",
-    "price": 18500,
-    "code": "JW-6060",
-    "image": "/premiumbasin/177.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-67",
-    "name": "Black Glass Wash Basin",
-    "slug": "sanitaryware-basins-67",
-    "category": "sanitaryware-basins",
-    "finish": "Black Glass",
-    "price": 16000,
-    "code": "JW-6101",
-    "image": "/premiumbasin/180.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-68",
-    "name": "Green Glass Wash Basin",
-    "slug": "sanitaryware-basins-68",
-    "category": "sanitaryware-basins",
-    "finish": "Green Glass",
-    "price": 16000,
-    "code": "JW-6102",
-    "image": "/premiumbasin/182.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-69",
-    "name": "Beige Marble Print Wash Basin",
-    "slug": "sanitaryware-basins-69",
-    "category": "sanitaryware-basins",
-    "finish": "Beige Marble Print",
-    "price": 10750,
-    "code": "JW-6016",
-    "image": "/premiumbasin/184.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-70",
-    "name": "Countertop Wash Basin 415*415",
-    "slug": "sanitaryware-basins-70",
-    "category": "sanitaryware-basins",
-    "finish": "Ceramic White",
-    "price": 12000,
-    "code": "JW-6063",
-    "image": "/premiumbasin/186.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-71",
-    "name": "Countertop Wash Basin 346*346",
-    "slug": "sanitaryware-basins-71",
-    "category": "sanitaryware-basins",
-    "finish": "Matt Black",
-    "price": 16000,
-    "code": "JW-6064",
-    "image": "/premiumbasin/187.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-72",
-    "name": "Matt Mint Green Wash Basin",
-    "slug": "sanitaryware-basins-72",
-    "category": "sanitaryware-basins",
-    "finish": "Matt Mint Green",
-    "price": 13000,
-    "code": "JW-6007",
-    "image": "/premiumbasin/189.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-73",
-    "name": "Glossy White Wash Basin",
-    "slug": "sanitaryware-basins-73",
-    "category": "sanitaryware-basins",
-    "finish": "Glossy White",
-    "price": 7200,
-    "code": "JW-6027",
-    "image": "/premiumbasin/191.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-74",
-    "name": "Matt Black Wash Basin",
-    "slug": "sanitaryware-basins-74",
-    "category": "sanitaryware-basins",
-    "finish": "Matt Black",
-    "price": 13100,
-    "code": "JW-6038",
-    "image": "/premiumbasin/192.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-75",
-    "name": "Blue Countertop Wash Basin",
-    "slug": "sanitaryware-basins-75",
-    "category": "sanitaryware-basins",
-    "finish": "Royal Blue",
-    "price": 13900,
-    "code": "JW-6006",
-    "image": "/premiumbasin/194.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-76",
-    "name": "Glossy White Wash Basin 505*380*150",
-    "slug": "sanitaryware-basins-76",
-    "category": "sanitaryware-basins",
-    "finish": "Glossy White",
-    "price": 7200,
-    "code": "JW-6026",
-    "image": "/premiumbasin/195.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-77",
-    "name": "Matt Black Wash Basin",
-    "slug": "sanitaryware-basins-77",
-    "category": "sanitaryware-basins",
-    "finish": "Matt Black",
-    "price": 15000,
-    "code": "JW-6001",
-    "image": "/premiumbasin/196.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-78",
-    "name": "Cement Grey Wash Basin",
-    "slug": "sanitaryware-basins-78",
-    "category": "sanitaryware-basins",
-    "finish": "Cement Grey",
-    "price": 15000,
-    "code": "JW-6003",
-    "image": "/premiumbasin/197.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-79",
-    "name": "Matt Cappuccino Wash Basin",
-    "slug": "sanitaryware-basins-79",
-    "category": "sanitaryware-basins",
-    "finish": "Matt Cappuccino",
-    "price": 15000,
-    "code": "JW-6002",
-    "image": "/premiumbasin/198.jpg"
   },
   {
     "id": "stone-is-the-king-of-luxury-1",
