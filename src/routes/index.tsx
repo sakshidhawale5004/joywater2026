@@ -510,7 +510,7 @@ function Index() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[250px] md:auto-rows-[300px]">
             <div className="col-span-2 row-span-2 overflow-hidden rounded-2xl group relative">
-              <img src="/images/designer-faucets-new.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <img src="/homepagebannerforslider/banner 8.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
             <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
@@ -518,11 +518,11 @@ function Index() {
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
             <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
-              <img src="/images/stone-basins-new.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <img src="/images/designer-faucets-new.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
             <div className="col-span-2 overflow-hidden rounded-2xl group relative">
-              <img src="/HEROSECTIONIMAGES/Sanitaryware Collections.jpg" alt="Gallery" className="w-full h-full object-cover object-bottom transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <img src="/homepagebannerforslider/banner 9.jpg" alt="Gallery" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
           </div>
