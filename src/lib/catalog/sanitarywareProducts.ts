@@ -1158,7 +1158,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-25",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12500,
+    "price": 66000,
     "code": "JW-6039",
     "image": "/stoneisthekingofluxury/232.jpg"
   },
@@ -1188,27 +1188,27 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-28",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 245000,
+    "price": 24500,
     "code": "JW-6036",
     "image": "/stoneisthekingofluxury/236.jpg"
   },
   {
     "id": "stone-is-the-king-of-luxury-29",
-    "name": "Circum",
+    "name": "Olivia",
     "slug": "stone-is-the-king-of-luxury-29",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 16500,
+    "price": 23500,
     "code": "JW-6015",
     "image": "/stoneisthekingofluxury/237.jpg"
   },
   {
     "id": "stone-is-the-king-of-luxury-30",
-    "name": "Luxury Natural Stone Basin (Natural Stone)",
+    "name": "Circum",
     "slug": "stone-is-the-king-of-luxury-30",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 11500,
+    "price": 16500,
     "code": "JW-6012",
     "image": "/stoneisthekingofluxury/238.jpg"
   },
@@ -1338,7 +1338,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-43",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 185000,
+    "price": 18500,
     "code": "JW-6090",
     "image": "/stoneisthekingofluxury/253.jpg"
   },

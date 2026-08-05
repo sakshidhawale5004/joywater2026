@@ -756,6 +756,16 @@ const realCategoryProducts: Product[] = [
       "/diverters/6 Function Diverter (6).png",
       "/diverters/6 Function Diverter (7).png",
       "/diverters/6 Function Diverter (8).png",
+    ],
+    [
+      "Brushed Gold",
+      "Graphite Grey",
+      "Brushed Rose Gold",
+      "Chrome",
+      "Brushed Gold",
+      "Graphite Grey",
+      "Brushed Rose Gold",
+      "Chrome",
     ]
   ),
   ...createCategoryProducts(
