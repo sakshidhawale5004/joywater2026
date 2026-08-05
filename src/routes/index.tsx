@@ -18,6 +18,14 @@ const catAccessories = "/images/PDF1_P50_IMG1.png";
 import { ArrowRight } from "lucide-react";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
@@ -488,6 +496,98 @@ function Index() {
             compromising the volumetric feel of the flow. We believe that true luxury must be
             responsible to the environment it draws from.
           </p>
+        </div>
+      </section>
+
+      {/* INSPIRATION GALLERY */}
+      <section className="py-24 bg-background">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="text-center mb-14">
+            <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Project Gallery</p>
+            <h2 className="font-serif text-4xl md:text-5xl">
+              Spaces defined by water.
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[250px] md:auto-rows-[300px]">
+            <div className="col-span-2 row-span-2 overflow-hidden rounded-2xl group relative">
+              <img src="/images/designer-faucets-new.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+            <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
+              <img src="/images/PDF1_P20_IMG2.png" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+            <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
+              <img src="/images/stone-basins-new.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+            <div className="col-span-2 overflow-hidden rounded-2xl group relative">
+              <img src="/HEROSECTIONIMAGES/Sanitaryware Collections.jpg" alt="Gallery" className="w-full h-full object-cover object-bottom transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-secondary/40 py-24 border-y border-border/60">
+        <div className="max-w-4xl mx-auto px-8">
+          <div className="text-center mb-14">
+            <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Support</p>
+            <h2 className="font-serif text-4xl md:text-5xl">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="item-1" className="border-border/60">
+              <AccordionTrigger className="text-lg hover:text-gold transition-colors font-medium">What does the 11-year warranty cover?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed text-base">
+                Our comprehensive 10-year base warranty plus 1 additional year covers all brass and stainless steel assemblies against manufacturing defects. Internal ceramic cartridges and thermostatic elements are also fully supported.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2" className="border-border/60">
+              <AccordionTrigger className="text-lg hover:text-gold transition-colors font-medium">How do I maintain PVD finishes?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed text-base">
+                PVD finishes are highly durable and integrated into the metal. We recommend cleaning with a soft microfibre cloth and mild soap. Avoid abrasive cleaners and scouring pads to maintain the brilliant shine for lifetimes.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3" className="border-border/60">
+              <AccordionTrigger className="text-lg hover:text-gold transition-colors font-medium">Are your products suitable for hard water?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed text-base">
+                Yes, our Neoperl Swiss aerators and Vernet thermostatic cartridges are designed to perform exceptionally well even in hard water conditions. We recommend periodic descaling of the aerators for optimal flow.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4" className="border-border/60 border-b-0">
+              <AccordionTrigger className="text-lg hover:text-gold transition-colors font-medium">Can I customize the finish or dimensions?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed text-base">
+                Yes, we offer over 18 PVD finishes. Our architectural mirrors and natural stone basins can also be tailored to match your specific interior design requirements.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="bg-primary text-primary-foreground py-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gold/5" />
+        <div className="max-w-3xl mx-auto px-8 relative z-10 text-center">
+          <p className="text-xs uppercase tracking-[0.4em] text-gold mb-6">Stay Inspired</p>
+          <h2 className="font-serif text-3xl md:text-5xl mb-6 leading-tight">
+            Join the inner circle of architectural luxury.
+          </h2>
+          <p className="text-primary-foreground/70 leading-relaxed text-lg mb-10">
+            Subscribe to receive our latest digital catalogs, architectural insights, and exclusive invitations to design events.
+          </p>
+          <form className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto" onSubmit={(e) => e.preventDefault()}>
+            <Input 
+              type="email" 
+              placeholder="Enter your email address" 
+              className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 focus-visible:ring-gold h-12"
+            />
+            <Button className="bg-gold text-primary hover:bg-white hover:text-primary h-12 px-8 uppercase tracking-[0.2em] text-xs transition-all">
+              Subscribe
+            </Button>
+          </form>
         </div>
       </section>
 
