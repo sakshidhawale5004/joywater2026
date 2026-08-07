@@ -30,9 +30,9 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/homepagebannerforslider/banner1.jpg",
-    title: "The Art of Water",
-    subtitle: "Premium architectural bath fittings.",
+    image: "/homepagebannerforslider/banner 7.jpg",
+    title: "Waterfall Showers",
+    subtitle: "Immerse yourself in overhead luxury.",
     category: "Joy Water Exclusives",
     link: "/products"
   },
@@ -156,8 +156,8 @@ function Index() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
 
                 <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-12 md:px-24 flex flex-col justify-end pb-24 md:pb-32">
-                  <div className="animate-reveal max-w-4xl">
-                    <h2 className="font-sans font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] leading-[1.1] text-white mb-4">
+                  <div className="animate-reveal max-w-3xl">
+                    <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-4">
                       {slide.title}: {slide.subtitle}
                     </h2>
                     
