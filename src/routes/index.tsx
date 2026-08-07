@@ -7,6 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import { products } from "@/lib/catalog/data";
 const hero = "/images/Black-Horizontal.jpg.jpeg";
@@ -31,64 +32,29 @@ const heroSlides = [
   {
     image: "/homepagebannerforslider/banner1.jpg",
     title: "The Art of Water",
-    subtitle: "Discover our latest collection of premium architectural bath fittings.",
+    subtitle: "Premium architectural bath fittings.",
     category: "Joy Water Exclusives",
     link: "/products"
   },
   {
     image: "/homepagebannerforslider/banner2finalimage.jpg",
     title: "Timeless Luxury",
-    subtitle: "Experience refined craftsmanship and luxury in every single drop.",
+    subtitle: "Refined craftsmanship in every drop.",
     category: "Showers",
     link: "/category/2-function-shower-rain-mist"
   },
   {
-    image: "/homepagebannerforslider/banner 3.jpg",
-    title: "Body Shower Series",
-    subtitle: "Minimalist architectural body showers engineered for modern bath sanctuaries.",
-    category: "Body Showers",
-    link: "/category/body-jets-2-function"
-  },
-  {
     image: "/homepagebannerforslider/banner 4.jpg",
     title: "Luxury Basin Mixers",
-    subtitle: "Precision engineering and unmatched brass craftsmanship.",
+    subtitle: "Precision engineering and unmatched brass.",
     category: "Basin Mixers",
     link: "/category/round-controller-basin-mixer"
   },
   {
-    image: "/homepagebannerforslider/banner 5.jpg",
-    title: "Architectural Mirrors",
-    subtitle: "Handcrafted LED and 3D mirrors engineered for an elegant finish.",
-    category: "Mirrors",
-    link: "/category/led-mirrors"
-  },
-  {
-    image: "/homepagebannerforslider/banner 6.jpg",
-    title: "Bathroom Accessories",
-    subtitle: "Refined finishing touches and solid brass bathroom fittings.",
-    category: "Accessories",
-    link: "/category/bathroom-accessories-fittings"
-  },
-  {
-    image: "/homepagebannerforslider/banner 7.jpg",
-    title: "Waterfall Showers",
-    subtitle: "Immerse yourself in overhead luxury with cascading waterfall shower systems.",
-    category: "Waterfall Showers",
-    link: "/category/waterfall-showers"
-  },
-  {
-    image: "/homepagebannerforslider/banner 8.jpg",
-    title: "Sanitaryware Basins",
-    subtitle: "Contemporary ceramic and stainless steel wash basins crafted for luxury living.",
-    category: "Basins",
-    link: "/category/sanitaryware-basins"
-  },
-  {
     image: "/homepagebannerforslider/banner 9.jpg",
-    title: "Stone is the King of Luxury",
-    subtitle: "Majestic natural stone and pedestal wash basins sculptured for timeless grandeur.",
-    category: "Stone is the King of Luxury",
+    title: "Majestic Stone",
+    subtitle: "Sculptured for timeless grandeur.",
+    category: "Stone Basins",
     link: "/category/stone-is-the-king-of-luxury"
   }
 ];
@@ -149,11 +115,25 @@ const collections = [
 ];
 
 function Index() {
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+    setCurrent(api.selectedScrollSnap());
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap());
+    });
+  }, [api]);
+
   return (
     <SiteLayout>
       {/* HERO */}
-      <section className="relative w-full overflow-hidden bg-black group">
+      <section className="relative w-full overflow-hidden bg-black group h-[90vh] min-h-[600px]">
         <Carousel
+          setApi={setApi}
           plugins={[
             Autoplay({
               delay: 6000,
@@ -161,48 +141,54 @@ function Index() {
             }),
           ]}
           opts={{ loop: true, watchDrag: false }}
-          className="w-full relative z-0"
+          className="w-full relative z-0 h-full"
         >
-          <CarouselContent>
+          <CarouselContent className="h-full">
             {heroSlides.map((slide, i) => (
-              <CarouselItem key={i} className="min-w-0 flex-[0_0_100%] relative">
+              <CarouselItem key={i} className="min-w-0 flex-[0_0_100%] relative h-full">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-auto object-contain max-h-[92vh]"
+                  className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black/40" />
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-black/20" />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
 
-                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-8 flex flex-col justify-center sm:justify-end pb-8 sm:pb-20 md:pb-32">
-                  <div className="animate-reveal">
-                    <p className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-gold mb-2 sm:mb-6">
-                      {slide.category}
-                    </p>
-                    <h2 className="font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-4xl text-white">
-                      {slide.title}
+                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-12 md:px-24 flex flex-col justify-end pb-24 md:pb-32">
+                  <div className="animate-reveal max-w-4xl">
+                    <h2 className="font-sans font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] leading-[1.1] text-white mb-4">
+                      {slide.title}: {slide.subtitle}
                     </h2>
-                    <p className="mt-4 sm:mt-8 text-sm sm:text-lg text-white/90 max-w-xl leading-relaxed">
-                      {slide.subtitle}
-                    </p>
-                    <div className="mt-6 sm:mt-10 flex gap-4">
-                      <Link
-                        to={slide.link}
-                        className="group/btn inline-flex items-center gap-2 sm:gap-3 bg-gold text-black px-6 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-sm uppercase tracking-[0.2em] font-medium hover:bg-white hover:text-black transition-all"
-                      >
-                        Explore <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4 transition-transform group-hover/btn:translate-x-1" />
-                      </Link>
+                    
+                    <div className="h-1 w-full max-w-xl bg-[#1fb2a6] mb-8" />
+                    
+                    <Link
+                      to={slide.link}
+                      className="inline-flex items-center justify-center bg-white text-black px-8 py-4 font-semibold text-sm hover:bg-gray-100 transition-colors"
+                    >
+                      Explore {slide.category}
+                    </Link>
+
+                    {/* Pagination indicators */}
+                    <div className="flex gap-3 mt-16 md:mt-24">
+                      {heroSlides.map((_, index) => (
+                        <div
+                          key={index}
+                          className={`h-1 w-12 sm:w-16 transition-all duration-300 ${
+                            current === index ? "bg-[#1fb2a6]" : "bg-white/50"
+                          }`}
+                        />
+                      ))}
                     </div>
                   </div>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="absolute bottom-6 sm:bottom-12 right-6 sm:right-12 flex gap-4 z-20">
-            <CarouselPrevious className="static translate-y-0 h-10 w-10 sm:h-14 sm:w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
-            <CarouselNext className="static translate-y-0 h-10 w-10 sm:h-14 sm:w-14 border-white/20 hover:bg-white/10 hover:text-white bg-transparent text-white" />
-          </div>
+          
+          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 h-20 w-12 sm:w-14 rounded-none rounded-r-sm bg-white/70 hover:bg-white text-black border-0 backdrop-blur-sm z-20" />
+          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 h-20 w-12 sm:w-14 rounded-none rounded-l-sm bg-white/70 hover:bg-white text-black border-0 backdrop-blur-sm z-20" />
         </Carousel>
       </section>
 
@@ -402,44 +388,7 @@ function Index() {
         </div>
       </section>
 
-      {/* FINISHES */}
-      <section className="max-w-7xl mx-auto px-8 py-24">
-        <div className="text-center mb-14">
-          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">Finishes</p>
-          <h2 className="font-serif text-4xl md:text-5xl">
-            A palette engineered to age gracefully.
-          </h2>
-        </div>
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          className="w-full max-w-5xl mx-auto"
-        >
-          <CarouselContent>
-            {[
-              ["Matt Black", "from-neutral-900 to-neutral-700"],
-              ["Brushed Gold", "from-amber-300 to-yellow-600"],
-              ["Rose Gold", "from-rose-300 to-pink-500"],
-              ["Venetian Gold", "from-yellow-400 to-amber-700"],
-              ["Graphite Grey", "from-neutral-500 to-neutral-800"],
-              ["Chrome", "from-slate-200 to-slate-500"],
-            ].map(([n, g]) => (
-              <CarouselItem key={n} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
-                <div className="group p-4">
-                  <div
-                    className={`aspect-square bg-gradient-to-br ${g} rounded-full transition-transform duration-500 group-hover:scale-105 shadow-[inset_0_2px_20px_rgba(255,255,255,0.35)]`}
-                  />
-                  <p className="text-xs uppercase tracking-widest text-center mt-6">{n}</p>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="hidden md:flex" />
-          <CarouselNext className="hidden md:flex" />
-        </Carousel>
-      </section>
+
 
       {/* TESTIMONIALS */}
       <section className="bg-secondary py-24 border-t border-border/50">
