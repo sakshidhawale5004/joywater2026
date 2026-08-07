@@ -157,11 +157,11 @@ function Index() {
 
                 <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-12 md:px-24 flex flex-col justify-end pb-24 md:pb-32">
                   <div className="animate-reveal max-w-3xl">
-                    <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-4">
+                    <h2 className="font-sans font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.2] text-white mb-4">
                       {slide.title}: {slide.subtitle}
                     </h2>
                     
-                    <div className="h-1 w-full max-w-xl bg-[#1fb2a6] mb-8" />
+                    <div className="h-1 w-full max-w-xl bg-gold mb-8" />
                     
                     <Link
                       to={slide.link}
@@ -176,7 +176,7 @@ function Index() {
                         <div
                           key={index}
                           className={`h-1 w-12 sm:w-16 transition-all duration-300 ${
-                            current === index ? "bg-[#1fb2a6]" : "bg-white/50"
+                            current === index ? "bg-gold" : "bg-white/50"
                           }`}
                         />
                       ))}
