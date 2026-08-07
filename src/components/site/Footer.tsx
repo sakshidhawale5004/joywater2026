@@ -18,13 +18,23 @@ export function Footer() {
           <h4 className="text-xs uppercase tracking-[0.2em] text-gold mb-4">Explore</h4>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
             <li>
-              <Link to="/products" className="hover:text-gold">
-                All Products
+              <Link to="/" className="hover:text-gold">
+                Home
               </Link>
             </li>
             <li>
               <Link to="/about" className="hover:text-gold">
                 About Joy Water
+              </Link>
+            </li>
+            <li>
+              <Link to="/gallery" className="hover:text-gold">
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link to="/products" className="hover:text-gold">
+                All Products
               </Link>
             </li>
             <li>

@@ -925,8 +925,15 @@ export function getProductsByCategory(slug: string) {
 
 
 export const megaMenu = {
-  "Showers": {
-    "All Showers": [
+  "Sanitary ware": {
+    "Sanitaryware": [
+      "sanitaryware-basins",
+      "stone-is-the-king-of-luxury",
+      "wall-hung-wc"
+    ]
+  },
+  "Showers and multi functional showers and jets": {
+    "Showers": [
       "2-function-shower-rain-mist",
       "3-function-shower-rain-mist-dual-waterfall",
       "3-function-shower-rain-mist-large-single-waterfall",
@@ -937,30 +944,24 @@ export const megaMenu = {
       "waterfall-showers",
       "2-function-wall-mounted-shower-arm",
       "multifunctional-wall-mounted-shower"
-    ]
-  },
-  "Multi-Functional Body Showers": {
+    ],
     "Body Showers": [
       "body-jets-2-function",
       "one-line-series",
       "eminence-series"
     ]
   },
-  "Diverters": {
-    "All Diverters": [
+  "diverters and tile insert drainers and basin mixers": {
+    "Diverters": [
       "5-function-diverter",
       "6-function-diverter",
       "thermostatic-diverter-three-outlet",
       "lever-diverter-three-outlet"
-    ]
-  },
-  "Tile Insert Drainers": {
+    ],
     "Drainers": [
       "tile-insert-drain"
-    ]
-  },
-  "Basin Mixers": {
-    "All Basin Mixers": [
+    ],
+    "Basin Mixers": [
       "round-controller-basin-mixer",
       "thermostatic-click-controller-basin-mixer",
       "lever-basin-mixer",
@@ -969,14 +970,7 @@ export const megaMenu = {
       "ceiling-mounted-basin-mixer"
     ]
   },
-  "Sanitaryware": {
-    "Sanitaryware": [
-      "sanitaryware-basins",
-      "stone-is-the-king-of-luxury",
-      "wall-hung-wc"
-    ]
-  },
-  "Accessories": {
+  "Bath accessories": {
     "Accessories": [
       "bathroom-accessories-fittings"
     ]
