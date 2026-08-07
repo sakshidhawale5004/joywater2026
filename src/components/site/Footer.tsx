@@ -27,11 +27,7 @@ export function Footer() {
                 About Joy Water
               </Link>
             </li>
-            <li>
-              <Link to="/gallery" className="hover:text-gold">
-                Gallery
-              </Link>
-            </li>
+
             <li>
               <Link to="/products" className="hover:text-gold">
                 All Products
