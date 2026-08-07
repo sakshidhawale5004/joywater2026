@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, useRef } from "react";
-import { Menu, X, Phone, MapPin, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, MapPin, ChevronDown, Search, ClipboardList } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { megaMenu, getCategory } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
@@ -91,9 +91,20 @@ export function Header() {
             Contact
           </Link>
         </nav>
-        <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
-          {mobile ? <X /> : <Menu />}
-        </button>
+        
+        <div className="flex items-center gap-4">
+          <button className="hidden lg:flex items-center justify-center p-2 text-muted-foreground hover:text-gold transition-colors">
+            <Search className="h-5 w-5" />
+          </button>
+          <button className="hidden lg:flex items-center gap-2 bg-[#4BCFBD] text-white px-5 py-2.5 hover:bg-[#3eb5a4] transition-colors rounded-sm uppercase tracking-wider text-xs font-semibold shadow-sm">
+            <ClipboardList className="h-4 w-4" />
+            My Selections
+          </button>
+          
+          <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
+            {mobile ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
 
       {open && (
