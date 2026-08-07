@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, useRef } from "react";
-import { Menu, X, Phone, MapPin } from "lucide-react";
+import { Menu, X, Phone, MapPin, ChevronDown } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { megaMenu, getCategory } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
@@ -65,7 +65,7 @@ export function Header() {
             className="h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
-        <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
+        <nav className="hidden lg:flex items-center gap-2 xl:gap-4">
           {NAV.map((label) => (
             <div
               key={label}
@@ -75,17 +75,18 @@ export function Header() {
               <button
                 onClick={() => setOpen(open === label ? null : label)}
                 className={cn(
-                  "px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium transition-colors whitespace-nowrap cursor-pointer",
+                  "px-2 xl:px-3 py-3 text-sm uppercase tracking-wider font-medium transition-colors whitespace-nowrap cursor-pointer flex items-center gap-1.5",
                   open === label ? "text-gold" : "text-foreground hover:text-gold",
                 )}
               >
                 {label}
+                <ChevronDown className={cn("h-4 w-4 transition-transform duration-300 opacity-60", open === label ? "rotate-180" : "")} />
               </button>
             </div>
           ))}
           <Link
             to="/contact"
-            className="px-1.5 xl:px-2 py-3 text-[10px] uppercase tracking-[0.1em] font-medium hover:text-gold transition-colors whitespace-nowrap"
+            className="px-2 xl:px-3 py-3 text-sm uppercase tracking-wider font-medium hover:text-gold transition-colors whitespace-nowrap"
           >
             Contact
           </Link>
