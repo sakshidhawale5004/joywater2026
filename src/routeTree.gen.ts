@@ -13,12 +13,12 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CareRouteImport } from './routes/care'
 import { Route as ContactRouteImport } from './routes/contact'
-import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as ProductSlugRouteImport } from './routes/product.$slug'
+import { Route as ShowersInFinishSlugRouteImport } from './routes/showers-in-finish.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -38,11 +38,6 @@ const CareRoute = CareRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GalleryRoute = GalleryRouteImport.update({
-  id: '/gallery',
-  path: '/gallery',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProductsRoute = ProductsRouteImport.update({
@@ -70,30 +65,35 @@ const ProductSlugRoute = ProductSlugRouteImport.update({
   path: '/product/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ShowersInFinishSlugRoute = ShowersInFinishSlugRouteImport.update({
+  id: '/showers-in-finish/$slug',
+  path: '/showers-in-finish/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
   '/contact': typeof ContactRoute
-  '/gallery': typeof GalleryRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/product/$slug': typeof ProductSlugRoute
+  '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
   '/contact': typeof ContactRoute
-  '/gallery': typeof GalleryRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/product/$slug': typeof ProductSlugRoute
+  '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -101,12 +101,12 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
   '/contact': typeof ContactRoute
-  '/gallery': typeof GalleryRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/product/$slug': typeof ProductSlugRoute
+  '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -115,36 +115,36 @@ export interface FileRouteTypes {
     | '/about'
     | '/care'
     | '/contact'
-    | '/gallery'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
     | '/product/$slug'
+    | '/showers-in-finish/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/care'
     | '/contact'
-    | '/gallery'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
     | '/product/$slug'
+    | '/showers-in-finish/$slug'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/care'
     | '/contact'
-    | '/gallery'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
     | '/product/$slug'
+    | '/showers-in-finish/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -152,12 +152,12 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   CareRoute: typeof CareRoute
   ContactRoute: typeof ContactRoute
-  GalleryRoute: typeof GalleryRoute
   ProductsRoute: typeof ProductsRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   WarrantyRoute: typeof WarrantyRoute
   CategorySlugRoute: typeof CategorySlugRoute
   ProductSlugRoute: typeof ProductSlugRoute
+  ShowersInFinishSlugRoute: typeof ShowersInFinishSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -188,13 +188,6 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/gallery': {
-      id: '/gallery'
-      path: '/gallery'
-      fullPath: '/gallery'
-      preLoaderRoute: typeof GalleryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/products': {
@@ -232,6 +225,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/showers-in-finish/$slug': {
+      id: '/showers-in-finish/$slug'
+      path: '/showers-in-finish/$slug'
+      fullPath: '/showers-in-finish/$slug'
+      preLoaderRoute: typeof ShowersInFinishSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -240,12 +240,12 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   CareRoute: CareRoute,
   ContactRoute: ContactRoute,
-  GalleryRoute: GalleryRoute,
   ProductsRoute: ProductsRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   WarrantyRoute: WarrantyRoute,
   CategorySlugRoute: CategorySlugRoute,
   ProductSlugRoute: ProductSlugRoute,
+  ShowersInFinishSlugRoute: ShowersInFinishSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
