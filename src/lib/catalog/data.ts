@@ -379,15 +379,28 @@ function createCategoryProducts(
   imagePaths: string[],
   customFinishes?: string[]
 ): Product[] {
-  const baseFinishes = [
-    "Graphite Grey",
-    "Rose Gold",
-    "Matt Black",
-    "Brushed Gold",
-    "Brushed Rose Gold",
-    "Chrome"
-  ];
-  const finishes = Array.from(new Set([...(customFinishes || []), ...baseFinishes]));
+  let finishes = customFinishes;
+  
+  if (!finishes) {
+    if (imagePaths.length === 4) {
+      finishes = ["Chrome", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"];
+    } else if (imagePaths.length === 3) {
+      finishes = ["Chrome", "Brushed Gold", "Graphite Grey"];
+    } else if (imagePaths.length === 2) {
+      finishes = ["Chrome", "Brushed Gold"];
+    } else {
+      const baseFinishes = [
+        "Graphite Grey",
+        "Rose Gold",
+        "Matt Black",
+        "Brushed Gold",
+        "Brushed Rose Gold",
+        "Chrome"
+      ];
+      finishes = baseFinishes.slice(0, imagePaths.length);
+    }
+  }
+
   
   const pdfCodes = [
     "JW-10011",
@@ -693,7 +706,7 @@ const realCategoryProducts: Product[] = [
     ],
     [
       "Graphite Grey",
-      "Matte Black",
+      "Matt Black",
       "Gunmetal",
       "Brushed Gold",
       "Chrome",
