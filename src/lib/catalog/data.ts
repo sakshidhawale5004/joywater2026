@@ -690,7 +690,7 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold"]
+    ["Brushed Gold", "Graphite Grey", "Removed"]
   ),
   ...createCategoryProducts(
     "multifunctional-wall-mounted-shower",
@@ -709,8 +709,8 @@ const realCategoryProducts: Product[] = [
     ],
     [
       "Graphite Grey",
-      "Chrome",
-      "Rose Gold",
+      "Removed",
+      "Removed",
       "Brushed Gold",
       "Chrome",
       "Brushed Gold",
