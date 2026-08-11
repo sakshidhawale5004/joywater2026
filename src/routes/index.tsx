@@ -116,7 +116,7 @@ const collections = [
   {
     title: "Mirrors & Accessories",
     slug: "led-mirrors",
-    image: "/ledmirroer/ganesh.jpg",
+    image: "/MIRRORS/METAL LED MIRRORS (2).png",
     tag: "Finishing Touches",
   },
 ];
