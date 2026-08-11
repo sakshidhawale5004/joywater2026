@@ -379,16 +379,16 @@ function createCategoryProducts(
   imagePaths: string[],
   customFinishes?: string[]
 ): Product[] {
-  const finishes = customFinishes || [
-    "Chrome",
-    "Brushed Gold",
+  const baseFinishes = [
     "Graphite Grey",
-    "Brushed Rose Gold",
     "Rose Gold",
-    "Brushed Chrome",
-    "Polished Chrome",
-    "Brushed Nickel",
+    "Matt Black",
+    "Brushed Gold",
+    "Brushed Rose Gold",
+    "Chrome"
   ];
+  const finishes = Array.from(new Set([...(customFinishes || []), ...baseFinishes]));
+  
   const pdfCodes = [
     "JW-10011",
     "JW-10012",
@@ -399,8 +399,9 @@ function createCategoryProducts(
     "JW-10017",
     "JW-10018",
   ];
-  return imagePaths.map((image, idx) => {
-    const finish = finishes[idx % finishes.length];
+  
+  return finishes.map((finish, idx) => {
+    const image = imagePaths[idx % imagePaths.length];
     const code = pdfCodes[idx % pdfCodes.length];
     const num = idx + 1;
     return {
