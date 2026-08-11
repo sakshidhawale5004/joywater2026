@@ -1003,7 +1003,8 @@ export const megaMenu = {
     "Mixers In PVD Finishes": [
       "graphite-grey",
       "rose-gold",
-      "gold"
+      "gold",
+      "chrome"
     ]
   },
   "Bath Accessories": {

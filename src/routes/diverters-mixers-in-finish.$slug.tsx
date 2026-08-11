@@ -7,6 +7,7 @@ const finishesMap: Record<string, string> = {
   "graphite-grey": "Graphite Grey",
   "rose-gold": "Rose Gold",
   "gold": "Gold",
+  "chrome": "Chrome",
 };
 
 export const Route = createFileRoute("/diverters-mixers-in-finish/$slug")({
@@ -56,6 +57,7 @@ function DivertersMixersInFinishPage() {
     { label: "Graphite Grey", slug: "graphite-grey" },
     { label: "Rose Gold", slug: "rose-gold" },
     { label: "Gold", slug: "gold" },
+    { label: "Chrome", slug: "chrome" },
   ];
 
   return (
