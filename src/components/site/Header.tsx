@@ -41,7 +41,7 @@ export function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 bg-background border-b border-border/60"
+      className="sticky top-0 z-50 bg-white border-b border-border/60"
       onMouseLeave={handleMouseLeave}
       onMouseEnter={handleDropdownMouseEnter}
     >
