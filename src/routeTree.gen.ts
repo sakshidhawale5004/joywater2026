@@ -17,6 +17,7 @@ import { Route as ProductsRouteImport } from './routes/products'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
+import { Route as DivertersMixersInFinishSlugRouteImport } from './routes/diverters-mixers-in-finish.$slug'
 import { Route as ProductSlugRouteImport } from './routes/product.$slug'
 import { Route as ShowersInFinishSlugRouteImport } from './routes/showers-in-finish.$slug'
 
@@ -60,6 +61,12 @@ const CategorySlugRoute = CategorySlugRouteImport.update({
   path: '/category/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DivertersMixersInFinishSlugRoute =
+  DivertersMixersInFinishSlugRouteImport.update({
+    id: '/diverters-mixers-in-finish/$slug',
+    path: '/diverters-mixers-in-finish/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ProductSlugRoute = ProductSlugRouteImport.update({
   id: '/product/$slug',
   path: '/product/$slug',
@@ -80,6 +87,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
+  '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
@@ -92,6 +100,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
+  '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
@@ -105,6 +114,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
+  '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/showers-in-finish/$slug': typeof ShowersInFinishSlugRoute
 }
@@ -119,6 +129,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
+    | '/diverters-mixers-in-finish/$slug'
     | '/product/$slug'
     | '/showers-in-finish/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -131,6 +142,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
+    | '/diverters-mixers-in-finish/$slug'
     | '/product/$slug'
     | '/showers-in-finish/$slug'
   id:
@@ -143,6 +155,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/warranty'
     | '/category/$slug'
+    | '/diverters-mixers-in-finish/$slug'
     | '/product/$slug'
     | '/showers-in-finish/$slug'
   fileRoutesById: FileRoutesById
@@ -156,6 +169,7 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   WarrantyRoute: typeof WarrantyRoute
   CategorySlugRoute: typeof CategorySlugRoute
+  DivertersMixersInFinishSlugRoute: typeof DivertersMixersInFinishSlugRoute
   ProductSlugRoute: typeof ProductSlugRoute
   ShowersInFinishSlugRoute: typeof ShowersInFinishSlugRoute
 }
@@ -218,6 +232,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CategorySlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/diverters-mixers-in-finish/$slug': {
+      id: '/diverters-mixers-in-finish/$slug'
+      path: '/diverters-mixers-in-finish/$slug'
+      fullPath: '/diverters-mixers-in-finish/$slug'
+      preLoaderRoute: typeof DivertersMixersInFinishSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/product/$slug': {
       id: '/product/$slug'
       path: '/product/$slug'
@@ -244,6 +265,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   WarrantyRoute: WarrantyRoute,
   CategorySlugRoute: CategorySlugRoute,
+  DivertersMixersInFinishSlugRoute: DivertersMixersInFinishSlugRoute,
   ProductSlugRoute: ProductSlugRoute,
   ShowersInFinishSlugRoute: ShowersInFinishSlugRoute,
 }
