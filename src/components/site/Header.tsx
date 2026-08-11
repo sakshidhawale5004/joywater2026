@@ -1,8 +1,8 @@
-import { Link } from "@tanstack/react-router";
-import { useState, useRef } from "react";
+import { Link, useNavigate } from "@tanstack/react-router";
+import { useState, useRef, useEffect } from "react";
 import { Menu, X, Phone, MapPin, ChevronDown, Search, ClipboardList } from "lucide-react";
 import logo from "@/assets/logo.png";
-import { megaMenu, getCategory } from "@/lib/catalog/data";
+import { megaMenu, getCategory, products } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/hooks/useCart";
 
@@ -12,8 +12,34 @@ const NAV = Object.keys(megaMenu) as MenuKey[];
 export function Header() {
   const [open, setOpen] = useState<MenuKey | null>(null);
   const [mobile, setMobile] = useState(false);
+  
+  // Search State
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const navigate = useNavigate();
+
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cartItems = useCart((state) => state.items);
+
+  // Focus input when search opens
+  useEffect(() => {
+    if (searchOpen && searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [searchOpen]);
+
+  // Derived Search Results
+  const searchResults = searchQuery.trim().length > 1 
+    ? products.filter(p => {
+        const query = searchQuery.toLowerCase();
+        return (
+          p.name.toLowerCase().includes(query) ||
+          p.code.toLowerCase().includes(query) ||
+          p.finish.toLowerCase().includes(query)
+        );
+      }).slice(0, 6)
+    : [];
 
   const handleMouseEnter = (label: MenuKey) => {
     if (closeTimeoutRef.current) {
@@ -95,8 +121,14 @@ export function Header() {
         </nav>
         
         <div className="flex items-center gap-4">
-          <button className="hidden lg:flex items-center justify-center p-2 text-muted-foreground hover:text-gold transition-colors">
-            <Search className="h-5 w-5" />
+          <button 
+            onClick={() => {
+              setSearchOpen(!searchOpen);
+              setOpen(null);
+            }}
+            className="hidden lg:flex items-center justify-center p-2 text-muted-foreground hover:text-gold transition-colors"
+          >
+            {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
           </button>
           <Link to="/my-selections" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
             <div className="relative">
@@ -181,6 +213,76 @@ export function Header() {
           >
             Contact
           </Link>
+        </div>
+      )}
+
+      {/* Search Overlay Dropdown */}
+      {searchOpen && (
+        <div className="hidden lg:block absolute left-0 right-0 top-full bg-white border-t border-border shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)] z-50">
+          <div className="max-w-7xl mx-auto px-8 py-8">
+            <div className="relative mb-8">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-6 w-6 text-muted-foreground" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products by name, code (e.g. JW-100), or finish..."
+                className="w-full bg-secondary/30 border-2 border-border/80 rounded-xl pl-14 pr-4 py-4 text-lg focus:outline-none focus:border-gold transition-colors"
+              />
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery("")}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              )}
+            </div>
+
+            {searchQuery.trim().length > 1 && (
+              <div>
+                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-4 font-semibold">
+                  {searchResults.length > 0 ? "Top Results" : "No results found"}
+                </p>
+                {searchResults.length > 0 ? (
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+                    {searchResults.map((product) => (
+                      <Link 
+                        key={product.id}
+                        to="/product/$slug"
+                        params={{ slug: product.slug }}
+                        onClick={() => {
+                          setSearchOpen(false);
+                          setSearchQuery("");
+                        }}
+                        className="flex gap-4 p-4 border border-border/50 rounded-lg hover:border-gold/50 hover:bg-secondary/20 transition-all group"
+                      >
+                        <div className="w-16 h-16 bg-secondary/50 rounded flex-shrink-0 flex items-center justify-center p-1">
+                          {product.image ? (
+                            <img src={product.image} alt={product.name} className="w-full h-full object-contain" />
+                          ) : (
+                            <div className="w-full h-full bg-neutral-200" />
+                          )}
+                        </div>
+                        <div className="flex-1 flex flex-col justify-center">
+                          <p className="text-[10px] uppercase tracking-widest text-gold mb-1">{product.finish}</p>
+                          <h4 className="font-serif text-sm text-foreground group-hover:text-gold transition-colors line-clamp-2 leading-snug">
+                            {product.name}
+                          </h4>
+                          <p className="text-[10px] text-muted-foreground mt-1">SKU: {product.code}</p>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="py-12 text-center text-muted-foreground">
+                    No products found matching "{searchQuery}". Try a different term or finish color.
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       )}
     </header>
