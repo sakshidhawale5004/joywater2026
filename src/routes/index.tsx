@@ -156,46 +156,47 @@ function Index() {
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
-                <div className="absolute inset-0 bg-black/10" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
 
-                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-8 md:px-16 flex flex-col justify-end pb-16 md:pb-24">
-                  <div className="animate-reveal max-w-xl">
-                    <p className="text-xs uppercase tracking-[0.3em] text-gold/90 mb-2 drop-shadow-md">
+                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6 md:px-12">
+                  <div className="animate-reveal max-w-4xl flex flex-col items-center">
+                    <p className="text-sm md:text-base uppercase tracking-[0.3em] text-gold mb-4 drop-shadow-md font-medium">
                       {slide.subtitle}
                     </p>
-                    <h2 className="font-serif text-2xl md:text-4xl text-white mb-6 drop-shadow-lg">
+                    <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-8 drop-shadow-xl leading-tight">
                       {slide.title}
                     </h2>
                     
                     <Link
                       to={slide.link}
-                      className="inline-flex items-center justify-center bg-white text-black px-8 py-4 font-semibold text-sm hover:bg-gray-100 transition-colors"
+                      className="inline-flex items-center justify-center bg-white text-black px-10 py-4 font-semibold text-sm hover:bg-gold hover:text-black transition-colors rounded-sm uppercase tracking-widest"
                     >
                       Explore {slide.category}
                     </Link>
-
-                    {/* Pagination indicators */}
-                    <div className="flex gap-3 mt-16 md:mt-24">
-                      {heroSlides.map((_, index) => (
-                        <div
-                          key={index}
-                          className={`h-1 w-12 sm:w-16 transition-all duration-300 ${
-                            current === index ? "bg-gold" : "bg-white/50"
-                          }`}
-                        />
-                      ))}
-                    </div>
                   </div>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
           
-          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 h-20 w-12 sm:w-14 rounded-none rounded-r-sm bg-white/70 hover:bg-white text-black border-0 backdrop-blur-sm z-20" />
-          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 h-20 w-12 sm:w-14 rounded-none rounded-l-sm bg-white/70 hover:bg-white text-black border-0 backdrop-blur-sm z-20" />
+          {/* Pagination indicators */}
+          <div className="absolute bottom-8 left-0 right-0 z-20 flex justify-center gap-3">
+            {heroSlides.map((_, index) => (
+              <button
+                key={index}
+                className={`h-1.5 transition-all duration-500 rounded-full ${
+                  current === index ? "w-12 bg-gold" : "w-6 bg-white/40 hover:bg-white/80"
+                }`}
+                onClick={() => api?.scrollTo(index)}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+          
+          <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 h-14 w-14 rounded-full bg-white/10 hover:bg-white text-white hover:text-black border border-white/20 backdrop-blur-md z-20 transition-all hidden md:flex opacity-0 group-hover:opacity-100" />
+          <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 h-14 w-14 rounded-full bg-white/10 hover:bg-white text-white hover:text-black border border-white/20 backdrop-blur-md z-20 transition-all hidden md:flex opacity-0 group-hover:opacity-100" />
         </Carousel>
       </section>
 
@@ -226,7 +227,7 @@ function Index() {
               <img
                 src={c.image}
                 alt={c.title}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-500 group-hover:opacity-95" />
