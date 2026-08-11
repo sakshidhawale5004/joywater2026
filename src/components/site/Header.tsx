@@ -96,8 +96,8 @@ export function Header() {
           <button className="hidden lg:flex items-center justify-center p-2 text-muted-foreground hover:text-gold transition-colors">
             <Search className="h-5 w-5" />
           </button>
-          <button className="hidden lg:flex items-center gap-2 bg-gold text-white px-5 py-2.5 hover:opacity-90 transition-opacity rounded-sm uppercase tracking-wider text-xs font-semibold shadow-sm">
-            <ClipboardList className="h-4 w-4" />
+          <button className="hidden lg:flex items-center gap-2 border border-border text-foreground hover:text-gold hover:border-gold transition-colors px-5 py-2.5 rounded-sm uppercase tracking-wider text-xs font-medium">
+            <ClipboardList className="h-4 w-4 opacity-70" />
             My Selections
           </button>
           

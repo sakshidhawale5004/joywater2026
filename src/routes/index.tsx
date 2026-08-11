@@ -30,29 +30,36 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/homepagebannerforslider/banner 7.jpg",
-    title: "Waterfall Showers",
-    subtitle: "Immerse yourself in overhead luxury.",
-    category: "Joy Water Exclusives",
-    link: "/products"
+    image: "/addfinal5sliderforherohomepage/sanitaryware.png",
+    title: "Sanitaryware Collections",
+    subtitle: "Ceramic Excellence",
+    category: "Sanitaryware",
+    link: "/category/sanitaryware-basins"
   },
   {
-    image: "/homepagebannerforslider/banner2finalimage.jpg",
-    title: "Timeless Luxury",
-    subtitle: "Refined craftsmanship in every drop.",
+    image: "/addfinal5sliderforherohomepage/showers.png",
+    title: "Luxury Showers",
+    subtitle: "Immerse yourself in overhead luxury.",
     category: "Showers",
     link: "/category/2-function-shower-rain-mist"
   },
   {
-    image: "/homepagebannerforslider/banner 4.jpg",
-    title: "Luxury Basin Mixers",
+    image: "/addfinal5sliderforherohomepage/mirrors.png",
+    title: "Designer Mirrors",
+    subtitle: "Reflecting true elegance.",
+    category: "Mirrors",
+    link: "/category/led-mirrors"
+  },
+  {
+    image: "/addfinal5sliderforherohomepage/washbasin.jpg",
+    title: "Basin Mixers",
     subtitle: "Precision engineering and unmatched brass.",
     category: "Basin Mixers",
     link: "/category/round-controller-basin-mixer"
   },
   {
-    image: "/homepagebannerforslider/banner 9.jpg",
-    title: "Majestic Stone",
+    image: "/addfinal5sliderforherohomepage/stonewashbasin.jpg",
+    title: "Majestic Stone Basins",
     subtitle: "Sculptured for timeless grandeur.",
     category: "Stone Basins",
     link: "/category/stone-is-the-king-of-luxury"
@@ -151,17 +158,17 @@ function Index() {
                   alt={slide.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black/20" />
-                <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-black/10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-12 md:px-24 flex flex-col justify-end pb-24 md:pb-32">
-                  <div className="animate-reveal max-w-3xl">
-                    <h2 className="font-sans font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.2] text-white mb-4">
-                      {slide.title}: {slide.subtitle}
+                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-8 md:px-16 flex flex-col justify-end pb-16 md:pb-24">
+                  <div className="animate-reveal max-w-xl">
+                    <p className="text-xs uppercase tracking-[0.3em] text-gold/90 mb-2 drop-shadow-md">
+                      {slide.subtitle}
+                    </p>
+                    <h2 className="font-serif text-2xl md:text-4xl text-white mb-6 drop-shadow-lg">
+                      {slide.title}
                     </h2>
-                    
-                    <div className="h-1 w-full max-w-xl bg-gold mb-8" />
                     
                     <Link
                       to={slide.link}
