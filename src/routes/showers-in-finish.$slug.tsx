@@ -6,9 +6,8 @@ import { products, categories, type Product } from "@/lib/catalog/data";
 const finishesMap: Record<string, string> = {
   "graphite-grey": "Graphite Grey",
   "rose-gold": "Rose Gold",
-  "matt-black": "Matt Black",
+  "chrome": "Chrome",
   "brushed-gold-shower": "Brushed Gold",
-  "brushed-rose-gold-shower": "Brushed Rose Gold",
 };
 
 export const Route = createFileRoute("/showers-in-finish/$slug")({
@@ -56,9 +55,8 @@ function ShowersInFinishPage() {
   const sidebarLinks = [
     { label: "Graphite Grey", slug: "graphite-grey" },
     { label: "Rose Gold", slug: "rose-gold" },
-    { label: "Matt Black", slug: "matt-black" },
+    { label: "Chrome", slug: "chrome" },
     { label: "Brushed Gold Shower", slug: "brushed-gold-shower" },
-    { label: "Brushed Rose Gold Shower", slug: "brushed-rose-gold-shower" },
   ];
 
   return (

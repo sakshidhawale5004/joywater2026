@@ -569,7 +569,7 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Shower (3).png",
       "/showers/2 Function Shower (4).png",
     ],
-    ["Chrome", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"]
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-dual-waterfall",
@@ -587,13 +587,12 @@ const realCategoryProducts: Product[] = [
     ],
     [
       "Graphite Grey",
-      "Brushed Rose Gold",
+      "Rose Gold",
       "Brushed Gold",
       "Chrome",
-      "Rose Gold",
-      "Brushed Chrome",
-      "Polished Chrome",
-      "Brushed Nickel",
+      "Brushed Gold",
+      "Graphite Grey",
+      "Rose Gold"
     ]
   ),
   ...createCategoryProducts(
@@ -607,7 +606,7 @@ const realCategoryProducts: Product[] = [
       "/showers/3 Function Shower (Large Waterfall) (3).png",
       "/showers/3 Function Shower (Large Waterfall) (4).png",
     ],
-    ["Graphite Grey", "Brushed Gold", "Brushed Rose Gold", "Chrome"]
+    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "2-function-shower-rain-large-single-waterfall",
@@ -617,7 +616,8 @@ const realCategoryProducts: Product[] = [
     [
       "/showers/2 Function Shower (Large Waterfall).png",
       "/showers/2 Function Shower (Large Waterfall) (2).png",
-    ]
+    ],
+    ["Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "4-function-shower-chromotherapy",
@@ -630,7 +630,7 @@ const realCategoryProducts: Product[] = [
       "/showers/4 Function Shower (3).png",
       "/showers/4 Function Shower (4).png",
     ],
-    ["Graphite Grey", "Brushed Gold", "Brushed Rose Gold", "Chrome"]
+    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "multifunctional-showers",
@@ -647,11 +647,11 @@ const realCategoryProducts: Product[] = [
     ],
     [
       "Graphite Grey",
-      "Brushed Rose Gold",
+      "Rose Gold",
       "Brushed Gold",
       "Chrome",
       "Rose Gold",
-      "Brushed Chrome",
+      "Brushed Gold"
     ]
   ),
   ...createCategoryProducts(
@@ -664,7 +664,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Single Function Shower (2).png",
       "/showers/Single Function Shower (3).png",
       "/showers/Single Function Shower (4).png",
-    ]
+    ],
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "waterfall-showers",
@@ -676,7 +677,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Waterfall Showers (2).png",
       "/showers/Waterfall Showers (3).png",
       "/showers/Waterfall Showers (4).png",
-    ]
+    ],
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "2-function-wall-mounted-shower-arm",
@@ -687,7 +689,8 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
-    ]
+    ],
+    ["Brushed Gold", "Graphite Grey", "Rose Gold"]
   ),
   ...createCategoryProducts(
     "multifunctional-wall-mounted-shower",
@@ -706,13 +709,13 @@ const realCategoryProducts: Product[] = [
     ],
     [
       "Graphite Grey",
-      "Matt Black",
-      "Gunmetal",
+      "Chrome",
+      "Rose Gold",
       "Brushed Gold",
       "Chrome",
-      "Gold",
-      "Polished Chrome",
-      "Brushed Nickel",
+      "Brushed Gold",
+      "Chrome",
+      "Chrome",
     ]
   ),
 
@@ -728,7 +731,8 @@ const realCategoryProducts: Product[] = [
       "/Body Showers/One Line Series (2).png",
       "/Body Showers/One Line Series (3).png",
       "/Body Showers/One Line Series (4).png",
-    ]
+    ],
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "eminence-series",
@@ -740,7 +744,8 @@ const realCategoryProducts: Product[] = [
       "/Body Showers/Eminence Series (2).png",
       "/Body Showers/Eminence Series (3).png",
       "/Body Showers/Eminence Series (4).png",
-    ]
+    ],
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
   ),
 
   // Diverters
@@ -967,9 +972,8 @@ export const megaMenu = {
     "Showers In PVD Finishes": [
       "graphite-grey",
       "rose-gold",
-      "matt-black",
-      "brushed-gold-shower",
-      "brushed-rose-gold-shower"
+      "chrome",
+      "brushed-gold-shower"
     ]
   },
   "Diverters & Mixers": {
