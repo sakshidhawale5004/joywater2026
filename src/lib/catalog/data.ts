@@ -949,6 +949,13 @@ export const megaMenu = {
       "body-jets-2-function",
       "one-line-series",
       "eminence-series"
+    ],
+    "Showers In PVD Finishes": [
+      "graphite-grey",
+      "rose-gold",
+      "matt-black",
+      "brushed-gold-shower",
+      "brushed-rose-gold-shower"
     ]
   },
   "Diverters & Mixers": {
