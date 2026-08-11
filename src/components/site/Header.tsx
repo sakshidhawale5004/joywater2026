@@ -123,7 +123,7 @@ export function Header() {
                   {(slugs as readonly string[]).map((slug) => (
                     <li key={slug}>
                       <Link
-                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : "/category/$slug"}
+                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
                         params={{ slug }}
                         onClick={() => setOpen(null)}
                         className="text-xs text-muted-foreground hover:text-gold transition-colors story-link"
@@ -152,7 +152,7 @@ export function Header() {
                     (slugs as readonly string[]).map((slug) => (
                       <Link
                         key={slug}
-                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : "/category/$slug"}
+                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
                         params={{ slug }}
                         onClick={() => setMobile(false)}
                         className="block text-xs text-muted-foreground py-1"
