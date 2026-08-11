@@ -15,7 +15,7 @@ export const Route = createFileRoute("/diverters-mixers-in-finish/$slug")({
     const finishName = finishesMap[params.slug];
     if (!finishName) throw notFound();
 
-    const allowedGroups = ["diverters-mixers"];
+    const allowedGroups = ["diverters", "tile-insert-drainers", "basin-mixers"];
 
     const validCategorySlugs = new Set(
       categories
