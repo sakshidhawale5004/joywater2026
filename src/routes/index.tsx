@@ -30,7 +30,7 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/HEROSLIDE1IMAGE.png",
+    image: "/hero-slide-1.png",
     title: "Sanitaryware Collections",
     subtitle: "Ceramic Excellence",
     category: "Sanitaryware",
@@ -116,7 +116,7 @@ const collections = [
   {
     title: "Mirrors & Accessories",
     slug: "led-mirrors",
-    image: "/MIRRORS/METAL LED MIRRORS (2).png",
+    image: "/metal-led-mirror.png",
     tag: "Finishing Touches",
   },
 ];
