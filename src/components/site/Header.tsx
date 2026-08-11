@@ -4,6 +4,7 @@ import { Menu, X, Phone, MapPin, ChevronDown, Search, ClipboardList } from "luci
 import logo from "@/assets/logo.png";
 import { megaMenu, getCategory } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
+import { useCart } from "@/hooks/useCart";
 
 type MenuKey = keyof typeof megaMenu;
 const NAV = Object.keys(megaMenu) as MenuKey[];
@@ -12,6 +13,7 @@ export function Header() {
   const [open, setOpen] = useState<MenuKey | null>(null);
   const [mobile, setMobile] = useState(false);
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const cartItems = useCart((state) => state.items);
 
   const handleMouseEnter = (label: MenuKey) => {
     if (closeTimeoutRef.current) {
@@ -96,10 +98,17 @@ export function Header() {
           <button className="hidden lg:flex items-center justify-center p-2 text-muted-foreground hover:text-gold transition-colors">
             <Search className="h-5 w-5" />
           </button>
-          <button className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
-            <ClipboardList className="h-4 w-4" />
+          <Link to="/my-selections" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
+            <div className="relative">
+              <ClipboardList className="h-4 w-4" />
+              {cartItems.length > 0 && (
+                <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
+                  {cartItems.length}
+                </span>
+              )}
+            </div>
             My Selections
-          </button>
+          </Link>
           
           <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
             {mobile ? <X /> : <Menu />}

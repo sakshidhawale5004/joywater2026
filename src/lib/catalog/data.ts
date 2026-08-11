@@ -800,9 +800,8 @@ const realCategoryProducts: Product[] = [
       "/diverters/Thermostatic Diverter (4).png",
       "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
       "/diverters/Thermostatic Diverter (Three Outlet) (2).png",
-      "/diverters/Thermostatic Diverter (Three Outlet) (3).png",
     ],
-    ["Chrome", "Gold", "Graphite Grey", "Rose Gold", "Rose Gold", "Chrome", "Chrome"]
+    ["Chrome", "Gold", "Graphite Grey", "Rose Gold", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
     "lever-diverter-three-outlet",
@@ -831,14 +830,9 @@ const realCategoryProducts: Product[] = [
       "/Tile Insert Drain/Tile Insert Drain (4).png",
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (1).png",
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (2).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (3).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (4).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (5).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (6).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (7).png",
       "/Tile Insert Drain/Tile Insert (125 x 125 MM) (8).png",
     ],
-    ["Gold", "Graphite Grey", "Rose Gold", "Chrome", "Rose Gold", "Chrome", "Chrome", "Chrome", "Chrome", "Chrome", "Chrome", "Chrome"]
+    ["Gold", "Graphite Grey", "Rose Gold", "Chrome", "Rose Gold", "Chrome", "Chrome"]
   ),
 
   // Basin Mixers

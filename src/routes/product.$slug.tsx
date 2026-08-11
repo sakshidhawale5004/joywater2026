@@ -2,6 +2,7 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { products, getCategory, type Product } from "@/lib/catalog/data";
 import { ProductCard } from "@/components/site/ProductCard";
+import { useCart } from "@/hooks/useCart";
 
 export const Route = createFileRoute("/product/$slug")({
   loader: ({ params }) => {
@@ -57,6 +58,8 @@ const FINISH_STYLES: Record<string, string> = {
 function ProductPage() {
   const { product, cat, related } = Route.useLoaderData();
   const gradient = FINISH_STYLES[product.finish] ?? "from-neutral-200 to-neutral-400";
+  const { items, addItem, removeItem, isInCart } = useCart();
+  const inCart = isInCart(product.id);
 
   return (
     <SiteLayout>
@@ -186,6 +189,22 @@ function ProductPage() {
           </dl>
 
           <div className="mt-8 flex flex-col gap-3">
+            <button
+              onClick={() => {
+                if (inCart) {
+                  removeItem(product.id);
+                } else {
+                  addItem(product);
+                }
+              }}
+              className={`w-full inline-flex justify-center items-center py-4 rounded-lg text-xs uppercase tracking-[0.25em] font-semibold transition-all shadow-lg ${
+                inCart
+                  ? "bg-secondary text-foreground hover:bg-red-500/10 hover:text-red-500 border border-border"
+                  : "bg-gradient-to-r from-gold to-[#b3922c] text-white hover:brightness-110"
+              }`}
+            >
+              {inCart ? "Remove from Selections" : "Add to My Selections"}
+            </button>
             <Link
               to="/contact"
               className="w-full inline-flex justify-center items-center bg-primary text-primary-foreground py-4 rounded-lg text-xs uppercase tracking-[0.25em] font-semibold hover:bg-gold hover:text-primary transition-all shadow-lg"
