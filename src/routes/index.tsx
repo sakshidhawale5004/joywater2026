@@ -30,7 +30,7 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/addfinal5sliderforherohomepage/sanitaryware.png",
+    image: "/HEROSLIDE1IMAGE.png",
     title: "Sanitaryware Collections",
     subtitle: "Ceramic Excellence",
     category: "Sanitaryware",
@@ -165,7 +165,7 @@ function Index() {
                     <p className="text-sm md:text-base uppercase tracking-[0.3em] text-gold mb-4 drop-shadow-md font-medium">
                       {slide.subtitle}
                     </p>
-                    <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-8 drop-shadow-xl leading-tight">
+                    <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white mb-8 drop-shadow-xl leading-tight">
                       {slide.title}
                     </h2>
                     
