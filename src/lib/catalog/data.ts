@@ -284,7 +284,7 @@ export const categories: Category[] = [
     title: "LED Mirrors",
     group: "mirrors",
     description: "Frameless LED Vanity Mirrors featuring ambient halo illumination, adjustable color temperatures, and crystal-clear float glass.",
-    bannerImage: "/ledmirroer/ganesh.jpg",
+    bannerImage: "/MIRRORS/METAL LED MIRRORS (2).png",
     features: ["Halo Illumination", "Adjustable CCT", "Anti-Fog Heating", "11 Years Unmatched Assurance"]
   },
   {
