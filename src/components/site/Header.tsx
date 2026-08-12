@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useState, useRef, useEffect } from "react";
-import { Menu, X, Phone, MapPin, ChevronDown, Search, ClipboardList } from "lucide-react";
+import { Menu, X, Phone, MapPin, ChevronDown, Search, ShoppingBag } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { megaMenu, getCategory, products } from "@/lib/catalog/data";
 import { cn } from "@/lib/utils";
@@ -130,16 +130,16 @@ export function Header() {
           >
             {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
           </button>
-          <Link to="/my-selections" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
+          <Link to="/cart" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
             <div className="relative">
-              <ClipboardList className="h-4 w-4" />
+              <ShoppingBag className="h-4 w-4" />
               {cartItems.length > 0 && (
                 <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
                   {cartItems.length}
                 </span>
               )}
             </div>
-            My Selections
+            Cart
           </Link>
           
           <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">

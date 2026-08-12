@@ -203,7 +203,7 @@ function ProductPage() {
                   : "bg-gradient-to-r from-gold to-[#b3922c] text-white hover:brightness-110"
               }`}
             >
-              {inCart ? "Remove from Selections" : "Add to My Selections"}
+              {inCart ? "Remove from Cart" : "Add to Cart"}
             </button>
             <Link
               to="/contact"
