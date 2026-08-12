@@ -113,10 +113,16 @@ export function Header() {
             </div>
           ))}
           <Link
-            to="/contact"
-            className="px-2 xl:px-3 py-3 text-sm uppercase tracking-wider font-medium hover:text-gold transition-colors whitespace-nowrap"
+            to="/cart"
+            className="px-2 xl:px-3 py-3 text-sm uppercase tracking-wider font-medium hover:text-gold transition-colors whitespace-nowrap flex items-center gap-2"
           >
-            Contact
+            <ShoppingBag className="w-4 h-4" />
+            Cart
+            {cartItems.length > 0 && (
+              <span className="bg-gold text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
+                {cartItems.length}
+              </span>
+            )}
           </Link>
         </nav>
         
@@ -130,17 +136,7 @@ export function Header() {
           >
             {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
           </button>
-          <Link to="/cart" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_4px_0_#886f21] hover:shadow-[0_2px_0_#886f21] hover:translate-y-[2px] active:shadow-none active:translate-y-[4px] transition-all px-6 py-2.5 rounded-md uppercase tracking-widest text-xs font-bold border border-[#f5de93]/40">
-            <div className="relative">
-              <ShoppingBag className="h-4 w-4" />
-              {cartItems.length > 0 && (
-                <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
-                  {cartItems.length}
-                </span>
-              )}
-            </div>
-            Cart
-          </Link>
+
           
           <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
             {mobile ? <X /> : <Menu />}
@@ -207,11 +203,16 @@ export function Header() {
             </details>
           ))}
           <Link
-            to="/contact"
+            to="/cart"
             onClick={() => setMobile(false)}
-            className="block px-6 py-4 text-xs uppercase tracking-widest"
+            className="flex items-center gap-2 px-6 py-4 text-xs uppercase tracking-widest"
           >
-            Contact
+            <ShoppingBag className="w-4 h-4" /> Cart
+            {cartItems.length > 0 && (
+              <span className="bg-gold text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
+                {cartItems.length}
+              </span>
+            )}
           </Link>
         </div>
       )}
