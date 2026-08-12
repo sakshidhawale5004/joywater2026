@@ -16,7 +16,7 @@ const catShowers = "/images/PDF1_P20_IMG2.png";
 const catBasins = "/images/stone-basins-new.jpg";
 const catToilets = "/images/PDF1_P40_IMG1.png";
 const catAccessories = "/images/PDF1_P50_IMG1.png";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -416,18 +416,27 @@ function Index() {
           >
             <CarouselContent>
               {[
-                { text: "Joy Water's faucets completely transformed our master bathroom. The quality is simply unmatched.", author: "Arun K.", role: "Architect" },
-                { text: "We specified Joy Water for our luxury hotel project. The PVD finishes look brand new even after years of use.", author: "Priya S.", role: "Interior Designer" },
-                { text: "The weight and feel of their solid brass fittings speak volumes about their commitment to craft.", author: "Rajesh M.", role: "Homeowner" },
-                { text: "Unparalleled elegance and durability. Joy Water products are a staple in all our premium builds.", author: "Vikram R.", role: "Developer" },
+                { text: "Had a fantastic experience shopping at Joy Water! Their selection of mirrors and bathroom accessories is truly stylish and high quality. From modern minimalist designs to more classic looks, they have something for every taste.", author: "Vicky Kothari", role: "Local Guide" },
+                { text: "We are selling Joy water products since 5 years. The quality of these products are excellent. I personally use the products for my clients they have wide range of products for Luxurious bathroom...", author: "Pratik Choudhary", role: "Business Partner" },
+                { text: "Recently visited the Joy Water It's Elegant Bathroom Accessories Showroom and had an amazing experience. ❤️ The quality of products is top notch. You can easily find both stainless steel and brass fittings.", author: "Siddharam Daprabad", role: "Customer" },
+                { text: "I just visited JOY WATER display center Near ISKCON temple, Good collection of showering system they have. They have premium diverter collection than Big brands in very reasonable Cost with 11 year warranty.", author: "Sourve Khalge", role: "Customer" },
+                { text: "I bought three bunglow Material for me and my cousin brother. Smooth selection done at display centre. Very Good Quality of diverter and Showers.", author: "Vikrant Takale", role: "Customer" },
+                { text: "We experienced this products from so many years ago. good showering systems and fittings. Check Joy water once.", author: "Yogesh Jagtap", role: "Customer" },
               ].map((t, i) => (
                 <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-4 h-full">
                     <div className="bg-background p-8 rounded-xl h-full flex flex-col justify-between border border-border/50 shadow-sm hover:shadow-md transition-shadow">
-                      <p className="text-muted-foreground italic mb-6">"{t.text}"</p>
                       <div>
-                        <p className="font-medium">{t.author}</p>
-                        <p className="text-xs text-gold uppercase tracking-widest mt-1">{t.role}</p>
+                        <div className="flex gap-1 mb-4 text-gold">
+                          {[...Array(5)].map((_, i) => (
+                            <Star key={i} className="w-4 h-4 fill-current" />
+                          ))}
+                        </div>
+                        <p className="text-muted-foreground italic mb-6 leading-relaxed">"{t.text}"</p>
+                      </div>
+                      <div>
+                        <p className="font-medium text-foreground">{t.author}</p>
+                        <p className="text-[10px] text-muted-foreground uppercase tracking-widest mt-1">{t.role}</p>
                       </div>
                     </div>
                   </div>
