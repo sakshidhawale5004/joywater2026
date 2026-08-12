@@ -80,9 +80,9 @@ export function Header() {
           >
             <Phone className="h-3 w-3" /> +91 93259 48289
           </a>
-          <Link to="/contact" className="flex items-center gap-2 hover:text-gold transition-colors">
+          <a href="https://www.google.com/maps/place/Joy+Water/@18.4539939,73.8797556,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eb8c71b642c3:0xa5df08549d70bca3!8m2!3d18.4539939!4d73.8797556!16s%2Fg%2F11h0h1hjbs?entry=tts&g_ep=EgoyMDI0MDkyNS4wKgBIAVAD" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gold transition-colors">
             <MapPin className="h-3 w-3" /> Pune, India
-          </Link>
+          </a>
         </div>
       </div>
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
@@ -112,18 +112,7 @@ export function Header() {
               </button>
             </div>
           ))}
-          <Link
-            to="/cart"
-            className="px-2 xl:px-3 py-3 text-sm uppercase tracking-wider font-medium hover:text-gold transition-colors whitespace-nowrap flex items-center gap-2"
-          >
-            <ShoppingBag className="w-4 h-4" />
-            Cart
-            {cartItems.length > 0 && (
-              <span className="bg-gold text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
-                {cartItems.length}
-              </span>
-            )}
-          </Link>
+
         </nav>
         
         <div className="flex items-center gap-4">
@@ -136,8 +125,19 @@ export function Header() {
           >
             {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
           </button>
+          <Link to="/cart" className="hidden lg:flex items-center gap-2 bg-gradient-to-b from-[#d4af37] to-[#b3922c] text-white shadow-[0_6px_0_#886f21,0_10px_15px_-3px_rgba(0,0,0,0.3)] hover:shadow-[0_4px_0_#886f21,0_6px_10px_-2px_rgba(0,0,0,0.3)] hover:translate-y-[2px] active:shadow-none active:translate-y-[6px] transition-all px-6 py-2 rounded-md uppercase tracking-widest text-xs font-bold border-t border-[#f5de93]/40">
+            <div className="relative">
+              <ShoppingBag className="h-4 w-4" />
+              {cartItems.length > 0 && (
+                <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full border border-[#886f21]">
+                  {cartItems.length}
+                </span>
+              )}
+            </div>
+            Cart
+          </Link>
 
-          
+
           <button className="lg:hidden p-2" onClick={() => setMobile(!mobile)} aria-label="Menu">
             {mobile ? <X /> : <Menu />}
           </button>
