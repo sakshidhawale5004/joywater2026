@@ -621,5 +621,105 @@ export const mirrorProducts: Product[] = [
     "price": 45000,
     "code": "JW-6006",
     "image": "/customizedmirrors/customizedmirrors (6).jpg"
+  },
+  {
+    "id": "led-mirrors-21",
+    "slug": "led-mirrors-21",
+    "name": "Elegance Curve",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 8500,
+    "code": "JW-3039",
+    "image": "/led/Elegance Curve₹9,000.00 Original price was ₹9,000.00.₹8,500.00Current price is ₹8,500.00..png"
+  },
+  {
+    "id": "led-mirrors-22",
+    "slug": "led-mirrors-22",
+    "name": "Elegance Matrix",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 10800,
+    "code": "JW-3040",
+    "image": "/led/Elegance Matrix₹11,000.00 Original price was ₹11,000.00.₹10,800.00Current price is ₹10,800.00..png"
+  },
+  {
+    "id": "led-mirrors-23",
+    "slug": "led-mirrors-23",
+    "name": "Luminous Orbit",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 12600,
+    "code": "JW-3041",
+    "image": "/led/Luminous Orbit₹13,000.00 Original price was ₹13,000.00.₹12,600.00Current price is ₹12,600.00..png"
+  },
+  {
+    "id": "led-mirrors-24",
+    "slug": "led-mirrors-24",
+    "name": "Recta Mosaic",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 8500,
+    "code": "JW-3042",
+    "image": "/led/Recta Mosaic₹9,000.00 Original price was ₹9,000.00.₹8,500.00Current price is ₹8,500.00..png"
+  },
+  {
+    "id": "led-mirrors-25",
+    "slug": "led-mirrors-25",
+    "name": "Tri-Luxe",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 8100,
+    "code": "JW-3043",
+    "image": "/led/Tri-Luxe₹8,100.00 – ₹14,400.00Price range ₹8,100.00 through ₹14,400.00.png"
+  },
+  {
+    "id": "led-mirrors-26",
+    "slug": "led-mirrors-26",
+    "name": "Crescent Luxury",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 8100,
+    "code": "JW-3044",
+    "image": "/led/crescent luxury₹8,500.00 Original price was ₹8,500.00.₹8,100.00Current price is ₹8,100.00..png"
+  },
+  {
+    "id": "led-mirrors-27",
+    "slug": "led-mirrors-27",
+    "name": "Round Sculpt",
+    "category": "led-mirrors",
+    "finish": "Standard",
+    "price": 8100,
+    "code": "JW-3045",
+    "image": "/led/round scuplt₹8,500.00 Original price was ₹8,500.00.₹8,100.00.png"
+  },
+  {
+    "id": "metal-led-mirrors-11",
+    "slug": "metal-led-mirrors-11",
+    "name": "Gleam Guard",
+    "category": "metal-led-mirrors",
+    "finish": "Standard",
+    "price": 16500,
+    "code": "JW-1014",
+    "image": "/metalled/Gleam Guard₹16,500.00.jpg"
+  },
+  {
+    "id": "metal-led-mirrors-12",
+    "slug": "metal-led-mirrors-12",
+    "name": "Lumina Metallica",
+    "category": "metal-led-mirrors",
+    "finish": "Standard",
+    "price": 22500,
+    "code": "JW-1015",
+    "image": "/metalled/Lumina Metallica ₹23,000.00 Original price was ₹23,000.00.₹22,500.00Current price is ₹22,500.00..jpg"
+  },
+  {
+    "id": "metal-led-mirrors-13",
+    "slug": "metal-led-mirrors-13",
+    "name": "Metal Majesty",
+    "category": "metal-led-mirrors",
+    "finish": "Standard",
+    "price": 12600,
+    "code": "JW-1016",
+    "image": "/metalled/metal majestry ₹12,600.00 – ₹19,800.00Price range ₹12,600.00 through ₹19,800.00.jpg"
   }
 ];
