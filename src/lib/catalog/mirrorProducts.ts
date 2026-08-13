@@ -10,7 +10,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte White",
     "price": 5850,
     "code": "JW-3032",
-    "image": "/ledmirroer/auraova.jpg"
+    "image": "/ledmirroer/auraova.jpg",
+    "originalPrice": 6000
   },
   {
     "id": "led-mirrors-2",
@@ -18,9 +19,10 @@ export const mirrorProducts: Product[] = [
     "name": "Celestial Contour LED Mirror",
     "category": "led-mirrors",
     "finish": "Brushed Gold",
-    "price": 16200,
+    "price": 8100,
     "code": "JW-3027",
-    "image": "/ledmirroer/celestialcontour.jpg"
+    "image": "/ledmirroer/celestialcontour.jpg",
+    "maxPrice": 16200
   },
   {
     "id": "led-mirrors-3",
@@ -30,7 +32,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Rose Gold",
     "price": 7500,
     "code": "JW-3034",
-    "image": "/ledmirroer/celestialtrfecta.jpg"
+    "image": "/ledmirroer/celestialtrfecta.jpg",
+    "originalPrice": 8000
   },
   {
     "id": "led-mirrors-4",
@@ -38,9 +41,10 @@ export const mirrorProducts: Product[] = [
     "name": "Circlet Luminance LED Mirror",
     "category": "led-mirrors",
     "finish": "Chrome",
-    "price": 7900,
+    "price": 7200,
     "code": "JW-3011",
-    "image": "/ledmirroer/circletluminence.jpg"
+    "image": "/ledmirroer/circletluminence.jpg",
+    "maxPrice": 12300
   },
   {
     "id": "led-mirrors-5",
@@ -50,7 +54,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte Black",
     "price": 18000,
     "code": "JW-3038",
-    "image": "/ledmirroer/cirqueluxe.jpg"
+    "image": "/ledmirroer/cirqueluxe.jpg",
+    "originalPrice": 18500
   },
   {
     "id": "led-mirrors-6",
@@ -58,9 +63,10 @@ export const mirrorProducts: Product[] = [
     "name": "Ganesh LED Vanity Mirror",
     "category": "led-mirrors",
     "finish": "Brushed Gold",
-    "price": 16300,
+    "price": 3001,
     "code": "JW-3001",
-    "image": "/ledmirroer/ganesh.jpg"
+    "image": "/ledmirroer/ganesh.jpg",
+    "originalPrice": 3400
   },
   {
     "id": "led-mirrors-7",
@@ -70,7 +76,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Warm LED",
     "price": 8500,
     "code": "JW-3025",
-    "image": "/ledmirroer/glowscape.jpg"
+    "image": "/ledmirroer/glowscape.jpg",
+    "originalPrice": 9000
   },
   {
     "id": "led-mirrors-8",
@@ -80,7 +87,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Silver Glass",
     "price": 14400,
     "code": "JW-3016",
-    "image": "/ledmirroer/luminagrid.jpg"
+    "image": "/ledmirroer/luminagrid.jpg",
+    "originalPrice": 15000
   },
   {
     "id": "led-mirrors-9",
@@ -90,7 +98,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Ambient LED",
     "price": 5850,
     "code": "JW-3018",
-    "image": "/ledmirroer/luminiuouspanel.jpg"
+    "image": "/ledmirroer/luminiuouspanel.jpg",
+    "maxPrice": 8500
   },
   {
     "id": "led-mirrors-10",
@@ -100,7 +109,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Cool White",
     "price": 7200,
     "code": "JW-3024",
-    "image": "/ledmirroer/lunagaze.jpg"
+    "image": "/ledmirroer/lunagaze.jpg",
+    "originalPrice": 7500
   },
   {
     "id": "led-mirrors-11",
@@ -108,9 +118,10 @@ export const mirrorProducts: Product[] = [
     "name": "Lustra Orbit LED Mirror",
     "category": "led-mirrors",
     "finish": "Brushed Gold",
-    "price": 16300,
+    "price": 7200,
     "code": "JW-3008",
-    "image": "/ledmirroer/lustraorbit.jpg"
+    "image": "/ledmirroer/lustraorbit.jpg",
+    "maxPrice": 16300
   },
   {
     "id": "led-mirrors-12",
@@ -120,7 +131,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Warm Gold",
     "price": 5850,
     "code": "JW-3029",
-    "image": "/ledmirroer/ovalglow.jpg"
+    "image": "/ledmirroer/ovalglow.jpg",
+    "maxPrice": 10800
   },
   {
     "id": "led-mirrors-13",
@@ -128,9 +140,10 @@ export const mirrorProducts: Product[] = [
     "name": "Radiant Linear LED Mirror",
     "category": "led-mirrors",
     "finish": "Brushed Nickel",
-    "price": 8500,
+    "price": 5850,
     "code": "JW-3020",
-    "image": "/ledmirroer/radiantlinear.jpg"
+    "image": "/ledmirroer/radiantlinear.jpg",
+    "maxPrice": 8500
   },
   {
     "id": "led-mirrors-14",
@@ -140,7 +153,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Polished Chrome",
     "price": 36000,
     "code": "JW-3015",
-    "image": "/ledmirroer/recta gleam.jpg"
+    "image": "/ledmirroer/recta gleam.jpg",
+    "originalPrice": 36500
   },
   {
     "id": "led-mirrors-15",
@@ -150,7 +164,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte Black",
     "price": 12000,
     "code": "JW-3037",
-    "image": "/ledmirroer/rectaluxe.jpg"
+    "image": "/ledmirroer/rectaluxe.jpg",
+    "originalPrice": 12500
   },
   {
     "id": "led-mirrors-16",
@@ -158,9 +173,10 @@ export const mirrorProducts: Product[] = [
     "name": "Recta Radiant LED Mirror",
     "category": "led-mirrors",
     "finish": "Silver Glass",
-    "price": 10800,
+    "price": 5800,
     "code": "JW-3017",
-    "image": "/ledmirroer/rectaradiant.jpg"
+    "image": "/ledmirroer/rectaradiant.jpg",
+    "maxPrice": 10800
   },
   {
     "id": "led-mirrors-17",
@@ -170,7 +186,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Halo LED",
     "price": 10800,
     "code": "JW-3007",
-    "image": "/ledmirroer/roundaura.jpg"
+    "image": "/ledmirroer/roundaura.jpg",
+    "originalPrice": 11000
   },
   {
     "id": "led-mirrors-18",
@@ -178,9 +195,10 @@ export const mirrorProducts: Product[] = [
     "name": "Round Gleam LED Mirror",
     "category": "led-mirrors",
     "finish": "Brushed Gold",
-    "price": 13500,
+    "price": 6450,
     "code": "JW-3003",
-    "image": "/ledmirroer/roundgleam.jpg"
+    "image": "/ledmirroer/roundgleam.jpg",
+    "maxPrice": 13500
   },
   {
     "id": "led-mirrors-19",
@@ -188,9 +206,10 @@ export const mirrorProducts: Product[] = [
     "name": "Tri Luxe LED Mirror",
     "category": "led-mirrors",
     "finish": "Rose Gold",
-    "price": 14400,
+    "price": 8100,
     "code": "JW-3035",
-    "image": "/ledmirroer/triluxe.jpg"
+    "image": "/ledmirroer/triluxe.jpg",
+    "maxPrice": 14400
   },
   {
     "id": "led-mirrors-20",
@@ -198,9 +217,10 @@ export const mirrorProducts: Product[] = [
     "name": "Zenith Round LED Mirror",
     "category": "led-mirrors",
     "finish": "Graphite Grey",
-    "price": 10800,
+    "price": 6450,
     "code": "JW-3005",
-    "image": "/ledmirroer/zenithround.jpg"
+    "image": "/ledmirroer/zenithround.jpg",
+    "maxPrice": 10800
   },
   {
     "id": "3d-mirrors-1",
@@ -210,7 +230,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Infinity Glow",
     "price": 17400,
     "code": "JW-4005",
-    "image": "/3dmirrors/bloomaura.jpg"
+    "image": "/3dmirrors/bloomaura.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "3d-mirrors-2",
@@ -220,7 +241,8 @@ export const mirrorProducts: Product[] = [
     "finish": "3D Sculpted",
     "price": 17400,
     "code": "JW-4006",
-    "image": "/3dmirrors/floragleam.jpg"
+    "image": "/3dmirrors/floragleam.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "3d-mirrors-3",
@@ -230,7 +252,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Rose Gold Glow",
     "price": 17400,
     "code": "JW-4002",
-    "image": "/3dmirrors/floralfinesse.jpg"
+    "image": "/3dmirrors/floralfinesse.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "3d-mirrors-4",
@@ -240,7 +263,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Brushed Gold",
     "price": 17400,
     "code": "JW-4003",
-    "image": "/3dmirrors/floraluxe.jpg"
+    "image": "/3dmirrors/floraluxe.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "3d-mirrors-5",
@@ -250,7 +274,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Geometrical Glow",
     "price": 17400,
     "code": "JW-4004",
-    "image": "/3dmirrors/octaspectra.jpg"
+    "image": "/3dmirrors/octaspectra.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "3d-mirrors-6",
@@ -260,7 +285,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Deep Infinity",
     "price": 17400,
     "code": "JW-4001",
-    "image": "/3dmirrors/orbitalradiance.jpg"
+    "image": "/3dmirrors/orbitalradiance.jpg",
+    "originalPrice": 18000
   },
   {
     "id": "metal-led-mirrors-1",
@@ -300,7 +326,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte Black",
     "price": 36000,
     "code": "JW-1002",
-    "image": "/metalledmirror/MATTBLACK.jpg"
+    "image": "/metalledmirror/MATTBLACK.jpg",
+    "maxPrice": 45000
   },
   {
     "id": "metal-led-mirrors-5",
@@ -308,9 +335,10 @@ export const mirrorProducts: Product[] = [
     "name": "Metal Aura LED Mirror (Matte Gold)",
     "category": "metal-led-mirrors",
     "finish": "Matte Gold",
-    "price": 45000,
+    "price": 36000,
     "code": "JW-1001",
-    "image": "/metalledmirror/MATTGOLD.jpg"
+    "image": "/metalledmirror/MATTGOLD.jpg",
+    "maxPrice": 45000
   },
   {
     "id": "metal-led-mirrors-6",
@@ -320,7 +348,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Gunmetal",
     "price": 12600,
     "code": "JW-1007",
-    "image": "/metalledmirror/METALECLIPSE.jpg"
+    "image": "/metalledmirror/METALECLIPSE.jpg",
+    "maxPrice": 19800
   },
   {
     "id": "metal-led-mirrors-7",
@@ -330,7 +359,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Polished Gold",
     "price": 12600,
     "code": "JW-1003",
-    "image": "/metalledmirror/METALMAJESTY.jpg"
+    "image": "/metalledmirror/METALMAJESTY.jpg",
+    "maxPrice": 19800
   },
   {
     "id": "metal-led-mirrors-8",
@@ -340,7 +370,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Brushed Nickel",
     "price": 12600,
     "code": "JW-1005",
-    "image": "/metalledmirror/METALMYSTIQUE.jpg"
+    "image": "/metalledmirror/METALMYSTIQUE.jpg",
+    "maxPrice": 19800
   },
   {
     "id": "metal-led-mirrors-9",
@@ -350,7 +381,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Gloss Gold",
     "price": 22500,
     "code": "JW-1013",
-    "image": "/metalledmirror/luminametallica.jpg"
+    "image": "/metalledmirror/luminametallica.jpg",
+    "originalPrice": 23000
   },
   {
     "id": "metal-led-mirrors-10",
@@ -360,7 +392,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Graphite Grey",
     "price": 17310,
     "code": "JW-1012",
-    "image": "/metalledmirror/metallicvision.jpg"
+    "image": "/metalledmirror/metallicvision.jpg",
+    "originalPrice": 17600
   },
   {
     "id": "metal-mirrors-1",
@@ -410,7 +443,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte Black",
     "price": 8100,
     "code": "JW-2008",
-    "image": "/metalmirror/metallicvision.jpg"
+    "image": "/metalmirror/metallicvision.jpg",
+    "maxPrice": 12600
   },
   {
     "id": "metal-mirrors-6",
@@ -420,7 +454,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Matte Black",
     "price": 8100,
     "code": "JW-2006",
-    "image": "/metalmirror/metalmingleblack (1).jpg"
+    "image": "/metalmirror/metalmingleblack (1).jpg",
+    "maxPrice": 12600
   },
   {
     "id": "metal-mirrors-7",
@@ -428,9 +463,10 @@ export const mirrorProducts: Product[] = [
     "name": "Metal Mingle Mirror (Gloss Gold)",
     "category": "metal-mirrors",
     "finish": "Gloss Gold",
-    "price": 12600,
+    "price": 8100,
     "code": "JW-2007",
-    "image": "/metalmirror/metalminglegold.jpg"
+    "image": "/metalmirror/metalminglegold.jpg",
+    "maxPrice": 12600
   },
   {
     "id": "metal-mirrors-8",
@@ -438,9 +474,10 @@ export const mirrorProducts: Product[] = [
     "name": "Miragique Metal Mirror (Rose Gold)",
     "category": "metal-mirrors",
     "finish": "Rose Gold",
-    "price": 12600,
+    "price": 8100,
     "code": "JW-2010",
-    "image": "/metalmirror/metalminglerosegold.jpg"
+    "image": "/metalmirror/metalminglerosegold.jpg",
+    "maxPrice": 12600
   },
   {
     "id": "metal-mirrors-9",
@@ -630,7 +667,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 8500,
     "code": "JW-3039",
-    "image": "/led/elegance-curve.png"
+    "image": "/led/elegance-curve.png",
+    "originalPrice": 9000
   },
   {
     "id": "led-mirrors-22",
@@ -640,7 +678,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 10800,
     "code": "JW-3040",
-    "image": "/led/elegance-matrix.png"
+    "image": "/led/elegance-matrix.png",
+    "originalPrice": 11000
   },
   {
     "id": "led-mirrors-23",
@@ -650,7 +689,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 12600,
     "code": "JW-3041",
-    "image": "/led/luminous-orbit.png"
+    "image": "/led/luminous-orbit.png",
+    "originalPrice": 13000
   },
   {
     "id": "led-mirrors-24",
@@ -660,7 +700,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 8500,
     "code": "JW-3042",
-    "image": "/led/recta-mosaic.png"
+    "image": "/led/recta-mosaic.png",
+    "originalPrice": 9000
   },
   {
     "id": "led-mirrors-25",
@@ -670,7 +711,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 8100,
     "code": "JW-3043",
-    "image": "/led/tri-luxe.png"
+    "image": "/led/tri-luxe.png",
+    "maxPrice": 14400
   },
   {
     "id": "led-mirrors-26",
@@ -680,7 +722,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 8100,
     "code": "JW-3044",
-    "image": "/led/crescent-luxury.png"
+    "image": "/led/crescent-luxury.png",
+    "originalPrice": 8500
   },
   {
     "id": "led-mirrors-27",
@@ -690,7 +733,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 8100,
     "code": "JW-3045",
-    "image": "/led/round-scuplt.png"
+    "image": "/led/round-scuplt.png",
+    "originalPrice": 8500
   },
   {
     "id": "metal-led-mirrors-11",
@@ -710,7 +754,8 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 22500,
     "code": "JW-1015",
-    "image": "/metalled/lumina-metallica.jpg"
+    "image": "/metalled/lumina-metallica.jpg",
+    "originalPrice": 23000
   },
   {
     "id": "metal-led-mirrors-13",
@@ -720,6 +765,7 @@ export const mirrorProducts: Product[] = [
     "finish": "Standard",
     "price": 12600,
     "code": "JW-1016",
-    "image": "/metalled/metal-majestry.jpg"
+    "image": "/metalled/metal-majestry.jpg",
+    "maxPrice": 19800
   }
 ];

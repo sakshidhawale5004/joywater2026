@@ -336,6 +336,8 @@ export type Product = {
   category: string; // category slug
   finish: string;
   price: number;
+  originalPrice?: number;
+  maxPrice?: number;
   code: string;
   image?: string;
 };

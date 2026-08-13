@@ -64,7 +64,16 @@ export function ProductCard({ product }: { product: Product }) {
           {product.name}
         </h3>
         <p className="text-xs text-muted-foreground">{product.finish}</p>
-        <p className="text-sm font-serif text-primary">₹ {product.price.toLocaleString("en-IN")}</p>
+        {product.maxPrice ? (
+          <p className="text-sm font-serif text-primary">₹ {product.price.toLocaleString("en-IN")} - ₹ {product.maxPrice.toLocaleString("en-IN")}</p>
+        ) : product.originalPrice ? (
+          <p className="text-sm font-serif text-primary">
+            <span className="line-through text-muted-foreground mr-2">₹ {product.originalPrice.toLocaleString("en-IN")}</span>
+            ₹ {product.price.toLocaleString("en-IN")}
+          </p>
+        ) : (
+          <p className="text-sm font-serif text-primary">₹ {product.price.toLocaleString("en-IN")}</p>
+        )}
       </div>
     </Link>
   );
