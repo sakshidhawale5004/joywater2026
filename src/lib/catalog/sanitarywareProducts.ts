@@ -1612,4 +1612,85 @@ export const sanitarywareProducts: Product[] = [
     "code": "9011 / 9012",
     "image": "/stoneisthekingofluxury/290.jpg"
   }
+,
+  {
+    "id": "stone-is-the-king-of-luxury-71",
+    "name": "Aurich",
+    "slug": "stone-is-the-king-of-luxury-71",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 27000,
+    "code": "NEW-71",
+    "image": "/table-top-basins/aurich.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-72",
+    "name": "Canon",
+    "slug": "stone-is-the-king-of-luxury-72",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 21000,
+    "code": "NEW-72",
+    "image": "/table-top-basins/canon.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-73",
+    "name": "Colorado",
+    "slug": "stone-is-the-king-of-luxury-73",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 19500,
+    "code": "NEW-73",
+    "image": "/table-top-basins/colorado.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-74",
+    "name": "Daisy",
+    "slug": "stone-is-the-king-of-luxury-74",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 19500,
+    "code": "NEW-74",
+    "image": "/table-top-basins/daisy.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-75",
+    "name": "Ivy",
+    "slug": "stone-is-the-king-of-luxury-75",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 16000,
+    "code": "NEW-75",
+    "image": "/table-top-basins/ivy.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-76",
+    "name": "Sienna",
+    "slug": "stone-is-the-king-of-luxury-76",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 12000,
+    "code": "NEW-76",
+    "image": "/table-top-basins/sienna.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-77",
+    "name": "Sierra",
+    "slug": "stone-is-the-king-of-luxury-77",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 12500,
+    "code": "NEW-77",
+    "image": "/table-top-basins/sierra.jpg"
+  },
+  {
+    "id": "stone-is-the-king-of-luxury-78",
+    "name": "Sophia",
+    "slug": "stone-is-the-king-of-luxury-78",
+    "category": "stone-is-the-king-of-luxury",
+    "finish": "Natural Stone",
+    "price": 36000,
+    "code": "NEW-78",
+    "image": "/table-top-basins/sophia.jpg"
+  }
 ];
