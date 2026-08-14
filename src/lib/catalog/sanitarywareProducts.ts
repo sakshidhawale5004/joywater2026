@@ -1138,7 +1138,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-23",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 48000,
+    "price": 63000,
     "code": "JW-6029",
     "image": "/stoneisthekingofluxury/230.jpg"
   },
@@ -1148,7 +1148,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-24",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 49000,
+    "price": 68000,
     "code": "JW-6013",
     "image": "/stoneisthekingofluxury/231.jpg"
   },
@@ -1679,7 +1679,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-77",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12500,
+    "price": 18500,
     "code": "NEW-77",
     "image": "/table-top-basins/sierra.jpg"
   },
