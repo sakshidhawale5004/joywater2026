@@ -12,8 +12,9 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CareRouteImport } from './routes/care'
+import { Route as CartRouteImport } from './routes/cart'
+import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
-import { Route as MySelectionsRouteImport } from './routes/my-selections'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as WarrantyRouteImport } from './routes/warranty'
@@ -37,14 +38,19 @@ const CareRoute = CareRouteImport.update({
   path: '/care',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CartRoute = CartRouteImport.update({
+  id: '/cart',
+  path: '/cart',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CheckoutRoute = CheckoutRouteImport.update({
+  id: '/checkout',
+  path: '/checkout',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const MySelectionsRoute = MySelectionsRouteImport.update({
-  id: '/my-selections',
-  path: '/my-selections',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProductsRoute = ProductsRouteImport.update({
@@ -88,8 +94,9 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
+  '/cart': typeof CartRoute
+  '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
-  '/my-selections': typeof MySelectionsRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
@@ -102,8 +109,9 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
+  '/cart': typeof CartRoute
+  '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
-  '/my-selections': typeof MySelectionsRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
@@ -117,8 +125,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/care': typeof CareRoute
+  '/cart': typeof CartRoute
+  '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
-  '/my-selections': typeof MySelectionsRoute
   '/products': typeof ProductsRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/warranty': typeof WarrantyRoute
@@ -133,8 +142,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/care'
+    | '/cart'
+    | '/checkout'
     | '/contact'
-    | '/my-selections'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
@@ -147,8 +157,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/care'
+    | '/cart'
+    | '/checkout'
     | '/contact'
-    | '/my-selections'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
@@ -161,8 +172,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/care'
+    | '/cart'
+    | '/checkout'
     | '/contact'
-    | '/my-selections'
     | '/products'
     | '/sitemap.xml'
     | '/warranty'
@@ -176,8 +188,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   CareRoute: typeof CareRoute
+  CartRoute: typeof CartRoute
+  CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
-  MySelectionsRoute: typeof MySelectionsRoute
   ProductsRoute: typeof ProductsRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   WarrantyRoute: typeof WarrantyRoute
@@ -210,18 +223,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CareRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cart': {
+      id: '/cart'
+      path: '/cart'
+      fullPath: '/cart'
+      preLoaderRoute: typeof CartRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/checkout': {
+      id: '/checkout'
+      path: '/checkout'
+      fullPath: '/checkout'
+      preLoaderRoute: typeof CheckoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/my-selections': {
-      id: '/my-selections'
-      path: '/my-selections'
-      fullPath: '/my-selections'
-      preLoaderRoute: typeof MySelectionsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/products': {
@@ -280,8 +300,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   CareRoute: CareRoute,
+  CartRoute: CartRoute,
+  CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
-  MySelectionsRoute: MySelectionsRoute,
   ProductsRoute: ProductsRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   WarrantyRoute: WarrantyRoute,
