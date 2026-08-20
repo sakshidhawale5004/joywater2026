@@ -377,7 +377,7 @@ function createCategoryProducts(
   categorySlug: string,
   titlePrefix: string,
   codePrefix: string,
-  basePrice: number,
+  basePrice: number | number[],
   imagePaths: string[],
   customFinishes?: string[]
 ): Product[] {
@@ -425,7 +425,7 @@ function createCategoryProducts(
       name: `${titlePrefix} - ${finish}`,
       category: categorySlug,
       finish,
-      price: basePrice,
+      price: Array.isArray(basePrice) ? basePrice[idx % basePrice.length] : basePrice,
       code,
       image,
     };
@@ -564,7 +564,7 @@ const realCategoryProducts: Product[] = [
     "2-function-shower-rain-mist",
     "2 Function Shower (Rain & Mist)",
     "JW-100",
-    48000,
+    [32500, 39000, 39000, 39000],
     [
       "/showers/2 Function Shower (1).png",
       "/showers/2 Function Shower (2).png",
@@ -577,7 +577,7 @@ const realCategoryProducts: Product[] = [
     "3-function-shower-rain-mist-dual-waterfall",
     "3 Function Shower (Rain, Mist & Dual Waterfall)",
     "JW-100",
-    48000,
+    [98000, 98000, 98000, 63000, 75000, 75000, 75000],
     [
       "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
       "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
@@ -601,7 +601,7 @@ const realCategoryProducts: Product[] = [
     "3-function-shower-rain-mist-large-single-waterfall",
     "3 Function Shower (Rain, Mist & Large Waterfall)",
     "JW-100",
-    48000,
+    [59500, 59500, 59500, 46500],
     [
       "/showers/3 Function Shower (Large Waterfall) (1).png",
       "/showers/3 Function Shower (Large Waterfall) (2).png",
@@ -614,7 +614,7 @@ const realCategoryProducts: Product[] = [
     "2-function-shower-rain-large-single-waterfall",
     "2 Function Shower (Rain & Large Waterfall)",
     "JW-100",
-    48000,
+    [49500, 36000],
     [
       "/showers/2 Function Shower (Large Waterfall).png",
       "/showers/2 Function Shower (Large Waterfall) (2).png",
@@ -625,7 +625,7 @@ const realCategoryProducts: Product[] = [
     "4-function-shower-chromotherapy",
     "4 Function Shower (Chromotherapy LED & Waterfall)",
     "JW-100",
-    48000,
+    [125000, 125000, 125000, 95000],
     [
       "/showers/4 Function Shower (1).png",
       "/showers/4 Function Shower (2).png",
@@ -638,7 +638,7 @@ const realCategoryProducts: Product[] = [
     "multifunctional-showers",
     "Multifunctional Shower System",
     "JW-100",
-    48000,
+    [160000, 160000, 160000, 54000, 54000, 54000],
     [
       "/showers/Multifunctional Showers (1).png",
       "/showers/Multifunctional Showers (2).png",
@@ -660,7 +660,7 @@ const realCategoryProducts: Product[] = [
     "single-function-shower-rain",
     "Single Function Rain Shower",
     "JW-100",
-    48000,
+    [13500, 13500, 13500, 8500],
     [
       "/showers/Single Function Shower (1).png",
       "/showers/Single Function Shower (2).png",
@@ -673,7 +673,7 @@ const realCategoryProducts: Product[] = [
     "waterfall-showers",
     "Waterfall Shower System",
     "JW-100",
-    48000,
+    [24500, 24500, 24500, 19500],
     [
       "/showers/Waterfall Showers (1).png",
       "/showers/Waterfall Showers (2).png",
@@ -686,7 +686,7 @@ const realCategoryProducts: Product[] = [
     "2-function-wall-mounted-shower-arm",
     "2 Function Wall Mounted Shower with Arm",
     "JW-100",
-    48000,
+    [9500, 6300, 9500],
     [
       "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
@@ -698,7 +698,7 @@ const realCategoryProducts: Product[] = [
     "multifunctional-wall-mounted-shower",
     "Multifunctional Wall Mounted Shower (2 Function)",
     "JW-100",
-    48000,
+    [16500, 16500, 16500, 3550, 3550, 3550, 3550, 3550],
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
