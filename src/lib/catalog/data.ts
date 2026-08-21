@@ -31,19 +31,19 @@ export const categories: Category[] = [
   },
     {
     slug: "multifunctional-ceiling-shower-3-function",
-    title: "multifunctional ceiling shower 3 function ceiling shower 3 function rain +4 mist + 2waterfall 3 function ceiling mounted shower with installation kit",
+    title: "3 Function Ceiling Shower",
     group: "showers",
     description: "3 function ceiling mounted shower with installation kit.",
-    bannerImage: "/images/PDF1_P20_IMG2.png",
+    bannerImage: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     image: "/showers/3 Function Shower (1).png",
     features: ["Rain Spray", "4 Mist Spray", "Dual Waterfall", "11 Years Unmatched Assurance", "Solid Brass Construction"]
   },
   {
     slug: "3-function-shower-rain-mist-2-waterfall-led",
-    title: "3 function shower rain +mist +2 waterfall+led",
+    title: "3 Function Shower (LED)",
     group: "showers",
-    description: "3 function shower rain +mist +2 waterfall+led.",
-    bannerImage: "/images/PDF1_P20_IMG2.png",
+    description: "3 function shower rain + mist + 2 waterfall + led.",
+    bannerImage: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     image: "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
     features: ["Rain", "Mist", "2 Waterfall", "LED", "11 Years Unmatched Assurance"]
   },
@@ -647,7 +647,7 @@ const realCategoryProducts: Product[] = [
   ),
     ...createCategoryProducts(
     "multifunctional-ceiling-shower-3-function",
-    "multifunctional ceiling shower 3 function ceiling shower 3 function rain +4 mist + 2waterfall 3 function ceiling mounted shower with installation kit",
+    "3 Function Ceiling Shower",
     "JW-100",
     [63000, 75000, 75000, 75000],
     [
@@ -660,7 +660,7 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-2-waterfall-led",
-    "3 function shower rain +mist +2 waterfall+led",
+    "3 Function Shower (LED)",
     "JW-100",
     [98000, 98000, 98000],
     [
