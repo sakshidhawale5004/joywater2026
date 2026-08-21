@@ -773,7 +773,7 @@ const realCategoryProducts: Product[] = [
     "4-function-hand-shower",
     "4 function hand shower",
     "JW-100",
-    [3550, 3550, 3550, 3550, 3550],
+    [3550, 3550, 3550, 2950, 3550],
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
@@ -899,7 +899,7 @@ const realCategoryProducts: Product[] = [
     "5-function-diverter",
     "5 Function Diverter",
     "JW-100",
-    48000,
+    [108000, 126000, 126000, 126000],
     [
       "/diverters/5 Function Diverter (1).png",
       "/diverters/5 Function Diverter (2).png",
@@ -912,7 +912,7 @@ const realCategoryProducts: Product[] = [
     "6-function-diverter",
     "6 Function Diverter",
     "JW-100",
-    48000,
+    [138000, 138000, 138000, 112000, 92000, 92000, 92000, 79000],
     [
       "/diverters/6 Function Diverter (1).png",
       "/diverters/6 Function Diverter (2).png",
@@ -938,7 +938,7 @@ const realCategoryProducts: Product[] = [
     "thermostatic-diverter-three-outlet",
     "Thermostatic Diverter (Three Outlet)",
     "JW-100",
-    48000,
+    [39000, 35000],
     [
       "/diverters/Thermostatic Diverter (1).png",
       "/diverters/Thermostatic Diverter (2).png",
@@ -953,7 +953,7 @@ const realCategoryProducts: Product[] = [
     "lever-diverter-three-outlet",
     "Lever Diverter (Three Outlet)",
     "JW-100",
-    48000,
+    [27000, 27000, 27000, 23000],
     [
       "/diverters/Lever Diverter Three Outlet (1).png",
       "/diverters/Lever Diverter Three Outlet (2).png",
@@ -986,7 +986,7 @@ const realCategoryProducts: Product[] = [
     "round-controller-basin-mixer",
     "Round Controller Basin Mixer",
     "JW-100",
-    48000,
+    [20500, 20500, 20500],
     [
       "/basinmixer/Round Controller Basin Mixer (1).png",
       "/basinmixer/Round Controller Basin Mixer (2).png",
@@ -998,7 +998,7 @@ const realCategoryProducts: Product[] = [
     "thermostatic-click-controller-basin-mixer",
     "Thermostatic Click Controller Basin Mixer",
     "JW-100",
-    48000,
+    [36500, 36500, 36500],
     [
       "/basinmixer/Thermostatic Click Controller Basin Mixer (1).png",
       "/basinmixer/Thermostatic Click Controller Basin Mixer (2).png",
@@ -1010,7 +1010,7 @@ const realCategoryProducts: Product[] = [
     "lever-basin-mixer",
     "Lever Basin Mixer",
     "JW-100",
-    48000,
+    [19500, 23500, 23500, 23500],
     [
       "/basinmixer/Lever Basin Mixer (1).png",
       "/basinmixer/Lever Basin Mixer (2).png",
@@ -1023,7 +1023,7 @@ const realCategoryProducts: Product[] = [
     "table-mounted-basin-mixer",
     "Table Mounted Basin Mixer",
     "JW-100",
-    48000,
+    [23500, 23500, 23500, 21500],
     [
       "/basinmixer/Table Mounted Basin Mixer (1).png",
       "/basinmixer/Table Mounted Basin Mixer (2).png",
@@ -1036,7 +1036,7 @@ const realCategoryProducts: Product[] = [
     "progressive-controller-waterfall-basin-mixer",
     "Progressive Controller Waterfall Basin Mixer",
     "JW-100",
-    48000,
+    [27500, 22500, 27500, 27500],
     [
       "/basinmixer/Progressive Controller Waterfall Basin Mixer.png",
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (1).png",
