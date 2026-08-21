@@ -996,15 +996,18 @@ export const megaMenu = {
   "Showering": {
     "Showers": [
       "2-function-shower-rain-mist",
-      "3-function-shower-rain-mist-dual-waterfall",
+      "multifunctional-ceiling-shower-3-function",
+      "3-function-shower-rain-mist-2-waterfall-led",
       "3-function-shower-rain-mist-large-single-waterfall",
       "2-function-shower-rain-large-single-waterfall",
       "4-function-shower-chromotherapy",
-      "multifunctional-showers",
+      "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
+      "2-function-shower-soft-rain-waterfall",
       "single-function-shower-rain",
       "waterfall-showers",
       "2-function-wall-mounted-shower-arm",
-      "multifunctional-wall-mounted-shower"
+      "multifunctional-wall-mounted-shower",
+      "joy-spot-wall-mounted-shower"
     ],
     "Body Showers": [
       "body-jets-2-function",
