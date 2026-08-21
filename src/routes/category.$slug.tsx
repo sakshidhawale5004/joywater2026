@@ -88,6 +88,7 @@ function getHeroSectionImage(slug: string): string {
 
     // Accessories
     "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
+    "others": "/OTHERS/Bathroom Accessories & Fittings.png",
 
     // Mirrors
     "led-mirrors": "/HEROSECTIONIMAGES/LED Mirrors.jpg",
