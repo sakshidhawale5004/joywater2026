@@ -29,14 +29,23 @@ export const categories: Category[] = [
     image: "/showers/2 Function Shower (1).png",
     features: ["Rain Spray", "Mist Spray", "Anti-clog nozzles", "11 Years Unmatched Assurance", "PVD Bonded Finish"]
   },
-  {
-    slug: "3-function-shower-rain-mist-dual-waterfall",
-    title: "3 Function Shower",
+    {
+    slug: "multifunctional-ceiling-shower-3-function",
+    title: "multifunctional ceiling shower 3 function ceiling shower 3 function rain +4 mist + 2waterfall 3 function ceiling mounted shower with installation kit",
     group: "showers",
-    description: "Rain, 4 Mist Spray & Dual Waterfall shower. Delivers a luxurious spa-like experience with multiple spray patterns.",
+    description: "3 function ceiling mounted shower with installation kit.",
+    bannerImage: "/images/PDF1_P20_IMG2.png",
+    image: "/showers/3 Function Shower (1).png",
+    features: ["Rain Spray", "4 Mist Spray", "Dual Waterfall", "11 Years Unmatched Assurance", "Solid Brass Construction"]
+  },
+  {
+    slug: "3-function-shower-rain-mist-2-waterfall-led",
+    title: "3 function shower rain +mist +2 waterfall+led",
+    group: "showers",
+    description: "3 function shower rain +mist +2 waterfall+led.",
     bannerImage: "/images/PDF1_P20_IMG2.png",
     image: "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
-    features: ["Rain Spray", "4 Mist Spray", "Dual Waterfall", "11 Years Unmatched Assurance", "Solid Brass Construction"]
+    features: ["Rain", "Mist", "2 Waterfall", "LED", "11 Years Unmatched Assurance"]
   },
   {
     slug: "3-function-shower-rain-mist-large-single-waterfall",
@@ -56,9 +65,9 @@ export const categories: Category[] = [
     image: "/showers/2 Function Shower (Large Waterfall).png",
     features: ["Rain Spray", "Large Single Waterfall", "11 Years Unmatched Assurance"]
   },
-  {
+    {
     slug: "4-function-shower-chromotherapy",
-    title: "4 Function Shower",
+    title: "4 Function Shower Rain, 6 Mist, 2 Waterfall and Water Column",
     group: "showers",
     description: "Chromotherapy LED Light, Rain, Six Mist Spray, Water Column & Dual Waterfall. Ultimate sensory indulgence.",
     bannerImage: "/images/PDF1_P13_IMG1.png",
@@ -66,13 +75,22 @@ export const categories: Category[] = [
     features: ["Chromotherapy LED Light", "Rain", "6 Mist Spray", "Water Column", "Dual Waterfall", "11 Years Unmatched Assurance"]
   },
   {
-    slug: "multifunctional-showers",
-    title: "Multifunctional Showers",
+    slug: "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
+    title: "4 functional shower rain +  4 mist  +4side flap rain + water column",
     group: "showers",
     description: "Rain, Water Column & Four Waterfall overhead shower systems for complete body immersion.",
     bannerImage: "/images/PDF1_P20_IMG2.png",
     image: "/showers/Multifunctional Showers (1).png",
-    features: ["Rain", "Water Column", "4 Waterfall", "11 Years Unmatched Assurance"]
+    features: ["Rain", "4 Mist", "4 Side Flap Rain", "Water Column", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "2-function-shower-soft-rain-waterfall",
+    title: "2 function shower soft rain +waterfall",
+    group: "showers",
+    description: "2 function shower soft rain +waterfall.",
+    bannerImage: "/images/PDF1_P20_IMG2.png",
+    image: "/showers/Multifunctional Showers (4).png",
+    features: ["Soft Rain", "Waterfall", "11 Years Unmatched Assurance"]
   },
   {
     slug: "single-function-shower-rain",
@@ -101,11 +119,20 @@ export const categories: Category[] = [
     image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
     features: ["Rain", "Mist", "Wall Mounted", "11 Years Unmatched Assurance"]
   },
-  {
+    {
     slug: "multifunctional-wall-mounted-shower",
     title: "Multifunctional Wall Mounted Shower (2 Function)",
     group: "showers",
     description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
+    bannerImage: "/images/PDF1_P24_IMG1.png",
+    image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
+    features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "joy-spot-wall-mounted-shower",
+    title: "joy spot wall mounted shower",
+    group: "showers",
+    description: "joy spot wall mounted shower.",
     bannerImage: "/images/PDF1_P24_IMG1.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
@@ -573,29 +600,30 @@ const realCategoryProducts: Product[] = [
     ],
     ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
   ),
-  ...createCategoryProducts(
-    "3-function-shower-rain-mist-dual-waterfall",
-    "3 Function Shower (Rain, Mist & Dual Waterfall)",
+    ...createCategoryProducts(
+    "multifunctional-ceiling-shower-3-function",
+    "multifunctional ceiling shower 3 function ceiling shower 3 function rain +4 mist + 2waterfall 3 function ceiling mounted shower with installation kit",
     "JW-100",
-    [98000, 98000, 98000, 63000, 75000, 75000, 75000],
+    [63000, 75000, 75000, 75000],
     [
-      "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
-      "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
-      "/showers/3 functionshower rain four mistspray&dualwaterfall (3).png",
       "/showers/3 Function Shower (1).png",
       "/showers/3 Function Shower (2).png",
       "/showers/3 Function Shower (3).png",
       "/showers/3 Function Shower (4).png",
     ],
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
+  ),
+  ...createCategoryProducts(
+    "3-function-shower-rain-mist-2-waterfall-led",
+    "3 function shower rain +mist +2 waterfall+led",
+    "JW-100",
+    [98000, 98000, 98000],
     [
-      "Graphite Grey",
-      "Rose Gold",
-      "Brushed Gold",
-      "Chrome",
-      "Brushed Gold",
-      "Graphite Grey",
-      "Rose Gold"
-    ]
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
+      "/showers/3 functionshower rain four mistspray&dualwaterfall (3).png",
+    ],
+    ["Graphite Grey", "Rose Gold", "Brushed Gold"]
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-large-single-waterfall",
@@ -621,9 +649,9 @@ const realCategoryProducts: Product[] = [
     ],
     ["Rose Gold", "Chrome"]
   ),
-  ...createCategoryProducts(
+    ...createCategoryProducts(
     "4-function-shower-chromotherapy",
-    "4 Function Shower (Chromotherapy LED & Waterfall)",
+    "4 Function Shower Rain, 6 Mist, 2 Waterfall and Water Column",
     "JW-100",
     [125000, 125000, 125000, 95000],
     [
@@ -635,26 +663,28 @@ const realCategoryProducts: Product[] = [
     ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"]
   ),
   ...createCategoryProducts(
-    "multifunctional-showers",
-    "Multifunctional Shower System",
+    "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
+    "4 functional shower rain +  4 mist  +4side flap rain + water column",
     "JW-100",
-    [160000, 160000, 160000, 54000, 54000, 54000],
+    [160000, 160000, 160000],
     [
       "/showers/Multifunctional Showers (1).png",
       "/showers/Multifunctional Showers (2).png",
       "/showers/Multifunctional Showers (3).png",
+    ],
+    ["Graphite Grey", "Rose Gold", "Brushed Gold"]
+  ),
+  ...createCategoryProducts(
+    "2-function-shower-soft-rain-waterfall",
+    "2 function shower soft rain +waterfall",
+    "JW-100",
+    [54000, 54000, 54000],
+    [
       "/showers/Multifunctional Showers (4).png",
       "/showers/Multifunctional Showers (5).png",
       "/showers/Multifunctional Showers (6).png",
     ],
-    [
-      "Graphite Grey",
-      "Rose Gold",
-      "Brushed Gold",
-      "Chrome",
-      "Rose Gold",
-      "Brushed Gold"
-    ]
+    ["Chrome", "Rose Gold", "Brushed Gold"]
   ),
   ...createCategoryProducts(
     "single-function-shower-rain",
@@ -694,15 +724,12 @@ const realCategoryProducts: Product[] = [
     ],
     ["Brushed Gold", "Graphite Grey", "Removed"]
   ),
-  ...createCategoryProducts(
+    ...createCategoryProducts(
     "multifunctional-wall-mounted-shower",
     "Multifunctional Wall Mounted Shower (2 Function)",
     "JW-100",
-    [16500, 16500, 16500, 3550, 3550, 3550, 3550, 3550],
+    [3550, 3550, 3550, 3550, 3550],
     [
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (3).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
@@ -710,14 +737,27 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (8).png",
     ],
     [
+      "Brushed Gold",
+      "Chrome",
+      "Brushed Gold",
+      "Chrome",
+      "Chrome",
+    ]
+  ),
+  ...createCategoryProducts(
+    "joy-spot-wall-mounted-shower",
+    "joy spot wall mounted shower",
+    "JW-100",
+    [16500, 16500, 16500],
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (3).png",
+    ],
+    [
       "Graphite Grey",
       "Removed",
       "Removed",
-      "Brushed Gold",
-      "Chrome",
-      "Brushed Gold",
-      "Chrome",
-      "Chrome",
     ]
   ),
 

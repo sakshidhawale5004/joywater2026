@@ -37,6 +37,8 @@ function getHeroSectionImage(slug: string): string {
     // Showers
     "2-function-shower-rain-mist": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
     "3-function-shower-rain-mist-dual-waterfall": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    "multifunctional-ceiling-shower-3-function": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    "3-function-shower-rain-mist-2-waterfall-led": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     "3-function-shower-rain-mist-large-single-waterfall": "/HEROSECTIONIMAGES/3 Function Shower (Large Waterfall).png",
     "2-function-shower-rain-large-single-waterfall": "/HEROSECTIONIMAGES/2 Function Shower (Large Waterfall).jpg",
     "4-function-shower-chromotherapy": "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
@@ -47,6 +49,8 @@ function getHeroSectionImage(slug: string): string {
     "one-line-series": "/HEROSECTIONIMAGES/One Line Series.jpg",
     "eminence-series": "/HEROSECTIONIMAGES/Eminence Series.jpg",
     "multifunctional-showers": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    "4-functional-shower-rain-4-mist-4side-flap-rain-water-column": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    "2-function-shower-soft-rain-waterfall": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
 
     // Diverters
     "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
