@@ -22,7 +22,7 @@ export const categories: Category[] = [
   {
     slug: "others",
     title: "Others",
-    group: "bath-accessories",
+    group: "others-accessories",
     description: "Explore our collection of additional bath accessories.",
     bannerImage: "/images/cat-accessories.jpg",
     image: "/OTHERS/Bathroom Accessories & Fittings.png",
@@ -193,6 +193,14 @@ export const categories: Category[] = [
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
 
+    {
+    slug: "multifunctional-wall-mounted",
+    title: "Multifunctional Wall Mounted",
+    group: "showers",
+    description: "Multifunctional wall mounted showers.",
+    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
+  },
   // 2. MULTI-FUNCTIONAL BODY SHOWERS
   {
     slug: "body-jets-2-function",
@@ -321,6 +329,14 @@ export const categories: Category[] = [
     features: ["Ceiling Mounted", "Statement Piece", "11 Years Unmatched Assurance"]
   },
 
+    {
+    slug: "premium-basin-mixer",
+    title: "Premium Basin Mixer",
+    group: "basin-mixers",
+    description: "Premium basin mixers with exquisite finishes and contemporary designs.",
+    bannerImage: "/premium basin mixer/brushed gold finish 19500.png",
+    features: ["Premium Finishes", "11 Years Unmatched Assurance"]
+  },
   // 6. SANITARYWARE
   {
     slug: "sanitaryware-basins",
@@ -1148,6 +1164,96 @@ const realCategoryProducts: Product[] = [
   ),
   ...ceilingMountedMixerProducts,
 
+    {
+    id: "multifunctional-wall-mounted-1",
+    slug: "multifunctional-wall-mounted-1",
+    name: "shower rain+mist 2 function wall mounted shower with shower arm",
+    category: "multifunctional-wall-mounted",
+    finish: "Chrome",
+    price: 45000,
+    code: "JW-10042",
+    image: "/shower category/multifunctional  wall mounted  category  product name . shower  rain+mist  2 function wall mounted shower with shower arm.jpg",
+  },
+  {
+    id: "multifunctional-wall-mounted-2",
+    slug: "multifunctional-wall-mounted-2",
+    name: "shower waterfall + rain 2 function wall mounted shower with shower arm",
+    category: "multifunctional-wall-mounted",
+    finish: "Chrome",
+    price: 45000,
+    code: "JW-10043",
+    image: "/shower category/multifunctional  wall mounted  category  product name . shower  waterfall + rain 2 function wall mounted shower with shower arm.jpg",
+  },
+    {
+    id: "premium-basin-mixer-1",
+    slug: "premium-basin-mixer-1",
+    name: "Premium Basin Mixer",
+    category: "premium-basin-mixer",
+    finish: "Brushed Gold",
+    price: 19500,
+    code: "JW-20001",
+    image: "/premium basin mixer/brushed gold finish 19500.png",
+  },
+  {
+    id: "premium-basin-mixer-2",
+    slug: "premium-basin-mixer-2",
+    name: "Premium Basin Mixer",
+    category: "premium-basin-mixer",
+    finish: "Chrome",
+    price: 14500,
+    code: "JW-20002",
+    image: "/premium basin mixer/chrome finish 14500.png",
+  },
+  {
+    id: "premium-basin-mixer-3",
+    slug: "premium-basin-mixer-3",
+    name: "Premium Basin Mixer",
+    category: "premium-basin-mixer",
+    finish: "Graphite Grey",
+    price: 19500,
+    code: "JW-20003",
+    image: "/premium basin mixer/graphite grey finish 19500.png",
+  },
+  {
+    id: "premium-basin-mixer-4",
+    slug: "premium-basin-mixer-4",
+    name: "Premium Basin Mixer",
+    category: "premium-basin-mixer",
+    finish: "Rose Gold",
+    price: 19500,
+    code: "JW-20004",
+    image: "/premium basin mixer/rose gold finish 19500.png",
+  },
+  {
+    id: "premium-basin-mixer-5",
+    slug: "premium-basin-mixer-5",
+    name: "Spout basin mixer with lever controlled",
+    category: "premium-basin-mixer",
+    finish: "Chrome",
+    price: 16000,
+    code: "JW-20005",
+    image: "/premium basin mixer/spout basin mixer with lever controled 16000.png",
+  },
+  {
+    id: "premium-basin-mixer-6",
+    slug: "premium-basin-mixer-6",
+    name: "Table body floor mounted basin mixer",
+    category: "premium-basin-mixer",
+    finish: "Chrome",
+    price: 22500,
+    code: "JW-20006",
+    image: "/premium basin mixer/table body  floor mounted basin mixer 22500.png",
+  },
+  {
+    id: "premium-basin-mixer-7",
+    slug: "premium-basin-mixer-7",
+    name: "Tall body floor mounted basin mixer",
+    category: "premium-basin-mixer",
+    finish: "Chrome",
+    price: 20500,
+    code: "JW-20007",
+    image: "/premium basin mixer/tall body floor mounted basin mixer 20500.png",
+  },
   // Sanitaryware
   ...sanitarywareProducts,
 
@@ -1217,7 +1323,8 @@ export const megaMenu = {
       "overhead-abs-shower",
       "hand-shower",
       "shower-set-with-hot-cold-controller",
-      "joy-spot-wall-mounted-shower"
+      "joy-spot-wall-mounted-shower",
+      "multifunctional-wall-mounted"
     ],
     "Body Showers": [
       "body-jets-2-function",
@@ -1247,7 +1354,8 @@ export const megaMenu = {
       "lever-basin-mixer",
       "table-mounted-basin-mixer",
       "progressive-controller-waterfall-basin-mixer",
-      "ceiling-mounted-basin-mixer"
+      "ceiling-mounted-basin-mixer",
+      "premium-basin-mixer"
     ],
     "Mixers In PVD Finishes": [
       "graphite-grey",

@@ -58,8 +58,6 @@ function getHeroSectionImage(slug: string): string {
     "shower-set-with-hot-cold-controller": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     "joy-spot-wall-mounted-shower": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     "multifunctional-showers": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    "4-functional-shower-rain-4-mist-4side-flap-rain-water-column": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    "2-function-shower-soft-rain-waterfall": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
 
     // Diverters
     "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
