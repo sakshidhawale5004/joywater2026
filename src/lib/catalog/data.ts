@@ -268,16 +268,7 @@ export const categories: Category[] = [
     features: ["Lever Handle", "3 Outlets", "Vernet Cartridge", "10+1 Years Warranty"]
   },
 
-  // 4. TILE INSERT DRAINERS
-  {
-    slug: "tile-insert-drain",
-    title: "Tile Insert Drain",
-    group: "tile-insert-drainers",
-    description: "Seamless Tile Insert Drain made of grade 304 stainless steel with high-flow drainage channels.",
-    bannerImage: "/images/PDF1_P30_IMG1.png",
-    image: "/Tile Insert Drain/Tile Insert Drain (1).png",
-    features: ["Seamless Look", "Easy to Clean", "Grade 304 Stainless Steel", "11 Years Unmatched Assurance"]
-  },
+
 
   // 5. BASIN MIXERS
   {
@@ -1176,23 +1167,7 @@ const realCategoryProducts: Product[] = [
     ["Gold", "Graphite Grey", "Rose Gold", "Chrome"]
   ),
 
-  // Tile Insert Drainers
-  ...createCategoryProducts(
-    "tile-insert-drain",
-    "Tile Insert Drain",
-    "JW-100",
-    48000,
-    [
-      "/Tile Insert Drain/Tile Insert Drain (1).png",
-      "/Tile Insert Drain/Tile Insert Drain (2).png",
-      "/Tile Insert Drain/Tile Insert Drain (3).png",
-      "/Tile Insert Drain/Tile Insert Drain (4).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (1).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (2).png",
-      "/Tile Insert Drain/Tile Insert (125 x 125 MM) (8).png",
-    ],
-    ["Gold", "Graphite Grey", "Rose Gold", "Chrome", "Rose Gold", "Chrome", "Chrome"]
-  ),
+
 
   // Basin Mixers
   ...createCategoryProducts(
@@ -1519,7 +1494,6 @@ export const megaMenu = {
       "lever-diverter-three-outlet"
     ],
     "Tile Drainers": [
-        "tile-insert-drain",
         "shower-drainer",
         "tiles-drainers",
         "floor-drainer"
