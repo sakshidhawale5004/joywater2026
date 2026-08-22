@@ -451,7 +451,7 @@ export const categories: Category[] = [
     {
     slug: "shower-drainer",
     title: "Shower Drainer",
-    group: "others-accessories",
+    group: "tile-insert-drainers",
     description: "Premium shower drainers.",
     bannerImage: "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png",
     features: ["11 Years Unmatched Assurance"]
@@ -459,7 +459,7 @@ export const categories: Category[] = [
   {
     slug: "tiles-drainers",
     title: "Tiles Drainers",
-    group: "others-accessories",
+    group: "tile-insert-drainers",
     description: "Premium tiles drainers.",
     bannerImage: "/tile drainers/tile-drainer-ss-matte-finish-4250.png",
     features: ["11 Years Unmatched Assurance"]
@@ -467,7 +467,7 @@ export const categories: Category[] = [
   {
     slug: "floor-drainer",
     title: "Floor Drainer",
-    group: "others-accessories",
+    group: "tile-insert-drainers",
     description: "Premium floor drainers.",
     bannerImage: "/tile drainers/floor-drainer-ss-matte-finish-585.png",
     features: ["11 Years Unmatched Assurance"]
@@ -1518,9 +1518,12 @@ export const megaMenu = {
       "thermostatic-diverter-three-outlet",
       "lever-diverter-three-outlet"
     ],
-    "Drainers": [
-      "tile-insert-drain"
-    ],
+    "Tile Drainers": [
+        "tile-insert-drain",
+        "shower-drainer",
+        "tiles-drainers",
+        "floor-drainer"
+      ],
     "Basin Mixers": [
       "round-controller-basin-mixer",
       "thermostatic-click-controller-basin-mixer",
@@ -1539,9 +1542,6 @@ export const megaMenu = {
   },
   "Bath Accessories": {
     "Accessories": [
-      "shower-drainer",
-      "tiles-drainers",
-      "floor-drainer",
       "button-spout",
       "angle-valve",
       "bib-cock",
