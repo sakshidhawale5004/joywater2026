@@ -30,35 +30,35 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/FINALBANNERIMAGES/hero-1.jpeg",
+    image: "/hero/hero1.jpeg",
     title: "Premium Hand Showers",
     subtitle: "Precision engineered for an unmatched experience.",
     category: "Showers",
     link: "/category/hand-shower"
   },
   {
-    image: "/FINALBANNERIMAGES/hero-2.jpeg",
+    image: "/hero/hero2.jpeg",
     title: "Joy Spot Showers",
     subtitle: "Immerse yourself in pure overhead luxury.",
     category: "Showers",
     link: "/category/joy-spot-wall-mounted-shower"
   },
   {
-    image: "/FINALBANNERIMAGES/hero-3.jpeg",
+    image: "/hero/hero3.jpeg",
     title: "Waterfall Showers",
     subtitle: "Sculptured elegance for a timeless grandeur.",
     category: "Showers",
     link: "/category/waterfall-showers"
   },
   {
-    image: "/FINALBANNERIMAGES/hero-6.png",
+    image: "/hero/hero4.jpeg",
     title: "Wall Mounted Showers",
     subtitle: "Innovative design for a refreshing rain flow.",
     category: "Showers",
     link: "/category/2-function-wall-mounted-shower-arm"
   },
   {
-    image: "/FINALBANNERIMAGES/hero-5.jpeg",
+    image: "/hero/hero5.jpeg",
     title: "Designer Mirrors",
     subtitle: "Reflecting true elegance and modern sophistication.",
     category: "Mirrors",
