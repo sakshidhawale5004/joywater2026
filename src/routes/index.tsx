@@ -30,35 +30,35 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/hero-slide-1.png",
+    image: "/FINALBANNERIMAGES/hero-1.jpeg",
     title: "Sanitaryware Collections",
     subtitle: "Ceramic Excellence",
     category: "Sanitaryware",
     link: "/category/sanitaryware-basins"
   },
   {
-    image: "/addfinal5sliderforherohomepage/showers.png",
+    image: "/FINALBANNERIMAGES/hero-2.jpeg",
     title: "Luxury Showers",
     subtitle: "Immerse yourself in overhead luxury.",
     category: "Showers",
     link: "/category/2-function-shower-rain-mist"
   },
   {
-    image: "/addfinal5sliderforherohomepage/mirrors.png",
+    image: "/FINALBANNERIMAGES/hero-3.jpeg",
     title: "Designer Mirrors",
     subtitle: "Reflecting true elegance.",
     category: "Mirrors",
     link: "/category/led-mirrors"
   },
   {
-    image: "/addfinal5sliderforherohomepage/washbasin.jpg",
+    image: "/FINALBANNERIMAGES/hero-4.jpeg",
     title: "Basin Mixers",
     subtitle: "Precision engineering and unmatched brass.",
     category: "Basin Mixers",
     link: "/category/round-controller-basin-mixer"
   },
   {
-    image: "/addfinal5sliderforherohomepage/stonewashbasin.jpg",
+    image: "/FINALBANNERIMAGES/hero-5.jpeg",
     title: "Majestic Stone Basins",
     subtitle: "Sculptured for timeless grandeur.",
     category: "Stone Basins",
