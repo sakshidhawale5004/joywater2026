@@ -1172,7 +1172,7 @@ const realCategoryProducts: Product[] = [
     finish: "Chrome",
     price: 45000,
     code: "JW-10042",
-    image: "/shower category/multifunctional  wall mounted  category  product name . shower  rain+mist  2 function wall mounted shower with shower arm.jpg",
+    image: "/shower category/multifunctional-wall-mounted-1.jpg",
   },
   {
     id: "multifunctional-wall-mounted-2",
@@ -1182,7 +1182,7 @@ const realCategoryProducts: Product[] = [
     finish: "Chrome",
     price: 45000,
     code: "JW-10043",
-    image: "/shower category/multifunctional  wall mounted  category  product name . shower  waterfall + rain 2 function wall mounted shower with shower arm.jpg",
+    image: "/shower category/multifunctional-wall-mounted-2.jpg",
   },
     {
     id: "premium-basin-mixer-1",
