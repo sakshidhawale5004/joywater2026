@@ -367,13 +367,85 @@ export const categories: Category[] = [
   },
 
   // 7. OTHERS / ACCESSORIES
-  {
-    slug: "bathroom-accessories-fittings",
-    title: "Bathroom Accessories & Fittings",
+    {
+    slug: "button-spout",
+    title: "Button Spout",
     group: "others-accessories",
-    description: "Bathroom Accessories & Fittings crafted from solid brass with matching PVD finishes for a cohesive bathroom design.",
-    bannerImage: "/images/PDF1_P50_IMG1.png",
-    features: ["Solid Brass Construction", "Matching Finishes", "11 Years Unmatched Assurance", "Corrosion Resistant"]
+    description: "Premium button spout accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (9).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "angle-valve",
+    title: "Angle Valve",
+    group: "others-accessories",
+    description: "Premium angle valve accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (13).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "bib-cock",
+    title: "Bib Cock",
+    group: "others-accessories",
+    description: "Premium bib cock accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (5).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shower-arm",
+    title: "Shower Arm",
+    group: "others-accessories",
+    description: "Premium shower arm accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (25).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shower-holder",
+    title: "Shower Holder",
+    group: "others-accessories",
+    description: "Premium shower holder accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings.png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "wall-outlet",
+    title: "Wall Outlet",
+    group: "others-accessories",
+    description: "Premium wall outlet accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (1).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "pop-up-coupling",
+    title: "Pop-up Coupling",
+    group: "others-accessories",
+    description: "Premium pop-up coupling accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (36).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "bottle-trap",
+    title: "Bottle Trap",
+    group: "others-accessories",
+    description: "Premium bottle trap accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (32).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shower-hose-tube",
+    title: "Shower Hose Tube",
+    group: "others-accessories",
+    description: "Premium shower hose tube accessories.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (17).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "health-faucet",
+    title: "Health Faucet Full Set with Tube & Wall Hook",
+    group: "others-accessories",
+    description: "Premium health faucet full set.",
+    bannerImage: "/OTHERS/Bathroom Accessories & Fittings (21).png",
+    features: ["11 Years Unmatched Assurance"]
   },
 
   // 8. MIRRORS
@@ -1258,21 +1330,66 @@ const realCategoryProducts: Product[] = [
   ...sanitarywareProducts,
 
   // Others / Accessories
-  ...createCategoryProducts(
-    "bathroom-accessories-fittings",
-    "Bathroom Accessories & Fittings",
-    "JW-100",
-    48000,
-    [
-      ...Array.from({ length: 28 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 1}).png`),
-      "/OTHERS/Bathroom Accessories & Fittings.png",
-      "/OTHERS/Bathroom Accessories & Fittings (29).png",
-      "/OTHERS/Bathroom Accessories & Fittings (30).png",
-      "/OTHERS/Bathroom Accessories & Fittings (31).png",
-      ...Array.from({ length: 8 }, (_, i) => `/OTHERS/Bathroom Accessories & Fittings (${i + 32}).png`),
-    ],
-    ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]
-  ),
+    ...createCategoryProducts("button-spout", "Button Spout", "JW-100", [7500, 7500, 7500, 4500], [
+    "/OTHERS/Bathroom Accessories & Fittings (9).png",
+    "/OTHERS/Bathroom Accessories & Fittings (10).png",
+    "/OTHERS/Bathroom Accessories & Fittings (11).png",
+    "/OTHERS/Bathroom Accessories & Fittings (12).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("angle-valve", "Angle Valve", "JW-100", [1800, 1800, 1800, 650], [
+    "/OTHERS/Bathroom Accessories & Fittings (13).png",
+    "/OTHERS/Bathroom Accessories & Fittings (14).png",
+    "/OTHERS/Bathroom Accessories & Fittings (15).png",
+    "/OTHERS/Bathroom Accessories & Fittings (16).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("bib-cock", "Bib Cock", "JW-100", [7200, 7200, 7200, 6500], [
+    "/OTHERS/Bathroom Accessories & Fittings (5).png",
+    "/OTHERS/Bathroom Accessories & Fittings (6).png",
+    "/OTHERS/Bathroom Accessories & Fittings (7).png",
+    "/OTHERS/Bathroom Accessories & Fittings (8).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("shower-arm", "Shower Arm", "JW-100", [4850, 4850, 4850, 2700], [
+    "/OTHERS/Bathroom Accessories & Fittings (25).png",
+    "/OTHERS/Bathroom Accessories & Fittings (26).png",
+    "/OTHERS/Bathroom Accessories & Fittings (27).png",
+    "/OTHERS/Bathroom Accessories & Fittings (28).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("shower-holder", "Shower Holder", "JW-100", [645, 645, 645, 350], [
+    "/OTHERS/Bathroom Accessories & Fittings.png",
+    "/OTHERS/Bathroom Accessories & Fittings (29).png",
+    "/OTHERS/Bathroom Accessories & Fittings (30).png",
+    "/OTHERS/Bathroom Accessories & Fittings (31).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("wall-outlet", "Wall Outlet", "JW-100", [3500, 3500, 3500, 2250], [
+    "/OTHERS/Bathroom Accessories & Fittings (1).png",
+    "/OTHERS/Bathroom Accessories & Fittings (2).png",
+    "/OTHERS/Bathroom Accessories & Fittings (3).png",
+    "/OTHERS/Bathroom Accessories & Fittings (4).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("pop-up-coupling", "Pop-up Coupling", "JW-100", [2950, 2950, 2950, 1350], [
+    "/OTHERS/Bathroom Accessories & Fittings (36).png",
+    "/OTHERS/Bathroom Accessories & Fittings (37).png",
+    "/OTHERS/Bathroom Accessories & Fittings (38).png",
+    "/OTHERS/Bathroom Accessories & Fittings (39).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("bottle-trap", "Bottle Trap", "JW-100", [5700, 5700, 5700, 1450], [
+    "/OTHERS/Bathroom Accessories & Fittings (32).png",
+    "/OTHERS/Bathroom Accessories & Fittings (33).png",
+    "/OTHERS/Bathroom Accessories & Fittings (34).png",
+    "/OTHERS/Bathroom Accessories & Fittings (35).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("shower-hose-tube", "Shower Hose Tube", "JW-100", [1650, 1650, 1650, 750], [
+    "/OTHERS/Bathroom Accessories & Fittings (17).png",
+    "/OTHERS/Bathroom Accessories & Fittings (18).png",
+    "/OTHERS/Bathroom Accessories & Fittings (19).png",
+    "/OTHERS/Bathroom Accessories & Fittings (20).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ...createCategoryProducts("health-faucet", "Health Faucet Full Set", "JW-100", [3950, 3950, 3950, 2850], [
+    "/OTHERS/Bathroom Accessories & Fittings (21).png",
+    "/OTHERS/Bathroom Accessories & Fittings (22).png",
+    "/OTHERS/Bathroom Accessories & Fittings (23).png",
+    "/OTHERS/Bathroom Accessories & Fittings (24).png",
+  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
 
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
   ...mirrorProducts,
@@ -1366,7 +1483,16 @@ export const megaMenu = {
   },
   "Bath Accessories": {
     "Accessories": [
-      "bathroom-accessories-fittings",
+      "button-spout",
+      "angle-valve",
+      "bib-cock",
+      "shower-arm",
+      "shower-holder",
+      "wall-outlet",
+      "pop-up-coupling",
+      "bottle-trap",
+      "shower-hose-tube",
+      "health-faucet",
       "others"
     ]
   },
