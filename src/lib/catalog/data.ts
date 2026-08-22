@@ -19,16 +19,6 @@ export type Category = {
 };
 
 export const categories: Category[] = [
-  {
-    slug: "others",
-    title: "Others",
-    group: "others-accessories",
-    description: "Explore our collection of additional bath accessories.",
-    bannerImage: "/images/cat-accessories.jpg",
-    image: "/OTHERS/Bathroom Accessories & Fittings.png",
-    features: ["Premium Quality", "Durable Finish"]
-  },
-
   // 1. SHOWERS
   {
     slug: "2-function-shower-rain-mist",
@@ -744,96 +734,6 @@ const ceilingMountedMixerProducts: Product[] = [
 ];
 
 const realCategoryProducts: Product[] = [
-  ...createCategoryProducts(
-    "others",
-    "Other Bath Accessories",
-    "JW-100",
-    4800,
-    [
-      "/OTHERS/Bathroom Accessories & Fittings.png",
-      "/OTHERS/Bathroom Accessories & Fittings (1).png",
-      "/OTHERS/Bathroom Accessories & Fittings (2).png",
-      "/OTHERS/Bathroom Accessories & Fittings (3).png",
-      "/OTHERS/Bathroom Accessories & Fittings (4).png",
-      "/OTHERS/Bathroom Accessories & Fittings (5).png",
-      "/OTHERS/Bathroom Accessories & Fittings (6).png",
-      "/OTHERS/Bathroom Accessories & Fittings (7).png",
-      "/OTHERS/Bathroom Accessories & Fittings (8).png",
-      "/OTHERS/Bathroom Accessories & Fittings (9).png",
-      "/OTHERS/Bathroom Accessories & Fittings (10).png",
-      "/OTHERS/Bathroom Accessories & Fittings (11).png",
-      "/OTHERS/Bathroom Accessories & Fittings (12).png",
-      "/OTHERS/Bathroom Accessories & Fittings (13).png",
-      "/OTHERS/Bathroom Accessories & Fittings (14).png",
-      "/OTHERS/Bathroom Accessories & Fittings (15).png",
-      "/OTHERS/Bathroom Accessories & Fittings (16).png",
-      "/OTHERS/Bathroom Accessories & Fittings (17).png",
-      "/OTHERS/Bathroom Accessories & Fittings (18).png",
-      "/OTHERS/Bathroom Accessories & Fittings (19).png",
-      "/OTHERS/Bathroom Accessories & Fittings (20).png",
-      "/OTHERS/Bathroom Accessories & Fittings (21).png",
-      "/OTHERS/Bathroom Accessories & Fittings (22).png",
-      "/OTHERS/Bathroom Accessories & Fittings (23).png",
-      "/OTHERS/Bathroom Accessories & Fittings (24).png",
-      "/OTHERS/Bathroom Accessories & Fittings (25).png",
-      "/OTHERS/Bathroom Accessories & Fittings (26).png",
-      "/OTHERS/Bathroom Accessories & Fittings (27).png",
-      "/OTHERS/Bathroom Accessories & Fittings (28).png",
-      "/OTHERS/Bathroom Accessories & Fittings (29).png",
-      "/OTHERS/Bathroom Accessories & Fittings (30).png",
-      "/OTHERS/Bathroom Accessories & Fittings (31).png",
-      "/OTHERS/Bathroom Accessories & Fittings (32).png",
-      "/OTHERS/Bathroom Accessories & Fittings (33).png",
-      "/OTHERS/Bathroom Accessories & Fittings (34).png",
-      "/OTHERS/Bathroom Accessories & Fittings (35).png",
-      "/OTHERS/Bathroom Accessories & Fittings (36).png",
-      "/OTHERS/Bathroom Accessories & Fittings (37).png",
-      "/OTHERS/Bathroom Accessories & Fittings (38).png",
-      "/OTHERS/Bathroom Accessories & Fittings (39).png"
-    ],
-    [
-      "Style 1",
-      "Style 2",
-      "Style 3",
-      "Style 4",
-      "Style 5",
-      "Style 6",
-      "Style 7",
-      "Style 8",
-      "Style 9",
-      "Style 10",
-      "Style 11",
-      "Style 12",
-      "Style 13",
-      "Style 14",
-      "Style 15",
-      "Style 16",
-      "Style 17",
-      "Style 18",
-      "Style 19",
-      "Style 20",
-      "Style 21",
-      "Style 22",
-      "Style 23",
-      "Style 24",
-      "Style 25",
-      "Style 26",
-      "Style 27",
-      "Style 28",
-      "Style 29",
-      "Style 30",
-      "Style 31",
-      "Style 32",
-      "Style 33",
-      "Style 34",
-      "Style 35",
-      "Style 36",
-      "Style 37",
-      "Style 38",
-      "Style 39",
-      "Style 40"
-    ]
-  ),
 
   // Showers
   ...createCategoryProducts(
