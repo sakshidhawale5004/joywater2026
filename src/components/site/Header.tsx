@@ -88,7 +88,7 @@ export function Header() {
       <div className="relative z-10 flex items-center justify-between px-6 md:px-10 py-4">
         <Link to="/" className="flex items-center gap-3 group">
           <img
-            src="/FINAL-LOGO.png"
+            src={logo}
             alt="Joy Water"
             className="h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
