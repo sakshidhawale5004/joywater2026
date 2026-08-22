@@ -448,6 +448,30 @@ export const categories: Category[] = [
     features: ["11 Years Unmatched Assurance"]
   },
 
+    {
+    slug: "shower-drainer",
+    title: "Shower Drainer",
+    group: "others-accessories",
+    description: "Premium shower drainers.",
+    bannerImage: "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "tiles-drainers",
+    title: "Tiles Drainers",
+    group: "others-accessories",
+    description: "Premium tiles drainers.",
+    bannerImage: "/tile drainers/tile-drainer-ss-matte-finish-4250.png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "floor-drainer",
+    title: "Floor Drainer",
+    group: "others-accessories",
+    description: "Premium floor drainers.",
+    bannerImage: "/tile drainers/floor-drainer-ss-matte-finish-585.png",
+    features: ["11 Years Unmatched Assurance"]
+  },
   // 8. MIRRORS
   {
     slug: "led-mirrors",
@@ -1391,6 +1415,38 @@ const realCategoryProducts: Product[] = [
     "/OTHERS/Bathroom Accessories & Fittings (24).png",
   ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
 
+  
+  // Shower Drainer
+  { id: "shower-drainer-1", slug: "shower-drainer-1", name: "Shower Drainer", category: "shower-drainer", finish: "SS Matte", price: 11500, code: "JW-SD-01", image: "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png" },
+  { id: "shower-drainer-2", slug: "shower-drainer-2", name: "Shower Drainer", category: "shower-drainer", finish: "Brushed Gold", price: 13500, code: "JW-SD-02", image: "/tile drainers/Shower-Drainer-brushed-gold-finish-13500-2.png" },
+  { id: "shower-drainer-3", slug: "shower-drainer-3", name: "Shower Drainer", category: "shower-drainer", finish: "Graphite Grey", price: 13500, code: "JW-SD-03", image: "/tile drainers/Shower-Drainer-graphite-grey-finish-13500-3.png" },
+  { id: "shower-drainer-4", slug: "shower-drainer-4", name: "Shower Drainer", category: "shower-drainer", finish: "Rose Gold", price: 13500, code: "JW-SD-04", image: "/tile drainers/Shower-Drainer-rose-gold-finish-13500-4.png" },
+  { id: "shower-drainer-5", slug: "shower-drainer-5", name: "Shower Drainer", category: "shower-drainer", finish: "SS Matte", price: 4750, code: "JW-SD-05", image: "/tile drainers/shower-drainer-ss-matte-finish-4750.png" },
+  { id: "shower-drainer-6", slug: "shower-drainer-6", name: "Shower Drainer", category: "shower-drainer", finish: "Black", price: 7200, code: "JW-SD-06", image: "/tile drainers/shower-drainer-black-finish-7200.png" },
+  { id: "shower-drainer-7", slug: "shower-drainer-7", name: "Shower Drainer", category: "shower-drainer", finish: "Brushed Gold", price: 7200, code: "JW-SD-07", image: "/tile drainers/shower-drainer-brushed-gold-finish-7200.png" },
+  { id: "shower-drainer-8", slug: "shower-drainer-8", name: "Shower Drainer", category: "shower-drainer", finish: "Rose Gold", price: 7200, code: "JW-SD-08", image: "/tile drainers/shower-drainer-rose-gold-finish-7200.png" },
+  { id: "shower-drainer-9", slug: "shower-drainer-9", name: "SS 340 Shower Channel Wave Drainer", category: "shower-drainer", finish: "SS Matte", price: 3510, code: "JW-SD-09", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png" },
+
+  // Tiles Drainers
+  { id: "tiles-drainer-1", slug: "tiles-drainer-1", name: "Tile Drainer", category: "tiles-drainers", finish: "SS Matte", price: 4250, code: "JW-TD-01", image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png" },
+  { id: "tiles-drainer-2", slug: "tiles-drainer-2", name: "Tile Drainer", category: "tiles-drainers", finish: "Brushed Gold", price: 5750, code: "JW-TD-02", image: "/tile drainers/tile-drainer-brushed-gold-finish-5750.png" },
+  { id: "tiles-drainer-3", slug: "tiles-drainer-3", name: "Tile Drainer", category: "tiles-drainers", finish: "Graphite Grey", price: 5750, code: "JW-TD-03", image: "/tile drainers/tile-drainer-graphite-grey-finish-5750.png" },
+  { id: "tiles-drainer-4", slug: "tiles-drainer-4", name: "Tile Drainer", category: "tiles-drainers", finish: "Rose Gold", price: 5750, code: "JW-TD-04", image: "/tile drainers/tile-drainer-rose-gold-finish-5750.png" },
+  { id: "tiles-drainer-5", slug: "tiles-drainer-5", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "SS Matte", price: 14500, code: "JW-TD-05", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-ss-matte-finish-14500.png" },
+  { id: "tiles-drainer-6", slug: "tiles-drainer-6", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Brushed Gold", price: 13500, code: "JW-TD-06", image: "/tile drainers/tile-drainers-marbles-side-hole-brushed-gold-finished-13500.png" },
+  { id: "tiles-drainer-7", slug: "tiles-drainer-7", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Graphite Grey", price: 15500, code: "JW-TD-07", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-grey-finish-15500-1.png" },
+  { id: "tiles-drainer-8", slug: "tiles-drainer-8", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Rose Gold", price: 15500, code: "JW-TD-08", image: "/tile drainers/tile-drainers-marbles-side-hole-rose-gold-finish-15500-2.png" },
+  { id: "tiles-drainer-9", slug: "tiles-drainer-9", name: "Tiles Drainers", category: "tiles-drainers", finish: "Gold", price: 2520, code: "JW-TD-09", image: "/tile drainers/tiles-drainers-gold-finish-2520.png" },
+  { id: "tiles-drainer-10", slug: "tiles-drainer-10", name: "Tiles Drainers", category: "tiles-drainers", finish: "Rose Gold", price: 2520, code: "JW-TD-10", image: "/tile drainers/tiles-drainers-rose-gold-finish-2520.jpg" },
+  { id: "tiles-drainer-11", slug: "tiles-drainer-11", name: "Tile Drainer JTD-506", category: "tiles-drainers", finish: "Chrome", price: 1630, code: "JW-TD-506", image: "/tile drainers/Code-JTD-506-1630.png" },
+
+  // Floor Drainer
+  { id: "floor-drainer-1", slug: "floor-drainer-1", name: "Floor Drainer", category: "floor-drainer", finish: "SS Matte", price: 585, code: "JW-FD-01", image: "/tile drainers/floor-drainer-ss-matte-finish-585.png" },
+  { id: "floor-drainer-2", slug: "floor-drainer-2", name: "Floor Drainer", category: "floor-drainer", finish: "Black", price: 1650, code: "JW-FD-02", image: "/tile drainers/floor-drainer-black-finish-1650.png" },
+  { id: "floor-drainer-3", slug: "floor-drainer-3", name: "Floor Drainer", category: "floor-drainer", finish: "Brushed Gold", price: 1650, code: "JW-FD-03", image: "/tile drainers/floor-drainer-brushed-gold-finish-1650.png" },
+  { id: "floor-drainer-4", slug: "floor-drainer-4", name: "Floor Drainer", category: "floor-drainer", finish: "Rose Gold", price: 1650, code: "JW-FD-04", image: "/tile drainers/floor-drainer-rose-gold-finish-1650.png" },
+  { id: "floor-drainer-5", slug: "floor-drainer-5", name: "Floor Drainer JGR-003", category: "floor-drainer", finish: "SS Matte", price: 585, code: "JW-FD-05", image: "/tile drainers/CODE-JGR--003-585.png" },
+
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
   ...mirrorProducts,
 ];
@@ -1483,6 +1539,9 @@ export const megaMenu = {
   },
   "Bath Accessories": {
     "Accessories": [
+      "shower-drainer",
+      "tiles-drainers",
+      "floor-drainer",
       "button-spout",
       "angle-valve",
       "bib-cock",
