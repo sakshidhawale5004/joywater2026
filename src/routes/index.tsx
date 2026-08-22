@@ -31,38 +31,38 @@ import { Button } from "@/components/ui/button";
 const heroSlides = [
   {
     image: "/FINALBANNERIMAGES/hero-1.jpeg",
-    title: "Sanitaryware Collections",
-    subtitle: "Ceramic Excellence",
-    category: "Sanitaryware",
-    link: "/category/sanitaryware-basins"
+    title: "Premium Hand Showers",
+    subtitle: "Precision engineered for an unmatched experience.",
+    category: "Showers",
+    link: "/category/hand-shower"
   },
   {
     image: "/FINALBANNERIMAGES/hero-2.jpeg",
-    title: "Luxury Showers",
-    subtitle: "Immerse yourself in overhead luxury.",
+    title: "Joy Spot Showers",
+    subtitle: "Immerse yourself in pure overhead luxury.",
     category: "Showers",
-    link: "/category/2-function-shower-rain-mist"
+    link: "/category/joy-spot-wall-mounted-shower"
   },
   {
     image: "/FINALBANNERIMAGES/hero-3.jpeg",
-    title: "Designer Mirrors",
-    subtitle: "Reflecting true elegance.",
-    category: "Mirrors",
-    link: "/category/led-mirrors"
+    title: "Waterfall Showers",
+    subtitle: "Sculptured elegance for a timeless grandeur.",
+    category: "Showers",
+    link: "/category/waterfall-showers"
   },
   {
-    image: "/FINALBANNERIMAGES/hero-4.jpeg",
-    title: "Basin Mixers",
-    subtitle: "Precision engineering and unmatched brass.",
-    category: "Basin Mixers",
-    link: "/category/round-controller-basin-mixer"
+    image: "/FINALBANNERIMAGES/hero-6.png",
+    title: "Wall Mounted Showers",
+    subtitle: "Innovative design for a refreshing rain flow.",
+    category: "Showers",
+    link: "/category/2-function-wall-mounted-shower-arm"
   },
   {
     image: "/FINALBANNERIMAGES/hero-5.jpeg",
-    title: "Majestic Stone Basins",
-    subtitle: "Sculptured for timeless grandeur.",
-    category: "Stone Basins",
-    link: "/category/stone-is-the-king-of-luxury"
+    title: "Designer Mirrors",
+    subtitle: "Reflecting true elegance and modern sophistication.",
+    category: "Mirrors",
+    link: "/category/led-mirrors"
   }
 ];
 
