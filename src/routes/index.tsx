@@ -272,7 +272,14 @@ function Index() {
             className="w-full"
           >
             <CarouselContent className="-ml-4 md:-ml-8">
-              {products.map((p) => (
+              {products
+                .filter((p) => [
+                  "stone-is-the-king-of-luxury-26",
+                  "customized-mirrors-6",
+                  "premium-basin-mixer-6",
+                  "sanitaryware-basins-2"
+                ].includes(p.slug))
+                .map((p) => (
                 <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                   <ProductCard product={p} />
                 </CarouselItem>
