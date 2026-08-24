@@ -98,7 +98,7 @@ const collections = [
   {
     title: "Precision Diverters",
     slug: "5-function-diverter",
-    image: "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
+    image: "/images/PDF1_P31_IMG2.png",
     tag: "Thermostatic Control",
   },
   {
@@ -278,10 +278,11 @@ function Index() {
                   "customized-mirrors-6",
                   "premium-basin-mixer-6",
                   "sanitaryware-basins-2",
-                  "joy-spot-wall-mounted-shower-1"
+                  "joy-spot-wall-mounted-shower-1",
+                  "wall-hung-wc-13"
                 ].includes(p.slug))
                 .map((p) => (
-                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/6">
                   <ProductCard product={p} />
                 </CarouselItem>
               ))}
