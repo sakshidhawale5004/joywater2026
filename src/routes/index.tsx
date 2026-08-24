@@ -110,7 +110,7 @@ const collections = [
   {
     title: "Sanitaryware Basins",
     slug: "sanitaryware-basins",
-    image: "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    image: "/premiumbasin/139.jpg",
     tag: "Ceramic Excellence",
   },
   {
