@@ -108,7 +108,7 @@ function CategoryPage() {
     .slice(0, 6);
 
   // If a specific bannerImage is provided, use it, otherwise use default
-  const heroImg = cat.bannerImage || cat.image || "/images/w3-01.png";
+  const heroImg = cat.bannerImage || cat.image || (products.length > 0 ? products[0].image : "/images/w3-01.png");
 
   return (
     <SiteLayout>
@@ -177,7 +177,7 @@ function CategoryPage() {
           <div className="lg:col-span-6">
             <div className="relative group rounded-2xl overflow-hidden border border-border/80 shadow-2xl bg-secondary/30">
               <img
-                src={encodeURI(getHeroSectionImage(cat.slug))}
+                src={encodeURI(heroImg)}
                 alt={cat.title}
                 className="w-full h-[380px] md:h-[480px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />

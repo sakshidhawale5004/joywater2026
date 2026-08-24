@@ -657,7 +657,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Graphite Grey",
     category: "ceiling-mounted-basin-mixer",
     finish: "Graphite Grey",
-    price: 22500,
+    price: 19500,
     code: "JW-10103",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (1).png",
   },
@@ -920,7 +920,7 @@ const realCategoryProducts: Product[] = [
     "overhead-abs-shower",
     "overhead abs shower",
     "JW-100",
-    [9500, 9500, 9500],
+    [ 6300, 6300, 6300 ],
     [
       "/shower category/overhead abs shower rain 9500 chrome.png",
       "/shower category/overhead abs shower rain 9500 graphite grey.png",
@@ -999,7 +999,29 @@ const realCategoryProducts: Product[] = [
   ),
 
   // Diverters
-  ...createCategoryProducts(
+  
+  
+    ...createCategoryProducts(
+      "4-function-diverter",
+      "4 Function Joy Water Diverter",
+      "JW-4FD",
+      [35000, 35000, 35000, 35000],
+      [
+        "/diverters/6 Function Diverter (5).png",
+        "/diverters/6 Function Diverter (6).png",
+        "/diverters/6 Function Diverter (7).png",
+        "/diverters/6 Function Diverter (8).png"
+      ],
+      ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+    ),
+{
+    slug: "4-function-diverter",
+    title: "4 Function Joy Water Diverter",
+    group: "diverters",
+    description: "4 Function Joy Water Diverter.",
+    features: ["4 Functions", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+  },
+...createCategoryProducts(
     "5-function-diverter",
     "5 Function Diverter",
     "JW-100",
@@ -1039,20 +1061,18 @@ const realCategoryProducts: Product[] = [
     ]
   ),
   ...createCategoryProducts(
-    "thermostatic-diverter-three-outlet",
-    "Thermostatic Diverter (Three Outlet)",
-    "JW-100",
-    [39000, 35000],
-    [
-      "/diverters/Thermostatic Diverter (1).png",
-      "/diverters/Thermostatic Diverter (2).png",
-      "/diverters/Thermostatic Diverter (3).png",
-      "/diverters/Thermostatic Diverter (4).png",
-      "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
-      "/diverters/Thermostatic Diverter (Three Outlet) (2).png",
-    ],
-    ["Chrome", "Gold", "Graphite Grey", "Rose Gold", "Rose Gold", "Chrome"]
-  ),
+      "thermostatic-diverter-three-outlet",
+      "Thermostatic Diverter (Three Outlet)",
+      "JW-100",
+      [54000, 63000, 63000, 63000],
+      [
+        "/diverters/Thermostatic Diverter (1).png",
+        "/diverters/Thermostatic Diverter (2).png",
+        "/diverters/Thermostatic Diverter (3).png",
+        "/diverters/Thermostatic Diverter (4).png",
+      ],
+      ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+    ),
   ...createCategoryProducts(
     "lever-diverter-three-outlet",
     "Lever Diverter (Three Outlet)",
@@ -1141,7 +1161,7 @@ const realCategoryProducts: Product[] = [
     name: "shower rain+mist 2 function wall mounted shower with shower arm",
     category: "multifunctional-wall-mounted",
     finish: "Chrome",
-    price: 45000,
+    price: 23500,
     code: "JW-10042",
     image: "/shower category/multifunctional-wall-mounted-1.jpg",
   },
@@ -1151,7 +1171,7 @@ const realCategoryProducts: Product[] = [
     name: "shower waterfall + rain 2 function wall mounted shower with shower arm",
     category: "multifunctional-wall-mounted",
     finish: "Chrome",
-    price: 45000,
+    price: 23500,
     code: "JW-10043",
     image: "/shower category/multifunctional-wall-mounted-2.jpg",
   },
@@ -1308,7 +1328,7 @@ const realCategoryProducts: Product[] = [
   { id: "tiles-drainer-3", slug: "tiles-drainer-3", name: "Tile Drainer", category: "tiles-drainers", finish: "Graphite Grey", price: 5750, code: "JW-TD-03", image: "/tile drainers/tile-drainer-graphite-grey-finish-5750.png" },
   { id: "tiles-drainer-4", slug: "tiles-drainer-4", name: "Tile Drainer", category: "tiles-drainers", finish: "Rose Gold", price: 5750, code: "JW-TD-04", image: "/tile drainers/tile-drainer-rose-gold-finish-5750.png" },
   { id: "tiles-drainer-5", slug: "tiles-drainer-5", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "SS Matte", price: 14500, code: "JW-TD-05", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-ss-matte-finish-14500.png" },
-  { id: "tiles-drainer-6", slug: "tiles-drainer-6", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Brushed Gold", price: 13500, code: "JW-TD-06", image: "/tile drainers/tile-drainers-marbles-side-hole-brushed-gold-finished-13500.png" },
+  { id: "tiles-drainer-6", slug: "tiles-drainer-6", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Brushed Gold", price:  15500, code: "JW-TD-06", image: "/tile drainers/tile-drainers-marbles-side-hole-brushed-gold-finished-13500.png" },
   { id: "tiles-drainer-7", slug: "tiles-drainer-7", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Graphite Grey", price: 15500, code: "JW-TD-07", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-grey-finish-15500-1.png" },
   { id: "tiles-drainer-8", slug: "tiles-drainer-8", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Rose Gold", price: 15500, code: "JW-TD-08", image: "/tile drainers/tile-drainers-marbles-side-hole-rose-gold-finish-15500-2.png" },
   { id: "tiles-drainer-9", slug: "tiles-drainer-9", name: "Tiles Drainers", category: "tiles-drainers", finish: "Gold", price: 2520, code: "JW-TD-09", image: "/tile drainers/tiles-drainers-gold-finish-2520.png" },
@@ -1369,12 +1389,12 @@ export const megaMenu = {
       "single-function-shower-rain-ceiling-mounted",
       "waterfall-showers",
       "overhead-abs-shower",
-      "hand-shower",
       "shower-set-with-hot-cold-controller",
       "joy-spot-wall-mounted-shower",
       "multifunctional-wall-mounted"
     ],
     "Body Showers": [
+      "hand-shower",
       "body-jets-2-function",
       "one-line-series",
       "eminence-series"
@@ -1388,6 +1408,7 @@ export const megaMenu = {
   },
   "Diverters & Mixers": {
     "Diverters": [
+      "4-function-diverter",
       "5-function-diverter",
       "6-function-diverter",
       "thermostatic-diverter-three-outlet",
