@@ -1425,8 +1425,7 @@ export const megaMenu = {
       "pop-up-coupling",
       "bottle-trap",
       "shower-hose-tube",
-      "health-faucet",
-      "others"
+      "health-faucet"
     ]
   },
   "Mirrors": {
