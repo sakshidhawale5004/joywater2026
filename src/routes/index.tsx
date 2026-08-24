@@ -32,7 +32,7 @@ const heroSlides = [
   {
     image: "/hero/hero1.jpeg",
     title: "Premium Hand Showers",
-    subtitle: "Precision engineered for an unmatched experience.",
+    subtitle: "Engineered for an unmatched experience.",
     category: "Showers",
     link: "/category/hand-shower"
   },
@@ -46,21 +46,21 @@ const heroSlides = [
   {
     image: "/hero/hero3.jpeg",
     title: "Waterfall Showers",
-    subtitle: "Sculptured elegance for a timeless grandeur.",
+    subtitle: "Sculptured elegance for timeless grandeur.",
     category: "Showers",
     link: "/category/waterfall-showers"
   },
   {
     image: "/hero/hero4.jpeg",
     title: "Wall Mounted Showers",
-    subtitle: "Innovative design for a refreshing rain flow.",
+    subtitle: "Innovative design for a refreshing rain.",
     category: "Showers",
     link: "/category/2-function-wall-mounted-shower-arm"
   },
   {
     image: "/hero/hero5.jpeg",
     title: "Designer Mirrors",
-    subtitle: "Reflecting true elegance and modern sophistication.",
+    subtitle: "Reflecting elegance and modern luxury.",
     category: "Mirrors",
     link: "/category/led-mirrors"
   }
