@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function Footer() {
@@ -91,8 +91,14 @@ export function Footer() {
             </li>
             <li className="flex items-start gap-2">
               <Mail className="h-4 w-4 mt-0.5 text-gold" />{" "}
-              <a href="mailto:hello@joywater.in" className="hover:text-gold">
-                hello@joywater.in
+              <a href="mailto:joywaterworld@gmail.com" className="hover:text-gold">
+                joywaterworld@gmail.com
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <Instagram className="h-4 w-4 mt-0.5 text-gold" />{" "}
+              <a href="https://www.instagram.com/joywater.in?igsh=MW02bmdra293bzAydg%3D%3D" target="_blank" rel="noreferrer" className="hover:text-gold">
+                Instagram
               </a>
             </li>
           </ul>

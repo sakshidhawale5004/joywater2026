@@ -66,8 +66,8 @@ function ContactPage() {
           {
             name: "Studio Enquiries",
             role: "General",
-            phone: "hello@joywater.in",
-            tel: "mailto:hello@joywater.in",
+            phone: "joywaterworld@gmail.com",
+            tel: "mailto:joywaterworld@gmail.com",
             email: true,
           },
         ].map((p) => (
@@ -235,8 +235,8 @@ function ContactPage() {
             </div>
             <div className="flex items-start gap-3">
               <Mail className="h-5 w-5 text-gold mt-0.5" />
-              <a href="mailto:hello@joywater.in" className="hover:text-gold">
-                hello@joywater.in
+              <a href="mailto:joywaterworld@gmail.com" className="hover:text-gold">
+                joywaterworld@gmail.com
               </a>
             </div>
           </div>
