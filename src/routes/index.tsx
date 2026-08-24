@@ -492,7 +492,7 @@ function Index() {
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
             <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
-              <img src="/images/PDF1_P20_IMG2.png" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <img src="/3dmirrors/octaspectra.jpg" alt="Gallery" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
             </div>
             <div className="col-span-2 md:col-span-1 overflow-hidden rounded-2xl group relative">
@@ -591,7 +591,7 @@ function Index() {
           <div className="grid grid-cols-2 gap-4">
             <div
               className="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl border border-border/80 transition-transform duration-700 hover:scale-[1.03]"
-              style={{ backgroundImage: `url('/images/PDF1_P20_IMG2.png')` }}
+              style={{ backgroundImage: `url('/premiumbasin/77.jpg')` }}
             />
             <div
               className="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl border border-border/80 mt-8 transition-transform duration-700 hover:scale-[1.03]"
