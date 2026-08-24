@@ -348,6 +348,14 @@ export const categories: Category[] = [
   },
 
   // 7. OTHERS / ACCESSORIES
+  {
+    slug: "abs-hook",
+    title: "ABS Hook",
+    group: "others-accessories",
+    description: "Premium ABS hook accessories.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+
     {
     slug: "button-spout",
     title: "Button Spout",
@@ -1249,6 +1257,13 @@ const realCategoryProducts: Product[] = [
   ...sanitarywareProducts,
 
   // Others / Accessories
+    ...createCategoryProducts("abs-hook", "ABS Hook", "JW-100", [1750, 1750, 990, 1750], [
+      "/abs hook/abs hook (1) gold 1750.png",
+      "/abs hook/abs hook (2) graphite grey 1750.png",
+      "/abs hook/abs hook (3) chrome 990.png",
+      "/abs hook/abs hook (4) rose gold 1750.png"
+    ], ["Gold", "Graphite Grey", "Chrome", "Rose Gold"]),
+
     ...createCategoryProducts("button-spout", "Button Spout", "JW-100", [7500, 7500, 7500, 4500], [
     "/OTHERS/Bathroom Accessories & Fittings (9).png",
     "/OTHERS/Bathroom Accessories & Fittings (10).png",
@@ -1437,7 +1452,8 @@ export const megaMenu = {
   },
   "Bath Accessories": {
     "Accessories": [
-      "button-spout",
+        "abs-hook",
+        "button-spout",
       "angle-valve",
       "bib-cock",
       "shower-arm",
