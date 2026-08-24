@@ -160,12 +160,12 @@ function Index() {
                 />
                 <div className="absolute inset-0 bg-black/40" />
 
-                <div className="absolute inset-0 z-10 max-w-7xl mx-auto px-8 md:px-16 flex flex-col justify-center w-full">
+                <div className="absolute top-1/2 -translate-y-1/2 z-10 max-w-7xl mx-auto px-8 md:px-16 w-full">
                   <div className="animate-reveal max-w-2xl flex flex-col items-start text-left">
-                    <p className="text-sm md:text-base uppercase tracking-[0.3em] text-gold mb-4 drop-shadow-md font-medium">
+                    <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-gold mb-3 drop-shadow-md font-normal">
                       {slide.subtitle}
                     </p>
-                    <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white mb-8 drop-shadow-xl leading-tight">
+                    <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-white font-light mb-6 drop-shadow-xl leading-tight">
                       {slide.title}
                     </h2>
                     
