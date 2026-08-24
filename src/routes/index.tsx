@@ -285,7 +285,7 @@ function Index() {
                     "premium-basin-mixer-5"
                 ].includes(p.slug))
                 .map((p) => (
-                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 lg:basis-1/2">
+                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 lg:basis-1/3">
                   <ProductCard product={p} />
                 </CarouselItem>
               ))}
