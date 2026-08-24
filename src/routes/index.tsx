@@ -30,35 +30,35 @@ import { Button } from "@/components/ui/button";
 
 const heroSlides = [
   {
-    image: "/hero/hero1.jpeg",
+    image: "/hero/banner-final-1.png",
     title: "Premium Hand Showers",
     subtitle: "Engineered for an unmatched experience.",
     category: "Showers",
     link: "/category/hand-shower"
   },
   {
-    image: "/hero/hero2.jpeg",
+    image: "/hero/banner-final-2.png",
     title: "Joy Spot Showers",
     subtitle: "Immerse yourself in pure overhead luxury.",
     category: "Showers",
     link: "/category/joy-spot-wall-mounted-shower"
   },
   {
-    image: "/hero/hero3.jpeg",
+    image: "/hero/banner-final-3.png",
     title: "Waterfall Showers",
     subtitle: "Sculptured elegance for timeless grandeur.",
     category: "Showers",
     link: "/category/waterfall-showers"
   },
   {
-    image: "/hero/hero4.jpeg",
+    image: "/hero/banner-final-4.png",
     title: "Wall Mounted Showers",
     subtitle: "Innovative design for a refreshing rain.",
     category: "Showers",
     link: "/category/2-function-wall-mounted-shower-arm"
   },
   {
-    image: "/hero/hero5.jpeg",
+    image: "/hero/banner-final-5.png",
     title: "Designer Mirrors",
     subtitle: "Reflecting elegance and modern luxury.",
     category: "Mirrors",
@@ -160,7 +160,7 @@ function Index() {
                 />
                 <div className="absolute inset-0 bg-black/40" />
 
-                <div className="absolute top-[35%] md:top-[40%] z-10 max-w-7xl mx-auto px-8 md:px-16 w-full">
+                <div className="absolute top-[35%] md:top-[40%] z-10 max-w-7xl mx-auto px-16 md:px-24 lg:px-32 w-full">
                   <div className="animate-reveal max-w-2xl flex flex-col items-start text-left">
                     <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-gold mb-3 drop-shadow-md font-normal">
                       {slide.subtitle}
