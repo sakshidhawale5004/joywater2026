@@ -160,7 +160,7 @@ function Index() {
                 />
                 <div className="absolute inset-0 bg-black/40" />
 
-                <div className="absolute top-1/2 -translate-y-1/2 z-10 max-w-7xl mx-auto px-8 md:px-16 w-full">
+                <div className="absolute top-[35%] md:top-[40%] z-10 max-w-7xl mx-auto px-8 md:px-16 w-full">
                   <div className="animate-reveal max-w-2xl flex flex-col items-start text-left">
                     <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-gold mb-3 drop-shadow-md font-normal">
                       {slide.subtitle}
@@ -277,16 +277,15 @@ function Index() {
                   "stone-is-the-king-of-luxury-26",
                   "customized-mirrors-6",
                   "premium-basin-mixer-6",
-                  "sanitaryware-basins-2"
+                  "sanitaryware-basins-2",
+                  "joy-spot-wall-mounted-shower-1"
                 ].includes(p.slug))
                 .map((p) => (
-                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/5">
                   <ProductCard product={p} />
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden md:flex -left-4 md:-left-12" />
-            <CarouselNext className="hidden md:flex -right-4 md:-right-12" />
           </Carousel>
         </div>
       </section>
