@@ -279,15 +279,20 @@ function Index() {
                   "premium-basin-mixer-6",
                   "sanitaryware-basins-2",
                   "joy-spot-wall-mounted-shower-1",
-                  "wall-hung-wc-13"
+                  "wall-hung-wc-13",
+                    "wall-hung-wc-4",
+                    "sanitaryware-basins-71",
+                    "premium-basin-mixer-5"
                 ].includes(p.slug))
                 .map((p) => (
-                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 md:basis-1/3 lg:basis-1/6">
+                <CarouselItem key={p.id} className="pl-4 md:pl-8 sm:basis-1/2 lg:basis-1/2">
                   <ProductCard product={p} />
                 </CarouselItem>
               ))}
             </CarouselContent>
-          </Carousel>
+              <CarouselPrevious className="hidden md:flex -left-12" />
+              <CarouselNext className="hidden md:flex -right-12" />
+            </Carousel>
         </div>
       </section>
 
