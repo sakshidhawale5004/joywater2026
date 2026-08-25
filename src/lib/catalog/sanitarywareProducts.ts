@@ -1508,7 +1508,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-60",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12000,
+    "price": 18000,
     "code": "JW-6092",
     "image": "/stoneisthekingofluxury/279.jpg"
   },
@@ -1518,7 +1518,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-61",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 15000,
+    "price": 16500,
     "code": "JW-6067",
     "image": "/stoneisthekingofluxury/280.jpg"
   },
@@ -1528,7 +1528,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-62",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 15000,
+    "price": 18000,
     "code": "JW-6061",
     "image": "/stoneisthekingofluxury/281.jpg"
   },
@@ -1564,17 +1564,17 @@ export const sanitarywareProducts: Product[] = [
   },
   {
     "id": "stone-is-the-king-of-luxury-66",
-    "name": "Soap Dispenser (₹3,600) & Tumbler Holder (₹2,700)",
+    "name": "Soap Dispenser (₹3,800) & Tumbler Holder (₹2,700)",
     "slug": "stone-is-the-king-of-luxury-66",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 6300,
+    "price": 6500,
     "code": "9003 / 9004",
     "image": "/stoneisthekingofluxury/286.jpg"
   },
   {
     "id": "stone-is-the-king-of-luxury-67",
-    "name": "Soap Dispenser (₹3,800) & Tumbler (₹2,700)",
+    "name": "Soap Dispenser (₹3,800) & Tumbler Holder (₹2,700)",
     "slug": "stone-is-the-king-of-luxury-67",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
@@ -1584,7 +1584,7 @@ export const sanitarywareProducts: Product[] = [
   },
   {
     "id": "stone-is-the-king-of-luxury-68",
-    "name": "Soap Dispenser (₹4,020) & Tumbler (₹3,250)",
+    "name": "Soap Dispenser (₹4,020) & Tumbler Holder (₹3,250)",
     "slug": "stone-is-the-king-of-luxury-68",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
@@ -1594,7 +1594,7 @@ export const sanitarywareProducts: Product[] = [
   },
   {
     "id": "stone-is-the-king-of-luxury-69",
-    "name": "Soap Dispenser (₹4,900) & Tumbler Holder (₹4,200)",
+    "name": "Soap Dispenser (₹4,900) & Tumbler (₹4,200)",
     "slug": "stone-is-the-king-of-luxury-69",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
