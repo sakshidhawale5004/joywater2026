@@ -78,13 +78,13 @@ function getHeroSectionImage(slug: string): string {
     "ceiling-mounted-basin-mixer": "/HEROSECTIONIMAGES/Ceiling Mounted Basin Mixer.png",
 
     // Sanitaryware
-    "stone-is-the-king-of-luxury": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
+    "stone-is-the-king-of-luxury": "/images/PDF1_P76_IMG1.png",
     "wall-hung-wc": "/wallhungwc/wallhungwc.jpg",
     "sanitaryware-collections": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
-    "ceramic-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "ceramic-wash-basins": "/images/PDF1_P24_IMG1.png",
     "glass-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
-    "stainless-steel-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "stainless-steel-wash-basins": "/JOYWATER/JOYWATER (8).jpeg",
     "free-standing-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
 
 
@@ -160,16 +160,28 @@ function CategoryPage() {
             <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Unmatched Assurance</p>
           </div>
           <div className="p-4 border-l border-border/50">
-            <p className="font-serif text-2xl md:text-3xl text-gold">10+1 Years</p>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Extended Warranty</p>
+            <p className="font-serif text-2xl md:text-3xl text-gold">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Grade 304 SS" : "Premium Material") : "10+1 Years"}
+            </p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Premium Stainless Steel" : "High-Quality Craftsmanship") : "Extended Warranty"}
+            </p>
           </div>
           <div className="p-4 border-l border-border/50">
-            <p className="font-serif text-2xl md:text-3xl text-gold">Vernet Inside</p>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">French Thermostatic Cartridge</p>
+            <p className="font-serif text-2xl md:text-3xl text-gold">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Corrosion Resistant" : "Timeless Design") : "Vernet Inside"}
+            </p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Durable Finish" : "Handcrafted Elegance") : "French Thermostatic Cartridge"}
+            </p>
           </div>
           <div className="p-4 border-l border-border/50">
-            <p className="font-serif text-2xl md:text-3xl text-gold">PVD Bonded</p>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Corrosion Resistant Finish</p>
+            <p className="font-serif text-2xl md:text-3xl text-gold">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Modern Edge" : "Easy Maintenance") : "PVD Bonded"}
+            </p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Sleek Aesthetics" : "Smooth & Silky Finish") : "Corrosion Resistant Finish"}
+            </p>
           </div>
         </div>
       </section>
