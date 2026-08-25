@@ -514,18 +514,7 @@ export const categories: Category[] = [
     features: ["Premium Finishes", "11 Years Unmatched Assurance"]
   },
   // 6. SANITARYWARE
-  {
-    slug: "stone-is-the-king-of-luxury",
-    title: "Stone is the King of Luxury",
-    group: "sanitaryware",
-    description: "Exclusive Stone Basin Collections crafted from natural marble, terrazzo, and luxury stone blocks. Unapologetic luxury and sculptural beauty.",
-
-    image: "/images/PDF1_P76_IMG1.png",
-    features: [
-      "Countertop Wash Basins - Elevate Your Countertop with Timeless Design",
-      "Free-Standing Wash Basins - Make a Statement with Standalone Design"
-    ]
-  },
+  
   {
     slug: "wall-hung-wc",
     title: "Wall Hung WC",
@@ -1655,7 +1644,8 @@ export const megaMenu = {
       "glass-wash-basins",
       "stainless-steel-wash-basins",
       "free-standing-wash-basins",
-      "stone-is-the-king-of-luxury",
+      "stone-basin",
+      "stone-pedestal",
       "wall-hung-wc"
     ]
   },
