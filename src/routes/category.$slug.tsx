@@ -157,8 +157,12 @@ function CategoryPage() {
       <section className="bg-secondary/50 border-y border-border/50 py-10">
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div className="p-4">
-            <p className="font-serif text-2xl md:text-3xl text-gold">11 Years</p>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">Unmatched Assurance</p>
+            <p className="font-serif text-2xl md:text-3xl text-gold">
+              {cat.group === "sanitaryware" ? "Timeless" : "11 Years"}
+            </p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+              {cat.group === "sanitaryware" ? "Elegance" : "Unmatched Assurance"}
+            </p>
           </div>
           <div className="p-4 border-l border-border/50">
             <p className="font-serif text-2xl md:text-3xl text-gold">
@@ -243,6 +247,7 @@ function CategoryPage() {
               </div>
             )}
 
+            {cat.group !== "sanitaryware" && (
             <div className="mt-10 pt-8 border-t border-border/60 flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground uppercase tracking-wider">
               <div className="flex items-center gap-2">
                 <span className="text-gold font-semibold">✓</span> 100% Solid Brass / Grade 304 SS
@@ -254,6 +259,7 @@ function CategoryPage() {
                 <span className="text-gold font-semibold">✓</span> PVD Finish
               </div>
             </div>
+            )}
           </div>
         </div>
       </section>
