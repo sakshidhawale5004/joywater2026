@@ -978,7 +978,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-7",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 95000,
+    "price": 96000,
     "code": "JW-6004",
     "image": "/stoneisthekingofluxury/206.jpg"
   },
@@ -988,7 +988,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-8",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 99000,
+    "price": 96000,
     "code": "JW-6025",
     "image": "/stoneisthekingofluxury/207.jpg"
   },
@@ -998,7 +998,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-9",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 83000,
+    "price": 66000,
     "code": "JW-6030",
     "image": "/stoneisthekingofluxury/208.jpg"
   },
@@ -1008,7 +1008,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-10",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 52000,
+    "price": 63000,
     "code": "JW-6018",
     "image": "/stoneisthekingofluxury/209.jpg"
   },
@@ -1018,7 +1018,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-11",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 54000,
+    "price": 58000,
     "code": "JW-6019",
     "image": "/stoneisthekingofluxury/210.jpg"
   },
@@ -1028,7 +1028,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-12",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 64000,
+    "price": 63000,
     "code": "JW-6020",
     "image": "/stoneisthekingofluxury/213.jpg"
   },
@@ -1038,7 +1038,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-13",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 105000,
+    "price": 115000,
     "code": "JW-6034",
     "image": "/stoneisthekingofluxury/214.jpg"
   },
@@ -1048,7 +1048,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-14",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 60000,
+    "price": 66000,
     "code": "JW-6035",
     "image": "/stoneisthekingofluxury/216.jpg"
   },
@@ -1058,7 +1058,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-15",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 52000,
+    "price": 63000,
     "code": "JW-6042",
     "image": "/stoneisthekingofluxury/219.jpg"
   },
@@ -1078,7 +1078,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-17",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 99000,
+    "price": 105000,
     "code": "JW-6055",
     "image": "/stoneisthekingofluxury/223.jpg"
   },
@@ -1088,7 +1088,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-18",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 54000,
+    "price": 60000,
     "code": "JW-6010",
     "image": "/stoneisthekingofluxury/225.jpg"
   },
@@ -1098,7 +1098,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-19",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 42000,
+    "price": 54000,
     "code": "JW-6011",
     "image": "/stoneisthekingofluxury/226.jpg"
   },
@@ -1118,7 +1118,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-21",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 94500,
+    "price": 95000,
     "code": "JW-6044",
     "image": "/stoneisthekingofluxury/228.jpg"
   },
@@ -1128,7 +1128,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-22",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 63000,
+    "price": 72000,
     "code": "JW-6045",
     "image": "/stoneisthekingofluxury/229.jpg"
   },
@@ -1138,7 +1138,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-23",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 63000,
+    "price": 72000,
     "code": "JW-6029",
     "image": "/stoneisthekingofluxury/230.jpg"
   },
@@ -1148,7 +1148,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-24",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 68000,
+    "price": 72000,
     "code": "JW-6013",
     "image": "/stoneisthekingofluxury/231.jpg"
   },
@@ -1158,7 +1158,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-25",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 59000,
+    "price": 66000,
     "code": "JW-6039",
     "image": "/stoneisthekingofluxury/232.jpg"
   },
@@ -1168,7 +1168,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-26",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 55000,
+    "price": 59000,
     "code": "JW-6040",
     "image": "/stoneisthekingofluxury/233.jpg"
   },
@@ -1178,7 +1178,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-27",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 13500,
+    "price": 15000,
     "code": "JW-6041",
     "image": "/stoneisthekingofluxury/234.jpg"
   },
@@ -1188,7 +1188,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-28",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 22500,
+    "price": 24500,
     "code": "JW-6036",
     "image": "/stoneisthekingofluxury/236.jpg"
   },
@@ -1198,7 +1198,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-29",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 21000,
+    "price": 23500,
     "code": "JW-6015",
     "image": "/stoneisthekingofluxury/237.jpg"
   },
@@ -1208,7 +1208,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-30",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 14500,
+    "price": 16500,
     "code": "JW-6012",
     "image": "/stoneisthekingofluxury/238.jpg"
   },
@@ -1218,7 +1218,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-31",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 13750,
+    "price": 16500,
     "code": "JW-6072",
     "image": "/stoneisthekingofluxury/239.jpg"
   },
@@ -1228,7 +1228,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-32",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 15750,
+    "price": 18000,
     "code": "JW-6024",
     "image": "/stoneisthekingofluxury/241.jpg"
   },
@@ -1238,7 +1238,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-33",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 22500,
+    "price": 25200,
     "code": "JW-6023",
     "image": "/stoneisthekingofluxury/242.jpg"
   },
@@ -1248,7 +1248,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-34",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12000,
+    "price": 20500,
     "code": "JW-6049",
     "image": "/stoneisthekingofluxury/243.jpg"
   },
@@ -1258,7 +1258,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-35",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 20000,
+    "price": 22500,
     "code": "JW-6069",
     "image": "/stoneisthekingofluxury/245.jpg"
   },
@@ -1268,7 +1268,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-36",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12000,
+    "price": 21000,
     "code": "JW-6050",
     "image": "/stoneisthekingofluxury/246.jpg"
   },
@@ -1278,7 +1278,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-37",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 20000,
+    "price": 21000,
     "code": "JW-6021",
     "image": "/stoneisthekingofluxury/247.jpg"
   },
@@ -1288,7 +1288,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-38",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 21000,
+    "price": 22500,
     "code": "JW-6037",
     "image": "/stoneisthekingofluxury/248.jpg"
   },
@@ -1298,7 +1298,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-39",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 21000,
+    "price": 22500,
     "code": "JW-6028",
     "image": "/stoneisthekingofluxury/249.jpg"
   },
@@ -1308,7 +1308,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-40",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Marble",
-    "price": 21000,
+    "price": 22500,
     "code": "JW-6014",
     "image": "/stoneisthekingofluxury/250.jpg"
   },
@@ -1318,7 +1318,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-41",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 16500,
+    "price": 18500,
     "code": "JW-6017",
     "image": "/stoneisthekingofluxury/251.jpg"
   },
@@ -1328,7 +1328,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-42",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12500,
+    "price": 20500,
     "code": "JW-6031",
     "image": "/stoneisthekingofluxury/252.jpg"
   },
@@ -1338,7 +1338,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-43",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 16500,
+    "price": 18500,
     "code": "JW-6090",
     "image": "/stoneisthekingofluxury/253.jpg"
   },
@@ -1358,7 +1358,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-45",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 21000,
+    "price": 22500,
     "code": "JW-6047",
     "image": "/stoneisthekingofluxury/256.jpg"
   },
@@ -1378,7 +1378,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-47",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 14400,
+    "price": 18000,
     "code": "JW-6051",
     "image": "/stoneisthekingofluxury/259.jpg"
   },
@@ -1388,7 +1388,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-48",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 15000,
+    "price": 18000,
     "code": "JW-6091",
     "image": "/stoneisthekingofluxury/262.jpg"
   },
@@ -1398,7 +1398,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-49",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 27000,
+    "price": 31500,
     "code": "JW-6048",
     "image": "/stoneisthekingofluxury/263.jpg"
   },
@@ -1408,7 +1408,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-50",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 21000,
+    "price": 22500,
     "code": "JW-6056",
     "image": "/stoneisthekingofluxury/264.jpg"
   },
@@ -1428,7 +1428,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-52",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 12000,
+    "price": 19500,
     "code": "JW-6057",
     "image": "/stoneisthekingofluxury/266.jpg"
   },
@@ -1438,7 +1438,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-53",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 27000,
+    "price": 28500,
     "code": "JW-6088",
     "image": "/stoneisthekingofluxury/267.jpg"
   },
@@ -1448,7 +1448,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-54",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 30000,
+    "price": 32000,
     "code": "JW-6058",
     "image": "/stoneisthekingofluxury/268.jpg"
   },
@@ -1468,7 +1468,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-56",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 33000,
+    "price": 36000,
     "code": "JW-6089",
     "image": "/stoneisthekingofluxury/273.jpg"
   },
@@ -1478,7 +1478,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-57",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 34200,
+    "price": 36000,
     "code": "JW-6081",
     "image": "/stoneisthekingofluxury/274.jpg"
   },
@@ -1498,7 +1498,7 @@ export const sanitarywareProducts: Product[] = [
     "slug": "stone-is-the-king-of-luxury-59",
     "category": "stone-is-the-king-of-luxury",
     "finish": "Natural Stone",
-    "price": 24300,
+    "price": 26500,
     "code": "JW-6080",
     "image": "/stoneisthekingofluxury/277.jpg"
   },
