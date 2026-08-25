@@ -580,6 +580,29 @@ export const categories: Category[] = [
     ]
   },
   {
+    slug: "stone-basin",
+    title: "Stone Basin",
+    group: "sanitaryware",
+    description: "Exclusive Stone Basin Collections crafted from natural marble, terrazzo, and luxury stone blocks.",
+    image: "/images/PDF1_P76_IMG1.png",
+    features: [
+      "Smooth & Silky Finish - Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean - Smooth surface allows quick and effortless cleaning."
+    ]
+  },
+  {
+    slug: "stone-pedestal",
+    title: "Stone Pedestal",
+    group: "sanitaryware",
+    description: "Make a Statement with Standalone Design using our premium stone pedestal basins.",
+    image: "/images/PDF1_P76_IMG1.png",
+    features: [
+      "Smooth & Silky Finish - Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean - Smooth surface allows quick and effortless cleaning."
+    ]
+  },
+
+  {
     slug: "free-standing-wash-basins",
     title: "Free-Standing Wash Basins",
     group: "sanitaryware",

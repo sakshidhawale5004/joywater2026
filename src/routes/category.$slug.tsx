@@ -78,7 +78,8 @@ function getHeroSectionImage(slug: string): string {
     "ceiling-mounted-basin-mixer": "/HEROSECTIONIMAGES/Ceiling Mounted Basin Mixer.png",
 
     // Sanitaryware
-    "stone-is-the-king-of-luxury": "/images/PDF1_P76_IMG1.png",
+    "stone-basin": "/images/PDF1_P76_IMG1.png",
+    "stone-pedestal": "/images/PDF1_P76_IMG1.png",
     "wall-hung-wc": "/wallhungwc/wallhungwc.jpg",
     "sanitaryware-collections": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
