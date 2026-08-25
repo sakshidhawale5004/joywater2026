@@ -515,15 +515,6 @@ export const categories: Category[] = [
   },
   // 6. SANITARYWARE
   {
-    slug: "sanitaryware-basins",
-    title: "Basins",
-    group: "sanitaryware",
-    description: "Handcrafted Luxury Designer Basins in ceramic, glass, stainless steel, and statement silhouettes.",
-
-    image: "/premiumbasin/71.jpg",
-    features: ["Ceramic Excellence", "Timeless Luxury", "11 Years Unmatched Assurance"]
-  },
-  {
     slug: "stone-is-the-king-of-luxury",
     title: "Stone is the King of Luxury",
     group: "sanitaryware",
@@ -1635,7 +1626,10 @@ export function getProductsByCategory(slug: string) {
 export const megaMenu = {
   "Sanitaryware": {
     "Sanitaryware": [
-      "sanitaryware-basins",
+      "ceramic-wash-basins",
+      "glass-wash-basins",
+      "stainless-steel-wash-basins",
+      "free-standing-wash-basins",
       "stone-is-the-king-of-luxury",
       "wall-hung-wc"
     ]
