@@ -313,6 +313,201 @@ export const categories: Category[] = [
     {
     slug: "premium-basin-mixer",
     title: "Premium Basin Mixer",
+  },
+    {
+    slug: "4-function-hand-shower",
+    title: "4 function hand shower",
+    group: "showers",
+    description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
+
+    image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
+    features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "2-function-shower-rain-mist-hexagon",
+    title: "2 function shower rain mist hexagon",
+    group: "showers",
+    description: "2 function shower rain mist hexagon",
+    bannerImage: "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
+    image: "/shower category/2 function shower rain mist 4  in hexagon shape  gold  45000.png",
+    features: ["Rain", "Mist", "Hexagon Shape", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "single-function-shower-rain-ceiling-mounted",
+    title: "single function shower rain celing mounted shower",
+    group: "showers",
+    description: "single function shower rain celing mounted shower",
+    bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
+    image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
+    features: ["Rain", "Ceiling Mounted", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "overhead-abs-shower",
+    title: "overhead abs shower",
+    group: "showers",
+    description: "overhead abs shower",
+    bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+    image: "/shower category/overhead abs shower rain 9500 chrome.png",
+    features: ["ABS", "Overhead", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "hand-shower",
+    title: "hand shower",
+    group: "showers",
+    description: "hand shower",
+    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    image: "/shower category/hand shower chrome 2250 (2).png",
+    features: ["Hand Shower", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shower-set-with-hot-cold-controller",
+    title: "shower set with hot & cold controller",
+    group: "showers",
+    description: "shower set with hot & cold controller",
+    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    image: "/shower category/shower set with hot & cold controller with  shower rail & hand shower  black finish  42000 (1).jpg",
+    features: ["Hot & Cold Controller", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "joy-spot-wall-mounted-shower",
+    title: "joy spot wall mounted shower",
+    group: "showers",
+    description: "joy spot wall mounted shower.",
+
+    image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
+    features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
+  },
+
+    {
+    slug: "multifunctional-wall-mounted",
+    title: "Multifunctional Wall Mounted",
+    group: "showers",
+    description: "Multifunctional wall mounted showers.",
+    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
+  },
+  // 2. MULTI-FUNCTIONAL BODY SHOWERS
+  {
+    slug: "body-jets-2-function",
+    title: "Body Jets (2 Function)",
+    group: "multi-functional-body-showers",
+    description: "Rain & Mist body jets designed for recessed wall installation and targeted hydrotherapy.",
+
+    image: "/Body Showers/Body Jets (2 Function) (1).png",
+    features: ["Rain", "Mist", "Recessed Installation", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "one-line-series",
+    title: "One Line Series",
+    group: "multi-functional-body-showers",
+    description: "One Line Series minimalist body showers featuring zero-radius architectural profiles.",
+
+    image: "/Body Showers/One Line Series (1).png",
+    features: ["Minimalist Design", "High Pressure", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "eminence-series",
+    title: "Eminence Series",
+    group: "multi-functional-body-showers",
+    description: "Eminence Series luxury body shower arrays with adjustable angle nozzles.",
+
+    image: "/Body Showers/Eminence Series (1).png",
+    features: ["Luxury Finish", "Precision Sprays", "11 Years Unmatched Assurance"]
+  },
+
+  // 3. DIVERTERS
+  {
+    slug: "5-function-diverter",
+    title: "5 Function Diverter",
+    group: "diverters",
+    description: "The JOY WATER 5-function diverter offers unmatched versatility with the ability to control up to five water outlets. Equipped with high-quality Vernet cartridges.",
+
+    image: "/diverters/5 Function Diverter (1).png",
+    features: ["5 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance", "Smooth Transitions"]
+  },
+  {
+    slug: "6-function-diverter",
+    title: "6 Function Diverter",
+    group: "diverters",
+    description: "6 Function Diverter for comprehensive bathroom systems. Features genuine Vernet cartridges for drip-free temperature control.",
+
+    image: "/diverters/6 Function Diverter (1).png",
+    features: ["6 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "thermostatic-diverter-three-outlet",
+    title: "Thermostatic Diverter (Three Outlet)",
+    group: "diverters",
+    description: "Provides seamless control between three water outlets with safety thermostatic locking. Renowned Vernet cartridge inside.",
+
+    image: "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
+    features: ["Thermostatic Control", "3 Outlets", "Safety Lock", "Vernet Cartridge", "10+1 Years Warranty"]
+  },
+  {
+    slug: "lever-diverter-three-outlet",
+    title: "Lever Diverter (Three Outlet)",
+    group: "diverters",
+    description: "Classic Lever Diverter with Three Outlets, solid brass body, and smooth operational action.",
+
+    image: "/diverters/Lever Diverter Three Outlet (1).png",
+    features: ["Lever Handle", "3 Outlets", "Vernet Cartridge", "10+1 Years Warranty"]
+  },
+
+
+
+  // 5. BASIN MIXERS
+  {
+    slug: "round-controller-basin-mixer",
+    title: "Round Controller Basin Mixer",
+    group: "basin-mixers",
+    description: "Round Controller Basin Mixer with Swiss Neoperl aerator for soft, volumetric flow without splashing.",
+    bannerImage: "/images/designer-faucets-new.jpg",
+    features: ["Round Controller", "Aerated Flow", "Solid Brass Billet", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "thermostatic-click-controller-basin-mixer",
+    title: "Thermostatic Click Controller Basin Mixer",
+    group: "basin-mixers",
+    description: "Thermostatic Click Controller Basin Mixer featuring push-button activation and precise temperature selection.",
+
+    features: ["Thermostatic", "Click Controller", "11 Years Unmatched Assurance", "PVD Bonded"]
+  },
+  {
+    slug: "lever-basin-mixer",
+    title: "Lever Basin Mixer",
+    group: "basin-mixers",
+    description: "Classic single lever Basin Mixer machined from solid brass with ceramic disc cartridge.",
+
+    features: ["Single Lever", "Smooth Operation", "11 Years Unmatched Assurance", "10Y Warranty"]
+  },
+  {
+    slug: "table-mounted-basin-mixer",
+    title: "Table Mounted Basin Mixer",
+    group: "basin-mixers",
+    description: "Tall Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
+
+    features: ["Table Mounted", "Tall Profile", "11 Years Unmatched Assurance", "Solid Brass"]
+  },
+  {
+    slug: "progressive-controller-waterfall-basin-mixer",
+    title: "Progressive Controller Waterfall Basin Mixer",
+    group: "basin-mixers",
+    description: "Progressive Controller with wide Waterfall flow, combining modern minimalism with natural water motion.",
+
+    features: ["Progressive Controller", "Waterfall Spout", "11 Years Unmatched Assurance", "PVD Finishes"]
+  },
+  {
+    slug: "ceiling-mounted-basin-mixer",
+    title: "Ceiling Mounted Basin Mixer",
+    group: "basin-mixers",
+    description: "Dramatic Ceiling Mounted Basin Mixer that drops water gracefully from above. A stunning architectural centerpiece.",
+
+    features: ["Ceiling Mounted", "Statement Piece", "11 Years Unmatched Assurance"]
+  },
+
+    {
+    slug: "premium-basin-mixer",
+    title: "Premium Basin Mixer",
     group: "basin-mixers",
     description: "Premium basin mixers with exquisite finishes and contemporary designs.",
     bannerImage: "/premium basin mixer/brushed gold finish 19500.png",
@@ -335,7 +530,10 @@ export const categories: Category[] = [
     description: "Exclusive Stone Basin Collections crafted from natural marble, terrazzo, and luxury stone blocks. Unapologetic luxury and sculptural beauty.",
 
     image: "/stoneisthekingofluxury/200.jpg",
-    features: ["Natural Stone", "Sculptural Masterpieces", "11 Years Unmatched Assurance"]
+    features: [
+      "Countertop Wash Basins - Elevate Your Countertop with Timeless Design",
+      "Free-Standing Wash Basins - Make a Statement with Standalone Design"
+    ]
   },
   {
     slug: "wall-hung-wc",
@@ -344,8 +542,63 @@ export const categories: Category[] = [
     description: "Rimless Wall Hung Water Closets with quiet flush engineering, ergonomic contours, and soft-close seats.",
 
     image: "/wallhungwc/25.jpg",
-    features: ["Rimless Hygiene", "Soft Close Seat", "11 Years Unmatched Assurance"]
+    features: [
+      "Rimless Design – Eliminates hidden edges where dirt and deposits can accumulate, making the toilet easier to clean and maintain.",
+      "Powerful Swirl Flush – Advanced swirling water flow helps provide effective bowl cleaning with every flush.",
+      "Blind Installation – Hidden fixing points keep the exterior smooth and free from visible mounting holes.",
+      "Slim UF Seat Cover – A sleek, durable seat design that complements the contemporary profile of the toilet and Comes With Soft Close Features",
+      "Easy to Clean – The smooth exterior and floating design make cleaning around and underneath the WC effortless."
+    ]
   },
+  {
+    slug: "ceramic-wash-basins",
+    title: "Ceramic Wash Basins",
+    group: "sanitaryware",
+    description: "Timeless ceramic elegance with refined finishes for modern bathrooms.",
+    features: [
+      "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
+      "Elegant Design – Available in modern shapes and styles to complement different bathroom interiors.",
+      "Low Maintenance – Requires minimal care and retains its appearance for a long time."
+    ]
+  },
+  {
+    slug: "glass-wash-basins",
+    title: "Glass Wash Basins",
+    group: "sanitaryware",
+    description: "Contemporary glass designs that bring light, style, and sophistication.",
+    features: [
+      "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
+      "Elegant Design – Available in modern shapes and styles to complement different bathroom interiors.",
+      "Low Maintenance – Requires minimal care and retains its appearance for a long time."
+    ]
+  },
+  {
+    slug: "stainless-steel-wash-basins",
+    title: "Stainless Steel Wash Basins",
+    group: "sanitaryware",
+    description: "Sleek stainless steel basins built for durability with a modern edge.",
+    features: [
+      "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
+      "Elegant Design – Available in modern shapes and styles to complement different bathroom interiors.",
+      "Low Maintenance – Requires minimal care and retains its appearance for a long time."
+    ]
+  },
+  {
+    slug: "free-standing-wash-basins",
+    title: "Free-Standing Wash Basins",
+    group: "sanitaryware",
+    description: "Statement-making designs that elevate and define your bathroom space.",
+    features: [
+      "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
+      "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
+      "Elegant Design – Available in modern shapes and styles to complement different bathroom interiors.",
+      "Low Maintenance – Requires minimal care and retains its appearance for a long time."
+    ]
+  },
+
 
   // 7. OTHERS / ACCESSORIES
   {

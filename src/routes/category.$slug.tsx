@@ -83,6 +83,11 @@ function getHeroSectionImage(slug: string): string {
     "wall-hung-wc": "/wallhungwc/wallhungwc.jpg",
     "sanitaryware-collections": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
+    "ceramic-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "glass-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "stainless-steel-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "free-standing-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+
 
     // Accessories
     "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
