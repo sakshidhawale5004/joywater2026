@@ -145,8 +145,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-2",
     "category": "glass-wash-basins",
     "finish": "Crystal Glass",
-    "price": 15000,
-    "code": "JW-6003",
+    "price": 19500,
+    "code": "JW-6062",
     "image": "/premiumbasin/73.jpg"
   },
   {
@@ -155,8 +155,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-3",
     "category": "glass-wash-basins",
     "finish": "Grey Glass",
-    "price": 15000,
-    "code": "JW-6002",
+    "price": 18500,
+    "code": "JW-6060",
     "image": "/premiumbasin/75.jpg"
   },
   {
@@ -175,8 +175,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-5",
     "category": "glass-wash-basins",
     "finish": "Black Glass",
-    "price": 13100,
-    "code": "JW-6033",
+    "price": 16000,
+    "code": "JW-6101",
     "image": "/premiumbasin/77.jpg"
   },
   {
@@ -185,8 +185,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-6",
     "category": "glass-wash-basins",
     "finish": "Green Glass",
-    "price": 13000,
-    "code": "JW-6008",
+    "price": 16000,
+    "code": "JW-6102",
     "image": "/premiumbasin/78.jpg"
   },
   {
