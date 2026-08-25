@@ -520,7 +520,7 @@ export const categories: Category[] = [
     group: "sanitaryware",
     description: "Exclusive Stone Basin Collections crafted from natural marble, terrazzo, and luxury stone blocks. Unapologetic luxury and sculptural beauty.",
 
-    image: "/stoneisthekingofluxury/200.jpg",
+    image: "/images/PDF1_P76_IMG1.png",
     features: [
       "Countertop Wash Basins - Elevate Your Countertop with Timeless Design",
       "Free-Standing Wash Basins - Make a Statement with Standalone Design"
@@ -546,6 +546,7 @@ export const categories: Category[] = [
     title: "Ceramic Wash Basins",
     group: "sanitaryware",
     description: "Timeless ceramic elegance with refined finishes for modern bathrooms.",
+    image: "/images/PDF1_P24_IMG1.png",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
       "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
@@ -570,6 +571,7 @@ export const categories: Category[] = [
     title: "Stainless Steel Wash Basins",
     group: "sanitaryware",
     description: "Sleek stainless steel basins built for durability with a modern edge.",
+    image: "/JOYWATER/JOYWATER (8).jpeg",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
       "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
