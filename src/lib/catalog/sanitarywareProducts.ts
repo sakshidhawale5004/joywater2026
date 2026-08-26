@@ -158,7 +158,7 @@ export const sanitarywareProducts = [
     "finish": "Matt Cappuccino",
     "price": 30000,
     "code": "JW-6506",
-    "image": "/images/PDF1_P8_IMG3.jpg"
+    "image": "/images/PDF1_P8_IMG3.png"
   },
   {
     "id": "sanitaryware-basins-1",
