@@ -523,7 +523,7 @@ export const categories: Category[] = [
     title: "Wall Hung WC",
     group: "sanitaryware",
     description: "Rimless Wall Hung Water Closets with quiet flush engineering, ergonomic contours, and soft-close seats.",
-
+    bannerImage: "/WALLHUNGWC hero.png",
     image: "/wallhungwc/25.jpg",
     features: [
       "Rimless Design – Eliminates hidden edges where dirt and deposits can accumulate, making the toilet easier to clean and maintain.",
@@ -551,6 +551,7 @@ export const categories: Category[] = [
     title: "Glass Wash Basins",
     group: "sanitaryware",
     description: "Contemporary glass designs that bring light, style, and sophistication.",
+    bannerImage: "/glass basin.jpg",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
       "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
@@ -612,6 +613,7 @@ export const categories: Category[] = [
     title: "Ceramic Pedestal",
     group: "sanitaryware",
     description: "Statement-making designs that elevate and define your bathroom space.",
+    bannerImage: "/CERAMIC PEDESTAL.png",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
       "Easy to Clean – Smooth surface allows quick and effortless cleaning.",
