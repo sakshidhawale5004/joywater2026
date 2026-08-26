@@ -151,6 +151,16 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/197.jpg"
   },
   {
+    "id": "sanitaryware-basins-84",
+    "name": "Matt Cappuccino Rimless Wall Hung Toilet P-Trap",
+    "slug": "sanitaryware-basins-84",
+    "category": "wall-hung-wc",
+    "finish": "Matt Cappuccino",
+    "price": 30000,
+    "code": "JW-6506",
+    "image": "/images/PDF1_P8_IMG3.jpg"
+  },
+  {
     "id": "sanitaryware-basins-1",
     "name": "Matt Black Golden Print Wash Basin",
     "slug": "sanitaryware-basins-1",
