@@ -716,8 +716,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-57",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 46000,
-    "code": "JW-6058",
+    "price": 5200,
+    "code": "JW-6031",
     "image": "/premiumbasin/162.jpg"
   },
   {
@@ -786,8 +786,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-64",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 8500,
-    "code": "JW-6048",
+    "price": 5750,
+    "code": "JW-6091",
     "image": "/premiumbasin/175.jpg"
   },
   {
