@@ -171,6 +171,16 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/71.jpg"
   },
   {
+    "id": "sanitaryware-basins-1a",
+    "name": "Wall Hung Wash Basin",
+    "slug": "sanitaryware-basins-1a",
+    "category": "ceramic-wash-basins",
+    "finish": "Ceramic",
+    "price": 18500,
+    "code": "JW-6056",
+    "image": "/premiumbasin/177.jpg"
+  },
+  {
     "id": "sanitaryware-basins-2",
     "name": "Glass Basin Countertop Basin",
     "slug": "sanitaryware-basins-2",
