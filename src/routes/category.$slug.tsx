@@ -201,7 +201,7 @@ function CategoryPage() {
               <img
                 src={encodeURI(heroImg ?? "")}
                 alt={cat.title}
-                className="w-full h-[380px] md:h-[480px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-[480px] md:h-[600px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
