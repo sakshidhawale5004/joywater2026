@@ -588,6 +588,7 @@ export const categories: Category[] = [
     title: "Stone Pedestal",
     group: "sanitaryware",
     description: "Make a Statement with Standalone Design using our premium stone pedestal basins.",
+    bannerImage: "/stonepedestal.png",
     image: "/images/PDF1_P76_IMG1.png",
     features: [
       "Smooth & Silky Finish - Provides an attractive, premium look and is easy to clean.",
