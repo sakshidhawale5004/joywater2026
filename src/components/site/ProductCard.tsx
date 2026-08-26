@@ -55,11 +55,11 @@ export function ProductCard({ product }: { product: Product }) {
             </svg>
           </>
         )}
-        <div className="absolute bottom-3 left-3 text-[10px] uppercase tracking-widest text-gold bg-black/70 border border-gold/30 backdrop-blur px-2.5 py-1 rounded-sm">
-          {product.code}
-        </div>
       </div>
       <div className="pt-3 space-y-1">
+        <div className="text-xs font-semibold tracking-wider text-gold mb-1">
+          {product.code}
+        </div>
         <h3 className="text-sm font-medium text-foreground group-hover:text-gold transition-colors">
           {product.name}
         </h3>
