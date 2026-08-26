@@ -206,7 +206,7 @@ export const sanitarywareProducts = [
     "category": "ceramic-wash-basins",
     "finish": "Printed Ceramic",
     "price": 12000,
-    "code": "JW-6043",
+    "code": "JW-6063",
     "image": "/premiumbasin/82.jpg"
   },
   {
@@ -215,8 +215,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-9",
     "category": "ceramic-wash-basins",
     "finish": "Printed Ceramic",
-    "price": 15000,
-    "code": "JW-6005",
+    "price": 16000,
+    "code": "JW-6064",
     "image": "/premiumbasin/83.jpg"
   },
   {
@@ -226,7 +226,7 @@ export const sanitarywareProducts = [
     "category": "ceramic-wash-basins",
     "finish": "Matt Mint Green",
     "price": 13000,
-    "code": "JW-6004",
+    "code": "JW-6007",
     "image": "/premiumbasin/89.jpg"
   },
   {
@@ -235,8 +235,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-11",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 9500,
-    "code": "JW-6025",
+    "price": 7200,
+    "code": "JW-6027",
     "image": "/premiumbasin/90.jpg"
   },
   {
@@ -245,8 +245,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-12",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 5500,
-    "code": "JW-6030",
+    "price": 13100,
+    "code": "JW-6038",
     "image": "/premiumbasin/91.jpg"
   },
   {
@@ -255,8 +255,18 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-13",
     "category": "ceramic-wash-basins",
     "finish": "Matt Cappuccino",
-    "price": 10500,
-    "code": "JW-6018",
+    "price": 13100,
+    "code": "JW-6038",
+    "image": "/premiumbasin/92.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-13b",
+    "name": "Matt Cappuccino Wash Basin",
+    "slug": "sanitaryware-basins-13b",
+    "category": "ceramic-wash-basins",
+    "finish": "Matt Cappuccino",
+    "price": 13000,
+    "code": "JW-6006",
     "image": "/premiumbasin/92.jpg"
   },
   {
@@ -265,8 +275,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-14",
     "category": "ceramic-wash-basins",
     "finish": "Blue Ceramic",
-    "price": 10500,
-    "code": "JW-6019",
+    "price": 13900,
+    "code": "JW-6068",
     "image": "/premiumbasin/93.jpg"
   },
   {
@@ -275,8 +285,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-15",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 10500,
-    "code": "JW-6020",
+    "price": 7200,
+    "code": "JW-6026",
     "image": "/premiumbasin/96.jpg"
   },
   {
@@ -285,8 +295,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-16",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 7450,
-    "code": "JW-6034",
+    "price": 15000,
+    "code": "JW-6001",
     "image": "/premiumbasin/97.jpg"
   },
   {
@@ -295,8 +305,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-17",
     "category": "ceramic-wash-basins",
     "finish": "Cement Grey",
-    "price": 12800,
-    "code": "JW-6035",
+    "price": 15000,
+    "code": "JW-6003",
     "image": "/premiumbasin/98.jpg"
   },
   {
@@ -305,8 +315,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-18",
     "category": "ceramic-wash-basins",
     "finish": "Matt Cappuccino",
-    "price": 10600,
-    "code": "JW-6042",
+    "price": 15000,
+    "code": "JW-6002",
     "image": "/premiumbasin/99.jpg"
   },
   {
@@ -315,8 +325,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-19",
     "category": "ceramic-wash-basins",
     "finish": "Crocodile Gold & White",
-    "price": 10600,
-    "code": "JW-6053",
+    "price": 13100,
+    "code": "JW-6032",
     "image": "/premiumbasin/102.jpg"
   },
   {
@@ -325,8 +335,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-20",
     "category": "ceramic-wash-basins",
     "finish": "Crocodile Rose Gold & White",
-    "price": 12000,
-    "code": "JW-6055",
+    "price": 13100,
+    "code": "JW-6033",
     "image": "/premiumbasin/103.jpg"
   },
   {
@@ -335,8 +345,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-21",
     "category": "ceramic-wash-basins",
     "finish": "Dual Finish Gold",
-    "price": 12000,
-    "code": "JW-6010",
+    "price": 13000,
+    "code": "JW-6008",
     "image": "/premiumbasin/104.jpg"
   },
   {
@@ -345,8 +355,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-22",
     "category": "ceramic-wash-basins",
     "finish": "Dual Finish Rose Gold",
-    "price": 12000,
-    "code": "JW-6011",
+    "price": 13000,
+    "code": "JW-6009",
     "image": "/premiumbasin/105.jpg"
   },
   {
@@ -355,8 +365,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-23",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 11000,
-    "code": "JW-6059",
+    "price": 7200,
+    "code": "JW-6026",
     "image": "/premiumbasin/106.jpg"
   },
   {
@@ -365,8 +375,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-24",
     "category": "ceramic-wash-basins",
     "finish": "Matt Cement Grey",
-    "price": 9500,
-    "code": "JW-6044",
+    "price": 15000,
+    "code": "JW-6005",
     "image": "/premiumbasin/108.jpg"
   },
   {
@@ -375,8 +385,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-25",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 12000,
-    "code": "JW-6045",
+    "price": 13000,
+    "code": "JW-6004",
     "image": "/premiumbasin/110.jpg"
   },
   {
@@ -385,8 +395,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-26",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 5750,
-    "code": "JW-6029",
+    "price": 9500,
+    "code": "JW-6025",
     "image": "/premiumbasin/111.jpg"
   },
   {
@@ -395,8 +405,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-27",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 11500,
-    "code": "JW-6013",
+    "price": 5500,
+    "code": "JW-6030",
     "image": "/premiumbasin/113.jpg"
   },
   {
@@ -405,8 +415,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-28",
     "category": "ceramic-wash-basins",
     "finish": "Matt Cappuccino",
-    "price": 12500,
-    "code": "JW-6039",
+    "price": 10500,
+    "code": "JW-6018",
     "image": "/premiumbasin/114.jpg"
   },
   {
@@ -415,8 +425,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-29",
     "category": "ceramic-wash-basins",
     "finish": "Matt Cement Grey",
-    "price": 7600,
-    "code": "JW-6040",
+    "price": 10500,
+    "code": "JW-6019",
     "image": "/premiumbasin/115.jpg"
   },
   {
@@ -425,8 +435,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-30",
     "category": "ceramic-wash-basins",
     "finish": "Matt Sky Blue",
-    "price": 13000,
-    "code": "JW-6041",
+    "price": 10500,
+    "code": "JW-6020",
     "image": "/premiumbasin/116.jpg"
   },
   {
@@ -436,7 +446,7 @@ export const sanitarywareProducts = [
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
     "price": 12800,
-    "code": "JW-6036",
+    "code": "JW-6035",
     "image": "/premiumbasin/119.jpg"
   },
   {
@@ -445,8 +455,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-32",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 10750,
-    "code": "JW-6015",
+    "price": 10600,
+    "code": "JW-6042",
     "image": "/premiumbasin/120.jpg"
   },
   {
@@ -455,8 +465,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-33",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 11500,
-    "code": "JW-6012",
+    "price": 10600,
+    "code": "JW-6053",
     "image": "/premiumbasin/122.jpg"
   },
   {
@@ -465,8 +475,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-34",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 9500,
-    "code": "JW-6072",
+    "price": 12000,
+    "code": "JW-6055",
     "image": "/premiumbasin/124.jpg"
   },
   {
@@ -475,8 +485,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-35",
     "category": "ceramic-wash-basins",
     "finish": "Matt White",
-    "price": 9900,
-    "code": "JW-6024",
+    "price": 12000,
+    "code": "JW-6010",
     "image": "/premiumbasin/126.jpg"
   },
   {
@@ -485,8 +495,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-36",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 9900,
-    "code": "JW-6023",
+    "price": 12000,
+    "code": "JW-6011",
     "image": "/premiumbasin/127.jpg"
   },
   {
@@ -495,8 +505,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-37",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 8300,
-    "code": "JW-6049",
+    "price": 9500,
+    "code": "JW-6044",
     "image": "/premiumbasin/128.jpg"
   },
   {
@@ -505,8 +515,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-38",
     "category": "ceramic-wash-basins",
     "finish": "Ceramic",
-    "price": 12100,
-    "code": "JW-6069",
+    "price": 11000,
+    "code": "JW-6059",
     "image": "/premiumbasin/129.jpg"
   },
   {
@@ -515,8 +525,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-39",
     "category": "ceramic-wash-basins",
     "finish": "Matt Blue",
-    "price": 12500,
-    "code": "JW-6050",
+    "price": 12000,
+    "code": "JW-6045",
     "image": "/premiumbasin/130.jpg"
   },
   {
@@ -525,8 +535,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-40",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 9900,
-    "code": "JW-6021",
+    "price": 5750,
+    "code": "JW-6029",
     "image": "/premiumbasin/134.jpg"
   },
   {
@@ -535,8 +545,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-41",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 4500,
-    "code": "JW-6037",
+    "price": 11500,
+    "code": "JW-6013",
     "image": "/premiumbasin/135.jpg"
   },
   {
@@ -545,8 +555,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-42",
     "category": "ceramic-wash-basins",
     "finish": "Matt White",
-    "price": 6300,
-    "code": "JW-6028",
+    "price": 12500,
+    "code": "JW-6039",
     "image": "/premiumbasin/136.jpg"
   },
   {
@@ -555,8 +565,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-43",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 11500,
-    "code": "JW-6014",
+    "price": 7600,
+    "code": "JW-6040",
     "image": "/premiumbasin/138.jpg"
   },
   {
@@ -565,8 +575,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-44",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 10750,
-    "code": "JW-6017",
+    "price": 13000,
+    "code": "JW-6041",
     "image": "/premiumbasin/139.jpg"
   },
   {
@@ -575,8 +585,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-45",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black & Golden Print",
-    "price": 5200,
-    "code": "JW-6031",
+    "price": 10750,
+    "code": "JW-6015",
     "image": "/premiumbasin/143.jpg"
   },
   {
@@ -585,8 +595,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-46",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black & Golden Print",
-    "price": 14400,
-    "code": "JW-6090",
+    "price": 11500,
+    "code": "JW-6012",
     "image": "/premiumbasin/144.jpg"
   },
   {
@@ -595,8 +605,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-47",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 7950,
-    "code": "JW-6052",
+    "price": 9500,
+    "code": "JW-6072",
     "image": "/premiumbasin/146.jpg"
   },
   {
@@ -625,8 +635,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-50",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 9500,
-    "code": "JW-6051",
+    "price": 8300,
+    "code": "JW-6049",
     "image": "/premiumbasin/151.jpg"
   },
   {
@@ -635,8 +645,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-51",
     "category": "ceramic-wash-basins",
     "finish": "Matt Green",
-    "price": 5750,
-    "code": "JW-6091",
+    "price": 12100,
+    "code": "JW-6069",
     "image": "/premiumbasin/152.jpg"
   },
   {
@@ -645,8 +655,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-52",
     "category": "ceramic-wash-basins",
     "finish": "Royal Blue",
-    "price": 8500,
-    "code": "JW-6048",
+    "price": 12500,
+    "code": "JW-6050",
     "image": "/premiumbasin/153.jpg"
   },
   {
@@ -655,8 +665,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-53",
     "category": "ceramic-wash-basins",
     "finish": "Matt Dark Green",
-    "price": 18500,
-    "code": "JW-6056",
+    "price": 9900,
+    "code": "JW-6022",
     "image": "/premiumbasin/156.jpg"
   },
   {
@@ -665,8 +675,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-54",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 90000,
-    "code": "JW-6065",
+    "price": 9900,
+    "code": "JW-6021",
     "image": "/premiumbasin/157.jpg"
   },
   {
@@ -675,8 +685,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-55",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 39000,
-    "code": "JW-6057",
+    "price": 4500,
+    "code": "JW-6037",
     "image": "/premiumbasin/158.jpg"
   },
   {
@@ -685,8 +695,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-56",
     "category": "ceramic-wash-basins",
     "finish": "Matt Black",
-    "price": 32000,
-    "code": "JW-6088",
+    "price": 10750,
+    "code": "JW-6017",
     "image": "/premiumbasin/161.jpg"
   },
   {
@@ -705,8 +715,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-58",
     "category": "ceramic-wash-basins",
     "finish": "Mint Green",
-    "price": 72000,
-    "code": "JW-6084",
+    "price": 14400,
+    "code": "JW-6090",
     "image": "/premiumbasin/163.jpg"
   },
   {
@@ -715,8 +725,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-59",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 48000,
-    "code": "JW-6089",
+    "price": 7950,
+    "code": "JW-6052",
     "image": "/premiumbasin/167.jpg"
   },
   {
@@ -725,8 +735,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-60",
     "category": "ceramic-wash-basins",
     "finish": "Cement Grey",
-    "price": 27000,
-    "code": "JW-6081",
+    "price": 12500,
+    "code": "JW-6047",
     "image": "/premiumbasin/168.jpg"
   },
   {
@@ -735,8 +745,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-61",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 27000,
-    "code": "JW-6087",
+    "price": 9500,
+    "code": "JW-6046",
     "image": "/premiumbasin/170.jpg"
   },
   {
@@ -745,8 +755,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-62",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 27000,
-    "code": "JW-6080",
+    "price": 9700,
+    "code": "JW-6054",
     "image": "/premiumbasin/172.jpg"
   },
   {
@@ -755,8 +765,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-63",
     "category": "ceramic-wash-basins",
     "finish": "Golden Line Glossy",
-    "price": 19500,
-    "code": "JW-6092",
+    "price": 9500,
+    "code": "JW-6051",
     "image": "/premiumbasin/173.jpg"
   },
   {
@@ -765,8 +775,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-64",
     "category": "ceramic-wash-basins",
     "finish": "Glossy White",
-    "price": 5750,
-    "code": "JW-6067",
+    "price": 8500,
+    "code": "JW-6048",
     "image": "/premiumbasin/175.jpg"
   },
   {
