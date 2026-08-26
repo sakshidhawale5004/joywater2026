@@ -1215,8 +1215,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-27",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 13000,
-    "code": "JW-6041",
+    "price": 15000,
+    "code": "JW-8001",
     "image": "/stoneisthekingofluxury/234.jpg"
   },
   {
@@ -1226,7 +1226,7 @@ export const sanitarywareProducts = [
     "category": "stone-basin",
     "finish": "Natural Stone",
     "price": 24500,
-    "code": "JW-6036",
+    "code": "JW-8002",
     "image": "/stoneisthekingofluxury/236.jpg"
   },
   {
@@ -1235,8 +1235,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-29",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 10750,
-    "code": "JW-6015",
+    "price": 23500,
+    "code": "JW-8003",
     "image": "/stoneisthekingofluxury/237.jpg"
   },
   {
@@ -1245,8 +1245,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-30",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 11500,
-    "code": "JW-6012",
+    "price": 16500,
+    "code": "JW-8004",
     "image": "/stoneisthekingofluxury/238.jpg"
   },
   {
@@ -1255,8 +1255,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-31",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9500,
-    "code": "JW-6072",
+    "price": 16500,
+    "code": "JW-8005",
     "image": "/stoneisthekingofluxury/239.jpg"
   },
   {
@@ -1265,8 +1265,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-32",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9900,
-    "code": "JW-6024",
+    "price": 18000,
+    "code": "JW-8007",
     "image": "/stoneisthekingofluxury/241.jpg"
   },
   {
@@ -1275,8 +1275,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-33",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9900,
-    "code": "JW-6023",
+    "price": 25200,
+    "code": "JW-8009",
     "image": "/stoneisthekingofluxury/242.jpg"
   },
   {
@@ -1285,8 +1285,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-34",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 8300,
-    "code": "JW-6049",
+    "price": 20500,
+    "code": "JW-8012",
     "image": "/stoneisthekingofluxury/243.jpg"
   },
   {
@@ -1295,8 +1295,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-35",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 12100,
-    "code": "JW-6069",
+    "price": 22500,
+    "code": "JW-8013",
     "image": "/stoneisthekingofluxury/245.jpg"
   },
   {
@@ -1305,8 +1305,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-36",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 12500,
-    "code": "JW-6050",
+    "price": 21000,
+    "code": "JW-8014",
     "image": "/stoneisthekingofluxury/246.jpg"
   },
   {
@@ -1315,8 +1315,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-37",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9900,
-    "code": "JW-6021",
+    "price": 21000,
+    "code": "JW-8016",
     "image": "/stoneisthekingofluxury/247.jpg"
   },
   {
@@ -1325,8 +1325,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-38",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 4500,
-    "code": "JW-6037",
+    "price": 22500,
+    "code": "JW-8018",
     "image": "/stoneisthekingofluxury/248.jpg"
   },
   {
@@ -1335,8 +1335,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-39",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 6300,
-    "code": "JW-6028",
+    "price": 22500,
+    "code": "JW-8019",
     "image": "/stoneisthekingofluxury/249.jpg"
   },
   {
@@ -1345,8 +1345,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-40",
     "category": "stone-basin",
     "finish": "Natural Marble",
-    "price": 11500,
-    "code": "JW-6014",
+    "price": 22500,
+    "code": "JW-8020",
     "image": "/stoneisthekingofluxury/250.jpg"
   },
   {
@@ -1355,8 +1355,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-41",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 10750,
-    "code": "JW-6017",
+    "price": 18500,
+    "code": "JW-8021",
     "image": "/stoneisthekingofluxury/251.jpg"
   },
   {
@@ -1365,8 +1365,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-42",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 5200,
-    "code": "JW-6031",
+    "price": 20000,
+    "code": "JW-8022",
     "image": "/stoneisthekingofluxury/252.jpg"
   },
   {
@@ -1375,8 +1375,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-43",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 14400,
-    "code": "JW-6090",
+    "price": 18500,
+    "code": "JW-8023",
     "image": "/stoneisthekingofluxury/253.jpg"
   },
   {
@@ -1385,8 +1385,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-44",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 7950,
-    "code": "JW-6052",
+    "price": 24000,
+    "code": "JW-8024",
     "image": "/stoneisthekingofluxury/255.jpg"
   },
   {
@@ -1395,8 +1395,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-45",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 12500,
-    "code": "JW-6047",
+    "price": 22500,
+    "code": "JW-8025",
     "image": "/stoneisthekingofluxury/256.jpg"
   },
   {
@@ -1405,8 +1405,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-46",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9700,
-    "code": "JW-6054",
+    "price": 22500,
+    "code": "JW-8026",
     "image": "/stoneisthekingofluxury/257.jpg"
   },
   {
@@ -1415,8 +1415,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-47",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 9500,
-    "code": "JW-6051",
+    "price": 18000,
+    "code": "JW-8027",
     "image": "/stoneisthekingofluxury/259.jpg"
   },
   {
@@ -1425,8 +1425,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-48",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 5750,
-    "code": "JW-6091",
+    "price": 18000,
+    "code": "JW-8028",
     "image": "/stoneisthekingofluxury/262.jpg"
   },
   {
@@ -1435,8 +1435,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-49",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 8500,
-    "code": "JW-6048",
+    "price": 31500,
+    "code": "JW-8029",
     "image": "/stoneisthekingofluxury/263.jpg"
   },
   {
@@ -1445,8 +1445,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-50",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 18500,
-    "code": "JW-6056",
+    "price": 22500,
+    "code": "JW-8030",
     "image": "/stoneisthekingofluxury/264.jpg"
   },
   {
@@ -1455,8 +1455,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-51",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 90000,
-    "code": "JW-6065",
+    "price": 36000,
+    "code": "JW-8031",
     "image": "/stoneisthekingofluxury/265.jpg"
   },
   {
@@ -1465,8 +1465,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-52",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 39000,
-    "code": "JW-6057",
+    "price": 19500,
+    "code": "JW-8032",
     "image": "/stoneisthekingofluxury/266.jpg"
   },
   {
@@ -1475,8 +1475,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-53",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 32000,
-    "code": "JW-6088",
+    "price": 28500,
+    "code": "JW-8033",
     "image": "/stoneisthekingofluxury/267.jpg"
   },
   {
@@ -1485,8 +1485,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-54",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 46000,
-    "code": "JW-6058",
+    "price": 32000,
+    "code": "JW-8034",
     "image": "/stoneisthekingofluxury/268.jpg"
   },
   {
@@ -1495,8 +1495,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-55",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 72000,
-    "code": "JW-6084",
+    "price": 28500,
+    "code": "JW-8035",
     "image": "/stoneisthekingofluxury/269.jpg"
   },
   {
@@ -1505,8 +1505,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-56",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 48000,
-    "code": "JW-6089",
+    "price": 36000,
+    "code": "JW-8036",
     "image": "/stoneisthekingofluxury/273.jpg"
   },
   {
@@ -1515,8 +1515,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-57",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 27000,
-    "code": "JW-6081",
+    "price": 36000,
+    "code": "JW-8037",
     "image": "/stoneisthekingofluxury/274.jpg"
   },
   {
@@ -1526,7 +1526,7 @@ export const sanitarywareProducts = [
     "category": "stone-basin",
     "finish": "Natural Stone",
     "price": 27000,
-    "code": "JW-6087",
+    "code": "JW-8038",
     "image": "/stoneisthekingofluxury/275.jpg"
   },
   {
@@ -1535,8 +1535,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-59",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 27000,
-    "code": "JW-6080",
+    "price": 26500,
+    "code": "JW-8039",
     "image": "/stoneisthekingofluxury/277.jpg"
   },
   {
@@ -1545,8 +1545,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-60",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 19500,
-    "code": "JW-6092",
+    "price": 18000,
+    "code": "JW-8040",
     "image": "/stoneisthekingofluxury/279.jpg"
   },
   {
@@ -1556,7 +1556,7 @@ export const sanitarywareProducts = [
     "category": "stone-basin",
     "finish": "Natural Stone",
     "price": 16500,
-    "code": "JW-6067",
+    "code": "JW-8041",
     "image": "/stoneisthekingofluxury/280.jpg"
   },
   {
@@ -1565,8 +1565,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-62",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 19500,
-    "code": "JW-6061",
+    "price": 18000,
+    "code": "JW-8042",
     "image": "/stoneisthekingofluxury/281.jpg"
   },
   {
@@ -1575,8 +1575,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-63",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 18500,
-    "code": "JW-6060",
+    "price": 18000,
+    "code": "JW-8043",
     "image": "/stoneisthekingofluxury/283.jpg"
   },
   {
