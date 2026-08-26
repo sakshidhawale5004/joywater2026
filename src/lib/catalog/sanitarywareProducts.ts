@@ -16,7 +16,7 @@ export const sanitarywareProducts = [
     "category": "wall-hung-wc",
     "finish": "Matt Black",
     "price": 30000,
-    "code": "JW-6067",
+    "code": "JW-6506",
     "image": "/wallhungwc/40.jpg"
   },
   {
@@ -137,7 +137,7 @@ export const sanitarywareProducts = [
     "category": "wall-hung-wc",
     "finish": "Copper Crocodile",
     "price": 39000,
-    "code": "JW-6505",
+    "code": "JW-6501",
     "image": "/images/PDF1_P17_IMG2.png"
   },
   {
@@ -157,7 +157,7 @@ export const sanitarywareProducts = [
     "category": "wall-hung-wc",
     "finish": "Matt Cappuccino",
     "price": 30000,
-    "code": "JW-6506",
+    "code": "JW-6505",
     "image": "/images/PDF1_P8_IMG3.png"
   },
   {
