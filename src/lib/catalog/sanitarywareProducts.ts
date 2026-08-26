@@ -920,6 +920,36 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/197.jpg"
   },
   {
+    "id": "sanitaryware-basins-79",
+    "name": "Ceramic Wash Basin (Beige Marble)",
+    "slug": "sanitaryware-basins-79",
+    "category": "ceramic-wash-basins",
+    "finish": "Matt",
+    "price": 10750,
+    "code": "JW-6016",
+    "image": "/premiumbasin/80.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-80",
+    "name": "Ceramic Wash Basin (White Marble Round)",
+    "slug": "sanitaryware-basins-80",
+    "category": "ceramic-wash-basins",
+    "finish": "Matt",
+    "price": 9900,
+    "code": "JW-6024",
+    "image": "/premiumbasin/147.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-81",
+    "name": "Ceramic Wash Basin (Black Marble Round)",
+    "slug": "sanitaryware-basins-81",
+    "category": "ceramic-wash-basins",
+    "finish": "Matt",
+    "price": 9900,
+    "code": "JW-6023",
+    "image": "/premiumbasin/148.jpg"
+  },
+  {
     "id": "stone-is-the-king-of-luxury-1",
     "name": "Luxury Natural Stone Basin (Natural Stone)",
     "slug": "stone-is-the-king-of-luxury-1",
