@@ -141,6 +141,16 @@ export const sanitarywareProducts = [
     "image": "/images/PDF1_P17_IMG2.png"
   },
   {
+    "id": "sanitaryware-basins-83",
+    "name": "Urinal",
+    "slug": "sanitaryware-basins-83",
+    "category": "wall-hung-wc",
+    "finish": "Glossy White",
+    "price": 19500,
+    "code": "JW-6092",
+    "image": "/premiumbasin/197.jpg"
+  },
+  {
     "id": "sanitaryware-basins-1",
     "name": "Matt Black Golden Print Wash Basin",
     "slug": "sanitaryware-basins-1",
@@ -919,16 +929,6 @@ export const sanitarywareProducts = [
     "price": 27000,
     "code": "JW-6080",
     "image": "/premiumbasin/196.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-78",
-    "name": "White Glossy Urinal",
-    "slug": "sanitaryware-basins-78",
-    "category": "ceramic-wash-basins",
-    "finish": "Glossy White",
-    "price": 15000,
-    "code": "JW-6003",
-    "image": "/premiumbasin/197.jpg"
   },
   {
     "id": "sanitaryware-basins-79",
