@@ -198,7 +198,7 @@ function CategoryPage() {
           <div className="lg:col-span-6">
             <div className="relative group rounded-2xl overflow-hidden border border-border/80 shadow-2xl bg-secondary/30">
               <img
-                src={encodeURI(heroImg)}
+                src={encodeURI(heroImg ?? "")}
                 alt={cat.title}
                 className="w-full h-[380px] md:h-[480px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />

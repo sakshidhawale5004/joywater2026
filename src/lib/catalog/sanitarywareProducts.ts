@@ -961,8 +961,6 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/148.jpg"
   },
   {
-
-  {
     "id": "sanitaryware-basins-83",
     "name": "Glossy White Wash Basin",
     "slug": "sanitaryware-basins-83",
@@ -992,6 +990,7 @@ export const sanitarywareProducts = [
     "code": "JW-6028",
     "image": "/images/PDF1_P54_IMG1.png"
   },
+  {
     "id": "stone-is-the-king-of-luxury-1",
     "name": "Luxury Natural Stone Basin (Natural Stone)",
     "slug": "stone-is-the-king-of-luxury-1",

@@ -313,6 +313,9 @@ export const categories: Category[] = [
     {
     slug: "premium-basin-mixer",
     title: "Premium Basin Mixer",
+    group: "sanitaryware",
+    description: "Premium Basin Mixer.",
+    features: [],
   },
     {
     slug: "4-function-hand-shower",
@@ -1280,13 +1283,6 @@ const realCategoryProducts: Product[] = [
       ],
       ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
     ),
-{
-    slug: "4-function-diverter",
-    title: "4 Function Joy Water Diverter",
-    group: "diverters",
-    description: "4 Function Joy Water Diverter.",
-    features: ["4 Functions", "Vernet Cartridge", "11 Years Unmatched Assurance"]
-  },
 ...createCategoryProducts(
     "5-function-diverter",
     "5 Function Diverter",
