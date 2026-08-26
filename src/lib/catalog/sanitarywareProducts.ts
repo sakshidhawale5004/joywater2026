@@ -211,16 +211,6 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/78.jpg"
   },
   {
-    "id": "sanitaryware-basins-7",
-    "name": "Beige Marble Print Wash Basin",
-    "slug": "sanitaryware-basins-7",
-    "category": "stone-basin",
-    "finish": "Beige Marble Print",
-    "price": 13000,
-    "code": "JW-6009",
-    "image": "/premiumbasin/80.jpg"
-  },
-  {
     "id": "sanitaryware-basins-8",
     "name": "Countertop Wash Basin 415*415",
     "slug": "sanitaryware-basins-8",
@@ -621,16 +611,6 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/146.jpg"
   },
   {
-    "id": "sanitaryware-basins-48",
-    "name": "Matt White Marble Print Wash Basin",
-    "slug": "sanitaryware-basins-48",
-    "category": "stone-basin",
-    "finish": "Matt White Marble Print",
-    "price": 12500,
-    "code": "JW-6047",
-    "image": "/premiumbasin/147.jpg"
-  },
-  {
     "id": "sanitaryware-basins-49",
     "name": "Matt Black Marble Print Wash Basin",
     "slug": "sanitaryware-basins-49",
@@ -959,16 +939,6 @@ export const sanitarywareProducts = [
     "price": 6300,
     "code": "JW-6028",
     "image": "/images/PDF1_P54_IMG1.png"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-1",
-    "name": "Luxury Natural Stone Basin (Natural Stone)",
-    "slug": "stone-is-the-king-of-luxury-1",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 13100,
-    "code": "JW-6032",
-    "image": "/stoneisthekingofluxury/199.jpg"
   },
   {
     "id": "stone-is-the-king-of-luxury-2",
