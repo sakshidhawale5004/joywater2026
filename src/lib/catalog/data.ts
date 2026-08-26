@@ -25,7 +25,7 @@ export const categories: Category[] = [
     title: "2 Function Shower",
     group: "showers",
     description: "Rain & Mist Spray shower engineered for a refreshing volumetric flow experience. Featuring precision nozzles and solid brass construction.",
-
+    bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
     image: "/showers/2 Function Shower (1).png",
     features: ["Rain Spray", "Mist Spray", "Anti-clog nozzles", "11 Years Unmatched Assurance", "PVD Bonded Finish"]
   },
@@ -52,7 +52,7 @@ export const categories: Category[] = [
     title: "3 Function Shower (Large Waterfall)",
     group: "showers",
     description: "Rain, 4 Mist Spray & Large Single Waterfall. Designed for maximum water coverage and soothing cascade flow.",
-
+    bannerImage: "/HEROSECTIONIMAGES/3 Function Shower (Large Waterfall).png",
     image: "/showers/3 Function Shower (Large Waterfall) (1).png",
     features: ["Rain Spray", "4 Mist Spray", "Large Single Waterfall", "11 Years Unmatched Assurance"]
   },
@@ -70,7 +70,7 @@ export const categories: Category[] = [
     title: "4 Function Shower Rain, 6 Mist, 2 Waterfall and Water Column",
     group: "showers",
     description: "Chromotherapy LED Light, Rain, Six Mist Spray, Water Column & Dual Waterfall. Ultimate sensory indulgence.",
-
+    bannerImage: "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
     image: "/showers/4 Function Shower (1).png",
     features: ["Chromotherapy LED Light", "Rain", "6 Mist Spray", "Water Column", "Dual Waterfall", "11 Years Unmatched Assurance"]
   },
@@ -79,7 +79,7 @@ export const categories: Category[] = [
     title: "4 functional shower rain +  4 mist  +4side flap rain + water column",
     group: "showers",
     description: "Rain, Water Column & Four Waterfall overhead shower systems for complete body immersion.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Showers (1).png",
     features: ["Rain", "4 Mist", "4 Side Flap Rain", "Water Column", "11 Years Unmatched Assurance"]
   },
@@ -88,7 +88,7 @@ export const categories: Category[] = [
     title: "2 function shower soft rain +waterfall",
     group: "showers",
     description: "2 function shower soft rain +waterfall.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Showers (4).png",
     features: ["Soft Rain", "Waterfall", "11 Years Unmatched Assurance"]
   },
@@ -97,7 +97,7 @@ export const categories: Category[] = [
     title: "Single Function Shower",
     group: "showers",
     description: "Classic Rain shower providing a natural rainfall sensation with low water consumption.",
-
+    bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
     image: "/showers/Single Function Shower (1).png",
     features: ["Rain", "40% Water Saving Aerators", "11 Years Unmatched Assurance"]
   },
@@ -106,7 +106,7 @@ export const categories: Category[] = [
     title: "Waterfall Showers",
     group: "showers",
     description: "Elegant Waterfall showers that mimic natural cascades with smooth laminar flow.",
-
+    bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
     image: "/showers/Waterfall Showers (1).png",
     features: ["Cascade Flow", "Solid Brass Billet", "11 Years Unmatched Assurance"]
   },
@@ -115,7 +115,7 @@ export const categories: Category[] = [
     title: "2 Function Wall Mounted Shower with Shower Arm",
     group: "showers",
     description: "Rain & Mist wall mounted shower paired with a high-strength solid brass shower arm.",
-
+    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
     features: ["Rain", "Mist", "Wall Mounted", "11 Years Unmatched Assurance"]
   },
@@ -124,7 +124,7 @@ export const categories: Category[] = [
     title: "4 function hand shower",
     group: "showers",
     description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -178,7 +178,7 @@ export const categories: Category[] = [
     title: "joy spot wall mounted shower",
     group: "showers",
     description: "joy spot wall mounted shower.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -322,7 +322,7 @@ export const categories: Category[] = [
     title: "4 function hand shower",
     group: "showers",
     description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -376,7 +376,7 @@ export const categories: Category[] = [
     title: "joy spot wall mounted shower",
     group: "showers",
     description: "joy spot wall mounted shower.",
-
+    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -395,7 +395,7 @@ export const categories: Category[] = [
     title: "Body Jets (2 Function)",
     group: "multi-functional-body-showers",
     description: "Rain & Mist body jets designed for recessed wall installation and targeted hydrotherapy.",
-
+    bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
     image: "/Body Showers/Body Jets (2 Function) (1).png",
     features: ["Rain", "Mist", "Recessed Installation", "11 Years Unmatched Assurance"]
   },
@@ -404,7 +404,7 @@ export const categories: Category[] = [
     title: "One Line Series",
     group: "multi-functional-body-showers",
     description: "One Line Series minimalist body showers featuring zero-radius architectural profiles.",
-
+    bannerImage: "/HEROSECTIONIMAGES/One Line Series.jpg",
     image: "/Body Showers/One Line Series (1).png",
     features: ["Minimalist Design", "High Pressure", "11 Years Unmatched Assurance"]
   },
@@ -413,7 +413,7 @@ export const categories: Category[] = [
     title: "Eminence Series",
     group: "multi-functional-body-showers",
     description: "Eminence Series luxury body shower arrays with adjustable angle nozzles.",
-
+    bannerImage: "/HEROSECTIONIMAGES/Eminence Series.jpg",
     image: "/Body Showers/Eminence Series (1).png",
     features: ["Luxury Finish", "Precision Sprays", "11 Years Unmatched Assurance"]
   },
@@ -424,7 +424,7 @@ export const categories: Category[] = [
     title: "5 Function Diverter",
     group: "diverters",
     description: "The JOY WATER 5-function diverter offers unmatched versatility with the ability to control up to five water outlets. Equipped with high-quality Vernet cartridges.",
-
+    bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
     image: "/diverters/5 Function Diverter (1).png",
     features: ["5 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance", "Smooth Transitions"]
   },
@@ -433,7 +433,7 @@ export const categories: Category[] = [
     title: "6 Function Diverter",
     group: "diverters",
     description: "6 Function Diverter for comprehensive bathroom systems. Features genuine Vernet cartridges for drip-free temperature control.",
-
+    bannerImage: "/HEROSECTIONIMAGES/6 Function Diverter.png",
     image: "/diverters/6 Function Diverter (1).png",
     features: ["6 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
   },
@@ -442,7 +442,7 @@ export const categories: Category[] = [
     title: "Thermostatic Diverter (Three Outlet)",
     group: "diverters",
     description: "Provides seamless control between three water outlets with safety thermostatic locking. Renowned Vernet cartridge inside.",
-
+    bannerImage: "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
     image: "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
     features: ["Thermostatic Control", "3 Outlets", "Safety Lock", "Vernet Cartridge", "10+1 Years Warranty"]
   },
@@ -451,7 +451,7 @@ export const categories: Category[] = [
     title: "Lever Diverter (Three Outlet)",
     group: "diverters",
     description: "Classic Lever Diverter with Three Outlets, solid brass body, and smooth operational action.",
-
+    bannerImage: "/HEROSECTIONIMAGES/Lever Diverter.jpg",
     image: "/diverters/Lever Diverter Three Outlet (1).png",
     features: ["Lever Handle", "3 Outlets", "Vernet Cartridge", "10+1 Years Warranty"]
   },
