@@ -611,16 +611,6 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/146.jpg"
   },
   {
-    "id": "sanitaryware-basins-49",
-    "name": "Matt Black Marble Print Wash Basin",
-    "slug": "sanitaryware-basins-49",
-    "category": "stone-basin",
-    "finish": "Matt Black Marble Print",
-    "price": 9700,
-    "code": "JW-6054",
-    "image": "/premiumbasin/148.jpg"
-  },
-  {
     "id": "sanitaryware-basins-50",
     "name": "White Countertop Wash Basin",
     "slug": "sanitaryware-basins-50",
