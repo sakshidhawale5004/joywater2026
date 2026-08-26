@@ -1117,7 +1117,7 @@ export const sanitarywareProducts = [
     "category": "stone-pedestal",
     "finish": "Natural Stone",
     "price": 66000,
-    "code": "JW-6039",
+    "code": "JW-8081",
     "image": "/stoneisthekingofluxury/232.jpg"
   },
   {
