@@ -595,7 +595,7 @@ export const categories: Category[] = [
   },
 
   {
-    slug: "free-standing-wash-basins",
+    slug: "ceramic-pedestal",
     title: "Ceramic Pedestal",
     group: "sanitaryware",
     description: "Statement-making designs that elevate and define your bathroom space.",
@@ -1639,7 +1639,7 @@ export const megaMenu = {
       "ceramic-wash-basins",
       "glass-wash-basins",
       "stainless-steel-wash-basins",
-      "free-standing-wash-basins",
+      "ceramic-pedestal",
       "stone-basin",
       "stone-pedestal",
       "wall-hung-wc"
