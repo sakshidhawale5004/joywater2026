@@ -455,8 +455,15 @@ export const categories: Category[] = [
     image: "/diverters/Lever Diverter Three Outlet (1).png",
     features: ["Lever Handle", "3 Outlets", "Vernet Cartridge", "10+1 Years Warranty"]
   },
-
-
+  {
+    slug: "4-function-diverter",
+    title: "4 Function Diverter",
+    group: "diverters",
+    description: "The JOY WATER 4-function diverter provides precise control over four water outlets with smooth, drip-free operation. Built with premium Vernet cartridges for lasting performance.",
+    bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+    image: "/diverters/6 Function Diverter (5).png",
+    features: ["4 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance", "Smooth Transitions"]
+  },
 
   // 5. BASIN MIXERS
   {

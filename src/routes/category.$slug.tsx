@@ -64,6 +64,7 @@ function getHeroSectionImage(slug: string): string {
     "6-function-diverter": "/HEROSECTIONIMAGES/6 Function Diverter.png",
     "thermostatic-diverter-three-outlet": "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
     "lever-diverter-three-outlet": "/HEROSECTIONIMAGES/Lever Diverter.jpg",
+    "4-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
 
     // Tile Insert Drainers
     "tile-insert-drain": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
