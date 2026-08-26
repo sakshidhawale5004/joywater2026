@@ -595,7 +595,7 @@ export const categories: Category[] = [
   },
 
   {
-    slug: "bath-accessories",
+    slug: "soap-dispenser",
     title: "Soap Dispenser",
     group: "others-accessories",
     description: "Elegant natural stone soap dispensers and tumbler holders to complete your luxury bathroom.",
@@ -1738,7 +1738,7 @@ export const megaMenu = {
       "health-faucet"
     ],
     "Bath Accessories": [
-      "bath-accessories"
+      "soap-dispenser"
     ]
   },
   "Mirrors": {
