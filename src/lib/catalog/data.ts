@@ -596,9 +596,9 @@ export const categories: Category[] = [
 
   {
     slug: "bath-accessories",
-    title: "Bath Accessories",
-    group: "sanitaryware",
-    description: "Elegant natural stone bath accessories including soap dispensers and tumbler holders to complete your luxury bathroom.",
+    title: "Soap Dispenser",
+    group: "others-accessories",
+    description: "Elegant natural stone soap dispensers and tumbler holders to complete your luxury bathroom.",
     features: [
       "Natural Stone Finish – Adds a luxurious, premium look to your bathroom.",
       "Durable & Long-Lasting – Made from high-quality natural stone for longevity.",
@@ -1655,7 +1655,6 @@ export const megaMenu = {
       "ceramic-pedestal",
       "stone-basin",
       "stone-pedestal",
-      "bath-accessories",
       "wall-hung-wc"
     ]
   },
@@ -1729,12 +1728,17 @@ export const megaMenu = {
       "angle-valve",
       "bib-cock",
       "shower-arm",
-      "shower-holder",
+      "shower-holder"
+    ],
+    "Fittings": [
       "wall-outlet",
       "pop-up-coupling",
       "bottle-trap",
       "shower-hose-tube",
       "health-faucet"
+    ],
+    "Bath Accessories": [
+      "bath-accessories"
     ]
   },
   "Mirrors": {
