@@ -941,26 +941,6 @@ export const sanitarywareProducts = [
     "image": "/stoneisthekingofluxury/200.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-3",
-    "name": "Luxury Natural Stone Basin (Natural Stone)",
-    "slug": "stone-is-the-king-of-luxury-3",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 13000,
-    "code": "JW-6008",
-    "image": "/stoneisthekingofluxury/201.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-4",
-    "name": "Luxury Natural Stone Basin (Natural Stone)",
-    "slug": "stone-is-the-king-of-luxury-4",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 13000,
-    "code": "JW-6009",
-    "image": "/stoneisthekingofluxury/202.jpg"
-  },
-  {
     "id": "stone-is-the-king-of-luxury-5",
     "name": "Luxury Natural Stone Basin (Natural Marble)",
     "slug": "stone-is-the-king-of-luxury-5",
