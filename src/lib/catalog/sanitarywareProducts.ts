@@ -176,8 +176,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-3",
     "category": "glass-wash-basins",
     "finish": "Grey Glass",
-    "price": 18500,
-    "code": "JW-6060",
+    "price": 19500,
+    "code": "JW-6061",
     "image": "/premiumbasin/75.jpg"
   },
   {
@@ -186,8 +186,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-4",
     "category": "glass-wash-basins",
     "finish": "Blue Glass",
-    "price": 13100,
-    "code": "JW-6032",
+    "price": 18500,
+    "code": "JW-6060",
     "image": "/premiumbasin/76.jpg"
   },
   {
@@ -269,16 +269,6 @@ export const sanitarywareProducts = [
     "price": 13100,
     "code": "JW-6038",
     "image": "/premiumbasin/91.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-13",
-    "name": "Matt Cappuccino Wash Basin",
-    "slug": "sanitaryware-basins-13",
-    "category": "ceramic-wash-basins",
-    "finish": "Matt Cappuccino",
-    "price": 13100,
-    "code": "JW-6038",
-    "image": "/premiumbasin/92.jpg"
   },
   {
     "id": "sanitaryware-basins-13b",
@@ -799,26 +789,6 @@ export const sanitarywareProducts = [
     "price": 8500,
     "code": "JW-6048",
     "image": "/premiumbasin/175.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-65",
-    "name": "White Countertop Wall Hung Wash Basin",
-    "slug": "sanitaryware-basins-65",
-    "category": "ceramic-wash-basins",
-    "finish": "Glossy White",
-    "price": 19500,
-    "code": "JW-6061",
-    "image": "/premiumbasin/176.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-66",
-    "name": "Wall Hung Wash Basin",
-    "slug": "sanitaryware-basins-66",
-    "category": "wall-hung-wc",
-    "finish": "Ceramic",
-    "price": 18500,
-    "code": "JW-6060",
-    "image": "/premiumbasin/177.jpg"
   },
   {
     "id": "sanitaryware-basins-67",
