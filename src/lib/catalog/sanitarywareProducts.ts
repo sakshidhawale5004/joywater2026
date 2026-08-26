@@ -15,8 +15,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-2",
     "category": "wall-hung-wc",
     "finish": "Matt Black",
-    "price": 19500,
-    "code": "JW-6061",
+    "price": 30000,
+    "code": "JW-6067",
     "image": "/wallhungwc/40.jpg"
   },
   {
@@ -25,8 +25,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-3",
     "category": "wall-hung-wc",
     "finish": "Glossy White",
-    "price": 18500,
-    "code": "JW-6060",
+    "price": 17000,
+    "code": "JW-6512",
     "image": "/wallhungwc/42.jpg"
   },
   {
@@ -35,8 +35,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-4",
     "category": "wall-hung-wc",
     "finish": "Royal Blue",
-    "price": 16000,
-    "code": "JW-6101",
+    "price": 30000,
+    "code": "JW-6067",
     "image": "/wallhungwc/44.jpg"
   },
   {
@@ -45,8 +45,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-5",
     "category": "wall-hung-wc",
     "finish": "Mint Green",
-    "price": 16000,
-    "code": "JW-6102",
+    "price": 30000,
+    "code": "JW-6513",
     "image": "/wallhungwc/45.jpg"
   },
   {
@@ -55,8 +55,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-6",
     "category": "wall-hung-wc",
     "finish": "Matt Black",
-    "price": 1050,
-    "code": "JW-6016",
+    "price": 30000,
+    "code": "JW-6507",
     "image": "/wallhungwc/46.jpg"
   },
   {
@@ -65,8 +65,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-7",
     "category": "wall-hung-wc",
     "finish": "Matt Cement Grey",
-    "price": 12000,
-    "code": "JW-6063",
+    "price": 30000,
+    "code": "JW-6508",
     "image": "/wallhungwc/48.jpg"
   },
   {
@@ -75,8 +75,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-8",
     "category": "wall-hung-wc",
     "finish": "Glossy White",
-    "price": 16000,
-    "code": "JW-6064",
+    "price": 17000,
+    "code": "JW-6511",
     "image": "/wallhungwc/50.jpg"
   },
   {
@@ -85,8 +85,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-9",
     "category": "wall-hung-wc",
     "finish": "Glossy White",
-    "price": 13000,
-    "code": "JW-6007",
+    "price": 18500,
+    "code": "JW-6510",
     "image": "/wallhungwc/55.jpg"
   },
   {
@@ -95,8 +95,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-10",
     "category": "wall-hung-wc",
     "finish": "Matt Black",
-    "price": 7200,
-    "code": "JW-6027",
+    "price": 30000,
+    "code": "JW-6504",
     "image": "/wallhungwc/56.jpg"
   },
   {
@@ -105,8 +105,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-11",
     "category": "wall-hung-wc",
     "finish": "Glossy White",
-    "price": 13100,
-    "code": "JW-6038",
+    "price": 20000,
+    "code": "JW-6509",
     "image": "/wallhungwc/59.jpg"
   },
   {
@@ -115,8 +115,8 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-12",
     "category": "wall-hung-wc",
     "finish": "Matt Black",
-    "price": 13000,
-    "code": "JW-6006",
+    "price": 30000,
+    "code": "JW-6503",
     "image": "/wallhungwc/60.jpg"
   },
   {
@@ -125,9 +125,20 @@ export const sanitarywareProducts = [
     "slug": "wall-hung-wc-13",
     "category": "wall-hung-wc",
     "finish": "Crocodile Finish Gold",
-    "price": 7200,
-    "code": "JW-6026",
+    "price": 39000,
+    "code": "JW-6502",
     "image": "/wallhungwc/63.jpg"
+  },
+
+  {
+    "id": "sanitaryware-basins-82",
+    "name": "Copper Crocodile Finish Wall Hung WC With Seat Cover",
+    "slug": "sanitaryware-basins-82",
+    "category": "wall-hung-wc",
+    "finish": "Copper Crocodile",
+    "price": 39000,
+    "code": "JW-6505",
+    "image": "/images/PDF1_P17_IMG2.png"
   },
   {
     "id": "sanitaryware-basins-1",
@@ -783,7 +794,7 @@ export const sanitarywareProducts = [
     "id": "sanitaryware-basins-65",
     "name": "White Countertop Wall Hung Wash Basin",
     "slug": "sanitaryware-basins-65",
-    "category": "wall-hung-wc",
+    "category": "ceramic-wash-basins",
     "finish": "Glossy White",
     "price": 19500,
     "code": "JW-6061",
@@ -950,6 +961,37 @@ export const sanitarywareProducts = [
     "image": "/premiumbasin/148.jpg"
   },
   {
+
+  {
+    "id": "sanitaryware-basins-83",
+    "name": "Glossy White Wash Basin",
+    "slug": "sanitaryware-basins-83",
+    "category": "ceramic-wash-basins",
+    "finish": "Glossy White",
+    "price": 7450,
+    "code": "JW-6034",
+    "image": "/images/PDF1_P5_IMG12.png"
+  },
+  {
+    "id": "sanitaryware-basins-84",
+    "name": "Matt Black Round Wash Basin",
+    "slug": "sanitaryware-basins-84",
+    "category": "ceramic-wash-basins",
+    "finish": "Matt Black",
+    "price": 11500,
+    "code": "JW-6014",
+    "image": "/images/PDF1_P54_IMG2.png"
+  },
+  {
+    "id": "sanitaryware-basins-85",
+    "name": "Glossy White Round Wash Basin",
+    "slug": "sanitaryware-basins-85",
+    "category": "ceramic-wash-basins",
+    "finish": "Glossy White",
+    "price": 6300,
+    "code": "JW-6028",
+    "image": "/images/PDF1_P54_IMG1.png"
+  },
     "id": "stone-is-the-king-of-luxury-1",
     "name": "Luxury Natural Stone Basin (Natural Stone)",
     "slug": "stone-is-the-king-of-luxury-1",

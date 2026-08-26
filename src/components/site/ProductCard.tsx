@@ -17,12 +17,12 @@ export function ProductCard({ product }: { product: Product }) {
   const gradient = FINISH_STYLES[product.finish] ?? "from-neutral-200 to-neutral-400";
   return (
     <Link to="/product/$slug" params={{ slug: product.slug }} className="group block">
-      <div className="relative aspect-square overflow-hidden bg-secondary/40 border border-border/60 rounded-lg flex items-center justify-center transition-all duration-500 group-hover:border-gold/60 group-hover:shadow-md">
+      <div className="relative aspect-square overflow-hidden bg-white border border-border/60 rounded-lg flex items-center justify-center transition-all duration-500 group-hover:border-gold/60 group-hover:shadow-md">
         {product.image ? (
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-full object-contain object-center transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
           />
         ) : (
