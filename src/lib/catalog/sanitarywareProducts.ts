@@ -881,12 +881,52 @@ export const sanitarywareProducts = [
   },
   {
     "id": "sanitaryware-basins-75",
-    "name": "Stainless Steel Brushed Rose Gold Basin",
+    "name": "Stainless Steel Freestanding Wash Basin",
     "slug": "sanitaryware-basins-75",
     "category": "stainless-steel-wash-basins",
+    "finish": "Stainless Steel",
+    "price": 90000,
+    "code": "JW-6065",
+    "image": "/premiumbasin/180.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-75b",
+    "name": "Stainless Steel Freestanding Brushed Gold Wash Basin",
+    "slug": "sanitaryware-basins-75b",
+    "category": "stainless-steel-wash-basins",
+    "finish": "Brushed Gold",
+    "price": 72000,
+    "code": "JW-6083",
+    "image": "/premiumbasin/187.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-75c",
+    "name": "Stainless Steel Freestanding Rose Gold Wash Basin",
+    "slug": "sanitaryware-basins-75c",
+    "category": "stainless-steel-wash-basins",
+    "finish": "Rose Gold",
+    "price": 72000,
+    "code": "JW-6084",
+    "image": "/premiumbasin/189.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-75d",
+    "name": "Stainless Steel Freestanding Grey Wash Basin",
+    "slug": "sanitaryware-basins-75d",
+    "category": "stainless-steel-wash-basins",
+    "finish": "Grey Stainless Steel",
+    "price": 72000,
+    "code": "JW-6082",
+    "image": "/premiumbasin/191.jpg"
+  },
+  {
+    "id": "sanitaryware-basins-75e",
+    "name": "Stainless Steel Brushed Rose Gold Basin",
+    "slug": "sanitaryware-basins-75e",
+    "category": "stainless-steel-wash-basins",
     "finish": "Brushed Rose Gold",
-    "price": 13000,
-    "code": "JW-6006",
+    "price": 27000,
+    "code": "JW-6081",
     "image": "/premiumbasin/194.jpg"
   },
   {
@@ -895,8 +935,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-76",
     "category": "stainless-steel-wash-basins",
     "finish": "Grey Stainless Steel",
-    "price": 7200,
-    "code": "JW-6026",
+    "price": 27000,
+    "code": "JW-6087",
     "image": "/premiumbasin/195.jpg"
   },
   {
@@ -905,8 +945,8 @@ export const sanitarywareProducts = [
     "slug": "sanitaryware-basins-77",
     "category": "stainless-steel-wash-basins",
     "finish": "Brushed Gold",
-    "price": 15000,
-    "code": "JW-6001",
+    "price": 27000,
+    "code": "JW-6080",
     "image": "/premiumbasin/196.jpg"
   },
   {
