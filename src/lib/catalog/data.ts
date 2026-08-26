@@ -593,7 +593,7 @@ export const categories: Category[] = [
 
   {
     slug: "free-standing-wash-basins",
-    title: "Free-Standing Wash Basins",
+    title: "Ceramic Pedestal",
     group: "sanitaryware",
     description: "Statement-making designs that elevate and define your bathroom space.",
     features: [
