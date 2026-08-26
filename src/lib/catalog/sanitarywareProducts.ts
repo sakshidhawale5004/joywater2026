@@ -1126,8 +1126,8 @@ export const sanitarywareProducts = [
     "slug": "stone-is-the-king-of-luxury-26",
     "category": "stone-basin",
     "finish": "Natural Stone",
-    "price": 7600,
-    "code": "JW-6040",
+    "price": 59000,
+    "code": "JW-8000",
     "image": "/stoneisthekingofluxury/233.jpg"
   },
   {
@@ -1501,153 +1501,63 @@ export const sanitarywareProducts = [
     "image": "/stoneisthekingofluxury/283.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-64",
-    "name": "Soap Dispenser and Holder",
-    "slug": "stone-is-the-king-of-luxury-64",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 16000,
-    "code": "JW-6101",
-    "image": "/stoneisthekingofluxury/284.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-65",
+    "id": "bath-accessories-1",
     "name": "Soap Dispenser (₹3,800) & Tumbler Holder (₹2,700)",
-    "slug": "stone-is-the-king-of-luxury-65",
-    "category": "stone-basin",
+    "slug": "bath-accessories-1",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 6500,
     "code": "9001 / 9002",
     "image": "/stoneisthekingofluxury/285.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-66",
+    "id": "bath-accessories-2",
     "name": "Soap Dispenser (₹3,800) & Tumbler Holder (₹2,700)",
-    "slug": "stone-is-the-king-of-luxury-66",
-    "category": "stone-basin",
+    "slug": "bath-accessories-2",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 6500,
     "code": "9003 / 9004",
     "image": "/stoneisthekingofluxury/286.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-67",
+    "id": "bath-accessories-3",
     "name": "Soap Dispenser (₹3,800) & Tumbler Holder (₹2,700)",
-    "slug": "stone-is-the-king-of-luxury-67",
-    "category": "stone-basin",
+    "slug": "bath-accessories-3",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 6500,
     "code": "9005 / 9006",
     "image": "/stoneisthekingofluxury/287.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-68",
+    "id": "bath-accessories-4",
     "name": "Soap Dispenser (₹4,020) & Tumbler Holder (₹3,250)",
-    "slug": "stone-is-the-king-of-luxury-68",
-    "category": "stone-basin",
+    "slug": "bath-accessories-4",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 7270,
     "code": "9007 / 9008",
     "image": "/stoneisthekingofluxury/288.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-69",
+    "id": "bath-accessories-5",
     "name": "Soap Dispenser (₹4,900) & Tumbler (₹4,200)",
-    "slug": "stone-is-the-king-of-luxury-69",
-    "category": "stone-basin",
+    "slug": "bath-accessories-5",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 9100,
     "code": "9009 / 9010",
     "image": "/stoneisthekingofluxury/289.jpg"
   },
   {
-    "id": "stone-is-the-king-of-luxury-70",
+    "id": "bath-accessories-6",
     "name": "Soap Dispenser (₹3,400) & Tumbler (₹2,400)",
-    "slug": "stone-is-the-king-of-luxury-70",
-    "category": "stone-basin",
+    "slug": "bath-accessories-6",
+    "category": "bath-accessories",
     "finish": "Natural Stone",
     "price": 5800,
     "code": "9011 / 9012",
     "image": "/stoneisthekingofluxury/290.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-71",
-    "name": "Aurich",
-    "slug": "stone-is-the-king-of-luxury-71",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 27000,
-    "code": "NEW-71",
-    "image": "/table-top-basins/aurich.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-72",
-    "name": "Canon",
-    "slug": "stone-is-the-king-of-luxury-72",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 21000,
-    "code": "NEW-72",
-    "image": "/table-top-basins/canon.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-73",
-    "name": "Colorado",
-    "slug": "stone-is-the-king-of-luxury-73",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 19500,
-    "code": "NEW-73",
-    "image": "/table-top-basins/colorado.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-74",
-    "name": "Daisy",
-    "slug": "stone-is-the-king-of-luxury-74",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 19500,
-    "code": "NEW-74",
-    "image": "/table-top-basins/daisy.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-75",
-    "name": "Ivy",
-    "slug": "stone-is-the-king-of-luxury-75",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 16000,
-    "code": "NEW-75",
-    "image": "/table-top-basins/ivy.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-76",
-    "name": "Sienna",
-    "slug": "stone-is-the-king-of-luxury-76",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 12000,
-    "code": "NEW-76",
-    "image": "/table-top-basins/sienna.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-77",
-    "name": "Sierra",
-    "slug": "stone-is-the-king-of-luxury-77",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 18500,
-    "code": "NEW-77",
-    "image": "/table-top-basins/sierra.jpg"
-  },
-  {
-    "id": "stone-is-the-king-of-luxury-78",
-    "name": "Sophia",
-    "slug": "stone-is-the-king-of-luxury-78",
-    "category": "stone-basin",
-    "finish": "Natural Stone",
-    "price": 36000,
-    "code": "NEW-78",
-    "image": "/table-top-basins/sophia.jpg"
   }
 ];

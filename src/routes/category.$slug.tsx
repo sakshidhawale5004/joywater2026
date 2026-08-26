@@ -87,6 +87,7 @@ function getHeroSectionImage(slug: string): string {
     "glass-wash-basins": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     "stainless-steel-wash-basins": "/JOYWATER/JOYWATER (8).jpeg",
     "ceramic-pedestal": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
+    "bath-accessories": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
 
 
     // Accessories

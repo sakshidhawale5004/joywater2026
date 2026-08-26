@@ -595,6 +595,19 @@ export const categories: Category[] = [
   },
 
   {
+    slug: "bath-accessories",
+    title: "Bath Accessories",
+    group: "sanitaryware",
+    description: "Elegant natural stone bath accessories including soap dispensers and tumbler holders to complete your luxury bathroom.",
+    features: [
+      "Natural Stone Finish – Adds a luxurious, premium look to your bathroom.",
+      "Durable & Long-Lasting – Made from high-quality natural stone for longevity.",
+      "Easy to Clean – Smooth surface allows effortless maintenance.",
+      "Elegant Design – Complements modern bathroom interiors perfectly."
+    ]
+  },
+
+  {
     slug: "ceramic-pedestal",
     title: "Ceramic Pedestal",
     group: "sanitaryware",
@@ -1642,6 +1655,7 @@ export const megaMenu = {
       "ceramic-pedestal",
       "stone-basin",
       "stone-pedestal",
+      "bath-accessories",
       "wall-hung-wc"
     ]
   },
