@@ -1,6 +1,8 @@
 export type CategoryGroup =
-  | "showers"
-  | "multi-functional-body-showers"
+  | "ceiling-mounted-showers"
+  | "wall-mounted-showers"
+  | "body-showers"
+  | "hand-showers"
   | "diverters"
   | "tile-insert-drainers"
   | "basin-mixers"
@@ -23,7 +25,7 @@ export const categories: Category[] = [
   {
     slug: "2-function-shower-rain-mist",
     title: "2 Function Shower",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "Rain & Mist Spray shower engineered for a refreshing volumetric flow experience. Featuring precision nozzles and solid brass construction.",
     bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
     image: "/showers/2 Function Shower (1).png",
@@ -32,7 +34,7 @@ export const categories: Category[] = [
     {
     slug: "multifunctional-ceiling-shower-3-function",
     title: "3 Function Ceiling Shower",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "3 function ceiling mounted shower with installation kit.",
     bannerImage: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     image: "/showers/3 Function Shower (1).png",
@@ -41,7 +43,7 @@ export const categories: Category[] = [
   {
     slug: "3-function-shower-rain-mist-2-waterfall-led",
     title: "3 Function Shower (LED)",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "3 function shower rain + mist + 2 waterfall + led.",
     bannerImage: "/herosection/3 Function Shower (LED)hero.jpg",
     image: "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
@@ -50,7 +52,7 @@ export const categories: Category[] = [
   {
     slug: "3-function-shower-rain-mist-large-single-waterfall",
     title: "3 Function Shower (Large Waterfall)",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "Rain, 4 Mist Spray & Large Single Waterfall. Designed for maximum water coverage and soothing cascade flow.",
     bannerImage: "/HEROSECTIONIMAGES/3 Function Shower (Large Waterfall).png",
     image: "/showers/3 Function Shower (Large Waterfall) (1).png",
@@ -59,7 +61,7 @@ export const categories: Category[] = [
   {
     slug: "2-function-shower-rain-large-single-waterfall",
     title: "2 Function Shower (Large Waterfall)",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "Rain & Large Single Waterfall shower system with flawless internal waterways.",
     bannerImage: "/herosection/2 Function Shower (Large Waterfall)hero.jpg",
     image: "/showers/2 Function Shower (Large Waterfall).png",
@@ -68,7 +70,7 @@ export const categories: Category[] = [
     {
     slug: "4-function-shower-chromotherapy",
     title: "4 Function Shower Rain, 6 Mist, 2 Waterfall and Water Column",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "Chromotherapy LED Light, Rain, Six Mist Spray, Water Column & Dual Waterfall. Ultimate sensory indulgence.",
     bannerImage: "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
     image: "/showers/4 Function Shower (1).png",
@@ -77,7 +79,7 @@ export const categories: Category[] = [
   {
     slug: "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
     title: "4 functional shower rain +  4 mist  +4side flap rain + water column",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "Rain, Water Column & Four Waterfall overhead shower systems for complete body immersion.",
     bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
     image: "/showers/Multifunctional Showers (1).png",
@@ -86,7 +88,7 @@ export const categories: Category[] = [
   {
     slug: "2-function-shower-soft-rain-waterfall",
     title: "2 function shower soft rain +waterfall",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "2 function shower soft rain +waterfall.",
     bannerImage: "/herosection/2 function shower soft rain +waterfallhero.jpg",
     image: "/showers/Multifunctional Showers (4).png",
@@ -95,7 +97,7 @@ export const categories: Category[] = [
   {
     slug: "single-function-shower-rain",
     title: "Single Function Shower",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "Classic Rain shower providing a natural rainfall sensation with low water consumption.",
     bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
     image: "/showers/Single Function Shower (1).png",
@@ -104,7 +106,7 @@ export const categories: Category[] = [
   {
     slug: "waterfall-showers",
     title: "Waterfall Showers",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "Elegant Waterfall showers that mimic natural cascades with smooth laminar flow.",
     bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
     image: "/showers/Waterfall Showers (1).png",
@@ -113,7 +115,7 @@ export const categories: Category[] = [
   {
     slug: "2-function-wall-mounted-shower-arm",
     title: "2 Function Wall Mounted Shower with Shower Arm",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "Rain & Mist wall mounted shower paired with a high-strength solid brass shower arm.",
     bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
@@ -122,7 +124,7 @@ export const categories: Category[] = [
     {
     slug: "4-function-hand-shower",
     title: "4 function hand shower",
-    group: "showers",
+    group: "hand-showers",
     description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
     bannerImage: "/herosection/4 function hand showerhero.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
@@ -131,7 +133,7 @@ export const categories: Category[] = [
   {
     slug: "2-function-shower-rain-mist-hexagon",
     title: "2 function shower rain mist hexagon",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "2 function shower rain mist hexagon",
     bannerImage: "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
     image: "/shower category/2 function shower rain mist 4  in hexagon shape  gold  45000.png",
@@ -140,7 +142,7 @@ export const categories: Category[] = [
   {
     slug: "single-function-shower-rain-ceiling-mounted",
     title: "single function shower rain celing mounted shower",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "single function shower rain celing mounted shower",
     bannerImage: "/herosection/single function shower rain celing mounted showerhero.png",
     image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
@@ -149,7 +151,7 @@ export const categories: Category[] = [
   {
     slug: "overhead-abs-shower",
     title: "overhead abs shower",
-    group: "showers",
+    group: "ceiling-mounted-showers",
     description: "overhead abs shower",
     bannerImage: "/herosection/overhead abs showerhero.jpg",
     image: "/shower category/overhead abs shower rain 9500 chrome.png",
@@ -158,7 +160,7 @@ export const categories: Category[] = [
   {
     slug: "hand-shower",
     title: "hand shower",
-    group: "showers",
+    group: "hand-showers",
     description: "hand shower",
     bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     image: "/shower category/hand shower chrome 2250 (2).png",
@@ -167,7 +169,7 @@ export const categories: Category[] = [
   {
     slug: "shower-set-with-hot-cold-controller",
     title: "shower set with hot & cold controller",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "shower set with hot & cold controller",
     bannerImage: "/herosection/shower set with hot & cold controllerhero.jpg",
     image: "/shower category/shower set with hot & cold controller with  shower rail & hand shower  black finish  42000 (1).jpg",
@@ -176,7 +178,7 @@ export const categories: Category[] = [
   {
     slug: "joy-spot-wall-mounted-shower",
     title: "joy spot wall mounted shower",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "joy spot wall mounted shower.",
     bannerImage: "/herosection/joy spot wall mounted showerhero.jpg",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
@@ -186,7 +188,7 @@ export const categories: Category[] = [
     {
     slug: "multifunctional-wall-mounted",
     title: "Multifunctional Wall Mounted",
-    group: "showers",
+    group: "wall-mounted-showers",
     description: "Multifunctional wall mounted showers.",
     bannerImage: "/herosection/Multifunctional Wall Mountedhero.png",
     features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
@@ -195,7 +197,7 @@ export const categories: Category[] = [
   {
     slug: "body-jets-2-function",
     title: "Body Jets (2 Function)",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "Rain & Mist body jets designed for recessed wall installation and targeted hydrotherapy.",
 
     image: "/Body Showers/Body Jets (2 Function) (1).png",
@@ -204,7 +206,7 @@ export const categories: Category[] = [
   {
     slug: "one-line-series",
     title: "One Line Series",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "One Line Series minimalist body showers featuring zero-radius architectural profiles.",
 
     image: "/Body Showers/One Line Series (1).png",
@@ -213,7 +215,7 @@ export const categories: Category[] = [
   {
     slug: "eminence-series",
     title: "Eminence Series",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "Eminence Series luxury body shower arrays with adjustable angle nozzles.",
 
     image: "/Body Showers/Eminence Series (1).png",
@@ -321,7 +323,7 @@ export const categories: Category[] = [
   {
     slug: "body-jets-2-function",
     title: "Body Jets (2 Function)",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "Rain & Mist body jets designed for recessed wall installation and targeted hydrotherapy.",
     bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
     image: "/Body Showers/Body Jets (2 Function) (1).png",
@@ -330,7 +332,7 @@ export const categories: Category[] = [
   {
     slug: "one-line-series",
     title: "One Line Series",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "One Line Series minimalist body showers featuring zero-radius architectural profiles.",
     bannerImage: "/HEROSECTIONIMAGES/One Line Series.jpg",
     image: "/Body Showers/One Line Series (1).png",
@@ -339,7 +341,7 @@ export const categories: Category[] = [
   {
     slug: "eminence-series",
     title: "Eminence Series",
-    group: "multi-functional-body-showers",
+    group: "body-showers",
     description: "Eminence Series luxury body shower arrays with adjustable angle nozzles.",
     bannerImage: "/HEROSECTIONIMAGES/Eminence Series.jpg",
     image: "/Body Showers/Eminence Series (1).png",
@@ -1023,7 +1025,7 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Shower (Large Waterfall) (2).png",
     ],
     ["Rose Gold", "Chrome"],
-    ["JW-10060", "JW-10060"]
+    ["JW-10059", "JW-10060"]
   ),
     ...createCategoryProducts(
     "4-function-shower-chromotherapy",
@@ -1036,7 +1038,8 @@ const realCategoryProducts: Product[] = [
       "/showers/4 Function Shower (3).png",
       "/showers/4 Function Shower (4).png",
     ],
-    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"]
+    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"],
+    ["JW-10198", "JW-10012", "JW-10143", "JW-10142"]
   ),
   ...createCategoryProducts(
     "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
@@ -1061,7 +1064,7 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Showers (5).png",
       "/showers/Multifunctional Showers (6).png",
     ],
-    ["Chrome", "Rose Gold", "Brushed Gold"],
+    ["Graphite Grey", "Rose Gold", "Brushed Gold"],
     ["JW-10011", "JW-10094", "JW-10012"]
   ),
   ...createCategoryProducts(
@@ -1076,7 +1079,7 @@ const realCategoryProducts: Product[] = [
       "/showers/Single Function Shower (4).png",
     ],
     ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
-    ["JW-10014", "JW-10014", "JW-10014", "JW-10014"]
+    ["JW-10014", "JW-10016", "JW-10015", "JW-10017"]
   ),
   ...createCategoryProducts(
     "waterfall-showers",
@@ -1089,7 +1092,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Waterfall Showers (3).png",
       "/showers/Waterfall Showers (4).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
+    ["JW-10052", "JW-10054", "JW-10053", "JW-10051"]
   ),
   ...createCategoryProducts(
     "2-function-wall-mounted-shower-arm",
@@ -1101,7 +1105,8 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
       "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Removed"]
+    ["Brushed Gold", "Chrome", "Graphite Grey"],
+    ["JW-10066", "JW-10065", "JW-10066"]
   ),
     ...createCategoryProducts(
     "4-function-hand-shower",
@@ -1121,7 +1126,8 @@ const realCategoryProducts: Product[] = [
       "Brushed Gold",
       "Chrome",
       "Chrome",
-    ]
+    ],
+    ["JW-10154", "JW-10156", "JW-10154", "JW-10070", "JW-10156"]
   ),
   ...createCategoryProducts(
     "2-function-shower-rain-mist-hexagon",
@@ -1134,7 +1140,7 @@ const realCategoryProducts: Product[] = [
       "/shower category/2 function shower rain mist 4  in hexagon shape  rosegold  45000.png",
     ],
     ["Brushed Gold", "Graphite Grey", "Rose Gold"],
-    ["JW-10212", "JW-10214", "JW-10212"]
+    ["JW-10213", "JW-10214", "JW-10212"]
   ),
   ...createCategoryProducts(
     "single-function-shower-rain-ceiling-mounted",
@@ -1145,7 +1151,8 @@ const realCategoryProducts: Product[] = [
       "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
       "/shower category/single function shower round 13500.jpg",
     ],
-    ["Chrome", "Chrome"]
+    ["Chrome", "Chrome"],
+    ["JW-10061", "JW-10062"]
   ),
   ...createCategoryProducts(
     "overhead-abs-shower",
@@ -1170,7 +1177,8 @@ const realCategoryProducts: Product[] = [
       "/shower category/hand shower rose gold  3250  (1).png",
       "/shower category/hand shower rose gold  3250  (4).png",
     ],
-    ["Chrome", "Graphite Grey", "Rose Gold", "Rose Gold"]
+    ["Chrome", "Graphite Grey", "Rose Gold", "Brushed Gold"],
+    ["JW-10042", "JW-10115", "JW-10114", "JW-10113"]
   ),
   ...createCategoryProducts(
     "shower-set-with-hot-cold-controller",
@@ -1214,7 +1222,8 @@ const realCategoryProducts: Product[] = [
       "/Body Showers/One Line Series (3).png",
       "/Body Showers/One Line Series (4).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
+    ["JW-10191", "JW-10182", "JW-10190", "JW-10189"]
   ),
   ...createCategoryProducts(
     "eminence-series",
@@ -1227,7 +1236,8 @@ const realCategoryProducts: Product[] = [
       "/Body Showers/Eminence Series (3).png",
       "/Body Showers/Eminence Series (4).png",
     ],
-    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"],
+    ["JW-10185", "JW-10187", "JW-10188", "JW-10186"]
   ),
 
   // Diverters
@@ -1609,7 +1619,7 @@ export const megaMenu = {
     ]
   },
   "Showering": {
-    "Showers": [
+    "ceiling-mounted-showers": [
       "2-function-shower-rain-mist",
       "2-function-shower-rain-large-single-waterfall",
       "2-function-shower-soft-rain-waterfall",

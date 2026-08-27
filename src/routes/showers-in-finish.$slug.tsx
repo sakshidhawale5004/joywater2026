@@ -18,7 +18,13 @@ export const Route = createFileRoute("/showers-in-finish/$slug")({
     // Get all products that belong to any 'showers' group and have this finish
     const showerCategorySlugs = new Set(
       categories
-        .filter((c) => c.group === "showers" || c.group === "multi-functional-body-showers")
+        .filter(
+          (c) =>
+            c.group === "ceiling-mounted-showers" ||
+            c.group === "wall-mounted-showers" ||
+            c.group === "body-showers" ||
+            c.group === "hand-showers"
+        )
         .map((c) => c.slug)
     );
 

@@ -27,8 +27,10 @@ function ProductsPage() {
 
   const groupTabs = [
     { id: "all", label: "ALL" },
-    { id: "showers", label: "SHOWERS" },
-    { id: "multi-functional-body-showers", label: "BODY SHOWERS" },
+    { id: "ceiling-mounted-showers", label: "CEILING MOUNTED SHOWERS" },
+    { id: "wall-mounted-showers", label: "WALL MOUNTED SHOWERS" },
+    { id: "body-showers", label: "BODY SHOWERS" },
+    { id: "hand-showers", label: "HAND SHOWERS" },
     { id: "diverters", label: "DIVERTERS" },
     { id: "tile-insert-drainers", label: "DRAINERS" },
     { id: "basin-mixers", label: "BASIN MIXERS" },
