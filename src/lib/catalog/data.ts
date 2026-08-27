@@ -774,7 +774,8 @@ function createCategoryProducts(
   codePrefix: string,
   basePrice: number | number[],
   imagePaths: string[],
-  customFinishes?: string[]
+  customFinishes?: string[],
+  customCodes?: string[]
 ): Product[] {
   let finishes = customFinishes;
   
@@ -812,7 +813,7 @@ function createCategoryProducts(
   
   return finishes.map((finish, idx) => {
     const image = imagePaths[idx % imagePaths.length];
-    const code = pdfCodes[idx % pdfCodes.length];
+    const code = customCodes ? customCodes[idx % customCodes.length] : pdfCodes[idx % pdfCodes.length];
     const num = idx + 1;
     return {
       id: `${categorySlug}-${num}`,
@@ -967,7 +968,8 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Shower (3).png",
       "/showers/2 Function Shower (4).png",
     ],
-    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"],
+    ["JW-10146", "JW-10147", "JW-10148", "JW-10149"]
   ),
     ...createCategoryProducts(
     "multifunctional-ceiling-shower-3-function",
@@ -980,7 +982,8 @@ const realCategoryProducts: Product[] = [
       "/showers/3 Function Shower (3).png",
       "/showers/3 Function Shower (4).png",
     ],
-    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"],
+    ["JW-10165", "JW-10167", "JW-10168", "JW-10166"]
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-2-waterfall-led",
@@ -992,7 +995,8 @@ const realCategoryProducts: Product[] = [
       "/showers/3 functionshower rain four mistspray&dualwaterfall (2).png",
       "/showers/3 functionshower rain four mistspray&dualwaterfall (3).png",
     ],
-    ["Graphite Grey", "Rose Gold", "Brushed Gold"]
+    ["Graphite Grey", "Rose Gold", "Brushed Gold"],
+    ["JW-10151", "JW-10150", "JW-10152"]
   ),
   ...createCategoryProducts(
     "3-function-shower-rain-mist-large-single-waterfall",
@@ -1005,7 +1009,8 @@ const realCategoryProducts: Product[] = [
       "/showers/3 Function Shower (Large Waterfall) (3).png",
       "/showers/3 Function Shower (Large Waterfall) (4).png",
     ],
-    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"]
+    ["Graphite Grey", "Brushed Gold", "Rose Gold", "Chrome"],
+    ["JW-10058", "JW-10056", "JW-10057", "JW-10055"]
   ),
   ...createCategoryProducts(
     "2-function-shower-rain-large-single-waterfall",
@@ -1016,7 +1021,8 @@ const realCategoryProducts: Product[] = [
       "/showers/2 Function Shower (Large Waterfall).png",
       "/showers/2 Function Shower (Large Waterfall) (2).png",
     ],
-    ["Rose Gold", "Chrome"]
+    ["Rose Gold", "Chrome"],
+    ["JW-10060", "JW-10060"]
   ),
     ...createCategoryProducts(
     "4-function-shower-chromotherapy",
@@ -1041,7 +1047,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Showers (2).png",
       "/showers/Multifunctional Showers (3).png",
     ],
-    ["Graphite Grey", "Rose Gold", "Brushed Gold"]
+    ["Graphite Grey", "Rose Gold", "Brushed Gold"],
+    ["JW-10153", "JW-10145", "JW-10144"]
   ),
   ...createCategoryProducts(
     "2-function-shower-soft-rain-waterfall",
@@ -1053,7 +1060,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Multifunctional Showers (5).png",
       "/showers/Multifunctional Showers (6).png",
     ],
-    ["Chrome", "Rose Gold", "Brushed Gold"]
+    ["Chrome", "Rose Gold", "Brushed Gold"],
+    ["JW-10011", "JW-10094", "JW-10012"]
   ),
   ...createCategoryProducts(
     "single-function-shower-rain",
@@ -1066,7 +1074,8 @@ const realCategoryProducts: Product[] = [
       "/showers/Single Function Shower (3).png",
       "/showers/Single Function Shower (4).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
+    ["JW-10014", "JW-10014", "JW-10014", "JW-10014"]
   ),
   ...createCategoryProducts(
     "waterfall-showers",
@@ -1123,7 +1132,8 @@ const realCategoryProducts: Product[] = [
       "/shower category/2 function shower rain mist 4  in hexagon shape  graphite grey 45000.png",
       "/shower category/2 function shower rain mist 4  in hexagon shape  rosegold  45000.png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold"],
+    ["JW-10212", "JW-10214", "JW-10212"]
   ),
   ...createCategoryProducts(
     "single-function-shower-rain-ceiling-mounted",
@@ -1186,7 +1196,8 @@ const realCategoryProducts: Product[] = [
       "Graphite Grey",
       "Removed",
       "Removed",
-    ]
+    ],
+    ["JW-10179", "JW-10177", "JW-10178"]
   ),
 
   // Multi-Functional Body Showers
