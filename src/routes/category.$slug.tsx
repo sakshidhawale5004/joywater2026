@@ -114,8 +114,10 @@ function CategoryPage() {
     .filter((c) => c.group === cat.group && c.slug !== cat.slug)
     .slice(0, 6);
 
-  // If a specific bannerImage is provided, use it, otherwise use default
+  // Top banner background image (dark overlay hero)
   const heroImg = cat.bannerImage || cat.image || (products.length > 0 ? products[0].image : "/images/w3-01.png");
+  // Dedicated hero showcase image from /herosection/ folder
+  const heroShowcaseImg = getHeroSectionImage(cat.slug);
 
   return (
     <SiteLayout>
@@ -200,9 +202,9 @@ function CategoryPage() {
           <div className="lg:col-span-6">
             <div className="relative group rounded-2xl overflow-hidden border border-border/80 shadow-2xl bg-secondary/30">
               <img
-                src={encodeURI(heroImg ?? "")}
+                src={encodeURI(heroShowcaseImg ?? "")}
                 alt={cat.title}
-                className="w-full h-[480px] md:h-[600px] object-contain object-center transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-auto max-h-[700px] object-contain object-center transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
