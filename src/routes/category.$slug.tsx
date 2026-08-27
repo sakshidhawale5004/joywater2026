@@ -38,9 +38,9 @@ function getHeroSectionImage(slug: string): string {
     "2-function-shower-rain-mist": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
     "3-function-shower-rain-mist-dual-waterfall": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     "multifunctional-ceiling-shower-3-function": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
-    "3-function-shower-rain-mist-2-waterfall-led": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    "3-function-shower-rain-mist-2-waterfall-led": "/herosection/3 Function Shower (LED)hero.jpg",
     "3-function-shower-rain-mist-large-single-waterfall": "/HEROSECTIONIMAGES/3 Function Shower (Large Waterfall).png",
-    "2-function-shower-rain-large-single-waterfall": "/HEROSECTIONIMAGES/2 Function Shower (Large Waterfall).jpg",
+    "2-function-shower-rain-large-single-waterfall": "/herosection/2 Function Shower (Large Waterfall)hero.jpg",
     "4-function-shower-chromotherapy": "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
     "single-function-shower-rain": "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
     "waterfall-showers": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
@@ -48,16 +48,16 @@ function getHeroSectionImage(slug: string): string {
     "body-jets-2-function": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
     "one-line-series": "/HEROSECTIONIMAGES/One Line Series.jpg",
     "eminence-series": "/HEROSECTIONIMAGES/Eminence Series.jpg",
-    "4-function-hand-shower": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    "4-function-hand-shower": "/herosection/4 function hand showerhero.png",
     "4-functional-shower-rain-4-mist-4side-flap-rain-water-column": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    "2-function-shower-soft-rain-waterfall": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    "2-function-shower-soft-rain-waterfall": "/herosection/2 function shower soft rain +waterfallhero.jpg",
     "2-function-shower-rain-mist-hexagon": "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
-    "single-function-shower-rain-ceiling-mounted": "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
-    "overhead-abs-shower": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+    "single-function-shower-rain-ceiling-mounted": "/herosection/single function shower rain celing mounted showerhero.png",
+    "overhead-abs-shower": "/herosection/overhead abs showerhero.jpg",
     "hand-shower": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    "shower-set-with-hot-cold-controller": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    "joy-spot-wall-mounted-shower": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    "multifunctional-showers": "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    "shower-set-with-hot-cold-controller": "/herosection/shower set with hot & cold controllerhero.jpg",
+    "joy-spot-wall-mounted-shower": "/herosection/joy spot wall mounted showerhero.jpg",
+    "multifunctional-showers": "/herosection/Multifunctional Wall Mountedhero.png",
 
     // Diverters
     "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
@@ -202,7 +202,7 @@ function CategoryPage() {
               <img
                 src={encodeURI(heroImg ?? "")}
                 alt={cat.title}
-                className="w-full h-[480px] md:h-[600px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-[480px] md:h-[600px] object-contain object-center transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
