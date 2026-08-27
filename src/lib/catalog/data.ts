@@ -43,7 +43,7 @@ export const categories: Category[] = [
     title: "3 Function Shower (LED)",
     group: "showers",
     description: "3 function shower rain + mist + 2 waterfall + led.",
-    bannerImage: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+    bannerImage: "/herosection/3 Function Shower (LED)hero.jpg",
     image: "/showers/3 functionshower rain four mistspray&dualwaterfall (1).png",
     features: ["Rain", "Mist", "2 Waterfall", "LED", "11 Years Unmatched Assurance"]
   },
@@ -61,7 +61,7 @@ export const categories: Category[] = [
     title: "2 Function Shower (Large Waterfall)",
     group: "showers",
     description: "Rain & Large Single Waterfall shower system with flawless internal waterways.",
-    bannerImage: "/images/banner4.jpg",
+    bannerImage: "/herosection/2 Function Shower (Large Waterfall)hero.jpg",
     image: "/showers/2 Function Shower (Large Waterfall).png",
     features: ["Rain Spray", "Large Single Waterfall", "11 Years Unmatched Assurance"]
   },
@@ -88,7 +88,7 @@ export const categories: Category[] = [
     title: "2 function shower soft rain +waterfall",
     group: "showers",
     description: "2 function shower soft rain +waterfall.",
-    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    bannerImage: "/herosection/2 function shower soft rain +waterfallhero.jpg",
     image: "/showers/Multifunctional Showers (4).png",
     features: ["Soft Rain", "Waterfall", "11 Years Unmatched Assurance"]
   },
@@ -124,7 +124,7 @@ export const categories: Category[] = [
     title: "4 function hand shower",
     group: "showers",
     description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
-    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    bannerImage: "/herosection/4 function hand showerhero.png",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -142,7 +142,7 @@ export const categories: Category[] = [
     title: "single function shower rain celing mounted shower",
     group: "showers",
     description: "single function shower rain celing mounted shower",
-    bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
+    bannerImage: "/herosection/single function shower rain celing mounted showerhero.png",
     image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
     features: ["Rain", "Ceiling Mounted", "11 Years Unmatched Assurance"]
   },
@@ -151,7 +151,7 @@ export const categories: Category[] = [
     title: "overhead abs shower",
     group: "showers",
     description: "overhead abs shower",
-    bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+    bannerImage: "/herosection/overhead abs showerhero.jpg",
     image: "/shower category/overhead abs shower rain 9500 chrome.png",
     features: ["ABS", "Overhead", "11 Years Unmatched Assurance"]
   },
@@ -169,7 +169,7 @@ export const categories: Category[] = [
     title: "shower set with hot & cold controller",
     group: "showers",
     description: "shower set with hot & cold controller",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    bannerImage: "/herosection/shower set with hot & cold controllerhero.jpg",
     image: "/shower category/shower set with hot & cold controller with  shower rail & hand shower  black finish  42000 (1).jpg",
     features: ["Hot & Cold Controller", "11 Years Unmatched Assurance"]
   },
@@ -178,7 +178,7 @@ export const categories: Category[] = [
     title: "joy spot wall mounted shower",
     group: "showers",
     description: "joy spot wall mounted shower.",
-    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
+    bannerImage: "/herosection/joy spot wall mounted showerhero.jpg",
     image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
     features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
   },
@@ -188,7 +188,7 @@ export const categories: Category[] = [
     title: "Multifunctional Wall Mounted",
     group: "showers",
     description: "Multifunctional wall mounted showers.",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    bannerImage: "/herosection/Multifunctional Wall Mountedhero.png",
     features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
   },
   // 2. MULTI-FUNCTIONAL BODY SHOWERS
@@ -316,78 +316,6 @@ export const categories: Category[] = [
     group: "sanitaryware",
     description: "Premium Basin Mixer.",
     features: [],
-  },
-    {
-    slug: "4-function-hand-shower",
-    title: "4 function hand shower",
-    group: "showers",
-    description: "Spot Foam, Spot Waterfall, Spot Rain. Compact wall-mounted luxury for modern bathrooms.",
-    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
-    features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "2-function-shower-rain-mist-hexagon",
-    title: "2 function shower rain mist hexagon",
-    group: "showers",
-    description: "2 function shower rain mist hexagon",
-    bannerImage: "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
-    image: "/shower category/2 function shower rain mist 4  in hexagon shape  gold  45000.png",
-    features: ["Rain", "Mist", "Hexagon Shape", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "single-function-shower-rain-ceiling-mounted",
-    title: "single function shower rain celing mounted shower",
-    group: "showers",
-    description: "single function shower rain celing mounted shower",
-    bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
-    image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
-    features: ["Rain", "Ceiling Mounted", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "overhead-abs-shower",
-    title: "overhead abs shower",
-    group: "showers",
-    description: "overhead abs shower",
-    bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
-    image: "/shower category/overhead abs shower rain 9500 chrome.png",
-    features: ["ABS", "Overhead", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "hand-shower",
-    title: "hand shower",
-    group: "showers",
-    description: "hand shower",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    image: "/shower category/hand shower chrome 2250 (2).png",
-    features: ["Hand Shower", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "shower-set-with-hot-cold-controller",
-    title: "shower set with hot & cold controller",
-    group: "showers",
-    description: "shower set with hot & cold controller",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    image: "/shower category/shower set with hot & cold controller with  shower rail & hand shower  black finish  42000 (1).jpg",
-    features: ["Hot & Cold Controller", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "joy-spot-wall-mounted-shower",
-    title: "joy spot wall mounted shower",
-    group: "showers",
-    description: "joy spot wall mounted shower.",
-    bannerImage: "/HEROSECTIONIMAGES/MULTIFUNCTIONALSHOWER.png",
-    image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
-    features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
-  },
-
-    {
-    slug: "multifunctional-wall-mounted",
-    title: "Multifunctional Wall Mounted",
-    group: "showers",
-    description: "Multifunctional wall mounted showers.",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
   },
   // 2. MULTI-FUNCTIONAL BODY SHOWERS
   {
