@@ -458,7 +458,7 @@ export const categories: Category[] = [
     title: "Wall Hung WC",
     group: "sanitaryware",
     description: "Rimless Wall Hung Water Closets with quiet flush engineering, ergonomic contours, and soft-close seats.",
-    bannerImage: "/WALLHUNGWC hero.png",
+    bannerImage: "/Wall Hung WC heroimage1.jpeg",
     image: "/wallhungwc/25.jpg",
     features: [
       "Rimless Design – Eliminates hidden edges where dirt and deposits can accumulate, making the toilet easier to clean and maintain.",
@@ -473,6 +473,7 @@ export const categories: Category[] = [
     title: "Ceramic Wash Basins",
     group: "sanitaryware",
     description: "Timeless ceramic elegance with refined finishes for modern bathrooms.",
+    bannerImage: "/Ceramic Wash Basinsheroimage.jpeg",
     image: "/images/PDF1_P24_IMG1.png",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
@@ -523,7 +524,7 @@ export const categories: Category[] = [
     title: "Stone Pedestal",
     group: "sanitaryware",
     description: "Make a Statement with Standalone Design using our premium stone pedestal basins.",
-    bannerImage: "/stonepedestal.png",
+    bannerImage: "/Stone Pedestalheroimage.jpeg",
     image: "/images/PDF1_P76_IMG1.png",
     features: [
       "Smooth & Silky Finish - Provides an attractive, premium look and is easy to clean.",
@@ -549,7 +550,7 @@ export const categories: Category[] = [
     title: "Ceramic Pedestal",
     group: "sanitaryware",
     description: "Statement-making designs that elevate and define your bathroom space.",
-    bannerImage: "/CERAMIC PEDESTAL.png",
+    bannerImage: "/Ceramic Pedestalheroimage.jpeg",
     features: [
       "Smooth & Silky Finish – Provides an attractive, premium look and is easy to clean.",
       "Easy to Clean – Smooth surface allows quick and effortless cleaning.",

@@ -80,14 +80,14 @@ function getHeroSectionImage(slug: string): string {
 
     // Sanitaryware
     "stone-basin": "/images/PDF1_P76_IMG1.png",
-    "stone-pedestal": "/stonepedestal.png",
-    "wall-hung-wc": "/WALLHUNGWC hero.png",
+    "stone-pedestal": "/Stone Pedestalheroimage.jpeg",
+    "wall-hung-wc": "/Wall Hung WC heroimage1.jpeg",
     "sanitaryware-collections": "/HEROSECTIONIMAGES/Sanitaryware Collections.jpg",
     "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
-    "ceramic-wash-basins": "/images/PDF1_P24_IMG1.png",
+    "ceramic-wash-basins": "/Ceramic Wash Basinsheroimage.jpeg",
     "glass-wash-basins": "/glass basin.jpg",
     "stainless-steel-wash-basins": "/JOYWATER/JOYWATER (8).jpeg",
-    "ceramic-pedestal": "/CERAMIC PEDESTAL.png",
+    "ceramic-pedestal": "/Ceramic Pedestalheroimage.jpeg",
     "soap-dispenser": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
 
 
