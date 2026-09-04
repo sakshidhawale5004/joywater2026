@@ -22,6 +22,62 @@ export type Category = {
 
 export const categories: Category[] = [
     {
+      slug: "diverters",
+      title: "Diverters",
+      group: "diverters",
+      description: "Explore our full range of JOY WATER Diverters — from 4-Function to 6-Function, Thermostatic and Lever types. Built with premium Vernet cartridges for lasting performance.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/5 Function Diverter (1).png",
+      features: ["4-6 Functions", "Vernet Cartridge", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "tile-drainers",
+      title: "Tile Drainers",
+      group: "tile-insert-drainers",
+      description: "Premium tile insert drainers for seamless bathroom aesthetics.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/5 Function Diverter (1).png",
+      features: ["Tile Insert", "Concealed Drain", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "basin-mixers",
+      title: "Basin Mixers",
+      group: "basin-mixers",
+      description: "Explore our full range of JOY WATER Basin Mixers — Round Controller, Thermostatic, Lever, Waterfall, Ceiling Mounted, and more.",
+      bannerImage: "/images/designer-faucets-new.jpg",
+      image: "/basinmixer/Round Controller Basin Mixer (1).png",
+      features: ["Multiple Styles", "Solid Brass", "Swiss Aerator", "11 Years Unmatched Assurance"]
+    },
+
+    {
+      slug: "diverters",
+      title: "Diverters",
+      group: "diverters",
+      description: "Explore our full range of JOY WATER Diverters — from 4-Function to 6-Function, Thermostatic and Lever types. Built with premium Vernet cartridges for lasting performance.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/5 Function Diverter (1).png",
+      features: ["4-6 Functions", "Vernet Cartridge", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "tile-drainers",
+      title: "Tile Drainers",
+      group: "tile-insert-drainers",
+      description: "Premium tile insert drainers for seamless bathroom aesthetics.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/5 Function Diverter (1).png",
+      features: ["Tile Insert", "Concealed Drain", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "basin-mixers",
+      title: "Basin Mixers",
+      group: "basin-mixers",
+      description: "Explore our full range of JOY WATER Basin Mixers — Round Controller, Thermostatic, Lever, Waterfall, Ceiling Mounted, and more.",
+      bannerImage: "/images/designer-faucets-new.jpg",
+      image: "/basinmixer/Round Controller Basin Mixer (1).png",
+      features: ["Multiple Styles", "Solid Brass", "Swiss Aerator", "11 Years Unmatched Assurance"]
+    },
+
+    {
       slug: "ceiling-mounted-shower",
       title: "Ceiling Mounted Showers",
       group: "ceiling-mounted-showers",
@@ -907,7 +963,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-1",
     slug: "ceiling-mounted-basin-mixer-1",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Graphite Grey",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Graphite Grey",
     price: 24750,
     code: "JW-10103",
@@ -917,7 +973,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-2",
     slug: "ceiling-mounted-basin-mixer-2",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Graphite Grey",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Graphite Grey",
     price: 15750,
     code: "JW-10104",
@@ -927,7 +983,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-3",
     slug: "ceiling-mounted-basin-mixer-3",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Gold",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Gold",
     price: 24750,
     code: "JW-10099",
@@ -937,7 +993,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-4",
     slug: "ceiling-mounted-basin-mixer-4",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Gold",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Gold",
     price: 15750,
     code: "JW-10100",
@@ -947,7 +1003,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-5",
     slug: "ceiling-mounted-basin-mixer-5",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Rose Gold",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Rose Gold",
     price: 24750,
     code: "JW-10101",
@@ -957,7 +1013,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-6",
     slug: "ceiling-mounted-basin-mixer-6",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Rose Gold",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Rose Gold",
     price: 15750,
     code: "JW-10102",
@@ -967,7 +1023,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-7",
     slug: "ceiling-mounted-basin-mixer-7",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Chrome",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Chrome",
     price: 19500,
     code: "JW-10097",
@@ -977,7 +1033,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-8",
     slug: "ceiling-mounted-basin-mixer-8",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Chrome",
-    category: "ceiling-mounted-basin-mixer",
+    category: "basin-mixers",
     finish: "Chrome",
     price: 13500,
     code: "JW-10098",
@@ -1272,7 +1328,7 @@ const realCategoryProducts: Product[] = [
   
   
     ...createCategoryProducts(
-      "4-function-diverter",
+      "diverters",
       "4 Function Joy Water Diverter",
       "JW-4FD",
       [79000, 92000, 92000, 92000, 92000],
@@ -1285,7 +1341,7 @@ const realCategoryProducts: Product[] = [
       ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
     ),
   ...createCategoryProducts(
-    "5-function-diverter",
+    "diverters",
     "5 Function Diverter",
     "JW-100",
     [108000, 126000, 126000, 126000],
@@ -1299,7 +1355,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10001", "JW-10003", "JW-10002", "JW-10004"]
   ),
   ...createCategoryProducts(
-    "6-function-diverter",
+    "diverters",
     "6 Function Diverter",
     "JW-100",
     [112000, 138000, 138000, 138000, 138000],
@@ -1314,7 +1370,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10173", "JW-10176", "JW-10175", "JW-10174", "JW-10201"]
   ),
   ...createCategoryProducts(
-      "thermostatic-diverter-three-outlet",
+      "diverters",
       "Thermostatic Diverter (Three Outlet)",
       "JW-100",
       [54000, 63000, 63000, 63000],
@@ -1328,7 +1384,7 @@ const realCategoryProducts: Product[] = [
       ["JW-10007", "JW-10009", "JW-10008", "JW-10010"]
     ),
   ...createCategoryProducts(
-    "lever-diverter-three-outlet",
+    "diverters",
     "Lever Diverter (Three Outlet)",
     "JW-100",
     [23000, 27000, 27000, 35000, 39000, 39000],
@@ -1348,7 +1404,7 @@ const realCategoryProducts: Product[] = [
 
   // Basin Mixers
   ...createCategoryProducts(
-    "round-controller-basin-mixer",
+    "basin-mixers",
     "Round Controller Basin Mixer",
     "JW-100",
     [20500, 20500, 20500],
@@ -1361,7 +1417,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
-    "thermostatic-click-controller-basin-mixer",
+    "basin-mixers",
     "Thermostatic Click Controller Basin Mixer",
     "JW-100",
     [36500, 36500, 36500],
@@ -1374,7 +1430,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
-    "lever-basin-mixer",
+    "basin-mixers",
     "Lever Basin Mixer",
     "JW-100",
     [19500, 23500, 23500, 23500, 23500],
@@ -1389,7 +1445,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10079", "JW-10082", "JW-10080", "JW-10081", "JW-10203"]
   ),
   ...createCategoryProducts(
-    "table-mounted-basin-mixer",
+    "basin-mixers",
     "Tall Body Basin Mixer",
     "JW-100",
     [21000, 23500, 23500, 23500],
@@ -1403,7 +1459,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10075", "JW-10077", "JW-10076", "JW-10078"]
   ),
   ...createCategoryProducts(
-    "progressive-controller-waterfall-basin-mixer",
+    "basin-mixers",
     "Progressive Controller Waterfall Basin Mixer",
     "JW-100",
     [22500, 27500, 27500, 27500],
@@ -1442,7 +1498,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-1",
     slug: "premium-basin-mixer-1",
     name: "Premium Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Brushed Gold",
     price: 19500,
     code: "JW-20001",
@@ -1452,7 +1508,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-2",
     slug: "premium-basin-mixer-2",
     name: "Premium Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Chrome",
     price: 14500,
     code: "JW-20002",
@@ -1462,7 +1518,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-3",
     slug: "premium-basin-mixer-3",
     name: "Premium Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Graphite Grey",
     price: 19500,
     code: "JW-20003",
@@ -1472,7 +1528,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-4",
     slug: "premium-basin-mixer-4",
     name: "Premium Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Rose Gold",
     price: 19500,
     code: "JW-20004",
@@ -1482,7 +1538,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-5",
     slug: "premium-basin-mixer-5",
     name: "Wall Mounted Liver Pointed",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Rose Gold",
     price: 16000,
     code: "JW-10161",
@@ -1492,7 +1548,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-6",
     slug: "premium-basin-mixer-6",
     name: "Tall Body Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Rose Gold",
     price: 22500,
     code: "JW-10157",
@@ -1502,7 +1558,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-7",
     slug: "premium-basin-mixer-7",
     name: "Tall Body Basin Mixer",
-    category: "premium-basin-mixer",
+    category: "basin-mixers",
     finish: "Chrome",
     price: 20500,
     code: "JW-10074",
@@ -1582,35 +1638,35 @@ const realCategoryProducts: Product[] = [
 
   
   // Shower Drainer
-  { id: "shower-drainer-1", slug: "shower-drainer-1", name: "Shower Drainer", category: "shower-drainer", finish: "SS Matte", price: 11500, code: "JW-SD-01", image: "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png" },
-  { id: "shower-drainer-2", slug: "shower-drainer-2", name: "Shower Drainer", category: "shower-drainer", finish: "Brushed Gold", price: 13500, code: "JW-SD-02", image: "/tile drainers/Shower-Drainer-brushed-gold-finish-13500-2.png" },
-  { id: "shower-drainer-3", slug: "shower-drainer-3", name: "Shower Drainer", category: "shower-drainer", finish: "Graphite Grey", price: 13500, code: "JW-SD-03", image: "/tile drainers/Shower-Drainer-graphite-grey-finish-13500-3.png" },
-  { id: "shower-drainer-4", slug: "shower-drainer-4", name: "Shower Drainer", category: "shower-drainer", finish: "Rose Gold", price: 13500, code: "JW-SD-04", image: "/tile drainers/Shower-Drainer-rose-gold-finish-13500-4.png" },
-  { id: "shower-drainer-5", slug: "shower-drainer-5", name: "Shower Drainer", category: "shower-drainer", finish: "SS Matte", price: 4750, code: "JW-SD-05", image: "/tile drainers/shower-drainer-ss-matte-finish-4750.png" },
-  { id: "shower-drainer-6", slug: "shower-drainer-6", name: "Shower Drainer", category: "shower-drainer", finish: "Black", price: 7200, code: "JW-SD-06", image: "/tile drainers/shower-drainer-black-finish-7200.png" },
-  { id: "shower-drainer-7", slug: "shower-drainer-7", name: "Shower Drainer", category: "shower-drainer", finish: "Brushed Gold", price: 7200, code: "JW-SD-07", image: "/tile drainers/shower-drainer-brushed-gold-finish-7200.png" },
-  { id: "shower-drainer-8", slug: "shower-drainer-8", name: "Shower Drainer", category: "shower-drainer", finish: "Rose Gold", price: 7200, code: "JW-SD-08", image: "/tile drainers/shower-drainer-rose-gold-finish-7200.png" },
-  { id: "shower-drainer-9", slug: "shower-drainer-9", name: "SS 340 Shower Channel Wave Drainer", category: "shower-drainer", finish: "SS Matte", price: 3510, code: "JW-SD-09", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png" },
+  { id: "shower-drainer-1", slug: "shower-drainer-1", name: "Shower Drainer", category: "tile-drainers", finish: "SS Matte", price: 11500, code: "JW-SD-01", image: "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png" },
+  { id: "shower-drainer-2", slug: "shower-drainer-2", name: "Shower Drainer", category: "tile-drainers", finish: "Brushed Gold", price: 13500, code: "JW-SD-02", image: "/tile drainers/Shower-Drainer-brushed-gold-finish-13500-2.png" },
+  { id: "shower-drainer-3", slug: "shower-drainer-3", name: "Shower Drainer", category: "tile-drainers", finish: "Graphite Grey", price: 13500, code: "JW-SD-03", image: "/tile drainers/Shower-Drainer-graphite-grey-finish-13500-3.png" },
+  { id: "shower-drainer-4", slug: "shower-drainer-4", name: "Shower Drainer", category: "tile-drainers", finish: "Rose Gold", price: 13500, code: "JW-SD-04", image: "/tile drainers/Shower-Drainer-rose-gold-finish-13500-4.png" },
+  { id: "shower-drainer-5", slug: "shower-drainer-5", name: "Shower Drainer", category: "tile-drainers", finish: "SS Matte", price: 4750, code: "JW-SD-05", image: "/tile drainers/shower-drainer-ss-matte-finish-4750.png" },
+  { id: "shower-drainer-6", slug: "shower-drainer-6", name: "Shower Drainer", category: "tile-drainers", finish: "Black", price: 7200, code: "JW-SD-06", image: "/tile drainers/shower-drainer-black-finish-7200.png" },
+  { id: "shower-drainer-7", slug: "shower-drainer-7", name: "Shower Drainer", category: "tile-drainers", finish: "Brushed Gold", price: 7200, code: "JW-SD-07", image: "/tile drainers/shower-drainer-brushed-gold-finish-7200.png" },
+  { id: "shower-drainer-8", slug: "shower-drainer-8", name: "Shower Drainer", category: "tile-drainers", finish: "Rose Gold", price: 7200, code: "JW-SD-08", image: "/tile drainers/shower-drainer-rose-gold-finish-7200.png" },
+  { id: "shower-drainer-9", slug: "shower-drainer-9", name: "SS 340 Shower Channel Wave Drainer", category: "tile-drainers", finish: "SS Matte", price: 3510, code: "JW-SD-09", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png" },
 
   // Tiles Drainers
-  { id: "tiles-drainer-1", slug: "tiles-drainer-1", name: "Tile Drainer", category: "tiles-drainers", finish: "SS Matte", price: 4250, code: "JW-TD-01", image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png" },
-  { id: "tiles-drainer-2", slug: "tiles-drainer-2", name: "Tile Drainer", category: "tiles-drainers", finish: "Brushed Gold", price: 5750, code: "JW-TD-02", image: "/tile drainers/tile-drainer-brushed-gold-finish-5750.png" },
-  { id: "tiles-drainer-3", slug: "tiles-drainer-3", name: "Tile Drainer", category: "tiles-drainers", finish: "Graphite Grey", price: 5750, code: "JW-TD-03", image: "/tile drainers/tile-drainer-graphite-grey-finish-5750.png" },
-  { id: "tiles-drainer-4", slug: "tiles-drainer-4", name: "Tile Drainer", category: "tiles-drainers", finish: "Rose Gold", price: 5750, code: "JW-TD-04", image: "/tile drainers/tile-drainer-rose-gold-finish-5750.png" },
-  { id: "tiles-drainer-5", slug: "tiles-drainer-5", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "SS Matte", price: 14500, code: "JW-TD-05", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-ss-matte-finish-14500.png" },
-  { id: "tiles-drainer-6", slug: "tiles-drainer-6", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Brushed Gold", price:  15500, code: "JW-TD-06", image: "/tile drainers/tile-drainers-marbles-side-hole-brushed-gold-finished-13500.png" },
-  { id: "tiles-drainer-7", slug: "tiles-drainer-7", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Graphite Grey", price: 15500, code: "JW-TD-07", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-grey-finish-15500-1.png" },
-  { id: "tiles-drainer-8", slug: "tiles-drainer-8", name: "Tile Drainers Marbles Side Hole", category: "tiles-drainers", finish: "Rose Gold", price: 15500, code: "JW-TD-08", image: "/tile drainers/tile-drainers-marbles-side-hole-rose-gold-finish-15500-2.png" },
-  { id: "tiles-drainer-9", slug: "tiles-drainer-9", name: "Tiles Drainers", category: "tiles-drainers", finish: "Gold", price: 2520, code: "JW-TD-09", image: "/tile drainers/tiles-drainers-gold-finish-2520.png" },
-  { id: "tiles-drainer-10", slug: "tiles-drainer-10", name: "Tiles Drainers", category: "tiles-drainers", finish: "Rose Gold", price: 2520, code: "JW-TD-10", image: "/tile drainers/tiles-drainers-rose-gold-finish-2520.jpg" },
-  { id: "tiles-drainer-11", slug: "tiles-drainer-11", name: "Tile Drainer JTD-506", category: "tiles-drainers", finish: "Chrome", price: 1630, code: "JW-TD-506", image: "/tile drainers/Code-JTD-506-1630.png" },
+  { id: "tiles-drainer-1", slug: "tiles-drainer-1", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte", price: 4250, code: "JW-TD-01", image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png" },
+  { id: "tiles-drainer-2", slug: "tiles-drainer-2", name: "Tile Drainer", category: "tile-drainers", finish: "Brushed Gold", price: 5750, code: "JW-TD-02", image: "/tile drainers/tile-drainer-brushed-gold-finish-5750.png" },
+  { id: "tiles-drainer-3", slug: "tiles-drainer-3", name: "Tile Drainer", category: "tile-drainers", finish: "Graphite Grey", price: 5750, code: "JW-TD-03", image: "/tile drainers/tile-drainer-graphite-grey-finish-5750.png" },
+  { id: "tiles-drainer-4", slug: "tiles-drainer-4", name: "Tile Drainer", category: "tile-drainers", finish: "Rose Gold", price: 5750, code: "JW-TD-04", image: "/tile drainers/tile-drainer-rose-gold-finish-5750.png" },
+  { id: "tiles-drainer-5", slug: "tiles-drainer-5", name: "Tile Drainers Marbles Side Hole", category: "tile-drainers", finish: "SS Matte", price: 14500, code: "JW-TD-05", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-ss-matte-finish-14500.png" },
+  { id: "tiles-drainer-6", slug: "tiles-drainer-6", name: "Tile Drainers Marbles Side Hole", category: "tile-drainers", finish: "Brushed Gold", price:  15500, code: "JW-TD-06", image: "/tile drainers/tile-drainers-marbles-side-hole-brushed-gold-finished-13500.png" },
+  { id: "tiles-drainer-7", slug: "tiles-drainer-7", name: "Tile Drainers Marbles Side Hole", category: "tile-drainers", finish: "Graphite Grey", price: 15500, code: "JW-TD-07", image: "/tile drainers/tile-drainers-marbles-side-hole-graphite-grey-finish-15500-1.png" },
+  { id: "tiles-drainer-8", slug: "tiles-drainer-8", name: "Tile Drainers Marbles Side Hole", category: "tile-drainers", finish: "Rose Gold", price: 15500, code: "JW-TD-08", image: "/tile drainers/tile-drainers-marbles-side-hole-rose-gold-finish-15500-2.png" },
+  { id: "tiles-drainer-9", slug: "tiles-drainer-9", name: "Tiles Drainers", category: "tile-drainers", finish: "Gold", price: 2520, code: "JW-TD-09", image: "/tile drainers/tiles-drainers-gold-finish-2520.png" },
+  { id: "tiles-drainer-10", slug: "tiles-drainer-10", name: "Tiles Drainers", category: "tile-drainers", finish: "Rose Gold", price: 2520, code: "JW-TD-10", image: "/tile drainers/tiles-drainers-rose-gold-finish-2520.jpg" },
+  { id: "tiles-drainer-11", slug: "tiles-drainer-11", name: "Tile Drainer JTD-506", category: "tile-drainers", finish: "Chrome", price: 1630, code: "JW-TD-506", image: "/tile drainers/Code-JTD-506-1630.png" },
 
   // Floor Drainer
-  { id: "floor-drainer-1", slug: "floor-drainer-1", name: "Floor Drainer", category: "floor-drainer", finish: "SS Matte", price: 585, code: "JW-FD-01", image: "/tile drainers/floor-drainer-ss-matte-finish-585.png" },
-  { id: "floor-drainer-2", slug: "floor-drainer-2", name: "Floor Drainer", category: "floor-drainer", finish: "Black", price: 1650, code: "JW-FD-02", image: "/tile drainers/floor-drainer-black-finish-1650.png" },
-  { id: "floor-drainer-3", slug: "floor-drainer-3", name: "Floor Drainer", category: "floor-drainer", finish: "Brushed Gold", price: 1650, code: "JW-FD-03", image: "/tile drainers/floor-drainer-brushed-gold-finish-1650.png" },
-  { id: "floor-drainer-4", slug: "floor-drainer-4", name: "Floor Drainer", category: "floor-drainer", finish: "Rose Gold", price: 1650, code: "JW-FD-04", image: "/tile drainers/floor-drainer-rose-gold-finish-1650.png" },
-  { id: "floor-drainer-5", slug: "floor-drainer-5", name: "Floor Drainer JGR-003", category: "floor-drainer", finish: "SS Matte", price: 585, code: "JW-FD-05", image: "/tile drainers/CODE-JGR--003-585.png" },
+  { id: "floor-drainer-1", slug: "floor-drainer-1", name: "Floor Drainer", category: "tile-drainers", finish: "SS Matte", price: 585, code: "JW-FD-01", image: "/tile drainers/floor-drainer-ss-matte-finish-585.png" },
+  { id: "floor-drainer-2", slug: "floor-drainer-2", name: "Floor Drainer", category: "tile-drainers", finish: "Black", price: 1650, code: "JW-FD-02", image: "/tile drainers/floor-drainer-black-finish-1650.png" },
+  { id: "floor-drainer-3", slug: "floor-drainer-3", name: "Floor Drainer", category: "tile-drainers", finish: "Brushed Gold", price: 1650, code: "JW-FD-03", image: "/tile drainers/floor-drainer-brushed-gold-finish-1650.png" },
+  { id: "floor-drainer-4", slug: "floor-drainer-4", name: "Floor Drainer", category: "tile-drainers", finish: "Rose Gold", price: 1650, code: "JW-FD-04", image: "/tile drainers/floor-drainer-rose-gold-finish-1650.png" },
+  { id: "floor-drainer-5", slug: "floor-drainer-5", name: "Floor Drainer JGR-003", category: "tile-drainers", finish: "SS Matte", price: 585, code: "JW-FD-05", image: "/tile drainers/CODE-JGR--003-585.png" },
 
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
   ...mirrorProducts,
