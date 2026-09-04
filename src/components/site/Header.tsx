@@ -152,13 +152,13 @@ export function Header() {
         >
           <div className="max-w-7xl mx-auto grid grid-cols-4 gap-10 px-10 py-10">
             {Object.entries(megaMenu[open]).map(([section, slugs]) => (
-              <div key={section} className={cn((slugs as readonly string[]).length > 8 && "col-span-2")}>
+              <div key={section}>
                 <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
                   {section}
                 </h4>
-                <ul className={cn((slugs as readonly string[]).length > 8 ? "columns-2 gap-x-12" : "flex flex-col gap-y-3")}>
+                <ul className="flex flex-col gap-y-3">
                   {(slugs as readonly string[]).map((slug) => (
-                    <li key={slug} className={cn("break-inside-avoid", (slugs as readonly string[]).length > 8 && "mb-3")}>
+                    <li key={slug} className="break-inside-avoid">
                       <Link
                         to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
                         params={{ slug }}
