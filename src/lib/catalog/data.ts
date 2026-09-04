@@ -1275,7 +1275,7 @@ const realCategoryProducts: Product[] = [
       "4-function-diverter",
       "4 Function Joy Water Diverter",
       "JW-4FD",
-      [35000, 35000, 35000, 35000],
+      [79000, 92000, 92000, 92000, 92000],
       [
         "/diverters/6 Function Diverter (5).png",
         "/diverters/6 Function Diverter (6).png",
