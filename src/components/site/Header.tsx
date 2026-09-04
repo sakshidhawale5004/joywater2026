@@ -150,7 +150,7 @@ export function Header() {
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="max-w-7xl mx-auto grid grid-cols-4 gap-10 px-10 py-10">
+          <div className="max-w-7xl mx-auto grid grid-cols-5 gap-10 px-10 py-10">
             {Object.entries(megaMenu[open]).map(([section, slugs]) => (
               <div key={section}>
                 <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
