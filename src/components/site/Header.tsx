@@ -151,54 +151,11 @@ export function Header() {
           onMouseLeave={handleMouseLeave}
         >
           <div className="max-w-7xl mx-auto px-10 py-10">
-            {/* Check if this is PVD Finishes menu */}
-            {open === "PVD Finishes" ? (
-              <div className="space-y-8">
-                {/* First row */}
-                <div>
-                  <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
-                    Row 1
-                  </h4>
-                  <ul className="flex flex-row gap-x-8">
-                    {(megaMenu[open]["PVD Finishes Row 1"] as readonly string[]).map((slug) => (
-                      <li key={slug}>
-                        <Link
-                          to="/category/$slug"
-                          params={{ slug }}
-                          onClick={() => setOpen(null)}
-                          className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
-                        >
-                          {formatSlug(slug)}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Second row */}
-                <div>
-                  <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
-                    Row 2
-                  </h4>
-                  <ul className="flex flex-row gap-x-8">
-                    {(megaMenu[open]["PVD Finishes Row 2"] as readonly string[]).map((slug) => (
-                      <li key={slug}>
-                        <Link
-                          to="/category/$slug"
-                          params={{ slug }}
-                          onClick={() => setOpen(null)}
-                          className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
-                        >
-                          {formatSlug(slug)}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ) : (
-              /* Regular categories display */
-              <div className="grid grid-cols-5 gap-10">
-                {Object.entries(megaMenu[open]).map(([section, slugs]) => (
+            {/* Main categories row */}
+            <div className="grid grid-cols-5 gap-10">
+              {Object.entries(megaMenu[open])
+                .filter(([section]) => !section.includes("PVD"))
+                .map(([section, slugs]) => (
                   <div key={section}>
                     <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
                       {section}
@@ -207,7 +164,7 @@ export function Header() {
                       {(slugs as readonly string[]).map((slug) => (
                         <li key={slug}>
                           <Link
-                            to="/category/$slug"
+                            to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
                             params={{ slug }}
                             onClick={() => setOpen(null)}
                             className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
@@ -219,6 +176,33 @@ export function Header() {
                     </ul>
                   </div>
                 ))}
+            </div>
+            {/* PVD Finishes row */}
+            {Object.entries(megaMenu[open]).some(([section]) => section.includes("PVD")) && (
+              <div className="mt-6 pt-6 border-t border-border">
+                {Object.entries(megaMenu[open])
+                  .filter(([section]) => section.includes("PVD"))
+                  .map(([section, slugs]) => (
+                    <div key={section}>
+                      <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
+                        {section}
+                      </h4>
+                      <ul className="flex flex-row gap-x-8">
+                        {(slugs as readonly string[]).map((slug) => (
+                          <li key={slug}>
+                            <Link
+                              to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : "/diverters-mixers-in-finish/$slug"}
+                              params={{ slug }}
+                              onClick={() => setOpen(null)}
+                              className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
+                            >
+                              {formatSlug(slug)}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
               </div>
             )}
           </div>
@@ -238,7 +222,7 @@ export function Header() {
                     (slugs as readonly string[]).map((slug) => (
                       <Link
                         key={slug}
-                        to="/category/$slug"
+                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
                         params={{ slug }}
                         onClick={() => setMobile(false)}
                         className="block text-xs text-muted-foreground py-1"
