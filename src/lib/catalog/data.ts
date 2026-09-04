@@ -1721,25 +1721,13 @@ export const megaMenu = {
   },
   "Diverters & Mixers": {
     "Diverters": [
-      "4-function-diverter",
-      "5-function-diverter",
-      "6-function-diverter",
-      "thermostatic-diverter-three-outlet",
-      "lever-diverter-three-outlet"
+      "diverters"
     ],
     "Tile Drainers": [
-        "shower-drainer",
-        "tiles-drainers",
-        "floor-drainer"
-      ],
+      "tile-drainers"
+    ],
     "Basin Mixers": [
-      "round-controller-basin-mixer",
-      "thermostatic-click-controller-basin-mixer",
-      "lever-basin-mixer",
-      "table-mounted-basin-mixer",
-      "progressive-controller-waterfall-basin-mixer",
-      "ceiling-mounted-basin-mixer",
-      "premium-basin-mixer"
+      "basin-mixers"
     ],
     "Mixers In PVD Finishes": [
       "graphite-grey",
