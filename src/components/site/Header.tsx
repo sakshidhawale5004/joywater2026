@@ -153,7 +153,7 @@ export function Header() {
           <div className="max-w-7xl mx-auto grid grid-cols-5 gap-10 px-10 py-10">
             {Object.entries(megaMenu[open]).map(([section, slugs]) => (
               <div key={section}>
-                <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary">
+                <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary min-h-[40px]">
                   {section}
                 </h4>
                 <ul className="flex flex-col gap-y-3">
