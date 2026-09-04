@@ -21,6 +21,34 @@ export type Category = {
 };
 
 export const categories: Category[] = [
+    {
+      slug: "ceiling-mounted-shower",
+      title: "Ceiling Mounted Showers",
+      group: "ceiling-mounted-showers",
+      description: "Explore our collection of premium Ceiling Mounted Showers. Engineered for a refreshing volumetric flow experience.",
+      bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+      image: "/showers/2 Function Shower (1).png",
+      features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "wall-mounted-shower",
+      title: "Wall Mounted Showers",
+      group: "wall-mounted-showers",
+      description: "Explore our collection of Wall Mounted Showers.",
+      bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+      image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
+      features: ["Sleek Design", "Precision Flow", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "body-jets-body-showers",
+      title: "Body Jets & Body Showers",
+      group: "body-showers",
+      description: "Invigorating body jets for a spa-like experience.",
+      bannerImage: "/HEROSECTIONIMAGES/Body Jets 2 FunctionHERO.jpg",
+      image: "/showers/Body Jets 2 Function (1).png",
+      features: ["Adjustable Flow", "Massage Effect", "11 Years Unmatched Assurance"]
+    },
+
   // 1. SHOWERS
   {
     slug: "2-function-shower-rain-mist",
@@ -836,7 +864,7 @@ const bodyJetsProducts: Product[] = [
     id: "body-jets-2-function-1",
     slug: "body-jets-2-function-1",
     name: "Body Jet (2 Function - Rain & Mist) - Chrome Finish",
-    category: "body-jets-2-function",
+    category: "body-jets-body-showers",
     finish: "Chrome",
     price: 4150,
     code: "JW-10038",
@@ -846,7 +874,7 @@ const bodyJetsProducts: Product[] = [
     id: "body-jets-2-function-2",
     slug: "body-jets-2-function-2",
     name: "Body Jet (2 Function - Rain & Mist) - Brushed Gold",
-    category: "body-jets-2-function",
+    category: "body-jets-body-showers",
     finish: "Brushed Gold",
     price: 6950,
     code: "JW-10039",
@@ -856,7 +884,7 @@ const bodyJetsProducts: Product[] = [
     id: "body-jets-2-function-3",
     slug: "body-jets-2-function-3",
     name: "Body Jet (2 Function - Rain & Mist) - Graphite Grey",
-    category: "body-jets-2-function",
+    category: "body-jets-body-showers",
     finish: "Graphite Grey",
     price: 6950,
     code: "JW-10041",
@@ -866,7 +894,7 @@ const bodyJetsProducts: Product[] = [
     id: "body-jets-2-function-4",
     slug: "body-jets-2-function-4",
     name: "Body Jet (2 Function - Rain & Mist) - Glossy Rose Gold",
-    category: "body-jets-2-function",
+    category: "body-jets-body-showers",
     finish: "Rose Gold",
     price: 6950,
     code: "JW-10040",
@@ -961,7 +989,7 @@ const realCategoryProducts: Product[] = [
 
   // Showers
   ...createCategoryProducts(
-    "2-function-shower-rain-mist",
+    "ceiling-mounted-shower",
     "2 Function Shower (Rain & Mist)",
     "JW-100",
     [32500, 39000, 39000, 39000],
@@ -975,7 +1003,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10146", "JW-10147", "JW-10148", "JW-10149"]
   ),
     ...createCategoryProducts(
-    "multifunctional-ceiling-shower-3-function",
+    "ceiling-mounted-shower",
     "3 Function Ceiling Shower",
     "JW-100",
     [63000, 75000, 75000, 75000],
@@ -989,7 +1017,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10165", "JW-10167", "JW-10168", "JW-10166"]
   ),
   ...createCategoryProducts(
-    "3-function-shower-rain-mist-2-waterfall-led",
+    "ceiling-mounted-shower",
     "3 Function Shower (LED)",
     "JW-100",
     [98000, 98000, 98000],
@@ -1002,7 +1030,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10151", "JW-10150", "JW-10152"]
   ),
   ...createCategoryProducts(
-    "3-function-shower-rain-mist-large-single-waterfall",
+    "ceiling-mounted-shower",
     "3 Function Shower (Rain, Mist & Large Waterfall)",
     "JW-100",
     [59500, 59500, 59500, 46500],
@@ -1016,7 +1044,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10058", "JW-10056", "JW-10057", "JW-10055"]
   ),
   ...createCategoryProducts(
-    "2-function-shower-rain-large-single-waterfall",
+    "ceiling-mounted-shower",
     "2 Function Shower (Rain & Large Waterfall)",
     "JW-100",
     [49500, 36000],
@@ -1028,7 +1056,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10059", "JW-10060"]
   ),
     ...createCategoryProducts(
-    "4-function-shower-chromotherapy",
+    "ceiling-mounted-shower",
     "4 Function Shower Rain, 6 Mist, 2 Waterfall and Water Column",
     "JW-100",
     [125000, 125000, 125000, 95000],
@@ -1042,7 +1070,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10198", "JW-10012", "JW-10143", "JW-10142"]
   ),
   ...createCategoryProducts(
-    "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
+    "ceiling-mounted-shower",
     "4 functional shower rain +  4 mist  +4side flap rain + water column",
     "JW-100",
     [160000, 160000, 160000],
@@ -1055,7 +1083,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10153", "JW-10145", "JW-10144"]
   ),
   ...createCategoryProducts(
-    "2-function-shower-soft-rain-waterfall",
+    "ceiling-mounted-shower",
     "2 function shower soft rain +waterfall",
     "JW-100",
     [54000, 54000, 54000],
@@ -1068,7 +1096,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10011", "JW-10094", "JW-10012"]
   ),
   ...createCategoryProducts(
-    "single-function-shower-rain",
+    "wall-mounted-shower",
     "Single Function Rain Shower",
     "JW-100",
     [13500, 13500, 13500, 8500],
@@ -1096,7 +1124,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10052", "JW-10054", "JW-10053", "JW-10051"]
   ),
   ...createCategoryProducts(
-    "2-function-wall-mounted-shower-arm",
+    "wall-mounted-shower",
     "2 Function Wall Mounted Shower with Arm",
     "JW-100",
     [9500, 6300, 9500],
@@ -1109,7 +1137,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10066", "JW-10065", "JW-10066"]
   ),
     ...createCategoryProducts(
-    "4-function-hand-shower",
+    "hand-shower",
     "4 function hand shower",
     "JW-100",
     [3550, 3550, 3550, 2950, 3550],
@@ -1130,7 +1158,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10154", "JW-10156", "JW-10154", "JW-10070", "JW-10156"]
   ),
   ...createCategoryProducts(
-    "2-function-shower-rain-mist-hexagon",
+    "ceiling-mounted-shower",
     "2 function shower rain mist hexagon",
     "JW-100",
     [45000, 45000, 45000],
@@ -1143,7 +1171,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10213", "JW-10214", "JW-10212"]
   ),
   ...createCategoryProducts(
-    "single-function-shower-rain-ceiling-mounted",
+    "ceiling-mounted-shower",
     "single function shower rain celing mounted shower",
     "JW-100",
     [48000, 13500],
@@ -1155,7 +1183,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10061", "JW-10062"]
   ),
   ...createCategoryProducts(
-    "overhead-abs-shower",
+    "ceiling-mounted-shower",
     "overhead abs shower",
     "JW-100",
     [ 6300, 6300, 6300 ],
@@ -1192,7 +1220,7 @@ const realCategoryProducts: Product[] = [
     ["Graphite Grey", "Chrome"]
   ),
   ...createCategoryProducts(
-    "joy-spot-wall-mounted-shower",
+    "wall-mounted-shower",
     "joy spot wall mounted shower",
     "JW-100",
     [16500, 16500, 16500],
@@ -1212,7 +1240,7 @@ const realCategoryProducts: Product[] = [
   // Multi-Functional Body Showers
   ...bodyJetsProducts,
   ...createCategoryProducts(
-    "one-line-series",
+    "body-jets-body-showers",
     "One Line Series Body Shower",
     "JW-100",
     [8500, 8500, 8500, 5500],
@@ -1226,7 +1254,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10191", "JW-10182", "JW-10190", "JW-10189"]
   ),
   ...createCategoryProducts(
-    "eminence-series",
+    "body-jets-body-showers",
     "Eminence Series Body Shower",
     "JW-100",
     [12200, 14750, 14750, 14750],
@@ -1394,7 +1422,7 @@ const realCategoryProducts: Product[] = [
     id: "multifunctional-wall-mounted-1",
     slug: "multifunctional-wall-mounted-1",
     name: "shower rain+mist 2 function wall mounted shower with shower arm",
-    category: "multifunctional-wall-mounted",
+    category: "wall-mounted-shower",
     finish: "Chrome",
     price: 23500,
     code: "JW-10042",
@@ -1404,7 +1432,7 @@ const realCategoryProducts: Product[] = [
     id: "multifunctional-wall-mounted-2",
     slug: "multifunctional-wall-mounted-2",
     name: "shower waterfall + rain 2 function wall mounted shower with shower arm",
-    category: "multifunctional-wall-mounted",
+    category: "wall-mounted-shower",
     finish: "Chrome",
     price: 23500,
     code: "JW-10043",
@@ -1620,33 +1648,17 @@ export const megaMenu = {
   },
   "Showering": {
     "Ceiling Mounted Shower": [
-      "2-function-shower-rain-mist",
-      "2-function-shower-rain-large-single-waterfall",
-      "2-function-shower-soft-rain-waterfall",
-      "2-function-shower-rain-mist-hexagon",
-      "multifunctional-ceiling-shower-3-function",
-      "3-function-shower-rain-mist-2-waterfall-led",
-      "3-function-shower-rain-mist-large-single-waterfall",
-      "4-function-shower-chromotherapy",
-      "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
-      "single-function-shower-rain-ceiling-mounted",
-      "overhead-abs-shower"
-    ],
+        "ceiling-mounted-shower"
+      ],
     "Wall Mounted Shower": [
-      "2-function-wall-mounted-shower-arm",
-      "single-function-shower-rain",
-      "joy-spot-wall-mounted-shower",
-      "multifunctional-wall-mounted"
-    ],
+        "wall-mounted-shower"
+      ],
     "Hand Shower": [
-      "4-function-hand-shower",
-      "hand-shower"
-    ],
+        "hand-shower"
+      ],
     "Body Jets & Body Showers": [
-      "body-jets-2-function",
-      "one-line-series",
-      "eminence-series"
-    ],
+        "body-jets-body-showers"
+      ],
     "Waterfall For Showering": [
       "waterfall-showers"
     ],
