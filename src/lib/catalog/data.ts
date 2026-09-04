@@ -289,7 +289,7 @@ export const categories: Category[] = [
   },
   {
     slug: "table-mounted-basin-mixer",
-    title: "Table Mounted Basin Mixer",
+    title: "Tall Body Basin Mixer",
     group: "basin-mixers",
     description: "Tall Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
 
@@ -422,7 +422,7 @@ export const categories: Category[] = [
   },
   {
     slug: "table-mounted-basin-mixer",
-    title: "Table Mounted Basin Mixer",
+    title: "Tall Body Basin Mixer",
     group: "basin-mixers",
     description: "Tall Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
 
@@ -1362,7 +1362,7 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "table-mounted-basin-mixer",
-    "Table Mounted Basin Mixer",
+    "Tall Body Basin Mixer",
     "JW-100",
     [21000, 23500, 23500, 23500],
     [
@@ -1453,31 +1453,31 @@ const realCategoryProducts: Product[] = [
   {
     id: "premium-basin-mixer-5",
     slug: "premium-basin-mixer-5",
-    name: "Spout basin mixer with lever controlled",
+    name: "Wall Mounted Liver Pointed",
     category: "premium-basin-mixer",
-    finish: "Chrome",
+    finish: "Rose Gold",
     price: 16000,
-    code: "JW-20005",
+    code: "JW-10161",
     image: "/premium basin mixer/spout basin mixer with lever controled 16000.png",
   },
   {
     id: "premium-basin-mixer-6",
     slug: "premium-basin-mixer-6",
-    name: "Table body floor mounted basin mixer",
+    name: "Tall Body Basin Mixer",
     category: "premium-basin-mixer",
-    finish: "Chrome",
+    finish: "Rose Gold",
     price: 22500,
-    code: "JW-20006",
+    code: "JW-10157",
     image: "/premium basin mixer/table body  floor mounted basin mixer 22500.png",
   },
   {
     id: "premium-basin-mixer-7",
     slug: "premium-basin-mixer-7",
-    name: "Tall body floor mounted basin mixer",
+    name: "Tall Body Basin Mixer",
     category: "premium-basin-mixer",
     finish: "Chrome",
     price: 20500,
-    code: "JW-20007",
+    code: "JW-10074",
     image: "/premium basin mixer/tall body floor mounted basin mixer 20500.png",
   },
   // Sanitaryware
