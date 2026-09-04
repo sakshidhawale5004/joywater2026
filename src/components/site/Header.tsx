@@ -150,28 +150,61 @@ export function Header() {
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="max-w-7xl mx-auto grid grid-cols-5 gap-10 px-10 py-10">
-            {Object.entries(megaMenu[open]).map(([section, slugs]) => (
-              <div key={section}>
-                <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
-                  {section}
-                </h4>
-                <ul className="flex flex-col gap-y-3">
-                  {(slugs as readonly string[]).map((slug) => (
-                    <li key={slug} className="break-inside-avoid">
-                      <Link
-                        to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
-                        params={{ slug }}
-                        onClick={() => setOpen(null)}
-                        className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
-                      >
-                        {formatSlug(slug)}
-                      </Link>
-                    </li>
+          <div className="max-w-7xl mx-auto px-10 py-10">
+            {/* Main categories row */}
+            <div className="grid grid-cols-5 gap-10">
+              {Object.entries(megaMenu[open])
+                .filter(([section]) => !section.includes("PVD"))
+                .map(([section, slugs]) => (
+                  <div key={section}>
+                    <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
+                      {section}
+                    </h4>
+                    <ul className="flex flex-col gap-y-3">
+                      {(slugs as readonly string[]).map((slug) => (
+                        <li key={slug}>
+                          <Link
+                            to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : section === "Mixers In PVD Finishes" ? "/diverters-mixers-in-finish/$slug" : "/category/$slug"}
+                            params={{ slug }}
+                            onClick={() => setOpen(null)}
+                            className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
+                          >
+                            {formatSlug(slug)}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+            </div>
+            {/* PVD Finishes row */}
+            {Object.entries(megaMenu[open]).some(([section]) => section.includes("PVD")) && (
+              <div className="mt-6 pt-6 border-t border-border">
+                {Object.entries(megaMenu[open])
+                  .filter(([section]) => section.includes("PVD"))
+                  .map(([section, slugs]) => (
+                    <div key={section}>
+                      <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
+                        {section}
+                      </h4>
+                      <ul className="flex flex-row gap-x-8">
+                        {(slugs as readonly string[]).map((slug) => (
+                          <li key={slug}>
+                            <Link
+                              to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : "/diverters-mixers-in-finish/$slug"}
+                              params={{ slug }}
+                              onClick={() => setOpen(null)}
+                              className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
+                            >
+                              {formatSlug(slug)}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   ))}
-                </ul>
               </div>
-            ))}
+            )}
           </div>
         </div>
       )}
