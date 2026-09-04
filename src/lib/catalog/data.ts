@@ -1702,44 +1702,14 @@ export const megaMenu = {
       "wall-hung-wc"
     ]
   },
-  "Showering": {
-    "Ceiling Mounted Shower": [
-        "ceiling-mounted-shower"
-      ],
-    "Wall Mounted Shower": [
-        "wall-mounted-shower"
-      ],
-    "Hand Shower": [
-        "hand-shower"
-      ],
-    "Body Jets & Body Showers": [
-        "body-jets-body-showers"
-      ],
-    "Waterfall For Showering": [
-      "waterfall-showers"
-    ],
-    "Showers In PVD Finishes": [
+  "PVD Finishes": {
+    "PVD Finishes Row 1": [
       "graphite-grey",
-      "rose-gold",
+      "rose-gold"
+    ],
+    "PVD Finishes Row 2": [
       "chrome",
-      "brushed-gold-shower"
-    ]
-  },
-  "Diverters & Mixers": {
-    "Diverters": [
-      "diverters"
-    ],
-    "Tile Drainers": [
-      "tile-drainers"
-    ],
-    "Basin Mixers": [
-      "basin-mixers"
-    ],
-    "Mixers In PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "gold",
-      "chrome"
+      "gold"
     ]
   },
   "Bath Accessories": {
