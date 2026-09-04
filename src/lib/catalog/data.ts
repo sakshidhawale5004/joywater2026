@@ -1661,12 +1661,6 @@ export const megaMenu = {
       ],
     "Waterfall For Showering": [
       "waterfall-showers"
-    ],
-    "Showers In PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "chrome",
-      "brushed-gold-shower"
     ]
   },
   "Diverters & Mixers": {
