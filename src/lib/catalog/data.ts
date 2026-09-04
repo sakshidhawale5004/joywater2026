@@ -881,7 +881,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Graphite Grey",
     category: "ceiling-mounted-basin-mixer",
     finish: "Graphite Grey",
-    price: 19500,
+    price: 24750,
     code: "JW-10103",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (1).png",
   },
@@ -891,7 +891,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Table Mounted Basin Mixer (Medium) - Brushed Graphite Grey",
     category: "ceiling-mounted-basin-mixer",
     finish: "Graphite Grey",
-    price: 14750,
+    price: 15750,
     code: "JW-10104",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (2).png",
   },
@@ -901,7 +901,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Gold",
     category: "ceiling-mounted-basin-mixer",
     finish: "Gold",
-    price: 22500,
+    price: 24750,
     code: "JW-10099",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (4).png",
   },
@@ -911,7 +911,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Table Mounted Basin Mixer (Medium) - Brushed Gold",
     category: "ceiling-mounted-basin-mixer",
     finish: "Gold",
-    price: 14750,
+    price: 15750,
     code: "JW-10100",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (5).png",
   },
@@ -921,7 +921,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Rose Gold",
     category: "ceiling-mounted-basin-mixer",
     finish: "Rose Gold",
-    price: 22500,
+    price: 24750,
     code: "JW-10101",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (6).png",
   },
@@ -931,7 +931,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Table Mounted Basin Mixer (Medium) - Brushed Rose Gold",
     category: "ceiling-mounted-basin-mixer",
     finish: "Rose Gold",
-    price: 14750,
+    price: 15750,
     code: "JW-10102",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (7).png",
   },
@@ -941,7 +941,7 @@ const ceilingMountedMixerProducts: Product[] = [
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Chrome",
     category: "ceiling-mounted-basin-mixer",
     finish: "Chrome",
-    price: 18400,
+    price: 19500,
     code: "JW-10097",
     image: "/basinmixer/Ceiling Mounted Basin Mixer (8).png",
   },
@@ -1256,7 +1256,7 @@ const realCategoryProducts: Product[] = [
       ],
       ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
     ),
-...createCategoryProducts(
+  ...createCategoryProducts(
     "5-function-diverter",
     "5 Function Diverter",
     "JW-100",
@@ -1267,33 +1267,23 @@ const realCategoryProducts: Product[] = [
       "/diverters/5 Function Diverter (3).png",
       "/diverters/5 Function Diverter (4).png",
     ],
-    ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10001", "JW-10003", "JW-10002", "JW-10004"]
   ),
   ...createCategoryProducts(
     "6-function-diverter",
     "6 Function Diverter",
     "JW-100",
-    [138000, 138000, 138000, 112000, 92000, 92000, 92000, 79000],
+    [112000, 138000, 138000, 138000, 138000],
     [
       "/diverters/6 Function Diverter (1).png",
       "/diverters/6 Function Diverter (2).png",
       "/diverters/6 Function Diverter (3).png",
       "/diverters/6 Function Diverter (4).png",
       "/diverters/6 Function Diverter (5).png",
-      "/diverters/6 Function Diverter (6).png",
-      "/diverters/6 Function Diverter (7).png",
-      "/diverters/6 Function Diverter (8).png",
     ],
-    [
-      "Gold",
-      "Graphite Grey",
-      "Rose Gold",
-      "Chrome",
-      "Gold",
-      "Graphite Grey",
-      "Rose Gold",
-      "Chrome",
-    ]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
+    ["JW-10173", "JW-10176", "JW-10175", "JW-10174", "JW-10201"]
   ),
   ...createCategoryProducts(
       "thermostatic-diverter-three-outlet",
@@ -1306,20 +1296,24 @@ const realCategoryProducts: Product[] = [
         "/diverters/Thermostatic Diverter (3).png",
         "/diverters/Thermostatic Diverter (4).png",
       ],
-      ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+      ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
+      ["JW-10007", "JW-10009", "JW-10008", "JW-10010"]
     ),
   ...createCategoryProducts(
     "lever-diverter-three-outlet",
     "Lever Diverter (Three Outlet)",
     "JW-100",
-    [27000, 27000, 27000, 23000],
+    [23000, 27000, 27000, 35000, 39000, 39000],
     [
       "/diverters/Lever Diverter Three Outlet (1).png",
       "/diverters/Lever Diverter Three Outlet (2).png",
       "/diverters/Lever Diverter Three Outlet (3).png",
-      "/diverters/Lever Diverter Three Outlet (4).png",
+      "/diverters/Lever Diverter Three Outlet (1).png",
+      "/diverters/Lever Diverter Three Outlet (2).png",
+      "/diverters/Lever Diverter Three Outlet (3).png",
     ],
-    ["Gold", "Graphite Grey", "Rose Gold", "Chrome"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Chrome", "Rose Gold", "Graphite Grey"],
+    ["JW-10037", "JW-10036", "JW-10035", "JW-10037", "JW-10036", "JW-10035"]
   ),
 
 
@@ -1335,7 +1329,8 @@ const realCategoryProducts: Product[] = [
       "/basinmixer/Round Controller Basin Mixer (2).png",
       "/basinmixer/Round Controller Basin Mixer (3).png",
     ],
-    ["Gold", "Graphite Grey", "Rose Gold"]
+    ["Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
     "thermostatic-click-controller-basin-mixer",
@@ -1347,46 +1342,51 @@ const realCategoryProducts: Product[] = [
       "/basinmixer/Thermostatic Click Controller Basin Mixer (2).png",
       "/basinmixer/Thermostatic Click Controller Basin Mixer (3).png",
     ],
-    ["Rose Gold", "Gold", "Graphite Grey"]
+    ["Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
     "lever-basin-mixer",
     "Lever Basin Mixer",
     "JW-100",
-    [19500, 23500, 23500, 23500],
+    [19500, 23500, 23500, 23500, 23500],
     [
       "/basinmixer/Lever Basin Mixer (1).png",
       "/basinmixer/Lever Basin Mixer (2).png",
       "/basinmixer/Lever Basin Mixer (3).png",
       "/basinmixer/Lever Basin Mixer (4).png",
+      "/basinmixer/Lever Basin Mixer (1).png",
     ],
-    ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
+    ["JW-10079", "JW-10082", "JW-10080", "JW-10081", "JW-10203"]
   ),
   ...createCategoryProducts(
     "table-mounted-basin-mixer",
     "Table Mounted Basin Mixer",
     "JW-100",
-    [23500, 23500, 23500, 21500],
+    [21000, 23500, 23500, 23500],
     [
       "/basinmixer/Table Mounted Basin Mixer (1).png",
       "/basinmixer/Table Mounted Basin Mixer (2).png",
       "/basinmixer/Table Mounted Basin Mixer (3).png",
       "/basinmixer/Table Mounted Basin Mixer (4).png",
     ],
-    ["Gold", "Graphite Grey", "Rose Gold", "Chrome"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10075", "JW-10077", "JW-10076", "JW-10078"]
   ),
   ...createCategoryProducts(
     "progressive-controller-waterfall-basin-mixer",
     "Progressive Controller Waterfall Basin Mixer",
     "JW-100",
-    [27500, 22500, 27500, 27500],
+    [22500, 27500, 27500, 27500],
     [
       "/basinmixer/Progressive Controller Waterfall Basin Mixer.png",
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (1).png",
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (2).png",
       "/basinmixer/Progressive Controller Waterfall Basin Mixer (3).png",
     ],
-    ["Gold", "Chrome", "Graphite Grey", "Rose Gold"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10018", "JW-10020", "JW-10019", "JW-10021"]
   ),
   ...ceilingMountedMixerProducts,
 
@@ -1619,31 +1619,36 @@ export const megaMenu = {
     ]
   },
   "Showering": {
-    "ceiling-mounted-showers": [
+    "Ceiling Mounted Shower": [
       "2-function-shower-rain-mist",
       "2-function-shower-rain-large-single-waterfall",
       "2-function-shower-soft-rain-waterfall",
-      "2-function-wall-mounted-shower-arm",
       "2-function-shower-rain-mist-hexagon",
       "multifunctional-ceiling-shower-3-function",
       "3-function-shower-rain-mist-2-waterfall-led",
       "3-function-shower-rain-mist-large-single-waterfall",
       "4-function-shower-chromotherapy",
       "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
-      "4-function-hand-shower",
-      "single-function-shower-rain",
       "single-function-shower-rain-ceiling-mounted",
-      "waterfall-showers",
-      "overhead-abs-shower",
-      "shower-set-with-hot-cold-controller",
+      "overhead-abs-shower"
+    ],
+    "Wall Mounted Shower": [
+      "2-function-wall-mounted-shower-arm",
+      "single-function-shower-rain",
       "joy-spot-wall-mounted-shower",
       "multifunctional-wall-mounted"
     ],
-    "Body Showers": [
-      "hand-shower",
+    "Hand Shower": [
+      "4-function-hand-shower",
+      "hand-shower"
+    ],
+    "Body Jets & Body Showers": [
       "body-jets-2-function",
       "one-line-series",
       "eminence-series"
+    ],
+    "Waterfall For Showering": [
+      "waterfall-showers"
     ],
     "Showers In PVD Finishes": [
       "graphite-grey",
