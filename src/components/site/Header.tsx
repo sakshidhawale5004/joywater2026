@@ -152,7 +152,15 @@ export function Header() {
         >
           <div className="max-w-7xl mx-auto px-10 py-10">
             {/* Main categories row */}
-            <div className="grid grid-cols-5 gap-10">
+            <div
+              className="grid gap-10"
+              style={{
+                gridTemplateColumns: `repeat(${Math.min(
+                  Object.entries(megaMenu[open]).filter(([section]) => !section.includes("PVD")).length,
+                  5
+                )}, minmax(0, 1fr))`,
+              }}
+            >
               {Object.entries(megaMenu[open])
                 .filter(([section]) => !section.includes("PVD"))
                 .map(([section, slugs]) => (

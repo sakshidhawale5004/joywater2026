@@ -1704,17 +1704,34 @@ export const megaMenu = {
   },
   "Showering": {
     "Ceiling Mounted Shower": [
-        "ceiling-mounted-shower"
-      ],
+      "2-function-shower-rain-mist",
+      "2-function-shower-rain-large-single-waterfall",
+      "2-function-shower-soft-rain-waterfall",
+      "2-function-shower-rain-mist-hexagon",
+      "multifunctional-ceiling-shower-3-function",
+      "3-function-shower-rain-mist-2-waterfall-led",
+      "3-function-shower-rain-mist-large-single-waterfall",
+      "4-function-shower-chromotherapy",
+      "4-functional-shower-rain-4-mist-4side-flap-rain-water-column",
+      "single-function-shower-rain-ceiling-mounted",
+      "overhead-abs-shower"
+    ],
     "Wall Mounted Shower": [
-        "wall-mounted-shower"
-      ],
+      "2-function-wall-mounted-shower-arm",
+      "single-function-shower-rain",
+      "joy-spot-wall-mounted-shower",
+      "multifunctional-wall-mounted",
+      "shower-set-with-hot-cold-controller"
+    ],
     "Hand Shower": [
-        "hand-shower"
-      ],
+      "4-function-hand-shower",
+      "hand-shower"
+    ],
     "Body Jets & Body Showers": [
-        "body-jets-body-showers"
-      ],
+      "body-jets-2-function",
+      "one-line-series",
+      "eminence-series"
+    ],
     "Waterfall For Showering": [
       "waterfall-showers"
     ],
@@ -1727,13 +1744,25 @@ export const megaMenu = {
   },
   "Diverters & Mixers": {
     "Diverters": [
-      "diverters"
+      "4-function-diverter",
+      "5-function-diverter",
+      "6-function-diverter",
+      "thermostatic-diverter-three-outlet",
+      "lever-diverter-three-outlet"
     ],
     "Tile Drainers": [
-      "tile-drainers"
+      "shower-drainer",
+      "tiles-drainers",
+      "floor-drainer"
     ],
     "Basin Mixers": [
-      "basin-mixers"
+      "round-controller-basin-mixer",
+      "thermostatic-click-controller-basin-mixer",
+      "lever-basin-mixer",
+      "table-mounted-basin-mixer",
+      "progressive-controller-waterfall-basin-mixer",
+      "ceiling-mounted-basin-mixer",
+      "premium-basin-mixer"
     ],
     "Mixers In PVD Finishes": [
       "graphite-grey",
