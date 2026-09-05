@@ -34,7 +34,14 @@ export const Route = createFileRoute("/category/$slug")({
 
 function getHeroSectionImage(slug: string): string {
   const map: Record<string, string> = {
-    // Showers
+    // Shower Main Categories
+    "ceiling-mounted-shower": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+    "wall-mounted-shower": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    "body-jets-body-showers": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+    "hand-shower": "/herosection/4 function hand showerhero.png",
+    "waterfall-showers": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+
+    // Individual Showers
     "2-function-shower-rain-mist": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
     "3-function-shower-rain-mist-dual-waterfall": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
     "multifunctional-ceiling-shower-3-function": "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
@@ -43,7 +50,6 @@ function getHeroSectionImage(slug: string): string {
     "2-function-shower-rain-large-single-waterfall": "/herosection/2 Function Shower (Large Waterfall)hero.jpg",
     "4-function-shower-chromotherapy": "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
     "single-function-shower-rain": "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
-    "waterfall-showers": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
     "2-function-wall-mounted-shower-arm": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     "body-jets-2-function": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
     "one-line-series": "/HEROSECTIONIMAGES/One Line Series.jpg",
@@ -54,12 +60,17 @@ function getHeroSectionImage(slug: string): string {
     "2-function-shower-rain-mist-hexagon": "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
     "single-function-shower-rain-ceiling-mounted": "/herosection/single function shower rain celing mounted showerhero.png",
     "overhead-abs-shower": "/herosection/overhead abs showerhero.jpg",
-    "hand-shower": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
     "shower-set-with-hot-cold-controller": "/herosection/shower set with hot & cold controllerhero.jpg",
     "joy-spot-wall-mounted-shower": "/herosection/joy spot wall mounted showerhero.jpg",
+    "multifunctional-wall-mounted": "/herosection/Multifunctional Wall Mountedhero.png",
     "multifunctional-showers": "/herosection/Multifunctional Wall Mountedhero.png",
 
-    // Diverters
+    // Diverters & Mixers Main Categories
+    "diverters": "/HEROSECTIONIMAGES/5 Function Diverter.png",
+    "tile-drainers": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
+    "basin-mixers": "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
+
+    // Individual Diverters
     "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
     "6-function-diverter": "/HEROSECTIONIMAGES/6 Function Diverter.png",
     "thermostatic-diverter-three-outlet": "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
@@ -69,6 +80,9 @@ function getHeroSectionImage(slug: string): string {
     // Tile Insert Drainers
     "tile-insert-drain": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
     "tile-insert-125x125": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
+    "shower-drainer": "/tile drainers/Shower-Drainer-ss-matte-finish-11500-1.png",
+    "tiles-drainers": "/tile drainers/tile-drainer-ss-matte-finish-4250.png",
+    "floor-drainer": "/tile drainers/floor-drainer-ss-matte-finish-585.png",
 
     // Basin Mixers
     "round-controller-basin-mixer": "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
@@ -77,6 +91,7 @@ function getHeroSectionImage(slug: string): string {
     "table-mounted-basin-mixer": "/HEROSECTIONIMAGES/Table Mounted Basin Mixer.png",
     "progressive-controller-waterfall-basin-mixer": "/HEROSECTIONIMAGES/Progressive Controller Waterfall Basin Mixer.jpg",
     "ceiling-mounted-basin-mixer": "/HEROSECTIONIMAGES/Ceiling Mounted Basin Mixer.png",
+    "premium-basin-mixer": "/images/designer-faucets-new.jpg",
 
     // Sanitaryware
     "stone-basin": "/images/PDF1_P76_IMG1.png",
@@ -89,7 +104,6 @@ function getHeroSectionImage(slug: string): string {
     "stainless-steel-wash-basins": "/JOYWATER/JOYWATER (8).jpeg",
     "ceramic-pedestal": "/Ceramic Pedestalheroimage.jpeg",
     "soap-dispenser": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
-
 
     // Accessories
     "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",

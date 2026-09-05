@@ -35,8 +35,8 @@ export const categories: Category[] = [
       title: "Tile Drainers",
       group: "tile-insert-drainers",
       description: "Premium tile insert drainers for seamless bathroom aesthetics.",
-      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
-      image: "/diverters/5 Function Diverter (1).png",
+      bannerImage: "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
+      image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png",
       features: ["Tile Insert", "Concealed Drain", "11 Years Unmatched Assurance"]
     },
     {
@@ -44,39 +44,10 @@ export const categories: Category[] = [
       title: "Basin Mixers",
       group: "basin-mixers",
       description: "Explore our full range of JOY WATER Basin Mixers — Round Controller, Thermostatic, Lever, Waterfall, Ceiling Mounted, and more.",
-      bannerImage: "/images/designer-faucets-new.jpg",
+      bannerImage: "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
       image: "/basinmixer/Round Controller Basin Mixer (1).png",
       features: ["Multiple Styles", "Solid Brass", "Swiss Aerator", "11 Years Unmatched Assurance"]
     },
-
-    {
-      slug: "diverters",
-      title: "Diverters",
-      group: "diverters",
-      description: "Explore our full range of JOY WATER Diverters — from 4-Function to 6-Function, Thermostatic and Lever types. Built with premium Vernet cartridges for lasting performance.",
-      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
-      image: "/diverters/5 Function Diverter (1).png",
-      features: ["4-6 Functions", "Vernet Cartridge", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
-    },
-    {
-      slug: "tile-drainers",
-      title: "Tile Drainers",
-      group: "tile-insert-drainers",
-      description: "Premium tile insert drainers for seamless bathroom aesthetics.",
-      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
-      image: "/diverters/5 Function Diverter (1).png",
-      features: ["Tile Insert", "Concealed Drain", "11 Years Unmatched Assurance"]
-    },
-    {
-      slug: "basin-mixers",
-      title: "Basin Mixers",
-      group: "basin-mixers",
-      description: "Explore our full range of JOY WATER Basin Mixers — Round Controller, Thermostatic, Lever, Waterfall, Ceiling Mounted, and more.",
-      bannerImage: "/images/designer-faucets-new.jpg",
-      image: "/basinmixer/Round Controller Basin Mixer (1).png",
-      features: ["Multiple Styles", "Solid Brass", "Swiss Aerator", "11 Years Unmatched Assurance"]
-    },
-
     {
       slug: "ceiling-mounted-shower",
       title: "Ceiling Mounted Showers",
@@ -91,7 +62,7 @@ export const categories: Category[] = [
       title: "Wall Mounted Showers",
       group: "wall-mounted-showers",
       description: "Explore our collection of Wall Mounted Showers.",
-      bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
       image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
       features: ["Sleek Design", "Precision Flow", "11 Years Unmatched Assurance"]
     },
@@ -100,7 +71,7 @@ export const categories: Category[] = [
       title: "Body Jets & Body Showers",
       group: "body-showers",
       description: "Invigorating body jets for a spa-like experience.",
-      bannerImage: "/HEROSECTIONIMAGES/Body Jets 2 FunctionHERO.jpg",
+      bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
       image: "/showers/Body Jets 2 Function (1).png",
       features: ["Adjustable Flow", "Massage Effect", "11 Years Unmatched Assurance"]
     },
