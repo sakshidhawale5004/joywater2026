@@ -248,132 +248,7 @@ export const categories: Category[] = [
     bannerImage: "/herosection/Multifunctional Wall Mountedhero.png",
     features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
   },
-  // 2. MULTI-FUNCTIONAL BODY SHOWERS
-  {
-    slug: "body-jets-2-function",
-    title: "Body Jets (2 Function)",
-    group: "body-showers",
-    description: "Rain & Mist body jets designed for recessed wall installation and targeted hydrotherapy.",
 
-    image: "/Body Showers/Body Jets (2 Function) (1).png",
-    features: ["Rain", "Mist", "Recessed Installation", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "one-line-series",
-    title: "One Line Series",
-    group: "body-showers",
-    description: "One Line Series minimalist body showers featuring zero-radius architectural profiles.",
-
-    image: "/Body Showers/One Line Series (1).png",
-    features: ["Minimalist Design", "High Pressure", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "eminence-series",
-    title: "Eminence Series",
-    group: "body-showers",
-    description: "Eminence Series luxury body shower arrays with adjustable angle nozzles.",
-
-    image: "/Body Showers/Eminence Series (1).png",
-    features: ["Luxury Finish", "Precision Sprays", "11 Years Unmatched Assurance"]
-  },
-
-  // 3. DIVERTERS
-  {
-    slug: "5-function-diverter",
-    title: "5 Function Diverter",
-    group: "diverters",
-    description: "The JOY WATER 5-function diverter offers unmatched versatility with the ability to control up to five water outlets. Equipped with high-quality Vernet cartridges.",
-
-    image: "/diverters/5 Function Diverter (1).png",
-    features: ["5 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance", "Smooth Transitions"]
-  },
-  {
-    slug: "6-function-diverter",
-    title: "6 Function Diverter",
-    group: "diverters",
-    description: "6 Function Diverter for comprehensive bathroom systems. Features genuine Vernet cartridges for drip-free temperature control.",
-
-    image: "/diverters/6 Function Diverter (1).png",
-    features: ["6 Functions", "Vernet Cartridge (Precision & Durability)", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "thermostatic-diverter-three-outlet",
-    title: "Thermostatic Diverter (Three Outlet)",
-    group: "diverters",
-    description: "Provides seamless control between three water outlets with safety thermostatic locking. Renowned Vernet cartridge inside.",
-
-    image: "/diverters/Thermostatic Diverter (Three Outlet) (1).png",
-    features: ["Thermostatic Control", "3 Outlets", "Safety Lock", "Vernet Cartridge", "10+1 Years Warranty"]
-  },
-  {
-    slug: "lever-diverter-three-outlet",
-    title: "Lever Diverter (Three Outlet)",
-    group: "diverters",
-    description: "Classic Lever Diverter with Three Outlets, solid brass body, and smooth operational action.",
-
-    image: "/diverters/Lever Diverter Three Outlet (1).png",
-    features: ["Lever Handle", "3 Outlets", "Vernet Cartridge", "10+1 Years Warranty"]
-  },
-
-
-
-  // 5. BASIN MIXERS
-  {
-    slug: "round-controller-basin-mixer",
-    title: "Round Controller Basin Mixer",
-    group: "basin-mixers",
-    description: "Round Controller Basin Mixer with Swiss Neoperl aerator for soft, volumetric flow without splashing.",
-    bannerImage: "/images/designer-faucets-new.jpg",
-    features: ["Round Controller", "Aerated Flow", "Solid Brass Billet", "11 Years Unmatched Assurance"]
-  },
-  {
-    slug: "thermostatic-click-controller-basin-mixer",
-    title: "Thermostatic Click Controller Basin Mixer",
-    group: "basin-mixers",
-    description: "Thermostatic Click Controller Basin Mixer featuring push-button activation and precise temperature selection.",
-
-    features: ["Thermostatic", "Click Controller", "11 Years Unmatched Assurance", "PVD Bonded"]
-  },
-  {
-    slug: "lever-basin-mixer",
-    title: "Lever Basin Mixer",
-    group: "basin-mixers",
-    description: "Classic single lever Basin Mixer machined from solid brass with ceramic disc cartridge.",
-
-    features: ["Single Lever", "Smooth Operation", "11 Years Unmatched Assurance", "10Y Warranty"]
-  },
-  {
-    slug: "table-mounted-basin-mixer",
-    title: "Tall Body Basin Mixer",
-    group: "basin-mixers",
-    description: "Tall Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
-
-    features: ["Table Mounted", "Tall Profile", "11 Years Unmatched Assurance", "Solid Brass"]
-  },
-  {
-    slug: "progressive-controller-waterfall-basin-mixer",
-    title: "Progressive Controller Waterfall Basin Mixer",
-    group: "basin-mixers",
-    description: "Progressive Controller with wide Waterfall flow, combining modern minimalism with natural water motion.",
-
-    features: ["Progressive Controller", "Waterfall Spout", "11 Years Unmatched Assurance", "PVD Finishes"]
-  },
-  {
-    slug: "ceiling-mounted-basin-mixer",
-    title: "Ceiling Mounted Basin Mixer",
-    group: "basin-mixers",
-    description: "Dramatic Ceiling Mounted Basin Mixer that drops water gracefully from above. A stunning architectural centerpiece.",
-
-    features: ["Ceiling Mounted", "Statement Piece", "11 Years Unmatched Assurance"]
-  },
-
-    {
-    slug: "premium-basin-mixer",
-    title: "Premium Basin Mixer",
-    group: "sanitaryware",
-    description: "Premium Basin Mixer.",
-    features: [],
-  },
   // 2. MULTI-FUNCTIONAL BODY SHOWERS
   {
     slug: "body-jets-2-function",
@@ -826,6 +701,13 @@ import { sanitarywareProducts } from "./sanitarywareProducts";
 import { mirrorProducts } from "./mirrorProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function createCategoryProducts(
   categorySlug: string,
   titlePrefix: string,
@@ -857,7 +739,6 @@ function createCategoryProducts(
     }
   }
 
-  
   const pdfCodes = [
     "JW-10011",
     "JW-10012",
@@ -872,10 +753,12 @@ function createCategoryProducts(
   return finishes.map((finish, idx) => {
     const image = imagePaths[idx % imagePaths.length];
     const code = customCodes ? customCodes[idx % customCodes.length] : pdfCodes[idx % pdfCodes.length];
-    const num = idx + 1;
+    const baseSlug = `${slugify(titlePrefix)}-${slugify(finish)}`;
+    const duplicateCountBefore = finishes.slice(0, idx).filter((f) => f === finish).length;
+    const finalSlug = duplicateCountBefore > 0 ? `${baseSlug}-${duplicateCountBefore + 1}` : baseSlug;
     return {
-      id: `${categorySlug}-${num}`,
-      slug: `${categorySlug}-${num}`,
+      id: finalSlug,
+      slug: finalSlug,
       name: `${titlePrefix} - ${finish}`,
       category: categorySlug,
       finish,
@@ -1250,18 +1133,14 @@ const realCategoryProducts: Product[] = [
     "wall-mounted-shower",
     "joy spot wall mounted shower",
     "JW-100",
-    [16500, 16500, 16500],
+    [16500],
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (3).png",
     ],
     [
       "Graphite Grey",
-      "Removed",
-      "Removed",
     ],
-    ["JW-10179", "JW-10177", "JW-10178"]
+    ["JW-10179"]
   ),
 
   // Multi-Functional Body Showers
