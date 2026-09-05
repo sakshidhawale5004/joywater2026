@@ -150,93 +150,42 @@ export function Header() {
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="max-w-7xl mx-auto px-10 py-8">
-            {Object.entries(megaMenu[open]).some(([section]) => section.includes("PVD")) ? (
-              <div className="space-y-6">
-                {/* Row 1: Dropdown pages */}
-                {Object.entries(megaMenu[open])
-                  .filter(([section]) => !section.includes("PVD"))
-                  .map(([section, slugs]) => (
-                    <div key={section}>
-                      <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
-                        {section}
-                      </h4>
-                      <ul className="flex flex-row flex-wrap gap-x-8 gap-y-3">
-                        {(slugs as readonly string[]).map((slug) => (
-                          <li key={slug}>
-                            <Link
-                              to="/category/$slug"
-                              params={{ slug }}
-                              onClick={() => setOpen(null)}
-                              className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block whitespace-nowrap"
-                            >
-                              {formatSlug(slug)}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-
-                {/* Row 2: PVD Finishes */}
-                {Object.entries(megaMenu[open])
-                  .filter(([section]) => section.includes("PVD"))
-                  .map(([section, slugs]) => (
-                    <div key={section} className="pt-6 border-t border-border">
-                      <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
-                        {section}
-                      </h4>
-                      <ul className="flex flex-row flex-wrap gap-x-8 gap-y-3">
-                        {(slugs as readonly string[]).map((slug) => (
-                          <li key={slug}>
-                            <Link
-                              to={section === "Showers In PVD Finishes" ? "/showers-in-finish/$slug" : "/diverters-mixers-in-finish/$slug"}
-                              params={{ slug }}
-                              onClick={() => setOpen(null)}
-                              className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block whitespace-nowrap"
-                            >
-                              {formatSlug(slug)}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-              </div>
-            ) : (
-              /* Regular multi-column categories display */
-              <div
-                className="grid gap-10"
-                style={{
-                  gridTemplateColumns: `repeat(${Math.min(
-                    Object.entries(megaMenu[open]).length,
-                    5
-                  )}, minmax(0, 1fr))`,
-                }}
-              >
-                {Object.entries(megaMenu[open]).map(([section, slugs]) => (
-                  <div key={section}>
-                    <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
-                      {section}
-                    </h4>
-                    <ul className="flex flex-col gap-y-3">
-                      {(slugs as readonly string[]).map((slug) => (
-                        <li key={slug}>
-                          <Link
-                            to="/category/$slug"
-                            params={{ slug }}
-                            onClick={() => setOpen(null)}
-                            className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
-                          >
-                            {formatSlug(slug)}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
+          <div className="max-w-7xl mx-auto px-10 py-10">
+            <div
+              className="grid gap-12"
+              style={{
+                gridTemplateColumns: `repeat(${Object.entries(megaMenu[open]).length}, minmax(0, 1fr))`,
+                maxWidth: Object.entries(megaMenu[open]).length <= 2 ? "48rem" : undefined,
+              }}
+            >
+              {Object.entries(megaMenu[open]).map(([section, slugs]) => (
+                <div key={section}>
+                  <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
+                    {section}
+                  </h4>
+                  <ul className="flex flex-col gap-y-3">
+                    {(slugs as readonly string[]).map((slug) => (
+                      <li key={slug}>
+                        <Link
+                          to={
+                            section === "Showers In PVD Finishes"
+                              ? "/showers-in-finish/$slug"
+                              : section === "Mixers In PVD Finishes"
+                              ? "/diverters-mixers-in-finish/$slug"
+                              : "/category/$slug"
+                          }
+                          params={{ slug }}
+                          onClick={() => setOpen(null)}
+                          className="text-xs text-muted-foreground hover:text-gold transition-colors story-link inline-block"
+                        >
+                          {formatSlug(slug)}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       )}
