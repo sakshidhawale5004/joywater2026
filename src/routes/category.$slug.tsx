@@ -101,7 +101,7 @@ function getHeroSectionImage(slug: string): string {
     "premium-sanitaryware-collections": "/HEROSECTIONIMAGES/PREMIUMSANITARYWARE.jpg",
     "ceramic-wash-basins": "/Ceramic Wash Basinsheroimage.jpeg",
     "glass-wash-basins": "/glass basin.jpg",
-    "stainless-steel-wash-basins": "/JOYWATER/JOYWATER (8).jpeg",
+    "stainless-steel-wash-basins": "/stainlessbasin.jpeg",
     "ceramic-pedestal": "/Ceramic Pedestalheroimage.jpeg",
     "soap-dispenser": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
 

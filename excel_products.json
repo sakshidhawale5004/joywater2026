@@ -1,0 +1,362 @@
+{
+  "JW-10146": {
+    "price": 32500,
+    "function": "2 Function shower (Rain,4 Mist)",
+    "colour": "Chrome"
+  },
+  "JW-10149": {
+    "price": 39000,
+    "function": "2 Function shower (Rain,4 Mist)",
+    "colour": "Rose Gold "
+  },
+  "JW-10147": {
+    "price": 39000,
+    "function": "2 Function shower (Rain,4 Mist)",
+    "colour": "Brushed Gold "
+  },
+  "JW-10148": {
+    "price": 39000,
+    "function": "2 Function shower (Rain,4 Mist)",
+    "colour": "Graphite Grey"
+  },
+  "JW-10060": {
+    "price": 36000,
+    "function": "2 Function shower (Rain & Single Waterfall",
+    "colour": "Chrome"
+  },
+  "JW-10059": {
+    "price": 49500,
+    "function": "2 Function shower (Rain & Single Waterfall",
+    "colour": "Rose Gold"
+  },
+  "JW-10212": {
+    "price": 45000,
+    "function": "2 Function Hexagon shower (Rain,4 Mist)",
+    "colour": "Rose Gold"
+  },
+  "JW-10214": {
+    "price": 45000,
+    "function": "2 Function Hexagon shower (Rain,4 Mist)",
+    "colour": "Graphite Grey"
+  },
+  "JW-10213": {
+    "price": 45000,
+    "function": "2 Function Hexagon shower (Rain,4 Mist)",
+    "colour": "Brushed Gold "
+  },
+  "JW-10165": {
+    "price": 63000,
+    "function": "3 Function shower (Rain,4 Mist & Dual Waterfall)",
+    "colour": "Chrome"
+  },
+  "JW-10166": {
+    "price": 75000,
+    "function": "3 Function shower (Rain,4 Mist & Dual Waterfall)",
+    "colour": "Rose Gold "
+  },
+  "JW-10167": {
+    "price": 75000,
+    "function": "3 Function shower (Rain,4 Mist & Dual Waterfall)",
+    "colour": "Brushed Gold "
+  },
+  "JW-10168": {
+    "price": 75000,
+    "function": "3 Function shower (Rain,4 Mist & Dual Waterfall)",
+    "colour": "Graphite Grey"
+  },
+  "JW-10150": {
+    "price": 98000,
+    "function": "3 Function Shower LED MOON",
+    "colour": "Rose Gold "
+  },
+  "JW-10152": {
+    "price": 98000,
+    "function": "3 Function Shower LED MOON",
+    "colour": "Brushed Gold "
+  },
+  "JW-10151": {
+    "price": 98000,
+    "function": "3 Function Shower LED MOON",
+    "colour": "Graphite Grey"
+  },
+  "JW-10055": {
+    "price": 46500,
+    "function": "3 Function Shower Large Waterfall",
+    "colour": "Chrome"
+  },
+  "JW-10057": {
+    "price": 59500,
+    "function": "3 Function Shower Large Waterfall",
+    "colour": "Rose Gold "
+  },
+  "JW-10056": {
+    "price": 59500,
+    "function": "3 Function Shower Large Waterfall",
+    "colour": "Brushed Gold "
+  },
+  "JW-10058": {
+    "price": 59500,
+    "function": "3 Function Shower Large Waterfall",
+    "colour": "Graphite Grey"
+  },
+  "JW-10142": {
+    "price": 95000,
+    "function": "4 Function Shower Chromotherapy",
+    "colour": "Chrome"
+  },
+  "JW-10143": {
+    "price": 125000,
+    "function": "4 Function Shower Chromotherapy",
+    "colour": "Rose Gold "
+  },
+  "JW-10012": {
+    "price": 54000,
+    "function": "2 Function shower (Rain & Single Waterfall)",
+    "colour": "Brushed Gold "
+  },
+  "JW-10198": {
+    "price": 125000,
+    "function": "4 Function Shower Chromotherapy",
+    "colour": "Graphite Grey"
+  },
+  "JW-10145": {
+    "price": 160000,
+    "function": "4 Functional Shower Rain 4 Mist 4side Flap Rain Water Column",
+    "colour": "Rose Gold "
+  },
+  "JW-10144": {
+    "price": 160000,
+    "function": "4 Functional Shower Rain 4 Mist 4side Flap Rain Water Column",
+    "colour": "Brushed Gold "
+  },
+  "JW-10153": {
+    "price": 160000,
+    "function": "4 Functional Shower Rain 4 Mist 4side Flap Rain Water Column",
+    "colour": "Graphite Grey"
+  },
+  "JW-10061": {
+    "price": 48000,
+    "function": "Single Function Celing Round ",
+    "colour": "Chrome"
+  },
+  "JW-10094": {
+    "price": 54000,
+    "function": "2 Function shower (Rain & Single Waterfall)",
+    "colour": "Rose Gold "
+  },
+  "JW-10011": {
+    "price": 54000,
+    "function": "2 Function shower (Rain & Single Waterfall)",
+    "colour": "Graphite Grey"
+  },
+  "JW-10068": {
+    "price": 23500,
+    "function": "2 Function shower (Rain & Single Waterfall)",
+    "colour": "Chrome"
+  },
+  "JW-10069": {
+    "price": 23500,
+    "function": "2 Function shower (Rain & Mist)",
+    "colour": "Chrome"
+  },
+  "JW-10017": {
+    "price": 8500,
+    "function": "Single Function Shower 10 x 10",
+    "colour": "Chrome"
+  },
+  "JW-10013": {
+    "price": 13500,
+    "function": "Single Function Shower 12 x 12 Not Added",
+    "colour": "Chrome"
+  },
+  "JW-10015": {
+    "price": 13500,
+    "function": "Single Function Shower",
+    "colour": "Rose Gold "
+  },
+  "JW-10014": {
+    "price": 13500,
+    "function": "Single Function Shower",
+    "colour": "Brushed Gold "
+  },
+  "JW-10016": {
+    "price": 13500,
+    "function": "Single Function Shower",
+    "colour": "Graphite Grey"
+  },
+  "JW-10065": {
+    "price": 6300,
+    "function": "Single Function Shower",
+    "colour": "Chrome"
+  },
+  "JW-10066": {
+    "price": 9500,
+    "function": "Single Function Shower",
+    "colour": "Graphite Grey"
+  },
+  "JW-10178": {
+    "price": 16500,
+    "function": "Spot Single Function Shower Rain",
+    "colour": "Graphite Grey"
+  },
+  "JW-10177": {
+    "price": 16500,
+    "function": "Spot Single Function Shower Cascade",
+    "colour": "Graphite Grey"
+  },
+  "JW-10179": {
+    "price": 16500,
+    "function": "Spot Single Function Shower Bubble",
+    "colour": "Graphite Grey"
+  },
+  "JW-10072": {
+    "price": 42000,
+    "function": "2 Function Shower With Hand Shower Set",
+    "colour": "Chrome"
+  },
+  "JW-10071": {
+    "price": 42000,
+    "function": "2 Function Shower With Hand Shower Set",
+    "colour": "Black"
+  },
+  "JW-10062": {
+    "price": 13500,
+    "function": "Single Function Celing Round 12 x 12",
+    "colour": "Chrome"
+  },
+  "JW-10063": {
+    "price": 8500,
+    "function": "Single Function Celing Round 10 x 10",
+    "colour": "Chrome"
+  },
+  "JW-10070": {
+    "price": 2950,
+    "function": "4 Function ",
+    "colour": "Chrome"
+  },
+  "JW-10156": {
+    "price": 2350,
+    "function": "2 Function ",
+    "colour": "Chrome"
+  },
+  "JW-10155": {
+    "price": 3550,
+    "function": "2 Function ",
+    "colour": "Graphite Grey"
+  },
+  "JW-10154": {
+    "price": 3550,
+    "function": "2 Function ",
+    "colour": "Brushed Gold "
+  },
+  "JW-10042": {
+    "price": 2250,
+    "function": "Single Function",
+    "colour": "Chrome"
+  },
+  "JW-10114": {
+    "price": 3250,
+    "function": "Single Function",
+    "colour": "Rose Gold "
+  },
+  "JW-10113": {
+    "price": 3250,
+    "function": "Single Function",
+    "colour": "Brushed Gold "
+  },
+  "JW-10115": {
+    "price": 3250,
+    "function": "Single Function",
+    "colour": "Graphite Grey"
+  },
+  "JW-10038": {
+    "price": 4150,
+    "function": "2 Function Body Jets ",
+    "colour": "Chrome"
+  },
+  "JW-10040": {
+    "price": 6950,
+    "function": "2 Function Body Jets ",
+    "colour": "Rose Gold "
+  },
+  "JW-10039": {
+    "price": 6950,
+    "function": "2 Function Body Jets ",
+    "colour": "Brushed Gold "
+  },
+  "JW-10041": {
+    "price": 6950,
+    "function": "2 Function Body Jets ",
+    "colour": "Graphite Grey"
+  },
+  "JW-10194": {
+    "price": 6950,
+    "function": "2 Function Body Jets ",
+    "colour": "Brushed Rose Gold"
+  },
+  "JW-10189": {
+    "price": 5500,
+    "function": "Body Shower Single funtion ",
+    "colour": "Chrome"
+  },
+  "JW-10190": {
+    "price": 8500,
+    "function": "Body Shower Single funtion ",
+    "colour": "Rose Gold "
+  },
+  "JW-10191": {
+    "price": 8500,
+    "function": "Body Shower Single funtion ",
+    "colour": "Brushed Gold "
+  },
+  "JW-10182": {
+    "price": 8500,
+    "function": "Body Shower Single funtion ",
+    "colour": "Graphite Grey"
+  },
+  "JW-10193": {
+    "price": 8500,
+    "function": "Body Shower Single funtion ",
+    "colour": "Brushed Rose Gold"
+  },
+  "JW-10185": {
+    "price": 12200,
+    "function": "Dancing Wave ",
+    "colour": "Chrome"
+  },
+  "JW-10186": {
+    "price": 14750,
+    "function": "Dancing Wave ",
+    "colour": "Rose Gold "
+  },
+  "JW-10187": {
+    "price": 14750,
+    "function": "Dancing Wave ",
+    "colour": "Brushed Gold "
+  },
+  "JW-10188": {
+    "price": 14750,
+    "function": "Dancing Wave ",
+    "colour": "Graphite Grey"
+  },
+  "JW-10051": {
+    "price": 19500,
+    "function": "Wall Mounted Waterfall ",
+    "colour": "Chrome"
+  },
+  "JW-10053": {
+    "price": 24500,
+    "function": "Wall Mounted Waterfall ",
+    "colour": "Rose Gold "
+  },
+  "JW-10052": {
+    "price": 24500,
+    "function": "Wall Mounted Waterfall ",
+    "colour": "Brushed Gold "
+  },
+  "JW-10054": {
+    "price": 24500,
+    "function": "Wall Mounted Waterfall ",
+    "colour": "Graphite Grey"
+  }
+}
