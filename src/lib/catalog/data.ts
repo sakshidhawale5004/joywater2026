@@ -1730,10 +1730,36 @@ export function getCategory(slug: string) {
 }
 
 export function getProductsByCategory(slug: string) {
+  // First try exact match
   const exact = realCategoryProducts.filter((p) => p.category === slug);
   if (exact.length > 0) {
     return exact;
   }
+  
+  // If no exact match, check if this is a parent category and get all subcategory products
+  const category = getCategory(slug);
+  if (category) {
+    const group = category.group;
+    
+    // Define parent-to-subcategory mapping
+    const subcategoryMap: Record<string, string[]> = {
+      "ceiling-mounted-shower": ["2-function-ceiling-showers", "3-function-ceiling-showers", "4-function-ceiling-showers", "single-function-ceiling-showers"],
+      "wall-mounted-shower": ["2-function-wall-showers", "single-function-wall-showers", "spot-wall-showers", "waterfall-wall-showers"],
+      "body-jets-body-showers": ["2-function-body-jets", "single-function-body-showers"],
+      "hand-showers": ["4-function-hand-showers", "2-function-hand-showers", "single-function-hand-showers"],
+    };
+    
+    // If this is a parent category, include all subcategory products
+    if (subcategoryMap[slug]) {
+      const allProducts = realCategoryProducts.filter((p) => 
+        p.category === slug || subcategoryMap[slug].includes(p.category)
+      );
+      if (allProducts.length > 0) {
+        return allProducts;
+      }
+    }
+  }
+  
   return products.filter((p) => p.category === slug);
 }
 
