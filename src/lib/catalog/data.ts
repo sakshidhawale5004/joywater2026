@@ -810,6 +810,16 @@ const bodyJetsProducts: Product[] = [
     code: "JW-10040",
     image: "/Body Showers/Body Jets (2 Function) (4).png",
   },
+  {
+    id: "body-jets-2-function-5",
+    slug: "body-jets-2-function-5",
+    name: "Body Jet (2 Function - Rain & Mist) - Brushed Rose Gold",
+    category: "body-jets-body-showers",
+    finish: "Brushed Rose Gold",
+    price: 6950,
+    code: "JW-10194",
+    image: "/Body Showers/Body Jets (2 Function) (4).png",
+  },
 ];
 
 const ceilingMountedMixerProducts: Product[] = [
@@ -1050,22 +1060,20 @@ const realCategoryProducts: Product[] = [
     "hand-shower",
     "4 function hand shower",
     "JW-100",
-    [3550, 3550, 3550, 2950, 3550],
+    [3550, 2350, 3550, 2950],
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (7).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (8).png",
     ],
     [
       "Brushed Gold",
       "Chrome",
-      "Brushed Gold",
-      "Chrome",
+      "Graphite Grey",
       "Chrome",
     ],
-    ["JW-10154", "JW-10156", "JW-10154", "JW-10070", "JW-10156"]
+    ["JW-10154", "JW-10156", "JW-10155", "JW-10070"]
   ),
   ...createCategoryProducts(
     "ceiling-mounted-shower",
@@ -1131,11 +1139,37 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "wall-mounted-shower",
-    "joy spot wall mounted shower",
+    "joy spot wall mounted shower (Rain)",
     "JW-100",
     [16500],
     [
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
+    ],
+    [
+      "Graphite Grey",
+    ],
+    ["JW-10178"]
+  ),
+  ...createCategoryProducts(
+    "wall-mounted-shower",
+    "joy spot wall mounted shower (Cascade)",
+    "JW-100",
+    [16500],
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (2).png",
+    ],
+    [
+      "Graphite Grey",
+    ],
+    ["JW-10177"]
+  ),
+  ...createCategoryProducts(
+    "wall-mounted-shower",
+    "joy spot wall mounted shower (Bubble)",
+    "JW-100",
+    [16500],
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (3).png",
     ],
     [
       "Graphite Grey",
@@ -1149,15 +1183,16 @@ const realCategoryProducts: Product[] = [
     "body-jets-body-showers",
     "One Line Series Body Shower",
     "JW-100",
-    [8500, 8500, 8500, 5500],
+    [8500, 8500, 8500, 5500, 8500],
     [
       "/Body Showers/One Line Series (1).png",
       "/Body Showers/One Line Series (2).png",
       "/Body Showers/One Line Series (3).png",
       "/Body Showers/One Line Series (4).png",
+      "/Body Showers/One Line Series (1).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
-    ["JW-10191", "JW-10182", "JW-10190", "JW-10189"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome", "Brushed Rose Gold"],
+    ["JW-10191", "JW-10182", "JW-10190", "JW-10189", "JW-10193"]
   ),
   ...createCategoryProducts(
     "body-jets-body-showers",
