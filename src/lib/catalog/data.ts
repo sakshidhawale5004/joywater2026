@@ -30,6 +30,52 @@ export const categories: Category[] = [
       image: "/diverters/5 Function Diverter (1).png",
       features: ["4-6 Functions", "Vernet Cartridge", "10+1 Years Warranty", "11 Years Unmatched Assurance"]
     },
+    // Diverter Subcategories by Function
+    {
+      slug: "6-function-diverters",
+      title: "6 Function Diverters",
+      group: "diverters",
+      description: "6 Function Individual Flow Diverters with premium Vernet cartridges for precise water control.",
+      bannerImage: "/HEROSECTIONIMAGES/6 Function Diverter.png",
+      image: "/diverters/6 Function Diverter (1).png",
+      features: ["6 Functions", "Individual Flow", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "5-function-diverters",
+      title: "5 Function Diverters",
+      group: "diverters",
+      description: "5 Function Click Select Diverters combining style with superior functionality.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/5 Function Diverter (1).png",
+      features: ["5 Functions", "Click Select", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "4-function-diverters",
+      title: "4 Function Diverters",
+      group: "diverters",
+      description: "4 Function Individual Flow Diverters for efficient water management and control.",
+      bannerImage: "/HEROSECTIONIMAGES/4 Function Diverter.png",
+      image: "/diverters/4 Function Diverter (5).png",
+      features: ["4 Functions", "Individual Flow", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "3-function-click-diverters",
+      title: "3 Function Click Select Diverters",
+      group: "diverters",
+      description: "3 Function Click Select Diverters with intuitive control and elegant design.",
+      bannerImage: "/HEROSECTIONIMAGES/3 Function Click Select.png",
+      image: "/diverters/3 Function Click Select (1).png",
+      features: ["3 Functions", "Click Select", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "3-function-lever-diverters",
+      title: "3 Function Lever Click Diverters",
+      group: "diverters",
+      description: "3 Function Lever Click Diverters offering smooth operation and precision control.",
+      bannerImage: "/HEROSECTIONIMAGES/3 Function Lever Click.png",
+      image: "/diverters/3 Function Liver Click (1).png",
+      features: ["3 Functions", "Lever Click", "Vernet Cartridge", "11 Years Unmatched Assurance"]
+    },
     {
       slug: "tile-drainers",
       title: "Tile Drainers",
@@ -1343,7 +1389,7 @@ const realCategoryProducts: Product[] = [
   
   
     ...createCategoryProducts(
-      "diverters",
+      "4-function-diverters",
       "4 Function Joy Water Diverter",
       "JW-4FD",
       [79000, 92000, 92000, 92000],
@@ -1357,7 +1403,7 @@ const realCategoryProducts: Product[] = [
       ["JW-10169", "JW-10171", "JW-10170", "JW-10172"]
     ),
   ...createCategoryProducts(
-    "diverters",
+    "5-function-diverters",
     "5 Function Diverter",
     "JW-100",
     [108000, 126000, 126000, 126000],
@@ -1371,25 +1417,22 @@ const realCategoryProducts: Product[] = [
     ["JW-10001", "JW-10003", "JW-10002", "JW-10004"]
   ),
   ...createCategoryProducts(
-    "diverters",
+    "6-function-diverters",
     "6 Function Diverter",
     "JW-100",
-    [79000, 92000, 92000, 92000, 79000, 92000, 92000, 92000],
+    [112000, 138000, 138000, 138000, 138000],
     [
-      "/diverters/6 Function Diverter (8).png",
-      "/diverters/6 Function Diverter (5).png",
-      "/diverters/6 Function Diverter (6).png",
-      "/diverters/6 Function Diverter (7).png",
       "/diverters/6 Function Diverter (4).png",
       "/diverters/6 Function Diverter (2).png",
       "/diverters/6 Function Diverter (3).png",
       "/diverters/6 Function Diverter (1).png",
+      "/diverters/6 Function Diverter (1).png",
     ],
-    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
-    ["JW-10169", "JW-10171", "JW-10170", "JW-10172", "JW-10173", "JW-10176", "JW-10175", "JW-10174"]
+    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
+    ["JW-10173", "JW-10176", "JW-10175", "JW-10174", "JW-10201"]
   ),
   ...createCategoryProducts(
-      "diverters",
+      "3-function-click-diverters",
       "Thermostatic Diverter (Three Outlet)",
       "JW-100",
       [54000, 63000, 63000, 63000],
@@ -1403,20 +1446,17 @@ const realCategoryProducts: Product[] = [
       ["JW-10007", "JW-10009", "JW-10008", "JW-10010"]
     ),
   ...createCategoryProducts(
-    "diverters",
+    "3-function-lever-diverters",
     "Lever Diverter (Three Outlet)",
     "JW-100",
-    [23000, 27000, 27000, 35000, 39000, 39000],
+    [23000, 27000, 27000],
     [
       "/diverters/Lever Diverter Three Outlet (1).png",
       "/diverters/Lever Diverter Three Outlet (2).png",
       "/diverters/Lever Diverter Three Outlet (3).png",
-      "/diverters/Lever Diverter Three Outlet (1).png",
-      "/diverters/Lever Diverter Three Outlet (2).png",
-      "/diverters/Lever Diverter Three Outlet (3).png",
     ],
-    ["Chrome", "Rose Gold", "Brushed Gold", "Chrome", "Rose Gold", "Graphite Grey"],
-    ["JW-10037", "JW-10036", "JW-10035", "JW-10037", "JW-10036", "JW-10035"]
+    ["Chrome", "Rose Gold", "Brushed Gold"],
+    ["JW-10037", "JW-10036", "JW-10035"]
   ),
 
 
@@ -1747,6 +1787,7 @@ export function getProductsByCategory(slug: string) {
       "wall-mounted-shower": ["2-function-wall-showers", "single-function-wall-showers", "spot-wall-showers", "waterfall-wall-showers"],
       "body-jets-body-showers": ["2-function-body-jets", "single-function-body-showers"],
       "hand-showers": ["4-function-hand-showers", "2-function-hand-showers", "single-function-hand-showers"],
+      "diverters": ["6-function-diverters", "5-function-diverters", "4-function-diverters", "3-function-click-diverters", "3-function-lever-diverters"],
     };
     
     // If this is a parent category, include all subcategory products
@@ -1811,10 +1852,17 @@ export const megaMenu = {
     ]
   },
   "Diverters & Mixers": {
-    "Diverters & Mixers": [
+    "Diverters": [
       "diverters",
-      "tile-drainers",
-      "basin-mixers"
+      "6-function-diverters",
+      "5-function-diverters",
+      "4-function-diverters",
+      "3-function-click-diverters",
+      "3-function-lever-diverters"
+    ],
+    "Basin Mixers & Drainers": [
+      "basin-mixers",
+      "tile-drainers"
     ],
     "Mixers In PVD Finishes": [
       "graphite-grey",
