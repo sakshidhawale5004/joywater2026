@@ -1181,14 +1181,15 @@ const realCategoryProducts: Product[] = [
       "diverters",
       "4 Function Joy Water Diverter",
       "JW-4FD",
-      [79000, 92000, 92000, 92000, 92000],
+      [79000, 92000, 92000, 92000],
       [
+        "/diverters/6 Function Diverter (8).png",
         "/diverters/6 Function Diverter (5).png",
         "/diverters/6 Function Diverter (6).png",
-        "/diverters/6 Function Diverter (7).png",
-        "/diverters/6 Function Diverter (8).png"
+        "/diverters/6 Function Diverter (7).png"
       ],
-      ["Chrome", "Gold", "Graphite Grey", "Rose Gold"]
+      ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold"],
+      ["JW-10169", "JW-10171", "JW-10170", "JW-10172"]
     ),
   ...createCategoryProducts(
     "diverters",
@@ -1208,16 +1209,19 @@ const realCategoryProducts: Product[] = [
     "diverters",
     "6 Function Diverter",
     "JW-100",
-    [112000, 138000, 138000, 138000, 138000],
+    [79000, 92000, 92000, 92000, 79000, 92000, 92000, 92000],
     [
-      "/diverters/6 Function Diverter (1).png",
+      "/diverters/6 Function Diverter (8).png",
+      "/diverters/6 Function Diverter (5).png",
+      "/diverters/6 Function Diverter (6).png",
+      "/diverters/6 Function Diverter (7).png",
+      "/diverters/6 Function Diverter (4).png",
       "/diverters/6 Function Diverter (2).png",
       "/diverters/6 Function Diverter (3).png",
-      "/diverters/6 Function Diverter (4).png",
-      "/diverters/6 Function Diverter (5).png",
+      "/diverters/6 Function Diverter (1).png",
     ],
-    ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
-    ["JW-10173", "JW-10176", "JW-10175", "JW-10174", "JW-10201"]
+    ["Chrome", "Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
+    ["JW-10169", "JW-10171", "JW-10170", "JW-10172", "JW-10173", "JW-10176", "JW-10175", "JW-10174"]
   ),
   ...createCategoryProducts(
       "diverters",
@@ -1497,6 +1501,36 @@ const realCategoryProducts: Product[] = [
   { id: "shower-drainer-7", slug: "shower-drainer-7", name: "Shower Drainer", category: "tile-drainers", finish: "Brushed Gold", price: 7200, code: "JW-SD-07", image: "/tile drainers/shower-drainer-brushed-gold-finish-7200.png" },
   { id: "shower-drainer-8", slug: "shower-drainer-8", name: "Shower Drainer", category: "tile-drainers", finish: "Rose Gold", price: 7200, code: "JW-SD-08", image: "/tile drainers/shower-drainer-rose-gold-finish-7200.png" },
   { id: "shower-drainer-9", slug: "shower-drainer-9", name: "SS 340 Shower Channel Wave Drainer", category: "tile-drainers", finish: "SS Matte", price: 3510, code: "JW-SD-09", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png" },
+
+  // Wave Shower Drainer (Linear Grated Style)
+  { id: "wave-shower-drainer-1", slug: "wave-shower-drainer-1", name: "Wave Shower Drainer", category: "shower-drainer", finish: "Brushed Gold", price: 14500, code: "JW-SD-501", image: "/tile drainers/149.jpg" },
+  { id: "wave-shower-drainer-2", slug: "wave-shower-drainer-2", name: "Wave Shower Drainer", category: "shower-drainer", finish: "Rose Gold", price: 14500, code: "JW-SD-502", image: "/tile drainers/154.jpg" },
+  { id: "wave-shower-drainer-3", slug: "wave-shower-drainer-3", name: "Wave Shower Drainer", category: "shower-drainer", finish: "Graphite Grey", price: 14500, code: "JW-SD-503", image: "/tile drainers/160.png" },
+  { id: "wave-shower-drainer-4", slug: "wave-shower-drainer-4", name: "Wave Shower Drainer", category: "shower-drainer", finish: "Chrome", price: 12500, code: "JW-SD-504", image: "/tile drainers/169.png" },
+
+  // Tile Drainer (Square with Tile Insert)
+  { id: "tile-drainer-square-1", slug: "tile-drainer-square-1", name: "Tile Drainer Square", category: "tiles-drainers", finish: "Brushed Gold", price: 7200, code: "JW-TD-501", image: "/tile drainers/177.png" },
+  { id: "tile-drainer-square-2", slug: "tile-drainer-square-2", name: "Tile Drainer Square", category: "tiles-drainers", finish: "Rose Gold", price: 7200, code: "JW-TD-502", image: "/tile drainers/179.png" },
+  { id: "tile-drainer-square-3", slug: "tile-drainer-square-3", name: "Tile Drainer Square", category: "tiles-drainers", finish: "Graphite Grey", price: 7200, code: "JW-TD-503", image: "/tile drainers/160.png" },
+  { id: "tile-drainer-square-4", slug: "tile-drainer-square-4", name: "Tile Drainer Square", category: "tiles-drainers", finish: "Chrome", price: 5300, code: "JW-TD-504", image: "/tile drainers/169.png" },
+
+  // Tiles Drainers Marbles (Side Hole Style)
+  { id: "marble-drainer-1", slug: "marble-drainer-1", name: "Tiles Drainers Marbles", category: "tiles-drainers", finish: "Brushed Gold", price: 7200, code: "JW-TD-505", image: "/tile drainers/177.png" },
+  { id: "marble-drainer-2", slug: "marble-drainer-2", name: "Tiles Drainers Marbles", category: "tiles-drainers", finish: "Rose Gold", price: 7200, code: "JW-TD-505", image: "/tile drainers/179.png" },
+  { id: "marble-drainer-3", slug: "marble-drainer-3", name: "Tiles Drainers Marbles", category: "tiles-drainers", finish: "Graphite Grey", price: 7200, code: "JW-TD-505", image: "/tile drainers/160.png" },
+  { id: "marble-drainer-4", slug: "marble-drainer-4", name: "Tiles Drainers Marbles", category: "tiles-drainers", finish: "Chrome", price: 5300, code: "JW-TD-505", image: "/tile drainers/169.png" },
+
+  // Tiles Insert Drain SS (Linear Style)
+  { id: "tile-insert-drain-1", slug: "tile-insert-drain-1", name: "Tiles Insert Drain SS", category: "tiles-drainers", finish: "Brushed Gold", price: 7200, code: "JW-SD-506", image: "/tile drainers/149.jpg" },
+  { id: "tile-insert-drain-2", slug: "tile-insert-drain-2", name: "Tiles Insert Drain SS", category: "tiles-drainers", finish: "Rose Gold", price: 7200, code: "JW-SD-507", image: "/tile drainers/154.jpg" },
+  { id: "tile-insert-drain-3", slug: "tile-insert-drain-3", name: "Tiles Insert Drain SS", category: "tiles-drainers", finish: "Graphite Grey", price: 7200, code: "JW-SD-508", image: "/tile drainers/160.png" },
+  { id: "tile-insert-drain-4", slug: "tile-insert-drain-4", name: "Tiles Insert Drain SS", category: "tiles-drainers", finish: "Chrome", price: 7200, code: "JW-SD-509", image: "/tile drainers/169.png" },
+
+  // Shower Drainer (Linear Grated)
+  { id: "shower-drainer-grated-1", slug: "shower-drainer-grated-1", name: "Shower Drainer Linear Grated", category: "shower-drainer", finish: "Brushed Gold", price: 14500, code: "JW-SD-510", image: "/tile drainers/149.jpg" },
+  { id: "shower-drainer-grated-2", slug: "shower-drainer-grated-2", name: "Shower Drainer Linear Grated", category: "shower-drainer", finish: "Rose Gold", price: 14500, code: "JW-SD-511", image: "/tile drainers/154.jpg" },
+  { id: "shower-drainer-grated-3", slug: "shower-drainer-grated-3", name: "Shower Drainer Linear Grated", category: "shower-drainer", finish: "Graphite Grey", price: 14500, code: "JW-SD-512", image: "/tile drainers/160.png" },
+  { id: "shower-drainer-grated-4", slug: "shower-drainer-grated-4", name: "Shower Drainer Linear Grated", category: "shower-drainer", finish: "Chrome", price: 12500, code: "JW-SD-513", image: "/tile drainers/169.png" },
 
   // Tiles Drainers
   { id: "tiles-drainer-1", slug: "tiles-drainer-1", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte", price: 4250, code: "JW-TD-01", image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png" },
