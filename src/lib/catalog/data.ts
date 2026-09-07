@@ -57,6 +57,43 @@ export const categories: Category[] = [
       image: "/showers/2 Function Shower (1).png",
       features: ["Spot Foam", "Spot Waterfall", "Spot Rain", "11 Years Unmatched Assurance"]
     },
+    // Ceiling-Mounted Shower Subcategories by Function
+    {
+      slug: "2-function-ceiling-showers",
+      title: "2 Function Ceiling Showers",
+      group: "ceiling-mounted-showers",
+      description: "2 Function ceiling mounted showers featuring Rain & Mist combinations for an invigorating shower experience.",
+      bannerImage: "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+      image: "/showers/2 Function Shower (1).png",
+      features: ["Rain & Mist", "2 Functions", "Anti-clog nozzles", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "3-function-ceiling-showers",
+      title: "3 Function Ceiling Showers",
+      group: "ceiling-mounted-showers",
+      description: "3 Function ceiling showers with Rain, Mist & Waterfall combinations for ultimate luxury.",
+      bannerImage: "/HEROSECTIONIMAGES/3 Function ShowerHERO.jpg",
+      image: "/showers/3 Function Shower (1).png",
+      features: ["Rain", "Mist", "Waterfall", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "4-function-ceiling-showers",
+      title: "4 Function Ceiling Showers",
+      group: "ceiling-mounted-showers",
+      description: "4 Function ceiling showers with advanced chromotherapy and multi-spray patterns.",
+      bannerImage: "/HEROSECTIONIMAGES/4FUNCTIONSHOWER.png",
+      image: "/showers/4 Function Shower (1).png",
+      features: ["Chromotherapy", "4+ Functions", "LED Lighting", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "single-function-ceiling-showers",
+      title: "Single Function Ceiling Showers",
+      group: "ceiling-mounted-showers",
+      description: "Single function ceiling mounted showers providing classic rain experience.",
+      bannerImage: "/herosection/single function shower rain celing mounted showerhero.png",
+      image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
+      features: ["Pure Rain", "Single Function", "Classic Design", "11 Years Unmatched Assurance"]
+    },
     {
       slug: "wall-mounted-shower",
       title: "Wall Mounted Showers",
@@ -66,6 +103,43 @@ export const categories: Category[] = [
       image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
       features: ["Sleek Design", "Precision Flow", "11 Years Unmatched Assurance"]
     },
+    // Wall-Mounted Shower Subcategories by Function
+    {
+      slug: "2-function-wall-showers",
+      title: "2 Function Wall Showers",
+      group: "wall-mounted-showers",
+      description: "2 Function wall mounted showers with Rain & Mist or Rain & Waterfall combinations.",
+      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+      image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
+      features: ["2 Functions", "Wall Mounted", "Space Saving", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "single-function-wall-showers",
+      title: "Single Function Wall Showers",
+      group: "wall-mounted-showers",
+      description: "Single function wall mounted showers including rain and waterfall options.",
+      bannerImage: "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
+      image: "/showers/Single Function Shower (1).png",
+      features: ["Single Function", "Classic Design", "Easy Installation", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "spot-wall-showers",
+      title: "Spot Wall Showers",
+      group: "wall-mounted-showers",
+      description: "Spot function wall showers featuring Rain, Cascade & Bubble spray patterns.",
+      bannerImage: "/herosection/joy spot wall mounted showerhero.jpg",
+      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (1).png",
+      features: ["Spot Rain", "Spot Cascade", "Spot Bubble", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "waterfall-wall-showers",
+      title: "Waterfall Wall Showers",
+      group: "wall-mounted-showers",
+      description: "Elegant waterfall wall mounted showers for cascading water flow.",
+      bannerImage: "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+      image: "/showers/Waterfall Showers (1).png",
+      features: ["Waterfall Flow", "Cascade Design", "Laminar Flow", "11 Years Unmatched Assurance"]
+    },
     {
       slug: "body-jets-body-showers",
       title: "Body Jets & Body Showers",
@@ -74,6 +148,62 @@ export const categories: Category[] = [
       bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
       image: "/showers/Body Jets 2 Function (1).png",
       features: ["Adjustable Flow", "Massage Effect", "11 Years Unmatched Assurance"]
+    },
+    // Body Jets & Showers Subcategories by Function
+    {
+      slug: "2-function-body-jets",
+      title: "2 Function Body Jets",
+      group: "body-showers",
+      description: "2 Function body jets with Rain & Mist for targeted hydrotherapy.",
+      bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+      image: "/Body Showers/Body Jets (2 Function) (1).png",
+      features: ["2 Function", "Rain & Mist", "Hydrotherapy", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "single-function-body-showers",
+      title: "Single Function Body Showers",
+      group: "body-showers",
+      description: "Single function body showers including One Line Series and Eminence Series.",
+      bannerImage: "/HEROSECTIONIMAGES/One Line Series.jpg",
+      image: "/Body Showers/One Line Series (1).png",
+      features: ["Single Function", "Minimalist Design", "High Pressure", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "hand-showers",
+      title: "Hand Showers",
+      group: "hand-showers",
+      description: "Hand showers in various function types.",
+      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+      image: "/shower category/hand shower chrome 2250 (2).png",
+      features: ["Portable", "Multi-Function", "11 Years Unmatched Assurance"]
+    },
+    // Hand Shower Subcategories by Function
+    {
+      slug: "4-function-hand-showers",
+      title: "4 Function Hand Showers",
+      group: "hand-showers",
+      description: "4 Function hand showers with multiple spray patterns.",
+      bannerImage: "/herosection/4 function hand showerhero.png",
+      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
+      features: ["4 Functions", "Multiple Sprays", "Portable", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "2-function-hand-showers",
+      title: "2 Function Hand Showers",
+      group: "hand-showers",
+      description: "2 Function hand showers for versatile showering experience.",
+      bannerImage: "/herosection/4 function hand showerhero.png",
+      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
+      features: ["2 Functions", "Compact", "Easy Grip", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "single-function-hand-showers",
+      title: "Single Function Hand Showers",
+      group: "hand-showers",
+      description: "Single function hand showers for classic showering experience.",
+      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+      image: "/shower category/hand shower chrome 2250 (2).png",
+      features: ["Single Function", "Classic Design", "Lightweight", "11 Years Unmatched Assurance"]
     },
 
   // 1. SHOWERS
