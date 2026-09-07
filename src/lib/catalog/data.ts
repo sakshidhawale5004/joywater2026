@@ -1,3 +1,5 @@
+import { bathroomAccessoriesProducts } from "./bathroomAccessoriesProducts.ts";
+
 export type CategoryGroup =
   | "ceiling-mounted-showers"
   | "wall-mounted-showers"
@@ -8,7 +10,8 @@ export type CategoryGroup =
   | "basin-mixers"
   | "sanitaryware"
   | "others-accessories"
-  | "mirrors";
+  | "mirrors"
+  | "bathroom-accessories";
 
 export type Category = {
   slug: string;
@@ -755,6 +758,99 @@ export const categories: Category[] = [
     group: "others-accessories",
     description: "Premium health faucet full set.",
     bannerImage: "/OTHERS/Bathroom Accessories & Fittings (21).png",
+    features: ["11 Years Unmatched Assurance"]
+  },
+
+  // New Bathroom Accessories - 428 products
+  {
+    slug: "towel-rod",
+    title: "Towel Rod",
+    group: "bathroom-accessories",
+    description: "Premium towel rods in various finishes.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "glass-shelf",
+    title: "Glass Shelf",
+    group: "bathroom-accessories",
+    description: "Premium glass shelves for bathroom storage.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "paper-holder",
+    title: "Paper Holder",
+    group: "bathroom-accessories",
+    description: "Premium paper holders in multiple finishes.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "robe-hook",
+    title: "Robe Hook",
+    group: "bathroom-accessories",
+    description: "Premium robe hooks for towels and robes.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "towel-ring",
+    title: "Towel Ring",
+    group: "bathroom-accessories",
+    description: "Premium towel rings in various finishes.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "tumbler-holder",
+    title: "Tumbler Holder",
+    group: "bathroom-accessories",
+    description: "Premium tumbler holders for bathroom essentials.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "toothbrush-holder",
+    title: "Toothbrush Holder",
+    group: "bathroom-accessories",
+    description: "Premium toothbrush holders in elegant designs.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "toilet-brush-holder",
+    title: "Toilet Brush Holder",
+    group: "bathroom-accessories",
+    description: "Premium toilet brush holders with modern styling.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "bathroom-shelf",
+    title: "Bathroom Shelf",
+    group: "bathroom-accessories",
+    description: "Premium bathroom shelves for storage.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "corner-shelf",
+    title: "Corner Shelf",
+    group: "bathroom-accessories",
+    description: "Premium corner shelves for efficient space utilization.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "double-robe-hook",
+    title: "Double Robe Hook",
+    group: "bathroom-accessories",
+    description: "Premium double robe hooks for added convenience.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "towel-bar",
+    title: "Towel Bar",
+    group: "bathroom-accessories",
+    description: "Premium towel bars in various sizes.",
+    features: ["11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "bathroom-rack",
+    title: "Bathroom Rack",
+    group: "bathroom-accessories",
+    description: "Premium bathroom racks for organized storage.",
     features: ["11 Years Unmatched Assurance"]
   },
 
@@ -1759,6 +1855,7 @@ const realCategoryProducts: Product[] = [
 
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
   ...mirrorProducts,
+  ...bathroomAccessoriesProducts,
 ];
 
 export const products: Product[] = [
