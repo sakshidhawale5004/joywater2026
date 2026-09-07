@@ -1752,12 +1752,30 @@ export const megaMenu = {
     ]
   },
   "Showering": {
-    "Showering": [
+    "Ceiling Mounted Showers": [
       "ceiling-mounted-shower",
+      "2-function-ceiling-showers",
+      "3-function-ceiling-showers",
+      "4-function-ceiling-showers",
+      "single-function-ceiling-showers"
+    ],
+    "Wall Mounted Showers": [
       "wall-mounted-shower",
-      "hand-shower",
+      "2-function-wall-showers",
+      "single-function-wall-showers",
+      "spot-wall-showers",
+      "waterfall-wall-showers"
+    ],
+    "Body Jets & Body Showers": [
       "body-jets-body-showers",
-      "waterfall-showers"
+      "2-function-body-jets",
+      "single-function-body-showers"
+    ],
+    "Hand Showers": [
+      "hand-showers",
+      "4-function-hand-showers",
+      "2-function-hand-showers",
+      "single-function-hand-showers"
     ],
     "Showers In PVD Finishes": [
       "graphite-grey",
