@@ -50,6 +50,16 @@ export const sanitarywareProducts = [
     "image": "/wallhungwc/45.jpg"
   },
   {
+    "id": "wall-hung-wc-5a",
+    "name": "Matt Cappuccino Rimless Wall Hung Toilet P-Trap",
+    "slug": "wall-hung-wc-5a",
+    "category": "wall-hung-wc",
+    "finish": "Matt Cappuccino",
+    "price": 30000,
+    "code": "JW-6505",
+    "image": "/images/PDF1_P8_IMG3.png"
+  },
+  {
     "id": "wall-hung-wc-6",
     "name": "Matt Black Rimless Wall Hung Toilet P-Trap 180mm Roughing In With UF Seat Cover",
     "slug": "wall-hung-wc-6",
@@ -149,16 +159,6 @@ export const sanitarywareProducts = [
     "price": 19500,
     "code": "JW-6092",
     "image": "/premiumbasin/197.jpg"
-  },
-  {
-    "id": "sanitaryware-basins-84",
-    "name": "Matt Cappuccino Rimless Wall Hung Toilet P-Trap",
-    "slug": "sanitaryware-basins-84",
-    "category": "wall-hung-wc",
-    "finish": "Matt Cappuccino",
-    "price": 30000,
-    "code": "JW-6505",
-    "image": "/images/PDF1_P8_IMG3.png"
   },
   {
     "id": "sanitaryware-basins-1",
