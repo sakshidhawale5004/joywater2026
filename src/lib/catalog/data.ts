@@ -2109,13 +2109,15 @@ export const megaMenu = {
       "shower-hose-tube",
       "health-faucet"
     ],
-          "Bath Accessories": [
-        "pyramid-series",
-        "signature-series",
-        "fortune-series",
-        "solitaire-series",
-        "soap-dispenser"
-      ]
+    "Bath Accessories": [
+      "pyramid-series",
+      "signature-series",
+      "fortune-series",
+      "solitaire-series",
+      "swatch-series",
+      "unity-series",
+      "soap-dispenser"
+    ]
   },
   "Mirrors": {
     "Bathroom Mirrors": [
