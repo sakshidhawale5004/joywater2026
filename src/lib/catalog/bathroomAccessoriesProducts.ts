@@ -165,26 +165,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/15.png"
   },
   {
-    id: "product-17",
-    name: "Liquid Dispenser",
-    slug: "product-17",
-    category: "soap-dispenser",
-    finish: "Chrome",
-    price: 3600,
-    code: "SG 105",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/16.png"
-  },
-  {
-    id: "product-18",
-    name: "Paper Holder",
-    slug: "product-18",
-    category: "paper-holder",
-    finish: "Chrome",
-    price: 1800,
-    code: "SG 106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/17.png"
-  },
-  {
     id: "product-19",
     name: "Roll Holder With Mobile Stand",
     slug: "product-19",
@@ -203,26 +183,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     price: 990,
     code: "SG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/19.jpg"
-  },
-  {
-    id: "product-21",
-    name: "Towel Rack",
-    slug: "product-21",
-    category: "towel-rod",
-    finish: "Chrome",
-    price: 8450,
-    code: "FT 109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/20.png"
-  },
-  {
-    id: "product-22",
-    name: "Roll Holder With Mobile Stand",
-    slug: "product-22",
-    category: "paper-holder",
-    finish: "Chrome",
-    price: 3200,
-    code: "FT 107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/21.png"
   },
   {
     id: "product-23",
