@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as BathroomAccessoriesRouteImport } from './routes/bathroom-accessories'
 import { Route as CareRouteImport } from './routes/care'
 import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
@@ -31,6 +32,11 @@ const IndexRoute = IndexRouteImport.update({
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BathroomAccessoriesRoute = BathroomAccessoriesRouteImport.update({
+  id: '/bathroom-accessories',
+  path: '/bathroom-accessories',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CareRoute = CareRouteImport.update({
@@ -93,6 +99,7 @@ const ShowersInFinishSlugRoute = ShowersInFinishSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
@@ -108,6 +115,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
@@ -124,6 +132,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
@@ -141,6 +150,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
@@ -156,6 +166,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
@@ -171,6 +182,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
@@ -187,6 +199,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  BathroomAccessoriesRoute: typeof BathroomAccessoriesRoute
   CareRoute: typeof CareRoute
   CartRoute: typeof CartRoute
   CheckoutRoute: typeof CheckoutRoute
@@ -214,6 +227,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/about'
       preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bathroom-accessories': {
+      id: '/bathroom-accessories'
+      path: '/bathroom-accessories'
+      fullPath: '/bathroom-accessories'
+      preLoaderRoute: typeof BathroomAccessoriesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/care': {
@@ -299,6 +319,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  BathroomAccessoriesRoute: BathroomAccessoriesRoute,
   CareRoute: CareRoute,
   CartRoute: CartRoute,
   CheckoutRoute: CheckoutRoute,
