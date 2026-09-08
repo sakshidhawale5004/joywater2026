@@ -40,6 +40,10 @@ function BathroomAccessoriesPage() {
   // Category labels mapping
   const categoryLabels: Record<string, string> = {
     "all": "ALL",
+    "pyramid-series": "PYRAMID SERIES",
+    "signature-series": "SIGNATURE SERIES",
+    "fortune-series": "FORTUNE SERIES",
+    "solitaire-series": "SOLITAIRE SERIES",
     "towel-rod": "TOWEL ROD",
     "glass-shelf": "GLASS SHELF",
     "soap-dispenser": "SOAP DISPENSER",

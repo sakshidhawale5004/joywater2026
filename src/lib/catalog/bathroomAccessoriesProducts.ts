@@ -8,41 +8,41 @@ export const bathroomAccessoriesProducts: Product[] = [
     id: "product-1",
     name: "Glass Soap Dish",
     slug: "product-1",
-    category: "glass-shelf",
+    category: "pyramid-series",
     finish: "Chrome",
     price: 1530,
     code: "PR 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/0.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/22.jpg"
   },
   {
     id: "product-2",
     name: "Tumbler Holder",
     slug: "product-2",
-    category: "tumbler-holder",
+    category: "pyramid-series",
     finish: "Chrome",
     price: 1530,
     code: "PR 106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/1.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/18.jpg"
   },
   {
     id: "product-3",
-    name: "Towel Bar",
+    name: "Towel Rod 600 mm",
     slug: "product-3",
-    category: "towel-rod",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 2790,
+    price: 3960,
     code: "PR 103",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/2.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/23.jpg"
   },
   {
     id: "product-4",
-    name: "Napking Ring",
+    name: "Napkin Ring",
     slug: "product-4",
-    category: "towel-ring",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 1440,
+    price: 2070,
     code: "PR 102",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/3.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/24.jpg"
   },
   {
     id: "product-5",
@@ -58,361 +58,361 @@ export const bathroomAccessoriesProducts: Product[] = [
     id: "product-6",
     name: "Liquid Dispenser",
     slug: "product-6",
-    category: "soap-dispenser",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 2250,
+    price: 3150,
     code: "PR 105",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/5.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/26.jpg"
   },
   {
     id: "product-7",
-    name: "Towel Rack",
+    name: "Towel Rack 600 mm",
     slug: "product-7",
-    category: "towel-rod",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 7400,
+    price: 10350,
     code: "PR 109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/6.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/29.jpg"
   },
   {
     id: "product-8",
     name: "Toilet Brush Holder",
     slug: "product-8",
-    category: "toilet-brush-holder",
+    category: "pyramid-series",
     finish: "Chrome",
     price: 2700,
     code: "PR 110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/7.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/30.jpg"
   },
   {
     id: "product-9",
-    name: "Roll Holder With Flap",
+    name: "Paper Holder With Flap",
     slug: "product-9",
-    category: "paper-holder",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 2250,
+    price: 3150,
     code: "PR 107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/8.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/27.jpg"
   },
   {
     id: "product-10",
     name: "Robe Hook",
     slug: "product-10",
-    category: "robe-hook",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 990,
+    price: 1350,
     code: "PR 108",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/9.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/28.jpg"
   },
   {
     id: "product-11",
     name: "Towel Rack with Shelf",
     slug: "product-11",
-    category: "towel-rod",
+    category: "signature-series",
     finish: "Chrome",
     price: 10800,
     code: "SG 110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/10.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/33.jpg"
   },
   {
     id: "product-12",
     name: "Towel Rack",
     slug: "product-12",
-    category: "towel-rod",
+    category: "signature-series",
     finish: "Chrome",
     price: 8400,
     code: "SG 109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/11.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/32.jpg"
   },
   {
     id: "product-13",
     name: "Soap Holder",
     slug: "product-13",
-    category: "soap-dispenser",
+    category: "signature-series",
     finish: "Chrome",
     price: 2610,
     code: "SG 101",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/12.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/34.jpg"
   },
   {
     id: "product-14",
-    name: "Napking Ring",
+    name: "Napkin Ring",
     slug: "product-14",
-    category: "towel-ring",
+    category: "signature-series",
     finish: "Chrome",
     price: 2610,
     code: "SG 102",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/13.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/35.jpg"
   },
   {
     id: "product-15",
-    name: "Towel Bar",
+    name: "Towel Bar 600mm",
     slug: "product-15",
-    category: "towel-rod",
+    category: "signature-series",
     finish: "Chrome",
     price: 5700,
     code: "SG 103",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/14.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/36.jpg"
   },
   {
     id: "product-16",
     name: "Tumbler Holder",
     slug: "product-16",
-    category: "tumbler-holder",
+    category: "signature-series",
     finish: "Chrome",
     price: 2700,
     code: "SG 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/15.png"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/37.jpg"
   },
   {
     id: "product-19",
     name: "Roll Holder With Mobile Stand",
     slug: "product-19",
-    category: "paper-holder",
+    category: "signature-series",
     finish: "Chrome",
     price: 3600,
     code: "SG 107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/18.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/41.jpg"
   },
   {
     id: "product-20",
     name: "Robe Hook",
     slug: "product-20",
-    category: "robe-hook",
+    category: "signature-series",
     finish: "Chrome",
     price: 990,
     code: "SG 108",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/19.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/38.jpg"
   },
   {
     id: "product-23",
     name: "Towel Rack With Shelf",
     slug: "product-23",
-    category: "towel-rod",
+    category: "fortune-series",
     finish: "Chrome",
     price: 10800,
     code: "FT 110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/22.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/43.jpg"
   },
   {
     id: "product-24",
     name: "Soap Holder",
     slug: "product-24",
-    category: "soap-dispenser",
+    category: "fortune-series",
     finish: "Chrome",
     price: 2350,
     code: "FT 101",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/23.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/14.jpg"
   },
   {
     id: "product-25",
     name: "Napkin Holder",
     slug: "product-25",
-    category: "towel-ring",
+    category: "fortune-series",
     finish: "Chrome",
     price: 3200,
     code: "FT 102",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/24.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/44.jpg"
   },
   {
     id: "product-26",
-    name: "Towel Bar",
+    name: "Towel Bar 600mm",
     slug: "product-26",
-    category: "towel-rod",
+    category: "fortune-series",
     finish: "Chrome",
     price: 5650,
     code: "FT 103",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/25.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/45.jpg"
   },
   {
     id: "product-27",
     name: "Tumbler Holder",
     slug: "product-27",
-    category: "tumbler-holder",
+    category: "fortune-series",
     finish: "Chrome",
     price: 2430,
     code: "FT 105",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/26.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/46.jpg"
   },
   {
     id: "product-28",
     name: "Liquid Dispenser",
     slug: "product-28",
-    category: "soap-dispenser",
+    category: "fortune-series",
     finish: "Chrome",
     price: 3510,
     code: "FT 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/27.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/47.jpg"
   },
   {
     id: "product-29",
     name: "Tumbler + Liquid+ Napkin Ring Holder",
     slug: "product-29",
-    category: "towel-ring",
+    category: "fortune-series",
     finish: "Chrome",
     price: 7500,
     code: "FT 108",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/28.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/48.jpg"
   },
   {
     id: "product-30",
     name: "Paper Holder",
     slug: "product-30",
-    category: "paper-holder",
+    category: "fortune-series",
     finish: "Chrome",
     price: 2100,
     code: "FT 106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/29.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/49.jpg"
   },
   {
     id: "product-31",
-    name: "Tumbler + Liquid Dispenser",
+    name: "Tumbler Liquid Dispenser",
     slug: "product-31",
-    category: "soap-dispenser",
+    category: "fortune-series",
     finish: "Chrome",
     price: 4500,
     code: "FT 111",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/30.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/50.jpg"
   },
   {
     id: "product-32",
-    name: "Towel Rack",
+    name: "Towel Rack 600mm",
     slug: "product-32",
-    category: "towel-rod",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 6450,
     code: "SLT 111-A",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/31.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg"
   },
   {
     id: "product-33",
-    name: "Towel Rack",
+    name: "Towel Rack 450mm",
     slug: "product-33",
-    category: "towel-rod",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 6120,
     code: "SLT 111-B",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/32.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg"
   },
   {
     id: "product-34",
     name: "Soap Holder",
     slug: "product-34",
-    category: "soap-dispenser",
+    category: "solitaire-series",
     finish: "Chrome",
-    price: 1260,
+    price: 1200,
     code: "SLT 101",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/33.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/52.jpg"
   },
   {
     id: "product-35",
     name: "Napkin Ring",
     slug: "product-35",
-    category: "towel-ring",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 1260,
     code: "SLT 102",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/34.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/53.jpg"
   },
   {
     id: "product-36",
-    name: "Towel Bar",
+    name: "Towel Bar 600mm",
     slug: "product-36",
-    category: "towel-rod",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 2160,
     code: "SLT 103A",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/35.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/54.jpg"
   },
   {
     id: "product-37",
-    name: "Towel Bar",
+    name: "Towel Bar 450mm",
     slug: "product-37",
-    category: "towel-rod",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 1980,
     code: "SLT 103B",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/36.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/54.jpg"
   },
   {
     id: "product-38",
     name: "Soap Holder",
     slug: "product-38",
-    category: "soap-dispenser",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 1080,
     code: "SLT 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/37.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/55.jpg"
   },
   {
     id: "product-39",
     name: "Liquid Dispenser",
     slug: "product-39",
-    category: "soap-dispenser",
+    category: "solitaire-series",
     finish: "Chrome",
-    price: 1260,
+    price: 1200,
     code: "SLT 105",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/38.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/56.jpg"
   },
   {
     id: "product-40",
     name: "Tumbler Holder",
     slug: "product-40",
-    category: "tumbler-holder",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 1170,
     code: "SLT 106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/39.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/57.jpg"
   },
   {
     id: "product-41",
     name: "Paper Holder With Flap",
     slug: "product-41",
-    category: "paper-holder",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 1890,
     code: "SLT 107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/40.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/58.jpg"
   },
   {
     id: "product-42",
     name: "Robe Hook",
     slug: "product-42",
-    category: "robe-hook",
+    category: "solitaire-series",
     finish: "Chrome",
-    price: 810,
+    price: 2810,
     code: "SLT 108",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/41.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/59.jpg"
   },
   {
     id: "product-43",
     name: "Dual Soup Dish",
     slug: "product-43",
-    category: "towel-rod",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 2160,
     code: "SLT 109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/42.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/61.jpg"
   },
   {
     id: "product-44",
-    name: "Soap + Tumbler Holder",
+    name: "Soap Tumbler Holder",
     slug: "product-44",
-    category: "tumbler-holder",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 2160,
     code: "SLT 110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/43.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/62.jpg"
   },
   {
     id: "product-45",
     name: "Liquid Dispenser + Tumbler Holder",
     slug: "product-45",
-    category: "soap-dispenser",
+    category: "solitaire-series",
     finish: "Chrome",
     price: 2160,
     code: "SLT 112",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/44.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/63.jpg"
   },
   {
     id: "product-46",
@@ -436,13 +436,13 @@ export const bathroomAccessoriesProducts: Product[] = [
   },
   {
     id: "product-48",
-    name: "Soap Holder",
+    name: "Soap Dish",
     slug: "product-48",
-    category: "soap-dispenser",
+    category: "pyramid-series",
     finish: "Chrome",
-    price: 1350,
+    price: 1530,
     code: "SW 101",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/47.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/25.jpg"
   },
   {
     id: "product-49",
@@ -563,16 +563,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     price: 3780,
     code: "SW-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/59.jpg"
-  },
-  {
-    id: "product-61",
-    name: "Soap Holder",
-    slug: "product-61",
-    category: "soap-dispenser",
-    finish: "Brushed Gold",
-    price: 2300,
-    code: "SW-G 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/60.jpg"
   },
   {
     id: "product-62",
@@ -4443,5 +4433,45 @@ export const bathroomAccessoriesProducts: Product[] = [
     price: 25,
     code: "GSK-6",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/427.jpg"
+  },
+  {
+    id: "sg-105",
+    name: "Liquid Dispenser",
+    slug: "sg-105",
+    category: "signature-series",
+    finish: "Chrome",
+    price: 3600,
+    code: "SG 105",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/39.jpg"
+  },
+  {
+    id: "sg-106",
+    name: "Paper Holder",
+    slug: "sg-106",
+    category: "signature-series",
+    finish: "Chrome",
+    price: 1800,
+    code: "SG 106",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/40.jpg"
+  },
+  {
+    id: "ft-109",
+    name: "Towel Rack",
+    slug: "ft-109",
+    category: "fortune-series",
+    finish: "Chrome",
+    price: 8450,
+    code: "FT 109",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/1.jpg"
+  },
+  {
+    id: "ft-107",
+    name: "Roll Holder With Mobile Stand",
+    slug: "ft-107",
+    category: "fortune-series",
+    finish: "Chrome",
+    price: 3200,
+    code: "FT 107",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/5.jpg"
   }
 ];

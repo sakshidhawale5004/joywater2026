@@ -1719,7 +1719,38 @@ const realCategoryProducts: Product[] = [
     code: "JW-10074",
     image: "/premium basin mixer/tall body floor mounted basin mixer 20500.png",
   },
-  // Sanitaryware
+  
+    // Bathroom Accessories Series
+    {
+      slug: "pyramid-series",
+      title: "Pyramid Series",
+      group: "bathroom-accessories",
+      description: "Premium Pyramid Series bathroom accessories in various finishes.",
+      features: ["11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "signature-series",
+      title: "Signature Series",
+      group: "bathroom-accessories",
+      description: "Premium Signature Series bathroom accessories.",
+      features: ["11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "fortune-series",
+      title: "Fortune Series",
+      group: "bathroom-accessories",
+      description: "Premium Fortune Series bathroom accessories.",
+      features: ["11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "solitaire-series",
+      title: "Solitaire Series",
+      group: "bathroom-accessories",
+      description: "Premium Solitaire Series bathroom accessories.",
+      features: ["11 Years Unmatched Assurance"]
+    },
+
+    // Sanitaryware
   ...sanitarywareProducts,
 
   // Others / Accessories
@@ -1984,9 +2015,13 @@ export const megaMenu = {
       "shower-hose-tube",
       "health-faucet"
     ],
-    "Bath Accessories": [
-      "soap-dispenser"
-    ]
+          "Bath Accessories": [
+        "pyramid-series",
+        "signature-series",
+        "fortune-series",
+        "solitaire-series",
+        "soap-dispenser"
+      ]
   },
   "Mirrors": {
     "Bathroom Mirrors": [
