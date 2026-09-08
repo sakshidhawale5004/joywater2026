@@ -1,4 +1,5 @@
 import { bathroomAccessoriesProducts } from "./bathroomAccessoriesProducts.ts";
+import { swatchSeriesProducts } from "./swatchSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -11,7 +12,8 @@ export type CategoryGroup =
   | "sanitaryware"
   | "others-accessories"
   | "mirrors"
-  | "bathroom-accessories";
+  | "bathroom-accessories"
+  | "swatch-series";
 
 export type Category = {
   slug: string;
@@ -759,6 +761,32 @@ export const categories: Category[] = [
     description: "Premium health faucet full set.",
     bannerImage: "/OTHERS/Bathroom Accessories & Fittings (21).png",
     features: ["11 Years Unmatched Assurance"]
+  },
+
+  // Swatch Series - Premium Bathroom Accessories
+  {
+    slug: "swatch-chrome",
+    title: "Swatch Series - Chrome",
+    group: "swatch-series",
+    description: "Premium Swatch Series bathroom accessories in elegant Chrome finish. Solid brass construction with superior quality.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/64.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Premium Quality", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "swatch-gold",
+    title: "Swatch Series - PVD Gold",
+    group: "swatch-series",
+    description: "Luxury Swatch Series bathroom accessories with PVD Gold finish. Durable brass with premium gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/76.jpg",
+    features: ["Brass Construction", "PVD Gold Finish", "Premium Quality", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "swatch-rose-gold",
+    title: "Swatch Series - PVD Rose Gold",
+    group: "swatch-series",
+    description: "Elegant Swatch Series bathroom accessories with PVD Rose Gold finish. Premium brass with luxurious rose gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/87.jpg",
+    features: ["Brass Construction", "PVD Rose Gold Finish", "Premium Quality", "11 Years Unmatched Assurance"]
   },
 
   // New Bathroom Accessories - 428 products
@@ -1887,6 +1915,7 @@ const realCategoryProducts: Product[] = [
   // Mirrors (62 authentic products from Joy water mirror.pdf across 6 collections)
   ...mirrorProducts,
   ...bathroomAccessoriesProducts,
+  ...swatchSeriesProducts,
 ];
 
 export const products: Product[] = [
