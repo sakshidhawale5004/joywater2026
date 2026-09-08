@@ -1,5 +1,9 @@
 import { bathroomAccessoriesProducts } from "./bathroomAccessoriesProducts.ts";
 import { swatchSeriesProducts } from "./swatchSeriesProducts.ts";
+import { pyramidSeriesProducts } from "./pyramidSeriesProducts.ts";
+import { signatureSeriesProducts } from "./signatureSeriesProducts.ts";
+import { fortuneSeriesProducts } from "./fortuneSeriesProducts.ts";
+import { solitaireSeriesProducts } from "./solitaireSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -13,7 +17,11 @@ export type CategoryGroup =
   | "others-accessories"
   | "mirrors"
   | "bathroom-accessories"
-  | "swatch-series";
+  | "swatch-series"
+  | "pyramid-series"
+  | "signature-series"
+  | "fortune-series"
+  | "solitaire-series";
 
 export type Category = {
   slug: string;
@@ -787,6 +795,46 @@ export const categories: Category[] = [
     description: "Elegant Swatch Series bathroom accessories with PVD Rose Gold finish. Premium brass with luxurious rose gold coating.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/87.jpg",
     features: ["Brass Construction", "PVD Rose Gold Finish", "Premium Quality", "11 Years Unmatched Assurance"]
+  },
+
+  // Pyramid Series - Premium Bathroom Accessories
+  {
+    slug: "pyramid-series",
+    title: "Pyramid Series - Chrome",
+    group: "pyramid-series",
+    description: "Pyramid Series bathroom accessories featuring elegant Chrome finish. Premium brass construction with superior quality.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/22.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Glass Accents", "11 Years Unmatched Assurance"]
+  },
+
+  // Signature Series - Premium Bathroom Accessories
+  {
+    slug: "signature-series",
+    title: "Signature Series - Chrome",
+    group: "signature-series",
+    description: "Signature Series bathroom accessories featuring premium Chrome finish. High-end brass construction with exceptional design.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/32.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Designer Collection", "11 Years Unmatched Assurance"]
+  },
+
+  // Fortune Series - Premium Bathroom Accessories
+  {
+    slug: "fortune-series",
+    title: "Fortune Series - Chrome",
+    group: "fortune-series",
+    description: "Fortune Series bathroom accessories with elegant Chrome finish. Premium brass construction with innovative designs.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/1.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Innovative Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Solitaire Series - Premium Bathroom Accessories
+  {
+    slug: "solitaire-series",
+    title: "Solitaire Series - Chrome",
+    group: "solitaire-series",
+    description: "Solitaire Series bathroom accessories featuring timeless Chrome finish. Classic brass construction with elegant styling.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Classic Design", "11 Years Unmatched Assurance"]
   },
 
   // New Bathroom Accessories - 428 products
@@ -1916,6 +1964,10 @@ const realCategoryProducts: Product[] = [
   ...mirrorProducts,
   ...bathroomAccessoriesProducts,
   ...swatchSeriesProducts,
+  ...pyramidSeriesProducts,
+  ...signatureSeriesProducts,
+  ...fortuneSeriesProducts,
+  ...solitaireSeriesProducts,
 ];
 
 export const products: Product[] = [
