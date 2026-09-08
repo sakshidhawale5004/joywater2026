@@ -4,6 +4,7 @@ import { pyramidSeriesProducts } from "./pyramidSeriesProducts.ts";
 import { signatureSeriesProducts } from "./signatureSeriesProducts.ts";
 import { fortuneSeriesProducts } from "./fortuneSeriesProducts.ts";
 import { solitaireSeriesProducts } from "./solitaireSeriesProducts.ts";
+import { unitySeriesProducts } from "./unitySeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -21,7 +22,8 @@ export type CategoryGroup =
   | "pyramid-series"
   | "signature-series"
   | "fortune-series"
-  | "solitaire-series";
+  | "solitaire-series"
+  | "unity-series";
 
 export type Category = {
   slug: string;
@@ -835,6 +837,16 @@ export const categories: Category[] = [
     description: "Solitaire Series bathroom accessories featuring timeless Chrome finish. Classic brass construction with elegant styling.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg",
     features: ["Brass Construction", "Chrome Finish", "Classic Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Unity Series - Premium Bathroom Accessories
+  {
+    slug: "unity-series",
+    title: "Unity Series - Black Gold",
+    group: "unity-series",
+    description: "Unity Series bathroom accessories featuring unique Black Gold finish. Premium brass construction with contemporary styling.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/97.jpg",
+    features: ["Brass Construction", "Black Gold Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
   },
 
   // New Bathroom Accessories - 428 products
@@ -1968,6 +1980,7 @@ const realCategoryProducts: Product[] = [
   ...signatureSeriesProducts,
   ...fortuneSeriesProducts,
   ...solitaireSeriesProducts,
+  ...unitySeriesProducts,
 ];
 
 export const products: Product[] = [
