@@ -1430,6 +1430,17 @@ const realCategoryProducts: Product[] = [
     ["JW-10066", "JW-10065", "JW-10066"]
   ),
   ...createCategoryProducts(
+    "single-function-wall-showers",
+    "Single Function Rain Shower",
+    "JW-100",
+    [13500],
+    [
+      "/showers/Single Function Shower (4).png",
+    ],
+    ["Chrome"],
+    ["JW-10017"]
+  ),
+  ...createCategoryProducts(
     "waterfall-wall-showers",
     "Waterfall Shower System",
     "JW-100",
