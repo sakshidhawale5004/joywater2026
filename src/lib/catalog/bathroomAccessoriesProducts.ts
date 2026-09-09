@@ -3616,56 +3616,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/367.png"
   },
   {
-    id: "product-369",
-    name: "SS 304 MARBLE/TILE DRAINER WITH TRAPPER",
-    slug: "product-369",
-    category: "shower-drainer",
-    finish: "Chrome",
-    price: 1440,
-    code: "JTD-506",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/368.jpg"
-  },
-  {
-    id: "product-370",
-    name: "SS GRATING",
-    slug: "product-370",
-    category: "shower-drainer",
-    finish: "Chrome",
-    price: 540,
-    code: "JGR-001",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/369.jpg"
-  },
-  {
-    id: "product-371",
-    name: "SS GRATING",
-    slug: "product-371",
-    category: "shower-drainer",
-    finish: "Chrome",
-    price: 540,
-    code: "JGR-002",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/370.jpg"
-  },
-  {
-    id: "product-372",
-    name: "SS GRATING",
-    slug: "product-372",
-    category: "shower-drainer",
-    finish: "Chrome",
-    price: 540,
-    code: "JGR-003",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/371.jpg"
-  },
-  {
-    id: "product-373",
-    name: "SS GRATING",
-    slug: "product-373",
-    category: "shower-drainer",
-    finish: "Chrome",
-    price: 540,
-    code: "JGR-004",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/372.jpg"
-  },
-  {
     id: "product-374",
     name: "SS GRATING 304 ROLEX JALI WITH HOLE",
     slug: "product-374",
