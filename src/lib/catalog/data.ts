@@ -1538,15 +1538,16 @@ const realCategoryProducts: Product[] = [
     ["JW-10042", "JW-10115", "JW-10114", "JW-10113"]
   ),
   ...createCategoryProducts(
-    "wall-mounted-shower",
+    "shower-set-with-hot-cold-controller",
     "shower set with hot & cold controller",
     "JW-100",
     [42000, 42000],
     [
-      "/shower category/shower set with hot & cold controller with  shower rail & hand shower  black finish  42000 (1).jpg",
-      "/shower category/shower set with hot & cold controller with  shower rail & hand shower chrome   42000 (2).jpg",
+      "/shower set with hot & cold controller.jpg",
+      "/shower set with hot & cold controller1.jpg",
     ],
-    ["Graphite Grey", "Chrome"]
+    ["Matte Black", "Chrome"],
+    ["JW-10071", "JW-10072"]
   ),
   ...createCategoryProducts(
     "spot-wall-showers",
