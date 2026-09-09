@@ -1441,6 +1441,28 @@ const realCategoryProducts: Product[] = [
     ["JW-10017"]
   ),
   ...createCategoryProducts(
+    "single-function-wall-showers",
+    "Single Function Round Shower 300x300mm",
+    "JW-100",
+    [13500],
+    [
+      "/shower category/single function shower round 13500.jpg",
+    ],
+    ["Chrome"],
+    ["JW-10062"]
+  ),
+  ...createCategoryProducts(
+    "single-function-wall-showers",
+    "Single Function Round Shower 250x250mm",
+    "JW-100",
+    [8500],
+    [
+      "/shower category/single function shower round 13500.jpg",
+    ],
+    ["Chrome"],
+    ["JW-10063"]
+  ),
+  ...createCategoryProducts(
     "waterfall-wall-showers",
     "Waterfall Shower System",
     "JW-100",
