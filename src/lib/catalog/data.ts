@@ -6,6 +6,7 @@ import { fortuneSeriesProducts } from "./fortuneSeriesProducts.ts";
 import { solitaireSeriesProducts } from "./solitaireSeriesProducts.ts";
 import { unitySeriesProducts } from "./unitySeriesProducts.ts";
 import { supremeSeriesProducts } from "./supremeSeriesProducts.ts";
+import { sigmaSeriesProducts } from "./sigmaSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -25,7 +26,8 @@ export type CategoryGroup =
   | "fortune-series"
   | "solitaire-series"
   | "unity-series"
-  | "supreme-series";
+  | "supreme-series"
+  | "sigma-series";
 
 export type Category = {
   slug: string;
@@ -875,6 +877,40 @@ export const categories: Category[] = [
     description: "Supreme Series bathroom accessories with elegant PVD Rose Gold finish. Premium brass with rose gold coating.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/113.jpg",
     features: ["Brass Construction", "PVD Rose Gold Finish", "Elegant Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Sigma Series - Premium Bathroom Accessories
+  {
+    slug: "sigma-chrome",
+    title: "Sigma Series - Chrome",
+    group: "sigma-series",
+    description: "Sigma Series bathroom accessories in elegant Chrome finish. High-quality brass construction with modern design.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/127.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Modern Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "sigma-gold",
+    title: "Sigma Series - PVD Gold",
+    group: "sigma-series",
+    description: "Sigma Series bathroom accessories with luxurious PVD Gold finish. Premium brass with gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/137.jpg",
+    features: ["Brass Construction", "PVD Gold Finish", "Luxury Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "sigma-rose-gold",
+    title: "Sigma Series - PVD Rose Gold",
+    group: "sigma-series",
+    description: "Sigma Series bathroom accessories with elegant PVD Rose Gold finish. Premium brass with rose gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/137.jpg",
+    features: ["Brass Construction", "PVD Rose Gold Finish", "Elegant Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "sigma-series",
+    title: "Sigma Series - All Finishes",
+    group: "sigma-series",
+    description: "Complete Sigma Series bathroom accessories collection in Chrome, PVD Gold, and PVD Rose Gold finishes.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/127.jpg",
+    features: ["Brass Construction", "Multiple Finishes", "Modern Design", "11 Years Unmatched Assurance"]
   },
 
   // New Bathroom Accessories - 428 products
@@ -2010,6 +2046,7 @@ const realCategoryProducts: Product[] = [
   ...solitaireSeriesProducts,
   ...unitySeriesProducts,
   ...supremeSeriesProducts,
+  ...sigmaSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2139,6 +2176,7 @@ export const megaMenu = {
       "fortune-series",
       "solitaire-series",
       "swatch-series",
+      "sigma-series",
       "unity-series",
       "supreme-chrome",
       "supreme-gold",

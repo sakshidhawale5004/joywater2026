@@ -19,6 +19,10 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as PyramidSeriesRouteImport } from './routes/pyramid-series'
+import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
+import { Route as SigmaGoldRouteImport } from './routes/sigma-gold'
+import { Route as SigmaRoseGoldRouteImport } from './routes/sigma-rose-gold'
+import { Route as SigmaSeriesRouteImport } from './routes/sigma-series'
 import { Route as SignatureSeriesRouteImport } from './routes/signature-series'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SolitaireSeriesRouteImport } from './routes/solitaire-series'
@@ -84,6 +88,26 @@ const ProductsRoute = ProductsRouteImport.update({
 const PyramidSeriesRoute = PyramidSeriesRouteImport.update({
   id: '/pyramid-series',
   path: '/pyramid-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SigmaChromeRoute = SigmaChromeRouteImport.update({
+  id: '/sigma-chrome',
+  path: '/sigma-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SigmaGoldRoute = SigmaGoldRouteImport.update({
+  id: '/sigma-gold',
+  path: '/sigma-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SigmaRoseGoldRoute = SigmaRoseGoldRouteImport.update({
+  id: '/sigma-rose-gold',
+  path: '/sigma-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SigmaSeriesRoute = SigmaSeriesRouteImport.update({
+  id: '/sigma-series',
+  path: '/sigma-series',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SignatureSeriesRoute = SignatureSeriesRouteImport.update({
@@ -179,6 +203,10 @@ export interface FileRoutesByFullPath {
   '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/sigma-chrome': typeof SigmaChromeRoute
+  '/sigma-gold': typeof SigmaGoldRoute
+  '/sigma-rose-gold': typeof SigmaRoseGoldRoute
+  '/sigma-series': typeof SigmaSeriesRoute
   '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/solitaire-series': typeof SolitaireSeriesRoute
@@ -207,6 +235,10 @@ export interface FileRoutesByTo {
   '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/sigma-chrome': typeof SigmaChromeRoute
+  '/sigma-gold': typeof SigmaGoldRoute
+  '/sigma-rose-gold': typeof SigmaRoseGoldRoute
+  '/sigma-series': typeof SigmaSeriesRoute
   '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/solitaire-series': typeof SolitaireSeriesRoute
@@ -236,6 +268,10 @@ export interface FileRoutesById {
   '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/sigma-chrome': typeof SigmaChromeRoute
+  '/sigma-gold': typeof SigmaGoldRoute
+  '/sigma-rose-gold': typeof SigmaRoseGoldRoute
+  '/sigma-series': typeof SigmaSeriesRoute
   '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/solitaire-series': typeof SolitaireSeriesRoute
@@ -266,6 +302,10 @@ export interface FileRouteTypes {
     | '/fortune-series'
     | '/products'
     | '/pyramid-series'
+    | '/sigma-chrome'
+    | '/sigma-gold'
+    | '/sigma-rose-gold'
+    | '/sigma-series'
     | '/signature-series'
     | '/sitemap.xml'
     | '/solitaire-series'
@@ -294,6 +334,10 @@ export interface FileRouteTypes {
     | '/fortune-series'
     | '/products'
     | '/pyramid-series'
+    | '/sigma-chrome'
+    | '/sigma-gold'
+    | '/sigma-rose-gold'
+    | '/sigma-series'
     | '/signature-series'
     | '/sitemap.xml'
     | '/solitaire-series'
@@ -322,6 +366,10 @@ export interface FileRouteTypes {
     | '/fortune-series'
     | '/products'
     | '/pyramid-series'
+    | '/sigma-chrome'
+    | '/sigma-gold'
+    | '/sigma-rose-gold'
+    | '/sigma-series'
     | '/signature-series'
     | '/sitemap.xml'
     | '/solitaire-series'
@@ -351,6 +399,10 @@ export interface RootRouteChildren {
   FortuneSeriesRoute: typeof FortuneSeriesRoute
   ProductsRoute: typeof ProductsRoute
   PyramidSeriesRoute: typeof PyramidSeriesRoute
+  SigmaChromeRoute: typeof SigmaChromeRoute
+  SigmaGoldRoute: typeof SigmaGoldRoute
+  SigmaRoseGoldRoute: typeof SigmaRoseGoldRoute
+  SigmaSeriesRoute: typeof SigmaSeriesRoute
   SignatureSeriesRoute: typeof SignatureSeriesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SolitaireSeriesRoute: typeof SolitaireSeriesRoute
@@ -439,6 +491,34 @@ declare module '@tanstack/react-router' {
       path: '/pyramid-series'
       fullPath: '/pyramid-series'
       preLoaderRoute: typeof PyramidSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sigma-chrome': {
+      id: '/sigma-chrome'
+      path: '/sigma-chrome'
+      fullPath: '/sigma-chrome'
+      preLoaderRoute: typeof SigmaChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sigma-gold': {
+      id: '/sigma-gold'
+      path: '/sigma-gold'
+      fullPath: '/sigma-gold'
+      preLoaderRoute: typeof SigmaGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sigma-rose-gold': {
+      id: '/sigma-rose-gold'
+      path: '/sigma-rose-gold'
+      fullPath: '/sigma-rose-gold'
+      preLoaderRoute: typeof SigmaRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sigma-series': {
+      id: '/sigma-series'
+      path: '/sigma-series'
+      fullPath: '/sigma-series'
+      preLoaderRoute: typeof SigmaSeriesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/signature-series': {
@@ -567,6 +647,10 @@ const rootRouteChildren: RootRouteChildren = {
   FortuneSeriesRoute: FortuneSeriesRoute,
   ProductsRoute: ProductsRoute,
   PyramidSeriesRoute: PyramidSeriesRoute,
+  SigmaChromeRoute: SigmaChromeRoute,
+  SigmaGoldRoute: SigmaGoldRoute,
+  SigmaRoseGoldRoute: SigmaRoseGoldRoute,
+  SigmaSeriesRoute: SigmaSeriesRoute,
   SignatureSeriesRoute: SignatureSeriesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SolitaireSeriesRoute: SolitaireSeriesRoute,
