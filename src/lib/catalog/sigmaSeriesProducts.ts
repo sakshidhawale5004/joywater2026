@@ -181,4 +181,85 @@ export const sigmaSeriesProducts: Product[] = [
     code: "SI-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/146.jpg"
   }
+,
+  {
+    id: "sigma-rose-gold-si-rg-101",
+    name: "Soap Holder",
+    slug: "sigma-rose-gold-si-rg-101",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 1900,
+    code: "SI-RG 101",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/148.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-102",
+    name: "Napkin Ring",
+    slug: "sigma-rose-gold-si-rg-102",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 1800,
+    code: "SI-RG 102",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/149.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-106",
+    name: "Tumbler Holder",
+    slug: "sigma-rose-gold-si-rg-106",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 1970,
+    code: "SI-RG 106",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/150.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-105",
+    name: "Liquid Dispenser",
+    slug: "sigma-rose-gold-si-rg-105",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 3600,
+    code: "SI-RG 105",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/151.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-104",
+    name: "Soap Holder",
+    slug: "sigma-rose-gold-si-rg-104",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 2300,
+    code: "SI-RG 104",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/154.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-107",
+    name: "Paper Holder With Flap",
+    slug: "sigma-rose-gold-si-rg-107",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 3600,
+    code: "SI-RG 107",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/155.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-108",
+    name: "Robe Hook",
+    slug: "sigma-rose-gold-si-rg-108",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 1200,
+    code: "SI-RG 108",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/156.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-103",
+    name: "Towel Bar | 600mm",
+    slug: "sigma-rose-gold-si-rg-103",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 3780,
+    code: "SI-RG 103",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/153.jpg"
+  }
 ];
