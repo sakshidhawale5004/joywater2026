@@ -2176,12 +2176,6 @@ export const megaMenu = {
       "4-function-hand-showers",
       "2-function-hand-showers",
       "single-function-hand-showers"
-    ],
-    "Showers In PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "chrome",
-      "brushed-gold-shower"
     ]
   },
   "Diverters & Mixers": {
@@ -2217,12 +2211,6 @@ export const megaMenu = {
       "bottle-trap",
       "shower-hose-tube",
       "health-faucet"
-    ],
-    "Mixers In PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "gold",
-      "chrome"
     ]
   },
   "Bath Accessories": {
