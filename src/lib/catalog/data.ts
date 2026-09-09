@@ -1732,9 +1732,9 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     [20500, 20500, 20500],
     [
+      "/basinmixer/Round Controller Basin Mixer (3).png",
       "/basinmixer/Round Controller Basin Mixer (1).png",
       "/basinmixer/Round Controller Basin Mixer (2).png",
-      "/basinmixer/Round Controller Basin Mixer (3).png",
     ],
     ["Rose Gold", "Brushed Gold", "Graphite Grey"],
     ["JW-10158", "JW-10159", "JW-10160"]
@@ -1759,10 +1759,10 @@ const realCategoryProducts: Product[] = [
     [19500, 23500, 23500, 23500, 23500],
     [
       "/basinmixer/Lever Basin Mixer (1).png",
+      "/basinmixer/Lever Basin Mixer (4).png",
       "/basinmixer/Lever Basin Mixer (2).png",
       "/basinmixer/Lever Basin Mixer (3).png",
       "/basinmixer/Lever Basin Mixer (4).png",
-      "/basinmixer/Lever Basin Mixer (1).png",
     ],
     ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
     ["JW-10079", "JW-10082", "JW-10080", "JW-10081", "JW-10203"]
@@ -1773,10 +1773,10 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     [21000, 23500, 23500, 23500],
     [
+      "/basinmixer/Table Mounted Basin Mixer (4).png",
+      "/basinmixer/Table Mounted Basin Mixer (3).png",
       "/basinmixer/Table Mounted Basin Mixer (1).png",
       "/basinmixer/Table Mounted Basin Mixer (2).png",
-      "/basinmixer/Table Mounted Basin Mixer (3).png",
-      "/basinmixer/Table Mounted Basin Mixer (4).png",
     ],
     ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
     ["JW-10075", "JW-10077", "JW-10076", "JW-10078"]
