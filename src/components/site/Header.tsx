@@ -163,9 +163,9 @@ export function Header() {
                   <h4 className="text-xs uppercase tracking-[0.2em] font-semibold mb-4 text-primary whitespace-nowrap">
                     {section}
                   </h4>
-                  <ul className="flex flex-col gap-y-3">
+                  <ul className={slugs.length > 7 ? "columns-2 gap-8" : "flex flex-col gap-y-3"}>
                     {(slugs as readonly string[]).map((slug) => (
-                      <li key={slug}>
+                      <li key={slug} className={slugs.length > 7 ? "break-inside-avoid mb-3" : ""}>
                         <Link
                           to={
                             section === "Showers In PVD Finishes"
