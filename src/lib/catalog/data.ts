@@ -1414,7 +1414,7 @@ const realCategoryProducts: Product[] = [
       "/showers/Single Function Shower (4).png",
     ],
     ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
-    ["JW-10014", "JW-10016", "JW-10015", "JW-10017"]
+    ["JW-10014", "JW-10016", "JW-10015", "JW-10013"]
   ),
   ...createCategoryProducts(
     "waterfall-wall-showers",
