@@ -335,15 +335,7 @@ export const categories: Category[] = [
     image: "/showers/Multifunctional Showers (1).png",
     features: ["Rain", "4 Mist", "4 Side Flap Rain", "Water Column", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "2-function-shower-soft-rain-waterfall",
-    title: "2 function shower soft rain +waterfall",
-    group: "ceiling-mounted-showers",
-    description: "2 function shower soft rain +waterfall.",
-    bannerImage: "/herosection/2 function shower soft rain +waterfallhero.jpg",
-    image: "/showers/Multifunctional Showers (4).png",
-    features: ["Soft Rain", "Waterfall", "11 Years Unmatched Assurance"]
-  },
+
   {
     slug: "single-function-shower-rain",
     title: "Single Function Shower",
@@ -1426,19 +1418,7 @@ const realCategoryProducts: Product[] = [
     ["Graphite Grey", "Rose Gold", "Brushed Gold"],
     ["JW-10153", "JW-10145", "JW-10144"]
   ),
-  ...createCategoryProducts(
-    "2-function-ceiling-showers",
-    "2 function shower soft rain +waterfall",
-    "JW-100",
-    [54000, 54000, 54000],
-    [
-      "/showers/Multifunctional Showers (4).png",
-      "/showers/Multifunctional Showers (5).png",
-      "/showers/Multifunctional Showers (6).png",
-    ],
-    ["Graphite Grey", "Rose Gold", "Brushed Gold"],
-    ["JW-10011", "JW-10094", "JW-10012"]
-  ),
+
   ...createCategoryProducts(
     "single-function-wall-showers",
     "Single Function Rain Shower",
