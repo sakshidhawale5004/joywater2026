@@ -390,15 +390,7 @@ export const categories: Category[] = [
     image: "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
     features: ["Rain", "Ceiling Mounted", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "overhead-abs-shower",
-    title: "overhead abs shower",
-    group: "ceiling-mounted-showers",
-    description: "overhead abs shower",
-    bannerImage: "/herosection/overhead abs showerhero.jpg",
-    image: "/shower category/overhead abs shower rain 9500 chrome.png",
-    features: ["ABS", "Overhead", "11 Years Unmatched Assurance"]
-  },
+
   {
     slug: "hand-shower",
     title: "hand shower",
@@ -1496,26 +1488,14 @@ const realCategoryProducts: Product[] = [
     "single-function-ceiling-showers",
     "single function shower rain celing mounted shower",
     "JW-100",
-    [48000, 13500],
+    [48000],
     [
       "/shower category/single function shower rain celing mounted shower with installation kit 48000.png",
-      "/shower category/single function shower round 13500.jpg",
     ],
-    ["Chrome", "Chrome"],
-    ["JW-10061", "JW-10062"]
+    ["Chrome"],
+    ["JW-10061"]
   ),
-  ...createCategoryProducts(
-    "single-function-ceiling-showers",
-    "overhead abs shower",
-    "JW-100",
-    [ 6300, 6300, 6300 ],
-    [
-      "/shower category/overhead abs shower rain 9500 chrome.png",
-      "/shower category/overhead abs shower rain 9500 graphite grey.png",
-      "/shower category/overhead abs shower rain gold 9500.png",
-    ],
-    ["Chrome", "Graphite Grey", "Brushed Gold"]
-  ),
+
   ...createCategoryProducts(
     "single-function-hand-showers",
     "hand shower",
