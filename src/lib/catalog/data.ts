@@ -2071,26 +2071,22 @@ export const megaMenu = {
   },
   "Showering": {
     "Ceiling Mounted Showers": [
-      "ceiling-mounted-shower",
       "2-function-ceiling-showers",
       "3-function-ceiling-showers",
       "4-function-ceiling-showers",
       "single-function-ceiling-showers"
     ],
     "Wall Mounted Showers": [
-      "wall-mounted-shower",
       "2-function-wall-showers",
       "single-function-wall-showers",
       "spot-wall-showers",
       "waterfall-wall-showers"
     ],
     "Body Jets & Body Showers": [
-      "body-jets-body-showers",
       "2-function-body-jets",
       "single-function-body-showers"
     ],
     "Hand Showers": [
-      "hand-showers",
       "4-function-hand-showers",
       "2-function-hand-showers",
       "single-function-hand-showers"
@@ -2104,7 +2100,6 @@ export const megaMenu = {
   },
   "Diverters & Mixers": {
     "Diverters": [
-      "diverters",
       "6-function-diverters",
       "5-function-diverters",
       "4-function-diverters",
