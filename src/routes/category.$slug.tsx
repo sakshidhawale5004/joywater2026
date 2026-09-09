@@ -65,6 +65,29 @@ function getHeroSectionImage(slug: string): string {
     "multifunctional-wall-mounted": "/herosection/Multifunctional Wall Mountedhero.png",
     "multifunctional-showers": "/herosection/Multifunctional Wall Mountedhero.png",
 
+    // Wall-Mounted Shower Subcategories
+    "wall-mounted-showers": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    "2-function-wall-showers": "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+    "single-function-wall-showers": "/HEROSECTIONIMAGES/single-function-shower-rain.jpg",
+    "spot-wall-showers": "/herosection/joy spot wall mounted showerhero.jpg",
+    "waterfall-wall-showers": "/HEROSECTIONIMAGES/waterfall-showers.jpg",
+
+    // Ceiling-Mounted Shower Subcategories
+    "ceiling-mounted-showers": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
+    "2-function-ceiling-showers": "/shower category/2 function shower rain mist 4  in hexagon shape  image for hero section  (1).jpg",
+    "single-function-ceiling-showers": "/herosection/single function shower rain celing mounted showerhero.png",
+
+    // Body Shower Subcategories
+    "body-showers": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+    "2-function-body-jets": "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
+    "single-function-body-showers": "/HEROSECTIONIMAGES/One Line Series.jpg",
+
+    // Hand Shower Subcategories
+    "hand-showers": "/herosection/4 function hand showerhero.png",
+    "4-function-hand-showers": "/herosection/4 function hand showerhero.png",
+    "2-function-hand-showers": "/shower category/hand shower chrome 2250 (2).png",
+    "single-function-hand-showers": "/shower category/hand shower chrome 2250 (2).png",
+
     // Diverters & Mixers Main Categories
     "diverters": "/HEROSECTIONIMAGES/5 Function Diverter.png",
     "tile-drainers": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",

@@ -238,7 +238,7 @@ export const categories: Category[] = [
       title: "Hand Showers",
       group: "hand-showers",
       description: "Hand showers in various function types.",
-      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+      bannerImage: "/herosection/4 function hand showerhero.png",
       image: "/shower category/hand shower chrome 2250 (2).png",
       features: ["Portable", "Multi-Function", "11 Years Unmatched Assurance"]
     },
@@ -249,7 +249,7 @@ export const categories: Category[] = [
       group: "hand-showers",
       description: "4 Function hand showers with multiple spray patterns.",
       bannerImage: "/herosection/4 function hand showerhero.png",
-      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
+      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (7).png",
       features: ["4 Functions", "Multiple Sprays", "Portable", "11 Years Unmatched Assurance"]
     },
     {
@@ -257,8 +257,8 @@ export const categories: Category[] = [
       title: "2 Function Hand Showers",
       group: "hand-showers",
       description: "2 Function hand showers for versatile showering experience.",
-      bannerImage: "/herosection/4 function hand showerhero.png",
-      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
+      bannerImage: "/shower category/hand shower chrome 2250 (2).png",
+      image: "/shower category/hand shower chrome 2250 (2).png",
       features: ["2 Functions", "Compact", "Easy Grip", "11 Years Unmatched Assurance"]
     },
     {
@@ -266,7 +266,7 @@ export const categories: Category[] = [
       title: "Single Function Hand Showers",
       group: "hand-showers",
       description: "Single function hand showers for classic showering experience.",
-      bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
+      bannerImage: "/shower category/hand shower chrome 2250 (2).png",
       image: "/shower category/hand shower chrome 2250 (2).png",
       features: ["Single Function", "Classic Design", "Lightweight", "11 Years Unmatched Assurance"]
     },
