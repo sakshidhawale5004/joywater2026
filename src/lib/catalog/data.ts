@@ -1650,7 +1650,7 @@ const realCategoryProducts: Product[] = [
       "/Body Showers/One Line Series (2).png",
       "/Body Showers/One Line Series (3).png",
       "/Body Showers/One Line Series (4).png",
-      "/Body Showers/One Line Series (1).png",
+      "/Body Showers/One Line Series (3).png",
     ],
     ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome", "Brushed Rose Gold"],
     ["JW-10191", "JW-10182", "JW-10190", "JW-10189", "JW-10193"]
