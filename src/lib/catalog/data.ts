@@ -2143,15 +2143,15 @@ export const megaMenu = {
       "3-function-click-diverters",
       "3-function-lever-diverters"
     ],
-    "Basin Mixers & Drainers": [
-      "basin-mixers",
-      "tile-drainers"
-    ],
     "Mixers In PVD Finishes": [
       "graphite-grey",
       "rose-gold",
       "gold",
       "chrome"
+    ],
+    "Basin Mixers & Drainers": [
+      "basin-mixers",
+      "tile-drainers"
     ],
     "Accessories": [
       "abs-hook",
