@@ -17,6 +17,10 @@ import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
+import { Route as OysterBlackRouteImport } from './routes/oyster-black'
+import { Route as OysterChromeRouteImport } from './routes/oyster-chrome'
+import { Route as OysterRoseGoldRouteImport } from './routes/oyster-rose-gold'
+import { Route as OysterSeriesRouteImport } from './routes/oyster-series'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as PyramidSeriesRouteImport } from './routes/pyramid-series'
 import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
@@ -78,6 +82,26 @@ const ContactRoute = ContactRouteImport.update({
 const FortuneSeriesRoute = FortuneSeriesRouteImport.update({
   id: '/fortune-series',
   path: '/fortune-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OysterBlackRoute = OysterBlackRouteImport.update({
+  id: '/oyster-black',
+  path: '/oyster-black',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OysterChromeRoute = OysterChromeRouteImport.update({
+  id: '/oyster-chrome',
+  path: '/oyster-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OysterRoseGoldRoute = OysterRoseGoldRouteImport.update({
+  id: '/oyster-rose-gold',
+  path: '/oyster-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OysterSeriesRoute = OysterSeriesRouteImport.update({
+  id: '/oyster-series',
+  path: '/oyster-series',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProductsRoute = ProductsRouteImport.update({
@@ -201,6 +225,10 @@ export interface FileRoutesByFullPath {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/oyster-black': typeof OysterBlackRoute
+  '/oyster-chrome': typeof OysterChromeRoute
+  '/oyster-rose-gold': typeof OysterRoseGoldRoute
+  '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/sigma-chrome': typeof SigmaChromeRoute
@@ -233,6 +261,10 @@ export interface FileRoutesByTo {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/oyster-black': typeof OysterBlackRoute
+  '/oyster-chrome': typeof OysterChromeRoute
+  '/oyster-rose-gold': typeof OysterRoseGoldRoute
+  '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/sigma-chrome': typeof SigmaChromeRoute
@@ -266,6 +298,10 @@ export interface FileRoutesById {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/oyster-black': typeof OysterBlackRoute
+  '/oyster-chrome': typeof OysterChromeRoute
+  '/oyster-rose-gold': typeof OysterRoseGoldRoute
+  '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/sigma-chrome': typeof SigmaChromeRoute
@@ -300,6 +336,10 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/oyster-black'
+    | '/oyster-chrome'
+    | '/oyster-rose-gold'
+    | '/oyster-series'
     | '/products'
     | '/pyramid-series'
     | '/sigma-chrome'
@@ -332,6 +372,10 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/oyster-black'
+    | '/oyster-chrome'
+    | '/oyster-rose-gold'
+    | '/oyster-series'
     | '/products'
     | '/pyramid-series'
     | '/sigma-chrome'
@@ -364,6 +408,10 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/oyster-black'
+    | '/oyster-chrome'
+    | '/oyster-rose-gold'
+    | '/oyster-series'
     | '/products'
     | '/pyramid-series'
     | '/sigma-chrome'
@@ -397,6 +445,10 @@ export interface RootRouteChildren {
   CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
   FortuneSeriesRoute: typeof FortuneSeriesRoute
+  OysterBlackRoute: typeof OysterBlackRoute
+  OysterChromeRoute: typeof OysterChromeRoute
+  OysterRoseGoldRoute: typeof OysterRoseGoldRoute
+  OysterSeriesRoute: typeof OysterSeriesRoute
   ProductsRoute: typeof ProductsRoute
   PyramidSeriesRoute: typeof PyramidSeriesRoute
   SigmaChromeRoute: typeof SigmaChromeRoute
@@ -477,6 +529,34 @@ declare module '@tanstack/react-router' {
       path: '/fortune-series'
       fullPath: '/fortune-series'
       preLoaderRoute: typeof FortuneSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oyster-black': {
+      id: '/oyster-black'
+      path: '/oyster-black'
+      fullPath: '/oyster-black'
+      preLoaderRoute: typeof OysterBlackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oyster-chrome': {
+      id: '/oyster-chrome'
+      path: '/oyster-chrome'
+      fullPath: '/oyster-chrome'
+      preLoaderRoute: typeof OysterChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oyster-rose-gold': {
+      id: '/oyster-rose-gold'
+      path: '/oyster-rose-gold'
+      fullPath: '/oyster-rose-gold'
+      preLoaderRoute: typeof OysterRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oyster-series': {
+      id: '/oyster-series'
+      path: '/oyster-series'
+      fullPath: '/oyster-series'
+      preLoaderRoute: typeof OysterSeriesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/products': {
@@ -645,6 +725,10 @@ const rootRouteChildren: RootRouteChildren = {
   CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
   FortuneSeriesRoute: FortuneSeriesRoute,
+  OysterBlackRoute: OysterBlackRoute,
+  OysterChromeRoute: OysterChromeRoute,
+  OysterRoseGoldRoute: OysterRoseGoldRoute,
+  OysterSeriesRoute: OysterSeriesRoute,
   ProductsRoute: ProductsRoute,
   PyramidSeriesRoute: PyramidSeriesRoute,
   SigmaChromeRoute: SigmaChromeRoute,

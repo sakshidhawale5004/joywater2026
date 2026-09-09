@@ -8,6 +8,7 @@ import { unitySeriesProducts } from "./unitySeriesProducts.ts";
 import { supremeSeriesProducts } from "./supremeSeriesProducts.ts";
 import { sigmaSeriesProducts } from "./sigmaSeriesProducts.ts";
 import { irisSeriesProducts } from "./irisSeriesProducts.ts";
+import { oysterSeriesProducts } from "./oysterSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -872,6 +873,40 @@ export const categories: Category[] = [
     description: "Iris Series bathroom accessories with luxurious PVD Gold finish. Premium brass with gold coating.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/167.jpg",
     features: ["Brass Construction", "PVD Gold Finish", "Luxury Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Oyster Series - Premium Bathroom Accessories
+  {
+    slug: "oyster-chrome",
+    title: "Oyster Series - Chrome",
+    group: "oyster-series",
+    description: "Oyster Series bathroom accessories in elegant Chrome finish. Premium brass construction with modern design.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/184.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Modern Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "oyster-rose-gold",
+    title: "Oyster Series - PVD Rose Gold",
+    group: "oyster-series",
+    description: "Oyster Series bathroom accessories with elegant PVD Rose Gold finish. Premium brass with rose gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/194.jpg",
+    features: ["Brass Construction", "PVD Rose Gold Finish", "Elegant Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "oyster-black",
+    title: "Oyster Series - Matte Black",
+    group: "oyster-series",
+    description: "Oyster Series bathroom accessories in sophisticated Matte Black finish. Premium brass with black coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/205.jpg",
+    features: ["Brass Construction", "Matte Black Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "oyster-series",
+    title: "Oyster Series - All Finishes",
+    group: "oyster-series",
+    description: "Complete Oyster Series bathroom accessories collection in Chrome, PVD Rose Gold, and Matte Black finishes.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/184.jpg",
+    features: ["Brass Construction", "Multiple Finishes", "Contemporary Design", "11 Years Unmatched Assurance"]
   },
 
   // Sigma Series - Premium Bathroom Accessories
@@ -2095,6 +2130,7 @@ const realCategoryProducts: Product[] = [
   ...supremeSeriesProducts,
   ...sigmaSeriesProducts,
   ...irisSeriesProducts,
+  ...oysterSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2227,6 +2263,9 @@ export const megaMenu = {
       "sigma-rose-gold",
       "iris-chrome",
       "iris-gold",
+      "oyster-chrome",
+      "oyster-rose-gold",
+      "oyster-black",
       "unity-series",
       "supreme-chrome",
       "supreme-gold",
