@@ -1947,68 +1947,79 @@ const realCategoryProducts: Product[] = [
       "/abs hook/abs hook (2) graphite grey 1750.png",
       "/abs hook/abs hook (3) chrome 990.png",
       "/abs hook/abs hook (4) rose gold 1750.png"
-    ], ["Gold", "Graphite Grey", "Chrome", "Rose Gold"]),
+    ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+    ["JW-10182", "JW-10181", "JW-10180", "JW-10183"]),
 
-    ...createCategoryProducts("button-spout", "Button Spout", "JW-100", [7500, 7500, 7500, 4500], [
+    ...createCategoryProducts("button-spout", "Button Spout", "JW-100", [7500, 7500, 4500, 7500], [
     "/OTHERS/Bathroom Accessories & Fittings (9).png",
     "/OTHERS/Bathroom Accessories & Fittings (10).png",
     "/OTHERS/Bathroom Accessories & Fittings (11).png",
     "/OTHERS/Bathroom Accessories & Fittings (12).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("angle-valve", "Angle Valve", "JW-100", [1800, 1800, 1800, 650], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10048", "JW-10050", "JW-10047", "JW-10049"]),
+  ...createCategoryProducts("angle-valve", "Angle Valve", "JW-100", [1800, 1800, 650, 1800], [
     "/OTHERS/Bathroom Accessories & Fittings (13).png",
     "/OTHERS/Bathroom Accessories & Fittings (14).png",
     "/OTHERS/Bathroom Accessories & Fittings (15).png",
     "/OTHERS/Bathroom Accessories & Fittings (16).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("bib-cock", "Bib Cock", "JW-100", [7200, 7200, 7200, 6500], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10022", "JW-10024", "JW-10083", "JW-10023"]),
+  ...createCategoryProducts("bib-cock", "Bib Cock", "JW-100", [7200, 7200, 6500, 7200], [
     "/OTHERS/Bathroom Accessories & Fittings (5).png",
     "/OTHERS/Bathroom Accessories & Fittings (6).png",
     "/OTHERS/Bathroom Accessories & Fittings (7).png",
     "/OTHERS/Bathroom Accessories & Fittings (8).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("shower-arm", "Shower Arm", "JW-100", [4850, 4850, 4850, 2700], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10209", "JW-10211", "JW-10210", "JW-10208"]),
+  ...createCategoryProducts("shower-arm", "Shower Arm", "JW-100", [4850, 4850, 2700, 4850], [
     "/OTHERS/Bathroom Accessories & Fittings (25).png",
     "/OTHERS/Bathroom Accessories & Fittings (26).png",
     "/OTHERS/Bathroom Accessories & Fittings (27).png",
     "/OTHERS/Bathroom Accessories & Fittings (28).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("shower-holder", "Shower Holder", "JW-100", [645, 645, 645, 350], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10106", "JW-10108", "JW-10105", "JW-10107"]),
+  ...createCategoryProducts("shower-holder", "Shower Holder", "JW-100", [645, 645, 350, 645], [
     "/OTHERS/Bathroom Accessories & Fittings.png",
     "/OTHERS/Bathroom Accessories & Fittings (29).png",
     "/OTHERS/Bathroom Accessories & Fittings (30).png",
     "/OTHERS/Bathroom Accessories & Fittings (31).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("wall-outlet", "Wall Outlet", "JW-100", [3500, 3500, 3500, 2250], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10116", "JW-10118", "JW-10073", "JW-10117"]),
+  ...createCategoryProducts("wall-outlet", "Wall Outlet", "JW-100", [3500, 3500, 2250, 3500], [
     "/OTHERS/Bathroom Accessories & Fittings (1).png",
     "/OTHERS/Bathroom Accessories & Fittings (2).png",
     "/OTHERS/Bathroom Accessories & Fittings (3).png",
     "/OTHERS/Bathroom Accessories & Fittings (4).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("pop-up-coupling", "Pop-up Coupling", "JW-100", [2950, 2950, 2950, 1350], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10030", "JW-10032", "JW-10029", "JW-10031"]),
+  ...createCategoryProducts("pop-up-coupling", "Pop-up Coupling", "JW-100", [2950, 2950, 1350, 2950], [
     "/OTHERS/Bathroom Accessories & Fittings (36).png",
     "/OTHERS/Bathroom Accessories & Fittings (37).png",
     "/OTHERS/Bathroom Accessories & Fittings (38).png",
     "/OTHERS/Bathroom Accessories & Fittings (39).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("bottle-trap", "Bottle Trap", "JW-100", [5700, 5700, 5700, 1450], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10085", "JW-10087", "JW-10084", "JW-10086"]),
+  ...createCategoryProducts("bottle-trap", "Bottle Trap", "JW-100", [5700, 5700, 1450, 5700], [
     "/OTHERS/Bathroom Accessories & Fittings (32).png",
     "/OTHERS/Bathroom Accessories & Fittings (33).png",
     "/OTHERS/Bathroom Accessories & Fittings (34).png",
     "/OTHERS/Bathroom Accessories & Fittings (35).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("shower-hose-tube", "Shower Hose Tube", "JW-100", [1650, 1650, 1650, 750], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10110", "JW-10112", "JW-10109", "JW-10111"]),
+  ...createCategoryProducts("shower-hose-tube", "Shower Hose Tube", "JW-100", [1650, 1650, 750, 1650], [
     "/OTHERS/Bathroom Accessories & Fittings (17).png",
     "/OTHERS/Bathroom Accessories & Fittings (18).png",
     "/OTHERS/Bathroom Accessories & Fittings (19).png",
     "/OTHERS/Bathroom Accessories & Fittings (20).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
-  ...createCategoryProducts("health-faucet", "Health Faucet Full Set", "JW-100", [3950, 3950, 3950, 2850], [
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10120", "JW-10122", "JW-10119", "JW-10121"]),
+  ...createCategoryProducts("health-faucet", "Health Faucet Full Set", "JW-100", [3950, 3950, 2850, 3950], [
     "/OTHERS/Bathroom Accessories & Fittings (21).png",
     "/OTHERS/Bathroom Accessories & Fittings (22).png",
     "/OTHERS/Bathroom Accessories & Fittings (23).png",
     "/OTHERS/Bathroom Accessories & Fittings (24).png",
-  ], ["Brushed Gold", "Graphite Grey", "Brushed Rose Gold", "Chrome"]),
+  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
+  ["JW-10026", "JW-10028", "JW-10025", "JW-10027"]),
 
   
   // Shower Drainer
