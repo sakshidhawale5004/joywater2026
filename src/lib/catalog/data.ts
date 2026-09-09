@@ -1510,7 +1510,7 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     [3550],
     [
-      "/4 functionhandshower.png",
+      "/4-function-handshower.png",
     ],
     ["Graphite Grey"],
     ["JW-10155"]
@@ -1521,7 +1521,7 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     [2350],
     [
-      "/4 functionhandshower (2).png",
+      "/4-function-handshower-2.png",
     ],
     ["Chrome"],
     ["JW-10156"]
@@ -1673,9 +1673,9 @@ const realCategoryProducts: Product[] = [
     [108000, 126000, 126000, 126000],
     [
       "/diverters/5 Function Diverter (1).png",
+      "/diverters/5 Function Diverter (4).png",
       "/diverters/5 Function Diverter (2).png",
       "/diverters/5 Function Diverter (3).png",
-      "/diverters/5 Function Diverter (4).png",
     ],
     ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
     ["JW-10001", "JW-10003", "JW-10002", "JW-10004"]
@@ -1687,10 +1687,10 @@ const realCategoryProducts: Product[] = [
     [112000, 138000, 138000, 138000, 138000],
     [
       "/diverters/6 Function Diverter (4).png",
-      "/diverters/6 Function Diverter (2).png",
       "/diverters/6 Function Diverter (3).png",
       "/diverters/6 Function Diverter (1).png",
-      "/diverters/6 Function Diverter (1).png",
+      "/diverters/6 Function Diverter (2).png",
+      "/diverters/6 Function Diverter (3).png",
     ],
     ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey", "Brushed Rose Gold"],
     ["JW-10173", "JW-10176", "JW-10175", "JW-10174", "JW-10201"]

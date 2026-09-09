@@ -94,11 +94,11 @@ function getHeroSectionImage(slug: string): string {
     "basin-mixers": "/HEROSECTIONIMAGES/Round Controller Basin Mixer.png",
 
     // Individual Diverters
-    "5-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
-    "6-function-diverter": "/HEROSECTIONIMAGES/6 Function Diverter.png",
-    "thermostatic-diverter-three-outlet": "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
-    "lever-diverter-three-outlet": "/HEROSECTIONIMAGES/Lever Diverter.jpg",
-    "4-function-diverter": "/HEROSECTIONIMAGES/5 Function Diverter.png",
+    "5-function-diverters": "/HEROSECTIONIMAGES/5 Function Diverter.png",
+    "6-function-diverters": "/HEROSECTIONIMAGES/6 Function Diverter.png",
+    "3-function-click-diverters": "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
+    "3-function-lever-diverters": "/HEROSECTIONIMAGES/Lever Diverter.jpg",
+    "4-function-diverters": "/HEROSECTIONIMAGES/5 Function Diverter.png",
 
     // Tile Insert Drainers
     "tile-insert-drain": "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
