@@ -3866,16 +3866,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/392.png"
   },
   {
-    id: "product-394",
-    name: "SHOWER ARM BEND",
-    slug: "product-394",
-    category: "shower-arm",
-    finish: "Chrome",
-    price: 810,
-    code: "JW SA 212",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/393.jpg"
-  },
-  {
     id: "product-395",
     name: "CEILING SHOWER ARM ROUND",
     slug: "product-395",
