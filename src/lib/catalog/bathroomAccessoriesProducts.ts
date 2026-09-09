@@ -64,16 +64,6 @@ export const bathroomAccessoriesProducts: Product[] = [
     code: "PR 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/26.jpg"
   },
-  {
-    id: "product-7",
-    name: "Towel Rack 600 mm",
-    slug: "product-7",
-    category: "pyramid-series",
-    finish: "Chrome",
-    price: 10350,
-    code: "PR 109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/29.jpg"
-  },
 
   {
     id: "product-9",
