@@ -5,6 +5,7 @@ import { signatureSeriesProducts } from "./signatureSeriesProducts.ts";
 import { fortuneSeriesProducts } from "./fortuneSeriesProducts.ts";
 import { solitaireSeriesProducts } from "./solitaireSeriesProducts.ts";
 import { unitySeriesProducts } from "./unitySeriesProducts.ts";
+import { supremeSeriesProducts } from "./supremeSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -23,7 +24,8 @@ export type CategoryGroup =
   | "signature-series"
   | "fortune-series"
   | "solitaire-series"
-  | "unity-series";
+  | "unity-series"
+  | "supreme-series";
 
 export type Category = {
   slug: string;
@@ -847,6 +849,32 @@ export const categories: Category[] = [
     description: "Unity Series bathroom accessories featuring unique Black Gold finish. Premium brass construction with contemporary styling.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/97.jpg",
     features: ["Brass Construction", "Black Gold Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Supreme Series - Premium Bathroom Accessories
+  {
+    slug: "supreme-chrome",
+    title: "Supreme Series - Chrome",
+    group: "supreme-series",
+    description: "Supreme Series bathroom accessories in elegant Chrome finish. High-quality brass construction with superior design.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/120.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Premium Quality", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "supreme-gold",
+    title: "Supreme Series - PVD Gold",
+    group: "supreme-series",
+    description: "Supreme Series bathroom accessories with luxurious PVD Gold finish. Premium brass with gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/66.jpg",
+    features: ["Brass Construction", "PVD Gold Finish", "Luxury Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "supreme-rose-gold",
+    title: "Supreme Series - PVD Rose Gold",
+    group: "supreme-series",
+    description: "Supreme Series bathroom accessories with elegant PVD Rose Gold finish. Premium brass with rose gold coating.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/113.jpg",
+    features: ["Brass Construction", "PVD Rose Gold Finish", "Elegant Design", "11 Years Unmatched Assurance"]
   },
 
   // New Bathroom Accessories - 428 products
@@ -1981,6 +2009,7 @@ const realCategoryProducts: Product[] = [
   ...fortuneSeriesProducts,
   ...solitaireSeriesProducts,
   ...unitySeriesProducts,
+  ...supremeSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2116,6 +2145,9 @@ export const megaMenu = {
       "solitaire-series",
       "swatch-series",
       "unity-series",
+      "supreme-chrome",
+      "supreme-gold",
+      "supreme-rose-gold",
       "soap-dispenser"
     ]
   },
