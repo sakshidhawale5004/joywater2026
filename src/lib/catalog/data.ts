@@ -2120,6 +2120,21 @@ export const megaMenu = {
       "rose-gold",
       "gold",
       "chrome"
+    ],
+    "Accessories": [
+      "abs-hook",
+      "button-spout",
+      "angle-valve",
+      "bib-cock",
+      "shower-arm",
+      "shower-holder"
+    ],
+    "Fittings": [
+      "wall-outlet",
+      "pop-up-coupling",
+      "bottle-trap",
+      "shower-hose-tube",
+      "health-faucet"
     ]
   },
   "Bath Accessories": {
