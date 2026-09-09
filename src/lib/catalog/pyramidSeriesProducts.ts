@@ -86,20 +86,7 @@ export const pyramidSeriesProducts: Product[] = [
     material: "Brass",
     features: ["600mm Length", "Chrome Finish", "Premium Brass Construction", "11 Years Warranty"]
   },
-  {
-    id: "pyramid-pr-110",
-    name: "Toilet Brush Holder",
-    slug: "pyramid-pr-110",
-    category: "pyramid-series",
-    subcategory: "toilet-brush-holder",
-    finish: "Chrome",
-    price: 2700,
-    code: "PR-110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/30.jpg",
-    description: "Pyramid Series Toilet Brush Holder with Chrome Finish",
-    material: "Brass + Glass",
-    features: ["Chrome Finish", "Glass Container", "Premium Brass Construction", "11 Years Warranty"]
-  },
+
   {
     id: "pyramid-pr-107",
     name: "Paper Holder With Flap",

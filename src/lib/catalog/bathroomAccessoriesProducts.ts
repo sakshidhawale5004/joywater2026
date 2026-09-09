@@ -74,16 +74,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     code: "PR 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/29.jpg"
   },
-  {
-    id: "product-8",
-    name: "Toilet Brush Holder",
-    slug: "product-8",
-    category: "pyramid-series",
-    finish: "Chrome",
-    price: 2700,
-    code: "PR 110",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/30.jpg"
-  },
+
   {
     id: "product-9",
     name: "Paper Holder With Flap",
