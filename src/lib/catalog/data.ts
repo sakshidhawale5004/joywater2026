@@ -522,11 +522,11 @@ export const categories: Category[] = [
   },
   {
     slug: "table-mounted-basin-mixer",
-    title: "Tall Body Basin Mixer",
+    title: "Waterfall Flow Basin Mixer",
     group: "basin-mixers",
-    description: "Tall Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
+    description: "Waterfall Flow Table Mounted Basin Mixer designed for vessel sinks and marble countertops.",
 
-    features: ["Table Mounted", "Tall Profile", "11 Years Unmatched Assurance", "Solid Brass"]
+    features: ["Table Mounted", "Waterfall Flow", "11 Years Unmatched Assurance", "Solid Brass"]
   },
   {
     slug: "progressive-controller-waterfall-basin-mixer",
@@ -547,9 +547,9 @@ export const categories: Category[] = [
 
     {
     slug: "premium-basin-mixer",
-    title: "Premium Basin Mixer",
+    title: "Tall Body Basin Mixer",
     group: "basin-mixers",
-    description: "Premium basin mixers with exquisite finishes and contemporary designs.",
+    description: "Tall Body basin mixers with exquisite finishes and contemporary designs.",
     bannerImage: "/premium basin mixer/brushed gold finish 19500.png",
     features: ["Premium Finishes", "11 Years Unmatched Assurance"]
   },
@@ -1769,7 +1769,7 @@ const realCategoryProducts: Product[] = [
   ),
   ...createCategoryProducts(
     "table-mounted-basin-mixer",
-    "Tall Body Basin Mixer",
+    "Waterfall Flow Basin Mixer",
     "JW-100",
     [21000, 23500, 23500, 23500],
     [
