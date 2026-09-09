@@ -354,15 +354,6 @@ export const categories: Category[] = [
     image: "/showers/Waterfall Showers (1).png",
     features: ["Cascade Flow", "Solid Brass Billet", "11 Years Unmatched Assurance"]
   },
-  {
-    slug: "2-function-wall-mounted-shower-arm",
-    title: "2 Function Wall Mounted Shower with Shower Arm",
-    group: "wall-mounted-showers",
-    description: "Rain & Mist wall mounted shower paired with a high-strength solid brass shower arm.",
-    bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-    image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
-    features: ["Rain", "Mist", "Wall Mounted", "11 Years Unmatched Assurance"]
-  },
     {
     slug: "4-function-hand-shower",
     title: "4 function hand shower",
@@ -1438,19 +1429,6 @@ const realCategoryProducts: Product[] = [
     ],
     ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
     ["JW-10052", "JW-10054", "JW-10053", "JW-10051"]
-  ),
-  ...createCategoryProducts(
-    "2-function-wall-showers",
-    "2 Function Wall Mounted Shower with Arm",
-    "JW-100",
-    [9500, 6300, 9500],
-    [
-      "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
-      "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
-      "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
-    ],
-    ["Brushed Gold", "Chrome", "Graphite Grey"],
-    ["JW-10066", "JW-10065", "JW-10066"]
   ),
   ...createCategoryProducts(
     "2-function-wall-showers",
