@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { SiteLayout } from "@/components/site/Layout";
 import { ProductCard } from "@/components/site/ProductCard";
+import { SeriesHero } from "@/components/site/SeriesHero";
 import { solitaireSeriesProducts } from "@/lib/catalog/solitaireSeriesProducts";
 
 export const Route = createFileRoute("/solitaire-series")({
@@ -25,36 +26,15 @@ function SolitaireSeriesPage() {
 
   return (
     <SiteLayout>
-      <section className="relative bg-primary text-primary-foreground py-20 overflow-hidden">
-        <img src="/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
-        <div className="relative max-w-7xl mx-auto px-8 z-10">
-          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-4">Solitaire Series</p>
-          <h1 className="font-serif text-5xl md:text-6xl">Chrome Finish</h1>
-          <p className="mt-4 text-primary-foreground/70 max-w-2xl">
-            {solitaireSeriesProducts.length} premium bathroom accessories featuring classic brass construction with timeless Chrome finish.
-            Create a sophisticated bathroom with our Solitaire Series collection.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <span className="text-gold">✓</span>
-              <span>Classic Brass Construction</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-gold">✓</span>
-              <span>Chrome Finish</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-gold">✓</span>
-              <span>Timeless Design</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-gold">✓</span>
-              <span>11 Years Warranty</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <SeriesHero
+        seriesName="Solitaire Series"
+        subtitle="Chrome Finish"
+        description="premium bathroom accessories featuring classic brass construction with timeless Chrome finish."
+        tagline="Create a sophisticated bathroom with our Solitaire Series collection — where classic design stands alone in excellence."
+        productCount={solitaireSeriesProducts.length}
+        features={["Classic Brass", "Chrome Finish", "Timeless Design", "11 Years Warranty"]}
+        imageUrl="/JOY WATER BATHROOM ACCESSORIES (1)/51.jpg"
+      />
 
       <section className="max-w-7xl mx-auto px-8 py-12">
         <div className="mb-10 pb-6 border-b border-border">

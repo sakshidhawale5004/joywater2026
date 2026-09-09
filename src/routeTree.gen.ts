@@ -16,8 +16,20 @@ import { Route as CareRouteImport } from './routes/care'
 import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
 import { Route as ProductsRouteImport } from './routes/products'
+import { Route as PyramidSeriesRouteImport } from './routes/pyramid-series'
+import { Route as SignatureSeriesRouteImport } from './routes/signature-series'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SolitaireSeriesRouteImport } from './routes/solitaire-series'
+import { Route as SupremeChromeRouteImport } from './routes/supreme-chrome'
+import { Route as SupremeGoldRouteImport } from './routes/supreme-gold'
+import { Route as SupremeRoseGoldRouteImport } from './routes/supreme-rose-gold'
+import { Route as SwatchChromeRouteImport } from './routes/swatch-chrome'
+import { Route as SwatchGoldRouteImport } from './routes/swatch-gold'
+import { Route as SwatchRoseGoldRouteImport } from './routes/swatch-rose-gold'
+import { Route as SwatchSeriesRouteImport } from './routes/swatch-series'
+import { Route as UnitySeriesRouteImport } from './routes/unity-series'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DivertersMixersInFinishSlugRouteImport } from './routes/diverters-mixers-in-finish.$slug'
@@ -59,14 +71,74 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FortuneSeriesRoute = FortuneSeriesRouteImport.update({
+  id: '/fortune-series',
+  path: '/fortune-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ProductsRoute = ProductsRouteImport.update({
   id: '/products',
   path: '/products',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PyramidSeriesRoute = PyramidSeriesRouteImport.update({
+  id: '/pyramid-series',
+  path: '/pyramid-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SignatureSeriesRoute = SignatureSeriesRouteImport.update({
+  id: '/signature-series',
+  path: '/signature-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SolitaireSeriesRoute = SolitaireSeriesRouteImport.update({
+  id: '/solitaire-series',
+  path: '/solitaire-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SupremeChromeRoute = SupremeChromeRouteImport.update({
+  id: '/supreme-chrome',
+  path: '/supreme-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SupremeGoldRoute = SupremeGoldRouteImport.update({
+  id: '/supreme-gold',
+  path: '/supreme-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SupremeRoseGoldRoute = SupremeRoseGoldRouteImport.update({
+  id: '/supreme-rose-gold',
+  path: '/supreme-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SwatchChromeRoute = SwatchChromeRouteImport.update({
+  id: '/swatch-chrome',
+  path: '/swatch-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SwatchGoldRoute = SwatchGoldRouteImport.update({
+  id: '/swatch-gold',
+  path: '/swatch-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SwatchRoseGoldRoute = SwatchRoseGoldRouteImport.update({
+  id: '/swatch-rose-gold',
+  path: '/swatch-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SwatchSeriesRoute = SwatchSeriesRouteImport.update({
+  id: '/swatch-series',
+  path: '/swatch-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const UnitySeriesRoute = UnitySeriesRouteImport.update({
+  id: '/unity-series',
+  path: '/unity-series',
   getParentRoute: () => rootRouteImport,
 } as any)
 const WarrantyRoute = WarrantyRouteImport.update({
@@ -104,8 +176,20 @@ export interface FileRoutesByFullPath {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
+  '/pyramid-series': typeof PyramidSeriesRoute
+  '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/solitaire-series': typeof SolitaireSeriesRoute
+  '/supreme-chrome': typeof SupremeChromeRoute
+  '/supreme-gold': typeof SupremeGoldRoute
+  '/supreme-rose-gold': typeof SupremeRoseGoldRoute
+  '/swatch-chrome': typeof SwatchChromeRoute
+  '/swatch-gold': typeof SwatchGoldRoute
+  '/swatch-rose-gold': typeof SwatchRoseGoldRoute
+  '/swatch-series': typeof SwatchSeriesRoute
+  '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
@@ -120,8 +204,20 @@ export interface FileRoutesByTo {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
+  '/pyramid-series': typeof PyramidSeriesRoute
+  '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/solitaire-series': typeof SolitaireSeriesRoute
+  '/supreme-chrome': typeof SupremeChromeRoute
+  '/supreme-gold': typeof SupremeGoldRoute
+  '/supreme-rose-gold': typeof SupremeRoseGoldRoute
+  '/swatch-chrome': typeof SwatchChromeRoute
+  '/swatch-gold': typeof SwatchGoldRoute
+  '/swatch-rose-gold': typeof SwatchRoseGoldRoute
+  '/swatch-series': typeof SwatchSeriesRoute
+  '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
@@ -137,8 +233,20 @@ export interface FileRoutesById {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/fortune-series': typeof FortuneSeriesRoute
   '/products': typeof ProductsRoute
+  '/pyramid-series': typeof PyramidSeriesRoute
+  '/signature-series': typeof SignatureSeriesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/solitaire-series': typeof SolitaireSeriesRoute
+  '/supreme-chrome': typeof SupremeChromeRoute
+  '/supreme-gold': typeof SupremeGoldRoute
+  '/supreme-rose-gold': typeof SupremeRoseGoldRoute
+  '/swatch-chrome': typeof SwatchChromeRoute
+  '/swatch-gold': typeof SwatchGoldRoute
+  '/swatch-rose-gold': typeof SwatchRoseGoldRoute
+  '/swatch-series': typeof SwatchSeriesRoute
+  '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
   '/diverters-mixers-in-finish/$slug': typeof DivertersMixersInFinishSlugRoute
@@ -155,8 +263,20 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/fortune-series'
     | '/products'
+    | '/pyramid-series'
+    | '/signature-series'
     | '/sitemap.xml'
+    | '/solitaire-series'
+    | '/supreme-chrome'
+    | '/supreme-gold'
+    | '/supreme-rose-gold'
+    | '/swatch-chrome'
+    | '/swatch-gold'
+    | '/swatch-rose-gold'
+    | '/swatch-series'
+    | '/unity-series'
     | '/warranty'
     | '/category/$slug'
     | '/diverters-mixers-in-finish/$slug'
@@ -171,8 +291,20 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/fortune-series'
     | '/products'
+    | '/pyramid-series'
+    | '/signature-series'
     | '/sitemap.xml'
+    | '/solitaire-series'
+    | '/supreme-chrome'
+    | '/supreme-gold'
+    | '/supreme-rose-gold'
+    | '/swatch-chrome'
+    | '/swatch-gold'
+    | '/swatch-rose-gold'
+    | '/swatch-series'
+    | '/unity-series'
     | '/warranty'
     | '/category/$slug'
     | '/diverters-mixers-in-finish/$slug'
@@ -187,8 +319,20 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/fortune-series'
     | '/products'
+    | '/pyramid-series'
+    | '/signature-series'
     | '/sitemap.xml'
+    | '/solitaire-series'
+    | '/supreme-chrome'
+    | '/supreme-gold'
+    | '/supreme-rose-gold'
+    | '/swatch-chrome'
+    | '/swatch-gold'
+    | '/swatch-rose-gold'
+    | '/swatch-series'
+    | '/unity-series'
     | '/warranty'
     | '/category/$slug'
     | '/diverters-mixers-in-finish/$slug'
@@ -204,8 +348,20 @@ export interface RootRouteChildren {
   CartRoute: typeof CartRoute
   CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
+  FortuneSeriesRoute: typeof FortuneSeriesRoute
   ProductsRoute: typeof ProductsRoute
+  PyramidSeriesRoute: typeof PyramidSeriesRoute
+  SignatureSeriesRoute: typeof SignatureSeriesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  SolitaireSeriesRoute: typeof SolitaireSeriesRoute
+  SupremeChromeRoute: typeof SupremeChromeRoute
+  SupremeGoldRoute: typeof SupremeGoldRoute
+  SupremeRoseGoldRoute: typeof SupremeRoseGoldRoute
+  SwatchChromeRoute: typeof SwatchChromeRoute
+  SwatchGoldRoute: typeof SwatchGoldRoute
+  SwatchRoseGoldRoute: typeof SwatchRoseGoldRoute
+  SwatchSeriesRoute: typeof SwatchSeriesRoute
+  UnitySeriesRoute: typeof UnitySeriesRoute
   WarrantyRoute: typeof WarrantyRoute
   CategorySlugRoute: typeof CategorySlugRoute
   DivertersMixersInFinishSlugRoute: typeof DivertersMixersInFinishSlugRoute
@@ -264,6 +420,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/fortune-series': {
+      id: '/fortune-series'
+      path: '/fortune-series'
+      fullPath: '/fortune-series'
+      preLoaderRoute: typeof FortuneSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/products': {
       id: '/products'
       path: '/products'
@@ -271,11 +434,88 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pyramid-series': {
+      id: '/pyramid-series'
+      path: '/pyramid-series'
+      fullPath: '/pyramid-series'
+      preLoaderRoute: typeof PyramidSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/signature-series': {
+      id: '/signature-series'
+      path: '/signature-series'
+      fullPath: '/signature-series'
+      preLoaderRoute: typeof SignatureSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sitemap.xml': {
       id: '/sitemap.xml'
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/solitaire-series': {
+      id: '/solitaire-series'
+      path: '/solitaire-series'
+      fullPath: '/solitaire-series'
+      preLoaderRoute: typeof SolitaireSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/supreme-chrome': {
+      id: '/supreme-chrome'
+      path: '/supreme-chrome'
+      fullPath: '/supreme-chrome'
+      preLoaderRoute: typeof SupremeChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/supreme-gold': {
+      id: '/supreme-gold'
+      path: '/supreme-gold'
+      fullPath: '/supreme-gold'
+      preLoaderRoute: typeof SupremeGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/supreme-rose-gold': {
+      id: '/supreme-rose-gold'
+      path: '/supreme-rose-gold'
+      fullPath: '/supreme-rose-gold'
+      preLoaderRoute: typeof SupremeRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/swatch-chrome': {
+      id: '/swatch-chrome'
+      path: '/swatch-chrome'
+      fullPath: '/swatch-chrome'
+      preLoaderRoute: typeof SwatchChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/swatch-gold': {
+      id: '/swatch-gold'
+      path: '/swatch-gold'
+      fullPath: '/swatch-gold'
+      preLoaderRoute: typeof SwatchGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/swatch-rose-gold': {
+      id: '/swatch-rose-gold'
+      path: '/swatch-rose-gold'
+      fullPath: '/swatch-rose-gold'
+      preLoaderRoute: typeof SwatchRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/swatch-series': {
+      id: '/swatch-series'
+      path: '/swatch-series'
+      fullPath: '/swatch-series'
+      preLoaderRoute: typeof SwatchSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/unity-series': {
+      id: '/unity-series'
+      path: '/unity-series'
+      fullPath: '/unity-series'
+      preLoaderRoute: typeof UnitySeriesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/warranty': {
@@ -324,8 +564,20 @@ const rootRouteChildren: RootRouteChildren = {
   CartRoute: CartRoute,
   CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
+  FortuneSeriesRoute: FortuneSeriesRoute,
   ProductsRoute: ProductsRoute,
+  PyramidSeriesRoute: PyramidSeriesRoute,
+  SignatureSeriesRoute: SignatureSeriesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  SolitaireSeriesRoute: SolitaireSeriesRoute,
+  SupremeChromeRoute: SupremeChromeRoute,
+  SupremeGoldRoute: SupremeGoldRoute,
+  SupremeRoseGoldRoute: SupremeRoseGoldRoute,
+  SwatchChromeRoute: SwatchChromeRoute,
+  SwatchGoldRoute: SwatchGoldRoute,
+  SwatchRoseGoldRoute: SwatchRoseGoldRoute,
+  SwatchSeriesRoute: SwatchSeriesRoute,
+  UnitySeriesRoute: UnitySeriesRoute,
   WarrantyRoute: WarrantyRoute,
   CategorySlugRoute: CategorySlugRoute,
   DivertersMixersInFinishSlugRoute: DivertersMixersInFinishSlugRoute,
