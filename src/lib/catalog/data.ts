@@ -1406,15 +1406,14 @@ const realCategoryProducts: Product[] = [
     "single-function-wall-showers",
     "Single Function Rain Shower",
     "JW-100",
-    [13500, 13500, 13500, 8500],
+    [13500, 13500, 13500],
     [
       "/showers/Single Function Shower (1).png",
       "/showers/Single Function Shower (2).png",
       "/showers/Single Function Shower (3).png",
-      "/showers/Single Function Shower (4).png",
     ],
-    ["Brushed Gold", "Graphite Grey", "Rose Gold", "Chrome"],
-    ["JW-10014", "JW-10016", "JW-10015", "JW-10013"]
+    ["Brushed Gold", "Graphite Grey", "Rose Gold"],
+    ["JW-10014", "JW-10016", "JW-10015"]
   ),
   ...createCategoryProducts(
     "single-function-wall-showers",
@@ -1429,17 +1428,7 @@ const realCategoryProducts: Product[] = [
     ["Brushed Gold", "Chrome", "Graphite Grey"],
     ["JW-10066", "JW-10065", "JW-10066"]
   ),
-  ...createCategoryProducts(
-    "single-function-wall-showers",
-    "Single Function Rain Shower",
-    "JW-100",
-    [13500],
-    [
-      "/showers/Single Function Shower (4).png",
-    ],
-    ["Chrome"],
-    ["JW-10017"]
-  ),
+
   ...createCategoryProducts(
     "single-function-wall-showers",
     "Single Function Round Shower 300x300mm",
@@ -1514,17 +1503,7 @@ const realCategoryProducts: Product[] = [
     ],
     ["JW-10070"]
   ),
-  ...createCategoryProducts(
-    "2-function-hand-showers",
-    "2 function hand shower",
-    "JW-100",
-    [3550],
-    [
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
-    ],
-    ["Graphite Grey"],
-    ["JW-10155"]
-  ),
+
   ...createCategoryProducts(
     "2-function-hand-showers",
     "2 function hand shower",
