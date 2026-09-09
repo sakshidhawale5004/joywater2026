@@ -1417,6 +1417,19 @@ const realCategoryProducts: Product[] = [
     ["JW-10014", "JW-10016", "JW-10015", "JW-10013"]
   ),
   ...createCategoryProducts(
+    "single-function-wall-showers",
+    "2 Function Wall Mounted Shower with Shower Arm",
+    "JW-100",
+    [9500, 6300, 9500],
+    [
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (2).png",
+      "/showers/2 Function Wall Mounted Shower with Shower Arm (3).png",
+    ],
+    ["Brushed Gold", "Chrome", "Graphite Grey"],
+    ["JW-10066", "JW-10065", "JW-10066"]
+  ),
+  ...createCategoryProducts(
     "waterfall-wall-showers",
     "Waterfall Shower System",
     "JW-100",
