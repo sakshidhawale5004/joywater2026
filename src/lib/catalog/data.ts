@@ -2133,21 +2133,6 @@ export const megaMenu = {
     ]
   },
   "Bath Accessories": {
-    "Accessories": [
-        "abs-hook",
-        "button-spout",
-      "angle-valve",
-      "bib-cock",
-      "shower-arm",
-      "shower-holder"
-    ],
-    "Fittings": [
-      "wall-outlet",
-      "pop-up-coupling",
-      "bottle-trap",
-      "shower-hose-tube",
-      "health-faucet"
-    ],
     "Bath Accessories": [
       "pyramid-series",
       "signature-series",
