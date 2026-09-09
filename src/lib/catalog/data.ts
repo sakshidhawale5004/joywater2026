@@ -2143,12 +2143,6 @@ export const megaMenu = {
       "3-function-click-diverters",
       "3-function-lever-diverters"
     ],
-    "Mixers In PVD Finishes": [
-      "graphite-grey",
-      "rose-gold",
-      "gold",
-      "chrome"
-    ],
     "Basin Mixers & Drainers": [
       "basin-mixers",
       "tile-drainers"
@@ -2167,6 +2161,12 @@ export const megaMenu = {
       "bottle-trap",
       "shower-hose-tube",
       "health-faucet"
+    ],
+    "Mixers In PVD Finishes": [
+      "graphite-grey",
+      "rose-gold",
+      "gold",
+      "chrome"
     ]
   },
   "Bath Accessories": {
