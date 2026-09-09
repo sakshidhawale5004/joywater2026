@@ -1505,20 +1505,47 @@ const realCategoryProducts: Product[] = [
     "4-function-hand-showers",
     "4 function hand shower",
     "JW-100",
-    [3550, 2350, 3550, 2950],
+    [2950],
     [
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (4).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (5).png",
-      "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
       "/showers/Multifunctional Wall Mounted Shower (2 Function) (7).png",
     ],
     [
-      "Brushed Gold",
-      "Chrome",
-      "Graphite Grey",
       "Chrome",
     ],
-    ["JW-10154", "JW-10156", "JW-10155", "JW-10070"]
+    ["JW-10070"]
+  ),
+  ...createCategoryProducts(
+    "2-function-hand-showers",
+    "2 function hand shower",
+    "JW-100",
+    [3550],
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
+    ],
+    ["Graphite Grey"],
+    ["JW-10155"]
+  ),
+  ...createCategoryProducts(
+    "2-function-hand-showers",
+    "2 function hand shower",
+    "JW-100",
+    [3550],
+    [
+      "/4 functionhandshower.png",
+    ],
+    ["Graphite Grey"],
+    ["JW-10155"]
+  ),
+  ...createCategoryProducts(
+    "2-function-hand-showers",
+    "2 function hand shower",
+    "JW-100",
+    [2350],
+    [
+      "/4 functionhandshower (2).png",
+    ],
+    ["Chrome"],
+    ["JW-10156"]
   ),
   ...createCategoryProducts(
     "2-function-ceiling-showers",
