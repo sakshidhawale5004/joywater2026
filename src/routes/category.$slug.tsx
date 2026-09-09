@@ -32,7 +32,7 @@ export const Route = createFileRoute("/category/$slug")({
   ),
 });
 
-function getHeroSectionImage(slug: string): string {
+function getHeroSectionImage(cat: any, products: any[]): string {
   const map: Record<string, string> = {
     // Shower Main Categories
     "ceiling-mounted-shower": "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg",
@@ -142,7 +142,7 @@ function getHeroSectionImage(slug: string): string {
     "plain-mirrors": "/HEROSECTIONIMAGES/Plain Mirrors.jpg",
   };
 
-  return map[slug] || "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg";
+  return map[cat.slug] || cat.bannerImage || cat.image || (products.length > 0 ? products[0].image : "/HEROSECTIONIMAGES/2 Function ShowerHERO.jpg");
 }
 
 function CategoryPage() {
@@ -154,7 +154,7 @@ function CategoryPage() {
   // Top banner background image (dark overlay hero)
   const heroImg = cat.bannerImage || cat.image || (products.length > 0 ? products[0].image : "/images/w3-01.png");
   // Dedicated hero showcase image from /herosection/ folder
-  const heroShowcaseImg = getHeroSectionImage(cat.slug);
+  const heroShowcaseImg = getHeroSectionImage(cat, products);
 
   return (
     <SiteLayout>
