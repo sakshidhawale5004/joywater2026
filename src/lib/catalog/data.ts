@@ -1443,6 +1443,18 @@ const realCategoryProducts: Product[] = [
     ["Graphite Grey", "Rose Gold", "Brushed Gold"],
     ["JW-10011", "JW-10094", "JW-10012"]
   ),
+  ...createCategoryProducts(
+    "2-function-wall-showers",
+    "2 Function Wall Mounted Shower With Shower Arm",
+    "JW-100",
+    [23500, 23500],
+    [
+      "/shower category/multifunctional-wall-mounted-1.jpg",
+      "/shower category/multifunctional-wall-mounted-2.jpg",
+    ],
+    ["Chrome", "Chrome"],
+    ["JW-10068", "JW-10069"]
+  ),
     ...createCategoryProducts(
     "4-function-hand-showers",
     "4 function hand shower",
