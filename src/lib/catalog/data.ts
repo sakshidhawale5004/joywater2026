@@ -1226,7 +1226,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-1",
     slug: "ceiling-mounted-basin-mixer-1",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Graphite Grey",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Graphite Grey",
     price: 24750,
     code: "JW-10103",
@@ -1236,7 +1236,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-2",
     slug: "ceiling-mounted-basin-mixer-2",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Graphite Grey",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Graphite Grey",
     price: 15750,
     code: "JW-10104",
@@ -1246,7 +1246,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-3",
     slug: "ceiling-mounted-basin-mixer-3",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Gold",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Gold",
     price: 24750,
     code: "JW-10099",
@@ -1256,7 +1256,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-4",
     slug: "ceiling-mounted-basin-mixer-4",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Gold",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Gold",
     price: 15750,
     code: "JW-10100",
@@ -1266,7 +1266,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-5",
     slug: "ceiling-mounted-basin-mixer-5",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Rose Gold",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Rose Gold",
     price: 24750,
     code: "JW-10101",
@@ -1276,7 +1276,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-6",
     slug: "ceiling-mounted-basin-mixer-6",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Rose Gold",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Rose Gold",
     price: 15750,
     code: "JW-10102",
@@ -1286,7 +1286,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-7",
     slug: "ceiling-mounted-basin-mixer-7",
     name: "Ceiling Mounted Basin Mixer (Long) - Brushed Chrome",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Chrome",
     price: 19500,
     code: "JW-10097",
@@ -1296,7 +1296,7 @@ const ceilingMountedMixerProducts: Product[] = [
     id: "ceiling-mounted-basin-mixer-8",
     slug: "ceiling-mounted-basin-mixer-8",
     name: "Table Mounted Basin Mixer (Medium) - Brushed Chrome",
-    category: "basin-mixers",
+    category: "ceiling-mounted-basin-mixer",
     finish: "Chrome",
     price: 13500,
     code: "JW-10098",
@@ -1727,7 +1727,7 @@ const realCategoryProducts: Product[] = [
 
   // Basin Mixers
   ...createCategoryProducts(
-    "basin-mixers",
+    "round-controller-basin-mixer",
     "Round Controller Basin Mixer",
     "JW-100",
     [20500, 20500, 20500],
@@ -1740,7 +1740,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
-    "basin-mixers",
+    "thermostatic-click-controller-basin-mixer",
     "Thermostatic Click Controller Basin Mixer",
     "JW-100",
     [36500, 36500, 36500],
@@ -1753,7 +1753,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10158", "JW-10159", "JW-10160"]
   ),
   ...createCategoryProducts(
-    "basin-mixers",
+    "lever-basin-mixer",
     "Lever Basin Mixer",
     "JW-100",
     [19500, 23500, 23500, 23500, 23500],
@@ -1768,7 +1768,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10079", "JW-10082", "JW-10080", "JW-10081", "JW-10203"]
   ),
   ...createCategoryProducts(
-    "basin-mixers",
+    "table-mounted-basin-mixer",
     "Tall Body Basin Mixer",
     "JW-100",
     [21000, 23500, 23500, 23500],
@@ -1782,7 +1782,7 @@ const realCategoryProducts: Product[] = [
     ["JW-10075", "JW-10077", "JW-10076", "JW-10078"]
   ),
   ...createCategoryProducts(
-    "basin-mixers",
+    "progressive-controller-waterfall-basin-mixer",
     "Progressive Controller Waterfall Basin Mixer",
     "JW-100",
     [22500, 27500, 27500, 27500],
@@ -1821,7 +1821,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-1",
     slug: "premium-basin-mixer-1",
     name: "Premium Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Brushed Gold",
     price: 19500,
     code: "JW-20001",
@@ -1831,7 +1831,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-2",
     slug: "premium-basin-mixer-2",
     name: "Premium Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Chrome",
     price: 14500,
     code: "JW-20002",
@@ -1841,7 +1841,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-3",
     slug: "premium-basin-mixer-3",
     name: "Premium Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Graphite Grey",
     price: 19500,
     code: "JW-20003",
@@ -1851,7 +1851,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-4",
     slug: "premium-basin-mixer-4",
     name: "Premium Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Rose Gold",
     price: 19500,
     code: "JW-20004",
@@ -1861,7 +1861,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-5",
     slug: "premium-basin-mixer-5",
     name: "Wall Mounted Liver Pointed",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Rose Gold",
     price: 16000,
     code: "JW-10161",
@@ -1871,7 +1871,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-6",
     slug: "premium-basin-mixer-6",
     name: "Tall Body Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Rose Gold",
     price: 22500,
     code: "JW-10157",
@@ -1881,7 +1881,7 @@ const realCategoryProducts: Product[] = [
     id: "premium-basin-mixer-7",
     slug: "premium-basin-mixer-7",
     name: "Tall Body Basin Mixer",
-    category: "basin-mixers",
+    category: "premium-basin-mixer",
     finish: "Chrome",
     price: 20500,
     code: "JW-10074",
@@ -2092,6 +2092,7 @@ export function getProductsByCategory(slug: string) {
       "body-jets-body-showers": ["2-function-body-jets", "single-function-body-showers"],
       "hand-showers": ["4-function-hand-showers", "2-function-hand-showers", "single-function-hand-showers"],
       "diverters": ["6-function-diverters", "5-function-diverters", "4-function-diverters", "3-function-click-diverters", "3-function-lever-diverters"],
+      "basin-mixers": ["round-controller-basin-mixer", "thermostatic-click-controller-basin-mixer", "lever-basin-mixer", "table-mounted-basin-mixer", "ceiling-mounted-basin-mixer", "premium-basin-mixer"],
     };
     
     // If this is a parent category, include all subcategory products
@@ -2159,8 +2160,15 @@ export const megaMenu = {
       "3-function-click-diverters",
       "3-function-lever-diverters"
     ],
-    "Basin Mixers & Drainers": [
-      "basin-mixers",
+    "Basin Mixers": [
+      "round-controller-basin-mixer",
+      "thermostatic-click-controller-basin-mixer",
+      "lever-basin-mixer",
+      "table-mounted-basin-mixer",
+      "ceiling-mounted-basin-mixer",
+      "premium-basin-mixer"
+    ],
+    "Drainers": [
       "tile-drainers"
     ],
     "Accessories": [
