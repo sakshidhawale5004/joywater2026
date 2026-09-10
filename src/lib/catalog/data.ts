@@ -2288,7 +2288,6 @@ export const megaMenu = {
       "swatch-chrome",
       "swatch-gold",
       "swatch-rose-gold",
-      "sigma-chrome",
       "sigma-gold",
       "sigma-rose-gold",
       "iris-chrome",
