@@ -2274,11 +2274,17 @@ export const megaMenu = {
     ]
   },
   "Bath Accessories": {
-    "Bath Accessories": [
+    "Premium Series": [
       "pyramid-series",
       "signature-series",
       "fortune-series",
       "solitaire-series",
+      "unity-series",
+      "supreme-chrome",
+      "supreme-gold",
+      "supreme-rose-gold"
+    ],
+    "Designer Collections": [
       "swatch-chrome",
       "swatch-gold",
       "swatch-rose-gold",
@@ -2286,16 +2292,14 @@ export const megaMenu = {
       "sigma-gold",
       "sigma-rose-gold",
       "iris-chrome",
-      "iris-gold",
+      "iris-gold"
+    ],
+    "Exclusive Ranges": [
       "oyster-chrome",
       "oyster-rose-gold",
       "oyster-black",
       "ovilio-chrome",
       "grace-chrome",
-      "unity-series",
-      "supreme-chrome",
-      "supreme-gold",
-      "supreme-rose-gold",
       "soap-dispenser"
     ]
   },
