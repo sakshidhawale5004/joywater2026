@@ -930,6 +930,38 @@ export const categories: Category[] = [
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/226.jpg",
     features: ["SS Construction", "Chrome Finish", "Premium Quality", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "grace-gold",
+    title: "Grace Gold Series",
+    group: "grace-gold-series",
+    description: "Grace Gold Series bathroom accessories with luxurious PVD Gold finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/236.jpg",
+    features: ["SS Construction", "PVD Gold Finish", "Luxury Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "grace-rose-gold",
+    title: "Grace Rose Gold Series",
+    group: "grace-rose-gold-series",
+    description: "Grace Rose Gold Series bathroom accessories with elegant PVD Rose Gold finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/246.jpg",
+    features: ["SS Construction", "PVD Rose Gold Finish", "Elegant Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "grace-black",
+    title: "Grace Black Series",
+    group: "grace-black-series",
+    description: "Grace Black Series bathroom accessories with modern PVD Black finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/256.jpg",
+    features: ["SS Construction", "PVD Black Finish", "Modern Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "rectus-chrome",
+    title: "Rectus Chrome Series",
+    group: "rectus-chrome-series",
+    description: "Rectus Chrome Series bathroom accessories in contemporary chrome finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/265.png",
+    features: ["SS Construction", "Chrome Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
 
   // Sigma Series - Premium Bathroom Accessories
   {
