@@ -51,6 +51,7 @@ import { Route as SwatchGoldRouteImport } from './routes/swatch-gold'
 import { Route as SwatchRoseGoldRouteImport } from './routes/swatch-rose-gold'
 import { Route as SwatchSeriesRouteImport } from './routes/swatch-series'
 import { Route as ToiletBrushHolderRouteImport } from './routes/toilet-brush-holder'
+import { Route as TrapperRouteImport } from './routes/trapper'
 import { Route as UnitySeriesRouteImport } from './routes/unity-series'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
@@ -268,6 +269,11 @@ const ToiletBrushHolderRoute = ToiletBrushHolderRouteImport.update({
   path: '/toilet-brush-holder',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TrapperRoute = TrapperRouteImport.update({
+  id: '/trapper',
+  path: '/trapper',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const UnitySeriesRoute = UnitySeriesRouteImport.update({
   id: '/unity-series',
   path: '/unity-series',
@@ -343,6 +349,7 @@ export interface FileRoutesByFullPath {
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
   '/toilet-brush-holder': typeof ToiletBrushHolderRoute
+  '/trapper': typeof TrapperRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -393,6 +400,7 @@ export interface FileRoutesByTo {
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
   '/toilet-brush-holder': typeof ToiletBrushHolderRoute
+  '/trapper': typeof TrapperRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -444,6 +452,7 @@ export interface FileRoutesById {
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
   '/toilet-brush-holder': typeof ToiletBrushHolderRoute
+  '/trapper': typeof TrapperRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -496,6 +505,7 @@ export interface FileRouteTypes {
     | '/swatch-rose-gold'
     | '/swatch-series'
     | '/toilet-brush-holder'
+    | '/trapper'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -546,6 +556,7 @@ export interface FileRouteTypes {
     | '/swatch-rose-gold'
     | '/swatch-series'
     | '/toilet-brush-holder'
+    | '/trapper'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -596,6 +607,7 @@ export interface FileRouteTypes {
     | '/swatch-rose-gold'
     | '/swatch-series'
     | '/toilet-brush-holder'
+    | '/trapper'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -647,6 +659,7 @@ export interface RootRouteChildren {
   SwatchRoseGoldRoute: typeof SwatchRoseGoldRoute
   SwatchSeriesRoute: typeof SwatchSeriesRoute
   ToiletBrushHolderRoute: typeof ToiletBrushHolderRoute
+  TrapperRoute: typeof TrapperRoute
   UnitySeriesRoute: typeof UnitySeriesRoute
   WarrantyRoute: typeof WarrantyRoute
   CategorySlugRoute: typeof CategorySlugRoute
@@ -951,6 +964,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ToiletBrushHolderRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/trapper': {
+      id: '/trapper'
+      path: '/trapper'
+      fullPath: '/trapper'
+      preLoaderRoute: typeof TrapperRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/unity-series': {
       id: '/unity-series'
       path: '/unity-series'
@@ -1039,6 +1059,7 @@ const rootRouteChildren: RootRouteChildren = {
   SwatchRoseGoldRoute: SwatchRoseGoldRoute,
   SwatchSeriesRoute: SwatchSeriesRoute,
   ToiletBrushHolderRoute: ToiletBrushHolderRoute,
+  TrapperRoute: TrapperRoute,
   UnitySeriesRoute: UnitySeriesRoute,
   WarrantyRoute: WarrantyRoute,
   CategorySlugRoute: CategorySlugRoute,

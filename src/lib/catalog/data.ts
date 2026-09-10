@@ -1026,6 +1026,14 @@ export const categories: Category[] = [
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/341.jpg",
     features: ["3x Zoom", "Brass Construction", "Multiple Finishes", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "trapper",
+    title: "Trapper & Drain Collection",
+    group: "trapper-series",
+    description: "Premium SS 304 floor drains, gratings, and nahani traps. Durable stainless steel construction for efficient drainage.",
+    bannerImage: "/trappers/trapper-1.jpg",
+    features: ["SS 304 Construction", "Multiple Designs", "Round & Square Options", "11 Years Unmatched Assurance"]
+  },
 
   // Sigma Series - Premium Bathroom Accessories
   {
@@ -1283,6 +1291,7 @@ import { toiletBrushHolderProducts } from "./toiletBrushHolderProducts";
 import { shelfSeriesProducts } from "./shelfSeriesProducts";
 import { khuttiAccessoriesProducts } from "./khuttiAccessoriesProducts";
 import { makeupMirrorProducts } from "./makeupMirrorProducts";
+import { trapperSeriesProducts } from "./trapperSeriesProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function slugify(text: string): string {
@@ -2262,6 +2271,7 @@ const realCategoryProducts: Product[] = [
   ...shelfSeriesProducts,
   ...khuttiAccessoriesProducts,
   ...makeupMirrorProducts,
+  ...trapperSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2418,6 +2428,7 @@ export const megaMenu = {
       "shelf",
       "khutti-accessories",
       "makeup-mirror",
+      "trapper",
       "soap-dispenser"
     ]
   },
