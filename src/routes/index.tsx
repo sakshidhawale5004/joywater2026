@@ -98,7 +98,7 @@ const collections = [
   {
     title: "Precision Diverters",
     slug: "5-function-diverter",
-    image: "/images/PDF1_P31_IMG2.png",
+    image: "/HEROSECTIONIMAGES/5 Function Diverter.png",
     tag: "Thermostatic Control",
   },
   {
