@@ -1343,6 +1343,8 @@ import { trapperSeriesProducts } from "./trapperSeriesProducts";
 import { floorAccessoriesProducts } from "./floorAccessoriesProducts";
 import { showerArmProducts } from "./showerArmProducts";
 import { angleValveProducts } from "./angleValveProducts";
+import { showerArmDiverterProducts } from "./showerArmDiverterProducts";
+import { angleValveDiverterProducts } from "./angleValveDiverterProducts";
 import { alliedProductsProducts } from "./alliedProductsProducts";
 import { couplingsProducts } from "./couplingsProducts";
 import { gasketTapeProducts } from "./gasketTapeProducts";
@@ -2329,6 +2331,8 @@ const realCategoryProducts: Product[] = [
   ...floorAccessoriesProducts,
   ...showerArmProducts,
   ...angleValveProducts,
+  ...showerArmDiverterProducts,
+  ...angleValveDiverterProducts,
   ...alliedProductsProducts,
   ...couplingsProducts,
   ...gasketTapeProducts,
