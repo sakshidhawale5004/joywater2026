@@ -7,8 +7,18 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-109a",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 7200,
+    price: 9900,
     code: "SW 109A",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/64.jpg"
+  },
+  {
+    id: "swatch-chrome-sw-109b",
+    name: "Towel Rack 450mm",
+    slug: "swatch-chrome-sw-109b",
+    category: "swatch-chrome",
+    finish: "Chrome Finish",
+    price: 8910,
+    code: "SW 109B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/64.jpg"
   },
   {
@@ -17,7 +27,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-101",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 1350,
+    price: 1530,
     code: "SW 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/65.jpg"
   },
@@ -27,7 +37,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-102",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 1350,
+    price: 1620,
     code: "SW 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/68.jpg"
   },
@@ -37,7 +47,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-103a",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 2590,
+    price: 2970,
     code: "SW 103A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/69.jpg"
   },
@@ -47,7 +57,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-104",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 1350,
+    price: 1530,
     code: "SW 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/70.jpg"
   },
@@ -57,7 +67,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-106",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 1575,
+    price: 1710,
     code: "SW 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/72.jpg"
   },
@@ -67,7 +77,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-105",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 2250,
+    price: 2340,
     code: "SW 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/73.jpg"
   },
@@ -77,7 +87,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-107",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 2300,
+    price: 2700,
     code: "SW 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/74.jpg"
   },
@@ -87,7 +97,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-chrome-sw-108",
     category: "swatch-chrome",
     finish: "Chrome Finish",
-    price: 900,
+    price: 1170,
     code: "SW 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/75.jpg"
   },
@@ -97,7 +107,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-109",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 9900,
+    price: 13320,
     code: "SW-G 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/76.jpg"
   },
@@ -107,7 +117,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-102",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 1800,
+    price: 2070,
     code: "SW-G 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/77.jpg"
   },
@@ -117,7 +127,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-103",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 3780,
+    price: 4500,
     code: "SW-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/79.jpg"
   },
@@ -127,7 +137,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-104",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 2300,
+    price: 2070,
     code: "SW-G 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/80.jpg"
   },
@@ -137,7 +147,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-106",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 1970,
+    price: 2340,
     code: "SW-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/82.jpg"
   },
@@ -147,7 +157,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-105",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 3600,
+    price: 3160,
     code: "SW-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/83.jpg"
   },
@@ -157,7 +167,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-107",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 3500,
+    price: 3600,
     code: "SW-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/84.jpg"
   },
@@ -167,7 +177,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-gold-sw-g-108",
     category: "swatch-gold",
     finish: "PVD Gold Finish",
-    price: 1200,
+    price: 1530,
     code: "SW-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/85.jpg"
   },
@@ -177,7 +187,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-109",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 9990,
+    price: 13320,
     code: "SW-RG 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/87.jpg"
   },
@@ -187,7 +197,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-101",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1900,
+    price: 2160,
     code: "SW-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/88.jpg"
   },
@@ -207,7 +217,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-103",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 3780,
+    price: 4500,
     code: "SW-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/90.jpg"
   },
@@ -217,7 +227,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-104",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 2300,
+    price: 2070,
     code: "SW-RG 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/91.jpg"
   },
@@ -227,7 +237,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-106",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1970,
+    price: 2340,
     code: "SW-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/93.jpg"
   },
@@ -237,7 +247,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-105",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 3600,
+    price: 3160,
     code: "SW-RG 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/94.jpg"
   },
@@ -257,7 +267,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-108",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1200,
+    price: 1530,
     code: "SW-RG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/96.jpg"
   }

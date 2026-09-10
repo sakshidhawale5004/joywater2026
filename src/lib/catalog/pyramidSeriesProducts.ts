@@ -23,9 +23,9 @@ export const pyramidSeriesProducts: Product[] = [
     category: "pyramid-series",
     subcategory: "tumbler-holder",
     finish: "Chrome",
-    price: 1530,
+    price: 2160,
     code: "PR-106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/18.jpg",
+    image: "https://joywater2026.vercel.app/JOY%20WATER%20BATHROOM%20ACCESSORIES%20(1)/18.jpg",
     description: "Pyramid Series Tumbler Holder with Chrome Finish",
     material: "Brass + Glass",
     features: ["Chrome Finish", "Glass Tumbler", "Premium Brass Construction", "11 Years Warranty"]
