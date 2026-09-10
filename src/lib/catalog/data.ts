@@ -1175,6 +1175,10 @@ const SERIES = [
 import imageList from "../imageList.json";
 import { sanitarywareProducts } from "./sanitarywareProducts";
 import { mirrorProducts } from "./mirrorProducts";
+import { graceGoldSeriesProducts } from "./graceGoldSeriesProducts";
+import { graceRoseGoldSeriesProducts } from "./graceRoseGoldSeriesProducts";
+import { graceBlackSeriesProducts } from "./graceBlackSeriesProducts";
+import { rectusSeriesProducts } from "./rectusSeriesProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function slugify(text: string): string {
@@ -2142,6 +2146,10 @@ const realCategoryProducts: Product[] = [
   ...oysterSeriesProducts,
   ...ovilioSeriesProducts,
   ...graceChromeSeriesProducts,
+  ...graceGoldSeriesProducts,
+  ...graceRoseGoldSeriesProducts,
+  ...graceBlackSeriesProducts,
+  ...rectusSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2286,6 +2294,10 @@ export const megaMenu = {
       "oyster-black",
       "ovilio-chrome",
       "grace-chrome",
+      "grace-gold",
+      "grace-rose-gold",
+      "grace-black",
+      "rectus-chrome",
       "soap-dispenser"
     ]
   },
