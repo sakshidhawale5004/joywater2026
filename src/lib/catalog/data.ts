@@ -77,8 +77,8 @@ export const categories: Category[] = [
       title: "4 Function Diverters",
       group: "diverters",
       description: "4 Function Individual Flow Diverters for efficient water management and control.",
-      bannerImage: "/HEROSECTIONIMAGES/4 Function Diverter.png",
-      image: "/diverters/4 Function Diverter (5).png",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/6 Function Diverter (5).png",
       features: ["4 Functions", "Individual Flow", "Vernet Cartridge", "11 Years Unmatched Assurance"]
     },
     {
@@ -86,8 +86,8 @@ export const categories: Category[] = [
       title: "3 Function Click Select Diverters",
       group: "diverters",
       description: "3 Function Click Select Diverters with intuitive control and elegant design.",
-      bannerImage: "/HEROSECTIONIMAGES/3 Function Click Select.png",
-      image: "/diverters/3 Function Click Select (1).png",
+      bannerImage: "/HEROSECTIONIMAGES/Thermostatic Diverter.jpg",
+      image: "/diverters/Thermostatic Diverter (1).png",
       features: ["3 Functions", "Click Select", "Vernet Cartridge", "11 Years Unmatched Assurance"]
     },
     {
@@ -95,8 +95,8 @@ export const categories: Category[] = [
       title: "3 Function Lever Click Diverters",
       group: "diverters",
       description: "3 Function Lever Click Diverters offering smooth operation and precision control.",
-      bannerImage: "/HEROSECTIONIMAGES/3 Function Lever Click.png",
-      image: "/diverters/3 Function Liver Click (1).png",
+      bannerImage: "/HEROSECTIONIMAGES/Lever Diverter.jpg",
+      image: "/diverters/Lever Diverter Three Outlet (1).png",
       features: ["3 Functions", "Lever Click", "Vernet Cartridge", "11 Years Unmatched Assurance"]
     },
     {
@@ -169,7 +169,7 @@ export const categories: Category[] = [
       group: "wall-mounted-showers",
       description: "Explore our collection of Wall Mounted Showers.",
       bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-      image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
+      image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
       features: ["Sleek Design", "Precision Flow", "11 Years Unmatched Assurance"]
     },
     // Wall-Mounted Shower Subcategories by Function
@@ -179,7 +179,7 @@ export const categories: Category[] = [
       group: "wall-mounted-showers",
       description: "2 Function wall mounted showers with Rain & Mist or Rain & Waterfall combinations.",
       bannerImage: "/HEROSECTIONIMAGES/2-function-wall-mounted-shower-arm.jpg",
-      image: "/showers/2 Function Wall Mounted Shower Arm (1).png",
+      image: "/showers/2 Function Wall Mounted Shower with Shower Arm (1).png",
       features: ["2 Functions", "Wall Mounted", "Space Saving", "11 Years Unmatched Assurance"]
     },
     {
@@ -215,7 +215,7 @@ export const categories: Category[] = [
       group: "body-showers",
       description: "Invigorating body jets for a spa-like experience.",
       bannerImage: "/HEROSECTIONIMAGES/body-jets-2-function.jpg",
-      image: "/showers/Body Jets 2 Function (1).png",
+      image: "/Body Showers/Body Jets (2 Function) (1).png",
       features: ["Adjustable Flow", "Massage Effect", "11 Years Unmatched Assurance"]
     },
     // Body Jets & Showers Subcategories by Function
@@ -1031,7 +1031,7 @@ export const categories: Category[] = [
     title: "Trapper & Drain Collection",
     group: "trapper-series",
     description: "Premium SS 304 floor drains, gratings, and nahani traps. Durable stainless steel construction for efficient drainage.",
-    bannerImage: "/trappers/trapper-1.jpg",
+    bannerImage: "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
     features: ["SS 304 Construction", "Multiple Designs", "Round & Square Options", "11 Years Unmatched Assurance"]
   },
   {

@@ -131,6 +131,7 @@ function getHeroSectionImage(cat: any, products: any[]): string {
     // Accessories
     "bathroom-accessories-fittings": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
     "others": "/OTHERS/Bathroom Accessories & Fittings.png",
+    "trapper": "/HEROSECTIONIMAGES/Bathroom Accessories & Fittings.jpg",
 
     // Mirrors
     "led-mirrors": "/HEROSECTIONIMAGES/LED Mirrors.jpg",

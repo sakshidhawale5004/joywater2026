@@ -23,7 +23,7 @@ export const Route = createFileRoute("/products")({
 function ProductsPage() {
   const [group, setGroup] = useState<string>("all");
   const [finish, setFinish] = useState<string>("all");
-  const [visible, setVisible] = useState(48);
+  const [visible, setVisible] = useState(24);
 
   const groupTabs = [
     { id: "all", label: "ALL" },
@@ -46,7 +46,8 @@ function ProductsPage() {
   const filtered = useMemo(() => {
     return products.filter((p) => {
       const cat = categories.find((c) => c.slug === p.category);
-      const okGroup = group === "all" || cat?.group === group;
+      if (!cat) return false;
+      const okGroup = group === "all" || cat.group === group;
       const okFinish = finish === "all" || p.finish === finish;
       return okGroup && okFinish;
     });
@@ -74,7 +75,7 @@ function ProductsPage() {
                 key={g.id}
                 onClick={() => {
                   setGroup(g.id);
-                  setVisible(48);
+                  setVisible(24);
                 }}
                 className={`px-4 py-2 text-xs uppercase tracking-widest border transition-colors ${group === g.id ? "bg-primary text-primary-foreground border-primary font-semibold shadow-sm" : "border-border hover:border-gold hover:text-gold"}`}
               >
@@ -86,7 +87,7 @@ function ProductsPage() {
             value={finish}
             onChange={(e) => {
               setFinish(e.target.value);
-              setVisible(48);
+              setVisible(24);
             }}
             className="border border-border px-4 py-2 text-xs uppercase tracking-widest bg-background"
           >
@@ -107,7 +108,7 @@ function ProductsPage() {
         {visible < filtered.length && (
           <div className="text-center mt-16">
             <button
-              onClick={() => setVisible((v) => v + 48)}
+              onClick={() => setVisible((v) => v + 24)}
               className="border border-primary px-10 py-4 text-xs uppercase tracking-[0.3em] hover:bg-primary hover:text-primary-foreground transition-all"
             >
               Load More ({filtered.length - visible} remaining)
