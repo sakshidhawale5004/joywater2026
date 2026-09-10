@@ -8,7 +8,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1220,
+    price: 1530,
     code: "OY 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/184.jpg"
   },
@@ -18,7 +18,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1890,
+    price: 2430,
     code: "OY 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/186.jpg"
   },
@@ -28,7 +28,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1440,
+    price: 1710,
     code: "OY 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/187.jpg"
   },
@@ -38,7 +38,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1170,
+    price: 1440,
     code: "OY 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/188.jpg"
   },
@@ -68,7 +68,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap + Tumbler Holder",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 2250,
+    price: 2520,
     code: "OY 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/191.jpg"
   },
@@ -78,7 +78,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1980,
+    price: 2430,
     code: "OY 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/192.jpg"
   },
@@ -88,7 +88,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 870,
+    price: 1080,
     code: "OY 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/193.jpg"
   },
@@ -100,7 +100,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 1680,
+    price: 1980,
     code: "OY-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/194.jpg"
   },
@@ -110,7 +110,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 2790,
+    price: 3150,
     code: "OY-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/196.jpg"
   },
@@ -120,7 +120,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 2160,
+    price: 1140,
     code: "OY-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/197.jpg"
   },
@@ -130,7 +130,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 1530,
+    price: 1710,
     code: "OY-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/198.jpg"
   },
@@ -140,7 +140,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 2350,
+    price: 2610,
     code: "OY-RG 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/199.jpg"
   },
@@ -150,7 +150,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Dual Soap Dish",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 3150,
+    price: 3420,
     code: "OY-RG 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/200.jpg"
   },
@@ -170,7 +170,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 2880,
+    price: 3240,
     code: "OY-RG 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/202.jpg"
   },
@@ -180,7 +180,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 1170,
+    price: 1350,
     code: "OY-RG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/203.jpg"
   },
@@ -192,7 +192,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 1350,
+    price: 1620,
     code: "OY-Black 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/205.jpg"
   },
@@ -202,7 +202,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 2160,
+    price: 2710,
     code: "OY-Black 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/206.jpg"
   },
@@ -212,7 +212,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 1620,
+    price: 1980,
     code: "OY-Black 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/207.jpg"
   },
@@ -222,7 +222,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 1350,
+    price: 1530,
     code: "OY-Black 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/208.jpg"
   },
@@ -232,7 +232,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 2070,
+    price: 2250,
     code: "OY-Black 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/209.jpg"
   },
@@ -242,7 +242,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Dual Soap Holder",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 2650,
+    price: 3150,
     code: "OY-Black 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/210.jpg"
   },
@@ -262,7 +262,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 2160,
+    price: 2610,
     code: "OY-Black 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/212.jpg"
   },
@@ -272,7 +272,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 1050,
+    price: 1260,
     code: "OY-Black 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/213.jpg"
   }

@@ -107,7 +107,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-robe-hook",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 450,
+    price: 900,
     code: "GR 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/233.jpg",
     material: "SS"

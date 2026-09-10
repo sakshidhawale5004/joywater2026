@@ -210,7 +210,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-67",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 1900,
+    price: 18360,
     code: "SW-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/66.jpg"
   },
@@ -220,7 +220,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-68",
     category: "towel-ring",
     finish: "Rose Gold",
-    price: 1800,
+    price: 4860,
     code: "SW-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/67.jpg"
   },
@@ -360,7 +360,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-82",
     category: "robe-hook",
     finish: "Matt Black",
-    price: 2070,
+    price: 4860,
     code: "UN-BG 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/81.jpg"
   },
@@ -410,7 +410,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-87",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 4770,
+    price: 9180,
     code: "SP-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/86.jpg"
   },
@@ -530,7 +530,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-99",
     category: "towel-rod",
     finish: "Chrome",
-    price: 8730,
+    price: 6580,
     code: "SP 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/98.jpg"
   },
@@ -620,7 +620,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-108",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1440,
+    price: 5760,
     code: "SI 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/107.jpg"
   },
@@ -630,7 +630,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-109",
     category: "towel-ring",
     finish: "Chrome",
-    price: 1350,
+    price: 5220,
     code: "SI 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/108.jpg"
   },
@@ -640,7 +640,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-110",
     category: "tumbler-holder",
     finish: "Chrome",
-    price: 1620,
+    price: 6480,
     code: "SI 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/109.jpg"
   },
@@ -660,7 +660,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-112",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1710,
+    price: 6660,
     code: "SI 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/111.jpg"
   },
@@ -670,7 +670,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-113",
     category: "towel-rod",
     finish: "Chrome",
-    price: 2850,
+    price: 3970,
     code: "SI 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/112.jpg"
   },
@@ -680,7 +680,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-114",
     category: "paper-holder",
     finish: "Chrome",
-    price: 2160,
+    price: 18360,
     code: "SI 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/113.jpg"
   },
@@ -690,7 +690,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-115",
     category: "robe-hook",
     finish: "Chrome",
-    price: 990,
+    price: 5760,
     code: "SI 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/114.jpg"
   },
@@ -700,7 +700,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-116",
     category: "towel-rod",
     finish: "Brushed Gold",
-    price: 9900,
+    price: 5220,
     code: "SI-G 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/115.jpg"
   },
@@ -710,7 +710,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-117",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 1900,
+    price: 6480,
     code: "SI-G 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/116.jpg"
   },
@@ -730,7 +730,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-119",
     category: "tumbler-holder",
     finish: "Brushed Gold",
-    price: 1970,
+    price: 6660,
     code: "SI-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/118.jpg"
   },
@@ -740,7 +740,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-120",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 3600,
+    price: 3970,
     code: "SI-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/119.jpg"
   },
@@ -750,7 +750,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-121",
     category: "towel-rod",
     finish: "Brushed Gold",
-    price: 3780,
+    price: 11700,
     code: "SI-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/120.jpg"
   },
@@ -760,9 +760,9 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-122",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 2300,
+    price: 2700,
     code: "SI-G 104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/121.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/144.jpg"
   },
   {
     id: "product-123",
@@ -770,7 +770,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-123",
     category: "paper-holder",
     finish: "Brushed Gold",
-    price: 3600,
+    price: 4230,
     code: "SI-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/122.jpg"
   },
@@ -780,7 +780,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-124",
     category: "robe-hook",
     finish: "Brushed Gold",
-    price: 1200,
+    price: 4050,
     code: "SI-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/123.jpg"
   },
@@ -800,7 +800,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-126",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 1900,
+    price: 4860,
     code: "SI-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/125.jpg"
   },
@@ -810,7 +810,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-127",
     category: "towel-ring",
     finish: "Rose Gold",
-    price: 1800,
+    price: 2970,
     code: "SI-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/126.jpg"
   },
@@ -920,7 +920,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-138",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 2700,
+    price: 11880,
     code: "IR 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/137.jpg"
   },
@@ -940,7 +940,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-140",
     category: "paper-holder",
     finish: "Chrome",
-    price: 1350,
+    price: 2340,
     code: "IR 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/139.jpg"
   },
@@ -950,7 +950,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-141",
     category: "robe-hook",
     finish: "Chrome",
-    price: 1260,
+    price: 2250,
     code: "IR 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/140.jpg"
   },
@@ -960,7 +960,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-142",
     category: "paper-holder",
     finish: "Brushed Gold",
-    price: 3600,
+    price: 2520,
     code: "IR-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/141.jpg"
   },
@@ -970,7 +970,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-143",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 2430,
+    price: 3870,
     code: "IR-G 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/142.jpg"
   },
@@ -980,7 +980,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-144",
     category: "towel-ring",
     finish: "Brushed Gold",
-    price: 2610,
+    price: 4410,
     code: "IR-G 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/143.jpg"
   },
@@ -990,7 +990,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-145",
     category: "tumbler-holder",
     finish: "Brushed Gold",
-    price: 2100,
+    price: 2700,
     code: "IR-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/144.jpg"
   },
@@ -1000,7 +1000,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-146",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 3600,
+    price: 3960,
     code: "IR-G 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/145.jpg"
   },
@@ -1010,7 +1010,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-147",
     category: "towel-rod",
     finish: "Brushed Gold",
-    price: 3870,
+    price: 1620,
     code: "IR-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/146.jpg"
   },
@@ -1030,7 +1030,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-149",
     category: "robe-hook",
     finish: "Brushed Gold",
-    price: 1440,
+    price: 2340,
     code: "IR-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/148.jpg"
   },
@@ -1040,7 +1040,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-150",
     category: "paper-holder",
     finish: "Rose Gold",
-    price: 3600,
+    price: 2250,
     code: "IR-RG 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/149.jpg"
   },
@@ -1050,7 +1050,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-151",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 2430,
+    price: 2520,
     code: "IR-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/150.jpg"
   },
@@ -1060,7 +1060,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-152",
     category: "towel-ring",
     finish: "Rose Gold",
-    price: 2610,
+    price: 3870,
     code: "IR-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/151.jpg"
   },
@@ -1080,7 +1080,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-154",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 3600,
+    price: 4410,
     code: "IR-RG 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/153.jpg"
   },
@@ -1090,7 +1090,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-155",
     category: "towel-rod",
     finish: "Rose Gold",
-    price: 3870,
+    price: 2700,
     code: "IR-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/154.jpg"
   },
@@ -1100,7 +1100,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-156",
     category: "paper-holder",
     finish: "Rose Gold",
-    price: 1710,
+    price: 3960,
     code: "IR-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/155.jpg"
   },
@@ -1110,7 +1110,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-157",
     category: "robe-hook",
     finish: "Rose Gold",
-    price: 1440,
+    price: 1620,
     code: "IR-RG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/156.jpg"
   },
@@ -1390,7 +1390,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-185",
     category: "tumbler-holder",
     finish: "Matt Black",
-    price: 2650,
+    price: 1530,
     code: "OY-Black 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/184.jpg"
   },
@@ -1410,7 +1410,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-187",
     category: "robe-hook",
     finish: "Matt Black",
-    price: 1050,
+    price: 2430,
     code: "OY-Black 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/186.jpg"
   },
@@ -1420,7 +1420,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-188",
     category: "towel-rod",
     finish: "Chrome",
-    price: 5400,
+    price: 1710,
     code: "OV 109-A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/187.jpg"
   },
@@ -1430,7 +1430,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-189",
     category: "towel-rod",
     finish: "Chrome",
-    price: 5220,
+    price: 1440,
     code: "OV 109-B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/188.jpg"
   },
@@ -1460,7 +1460,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-192",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1800,
+    price: 2520,
     code: "OV 103B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/191.jpg"
   },
@@ -1470,7 +1470,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-193",
     category: "towel-ring",
     finish: "Chrome",
-    price: 1170,
+    price: 2430,
     code: "OV 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/192.jpg"
   },
@@ -1480,7 +1480,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-194",
     category: "tumbler-holder",
     finish: "Chrome",
-    price: 1170,
+    price: 1080,
     code: "OV 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/193.jpg"
   },
@@ -1490,7 +1490,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-195",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1350,
+    price: 1980,
     code: "OV 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/194.jpg"
   },
@@ -1510,7 +1510,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-197",
     category: "paper-holder",
     finish: "Chrome",
-    price: 1890,
+    price: 3150,
     code: "OV 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/196.jpg"
   },
@@ -1520,7 +1520,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-198",
     category: "robe-hook",
     finish: "Chrome",
-    price: 720,
+    price: 1140,
     code: "OV 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/197.jpg"
   },
@@ -1530,7 +1530,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-199",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1950,
+    price: 1710,
     code: "OV 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/198.jpg"
   },
@@ -1540,7 +1540,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-200",
     category: "towel-rod",
     finish: "Chrome",
-    price: 2790,
+    price: 2610,
     code: "GR 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/199.jpg"
   },
@@ -1550,7 +1550,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-201",
     category: "towel-rod",
     finish: "Chrome",
-    price: 945,
+    price: 3420,
     code: "GR 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/200.jpg"
   },
@@ -1570,7 +1570,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-203",
     category: "towel-ring",
     finish: "Chrome",
-    price: 750,
+    price: 3240,
     code: "GR 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/202.jpg"
   },
@@ -1580,7 +1580,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-204",
     category: "towel-ring",
     finish: "Chrome",
-    price: 810,
+    price: 1350,
     code: "GR 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/203.jpg"
   },
@@ -1600,7 +1600,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-206",
     category: "tumbler-holder",
     finish: "Chrome",
-    price: 720,
+    price: 1620,
     code: "GR 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/205.jpg"
   },
@@ -1610,7 +1610,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-207",
     category: "paper-holder",
     finish: "Chrome",
-    price: 945,
+    price: 2710,
     code: "GR 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/206.jpg"
   },
@@ -1620,7 +1620,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-208",
     category: "robe-hook",
     finish: "Chrome",
-    price: 450,
+    price: 1980,
     code: "GR 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/207.jpg"
   },
@@ -1630,7 +1630,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-209",
     category: "paper-holder",
     finish: "Chrome",
-    price: 720,
+    price: 1530,
     code: "GR 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/208.jpg"
   },
@@ -1640,7 +1640,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-210",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 810,
+    price: 2250,
     code: "GR 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/209.jpg"
   },
@@ -1650,7 +1650,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-211",
     category: "towel-rod",
     finish: "Brushed Gold",
-    price: 5310,
+    price: 3150,
     code: "GR-G 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/210.jpg"
   },
@@ -1670,7 +1670,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-213",
     category: "towel-ring",
     finish: "Brushed Gold",
-    price: 1350,
+    price: 2610,
     code: "GR-G 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/212.jpg"
   },
@@ -1680,7 +1680,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-214",
     category: "towel-ring",
     finish: "Brushed Gold",
-    price: 1430,
+    price: 1260,
     code: "GR-G 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/213.jpg"
   },
@@ -1700,7 +1700,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-216",
     category: "tumbler-holder",
     finish: "Brushed Gold",
-    price: 1170,
+    price: 1450,
     code: "GR-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/215.jpg"
   },
@@ -1712,7 +1712,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     finish: "Brushed Gold",
     price: 2070,
     code: "GR-G 107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/216.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/242.jpg"
   },
   {
     id: "product-218",
@@ -1732,7 +1732,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     finish: "Brushed Gold",
     price: 1530,
     code: "GR-G 103",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/218.jpg"
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/244.jpg"
   },
   {
     id: "product-220",
@@ -1740,7 +1740,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-220",
     category: "liquid-dispenser",
     finish: "Brushed Gold",
-    price: 1350,
+    price: 1710,
     code: "GR-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/219.jpg"
   },
@@ -1750,7 +1750,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-221",
     category: "towel-rod",
     finish: "Rose Gold",
-    price: 5310,
+    price: 1440,
     code: "GR-RG 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/220.jpg"
   },
@@ -1760,7 +1760,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-222",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 1080,
+    price: 1530,
     code: "GR-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/221.jpg"
   },
@@ -1780,7 +1780,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-224",
     category: "towel-ring",
     finish: "Rose Gold",
-    price: 1430,
+    price: 1350,
     code: "GR-RG 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/223.jpg"
   },
@@ -1790,7 +1790,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-225",
     category: "liquid-dispenser",
     finish: "Rose Gold",
-    price: 990,
+    price: 2430,
     code: "GR-RG 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/224.jpg"
   },
@@ -1800,7 +1800,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-226",
     category: "tumbler-holder",
     finish: "Rose Gold",
-    price: 1170,
+    price: 2520,
     code: "GR-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/225.jpg"
   },
@@ -1880,7 +1880,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-234",
     category: "towel-ring",
     finish: "Matt Black",
-    price: 1530,
+    price: 900,
     code: "GR-Black 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/233.jpg"
   },

@@ -97,7 +97,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-109",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 9900,
+    price: 11880,
     code: "SI-G 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/137.jpg"
   },
@@ -107,7 +107,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-101",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 1900,
+    price: 2340,
     code: "SI-G 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/139.jpg"
   },
@@ -117,7 +117,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-102",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 1800,
+    price: 2250,
     code: "SI-G 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/140.jpg"
   },
@@ -127,7 +127,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-106",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 1970,
+    price: 2520,
     code: "SI-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/141.jpg"
   },
@@ -137,7 +137,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-105",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 3600,
+    price: 3870,
     code: "SI-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/142.jpg"
   },
@@ -147,7 +147,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-103",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 3780,
+    price: 4410,
     code: "SI-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/143.jpg"
   },
@@ -157,7 +157,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-104",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 2300,
+    price: 2700,
     code: "SI-G 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/144.jpg"
   },
@@ -167,7 +167,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-107",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 3600,
+    price: 3960,
     code: "SI-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/145.jpg"
   },
@@ -177,7 +177,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-gold-si-g-108",
     category: "sigma-gold",
     finish: "PVD Gold Finish",
-    price: 1200,
+    price: 1620,
     code: "SI-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/146.jpg"
   }
@@ -188,7 +188,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-101",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1900,
+    price: 2340,
     code: "SI-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/148.jpg"
   },
@@ -198,7 +198,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-102",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1800,
+    price: 2250,
     code: "SI-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/149.jpg"
   },
@@ -208,7 +208,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-106",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1970,
+    price: 2520,
     code: "SI-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/150.jpg"
   },
@@ -218,7 +218,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-105",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 3600,
+    price: 3870,
     code: "SI-RG 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/151.jpg"
   },
@@ -228,7 +228,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-104",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 2300,
+    price: 2700,
     code: "SI-RG 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/154.jpg"
   },
@@ -238,7 +238,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-107",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 3600,
+    price: 3960,
     code: "SI-RG 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/155.jpg"
   },
@@ -248,7 +248,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-108",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1200,
+    price: 1620,
     code: "SI-RG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/156.jpg"
   },
@@ -258,7 +258,7 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-rose-gold-si-rg-103",
     category: "sigma-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 3780,
+    price: 4410,
     code: "SI-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/153.jpg"
   }
