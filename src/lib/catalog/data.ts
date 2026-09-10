@@ -978,6 +978,54 @@ export const categories: Category[] = [
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/289.jpg",
     features: ["SS Construction", "PVD Rose Gold Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "rectus-black",
+    title: "Rectus Black Series",
+    group: "rectus-black-series",
+    description: "Rectus Black Series bathroom accessories with bold PVD Black finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/299.jpg",
+    features: ["SS Construction", "PVD Black Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "folding-rack",
+    title: "Folding Rack & Handicap Bars",
+    group: "folding-rack-series",
+    description: "Functional towel racks, grab bars and accessibility accessories. Premium stainless steel construction for safety and durability.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/316.jpg",
+    features: ["SS-304 Construction", "Handicap Accessibility", "Multiple Sizes", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "toilet-brush-holder",
+    title: "Toilet Brush Holder",
+    group: "toilet-brush-holder-series",
+    description: "Elegant toilet brush holders in square and round designs. Premium stainless steel construction with chrome finish.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/320.jpg",
+    features: ["SS Construction", "Chrome Finish", "Square & Round Designs", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shelf",
+    title: "Glass Shelves Collection",
+    group: "shelf-series",
+    description: "Premium glass shelves in multiple sizes and finishes. Available in chrome, gold, rose gold, and matte black finishes.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/324.jpg",
+    features: ["Multiple Sizes", "Corner & Flat Options", "Premium Finishes", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "khutti-accessories",
+    title: "Khutti Accessories",
+    group: "khutti-accessories-series",
+    description: "Traditional brass khutti hooks and wall-mounted accessories. Premium brass construction with classic designs.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/333.png",
+    features: ["Brass Construction", "Traditional Design", "Wall Mounted", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "makeup-mirror",
+    title: "Makeup & Shaving Mirrors",
+    group: "makeup-mirror-series",
+    description: "3x zoom magnification mirrors in multiple finishes. Available in chrome, gold, black, and rose gold finishes.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/341.jpg",
+    features: ["3x Zoom", "Brass Construction", "Multiple Finishes", "11 Years Unmatched Assurance"]
+  },
 
   // Sigma Series - Premium Bathroom Accessories
   {
@@ -1229,6 +1277,12 @@ import { graceBlackSeriesProducts } from "./graceBlackSeriesProducts";
 import { rectusSeriesProducts } from "./rectusSeriesProducts";
 import { rectusGoldSeriesProducts } from "./rectusGoldSeriesProducts";
 import { rectusRoseGoldSeriesProducts } from "./rectusRoseGoldSeriesProducts";
+import { rectusBlackSeriesProducts } from "./rectusBlackSeriesProducts";
+import { foldingRackSeriesProducts } from "./foldingRackSeriesProducts";
+import { toiletBrushHolderProducts } from "./toiletBrushHolderProducts";
+import { shelfSeriesProducts } from "./shelfSeriesProducts";
+import { khuttiAccessoriesProducts } from "./khuttiAccessoriesProducts";
+import { makeupMirrorProducts } from "./makeupMirrorProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function slugify(text: string): string {
@@ -2202,6 +2256,12 @@ const realCategoryProducts: Product[] = [
   ...rectusSeriesProducts,
   ...rectusGoldSeriesProducts,
   ...rectusRoseGoldSeriesProducts,
+  ...rectusBlackSeriesProducts,
+  ...foldingRackSeriesProducts,
+  ...toiletBrushHolderProducts,
+  ...shelfSeriesProducts,
+  ...khuttiAccessoriesProducts,
+  ...makeupMirrorProducts,
 ];
 
 export const products: Product[] = [
@@ -2352,6 +2412,12 @@ export const megaMenu = {
       "rectus-chrome",
       "rectus-gold",
       "rectus-rose-gold",
+      "rectus-black",
+      "folding-rack",
+      "toilet-brush-holder",
+      "shelf",
+      "khutti-accessories",
+      "makeup-mirror",
       "soap-dispenser"
     ]
   },

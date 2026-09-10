@@ -16,11 +16,14 @@ import { Route as CareRouteImport } from './routes/care'
 import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as FoldingRackRouteImport } from './routes/folding-rack'
 import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
 import { Route as GraceBlackRouteImport } from './routes/grace-black'
 import { Route as GraceChromeRouteImport } from './routes/grace-chrome'
 import { Route as GraceGoldRouteImport } from './routes/grace-gold'
 import { Route as GraceRoseGoldRouteImport } from './routes/grace-rose-gold'
+import { Route as KhuttiAccessoriesRouteImport } from './routes/khutti-accessories'
+import { Route as MakeupMirrorRouteImport } from './routes/makeup-mirror'
 import { Route as OvilioChromeRouteImport } from './routes/ovilio-chrome'
 import { Route as OysterBlackRouteImport } from './routes/oyster-black'
 import { Route as OysterChromeRouteImport } from './routes/oyster-chrome'
@@ -28,9 +31,11 @@ import { Route as OysterRoseGoldRouteImport } from './routes/oyster-rose-gold'
 import { Route as OysterSeriesRouteImport } from './routes/oyster-series'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as PyramidSeriesRouteImport } from './routes/pyramid-series'
+import { Route as RectusBlackRouteImport } from './routes/rectus-black'
 import { Route as RectusChromeRouteImport } from './routes/rectus-chrome'
 import { Route as RectusGoldRouteImport } from './routes/rectus-gold'
 import { Route as RectusRoseGoldRouteImport } from './routes/rectus-rose-gold'
+import { Route as ShelfRouteImport } from './routes/shelf'
 import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
 import { Route as SigmaGoldRouteImport } from './routes/sigma-gold'
 import { Route as SigmaRoseGoldRouteImport } from './routes/sigma-rose-gold'
@@ -45,6 +50,7 @@ import { Route as SwatchChromeRouteImport } from './routes/swatch-chrome'
 import { Route as SwatchGoldRouteImport } from './routes/swatch-gold'
 import { Route as SwatchRoseGoldRouteImport } from './routes/swatch-rose-gold'
 import { Route as SwatchSeriesRouteImport } from './routes/swatch-series'
+import { Route as ToiletBrushHolderRouteImport } from './routes/toilet-brush-holder'
 import { Route as UnitySeriesRouteImport } from './routes/unity-series'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
@@ -87,6 +93,11 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FoldingRackRoute = FoldingRackRouteImport.update({
+  id: '/folding-rack',
+  path: '/folding-rack',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FortuneSeriesRoute = FortuneSeriesRouteImport.update({
   id: '/fortune-series',
   path: '/fortune-series',
@@ -110,6 +121,16 @@ const GraceGoldRoute = GraceGoldRouteImport.update({
 const GraceRoseGoldRoute = GraceRoseGoldRouteImport.update({
   id: '/grace-rose-gold',
   path: '/grace-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KhuttiAccessoriesRoute = KhuttiAccessoriesRouteImport.update({
+  id: '/khutti-accessories',
+  path: '/khutti-accessories',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MakeupMirrorRoute = MakeupMirrorRouteImport.update({
+  id: '/makeup-mirror',
+  path: '/makeup-mirror',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OvilioChromeRoute = OvilioChromeRouteImport.update({
@@ -147,6 +168,11 @@ const PyramidSeriesRoute = PyramidSeriesRouteImport.update({
   path: '/pyramid-series',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RectusBlackRoute = RectusBlackRouteImport.update({
+  id: '/rectus-black',
+  path: '/rectus-black',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RectusChromeRoute = RectusChromeRouteImport.update({
   id: '/rectus-chrome',
   path: '/rectus-chrome',
@@ -160,6 +186,11 @@ const RectusGoldRoute = RectusGoldRouteImport.update({
 const RectusRoseGoldRoute = RectusRoseGoldRouteImport.update({
   id: '/rectus-rose-gold',
   path: '/rectus-rose-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ShelfRoute = ShelfRouteImport.update({
+  id: '/shelf',
+  path: '/shelf',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SigmaChromeRoute = SigmaChromeRouteImport.update({
@@ -232,6 +263,11 @@ const SwatchSeriesRoute = SwatchSeriesRouteImport.update({
   path: '/swatch-series',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ToiletBrushHolderRoute = ToiletBrushHolderRouteImport.update({
+  id: '/toilet-brush-holder',
+  path: '/toilet-brush-holder',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const UnitySeriesRoute = UnitySeriesRouteImport.update({
   id: '/unity-series',
   path: '/unity-series',
@@ -272,11 +308,14 @@ export interface FileRoutesByFullPath {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
   '/grace-rose-gold': typeof GraceRoseGoldRoute
+  '/khutti-accessories': typeof KhuttiAccessoriesRoute
+  '/makeup-mirror': typeof MakeupMirrorRoute
   '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
@@ -284,9 +323,11 @@ export interface FileRoutesByFullPath {
   '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/rectus-black': typeof RectusBlackRoute
   '/rectus-chrome': typeof RectusChromeRoute
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
+  '/shelf': typeof ShelfRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -301,6 +342,7 @@ export interface FileRoutesByFullPath {
   '/swatch-gold': typeof SwatchGoldRoute
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
+  '/toilet-brush-holder': typeof ToiletBrushHolderRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -316,11 +358,14 @@ export interface FileRoutesByTo {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
   '/grace-rose-gold': typeof GraceRoseGoldRoute
+  '/khutti-accessories': typeof KhuttiAccessoriesRoute
+  '/makeup-mirror': typeof MakeupMirrorRoute
   '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
@@ -328,9 +373,11 @@ export interface FileRoutesByTo {
   '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/rectus-black': typeof RectusBlackRoute
   '/rectus-chrome': typeof RectusChromeRoute
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
+  '/shelf': typeof ShelfRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -345,6 +392,7 @@ export interface FileRoutesByTo {
   '/swatch-gold': typeof SwatchGoldRoute
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
+  '/toilet-brush-holder': typeof ToiletBrushHolderRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -361,11 +409,14 @@ export interface FileRoutesById {
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
   '/grace-rose-gold': typeof GraceRoseGoldRoute
+  '/khutti-accessories': typeof KhuttiAccessoriesRoute
+  '/makeup-mirror': typeof MakeupMirrorRoute
   '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
@@ -373,9 +424,11 @@ export interface FileRoutesById {
   '/oyster-series': typeof OysterSeriesRoute
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
+  '/rectus-black': typeof RectusBlackRoute
   '/rectus-chrome': typeof RectusChromeRoute
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
+  '/shelf': typeof ShelfRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -390,6 +443,7 @@ export interface FileRoutesById {
   '/swatch-gold': typeof SwatchGoldRoute
   '/swatch-rose-gold': typeof SwatchRoseGoldRoute
   '/swatch-series': typeof SwatchSeriesRoute
+  '/toilet-brush-holder': typeof ToiletBrushHolderRoute
   '/unity-series': typeof UnitySeriesRoute
   '/warranty': typeof WarrantyRoute
   '/category/$slug': typeof CategorySlugRoute
@@ -407,11 +461,14 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/folding-rack'
     | '/fortune-series'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
     | '/grace-rose-gold'
+    | '/khutti-accessories'
+    | '/makeup-mirror'
     | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
@@ -419,9 +476,11 @@ export interface FileRouteTypes {
     | '/oyster-series'
     | '/products'
     | '/pyramid-series'
+    | '/rectus-black'
     | '/rectus-chrome'
     | '/rectus-gold'
     | '/rectus-rose-gold'
+    | '/shelf'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -436,6 +495,7 @@ export interface FileRouteTypes {
     | '/swatch-gold'
     | '/swatch-rose-gold'
     | '/swatch-series'
+    | '/toilet-brush-holder'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -451,11 +511,14 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/folding-rack'
     | '/fortune-series'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
     | '/grace-rose-gold'
+    | '/khutti-accessories'
+    | '/makeup-mirror'
     | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
@@ -463,9 +526,11 @@ export interface FileRouteTypes {
     | '/oyster-series'
     | '/products'
     | '/pyramid-series'
+    | '/rectus-black'
     | '/rectus-chrome'
     | '/rectus-gold'
     | '/rectus-rose-gold'
+    | '/shelf'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -480,6 +545,7 @@ export interface FileRouteTypes {
     | '/swatch-gold'
     | '/swatch-rose-gold'
     | '/swatch-series'
+    | '/toilet-brush-holder'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -495,11 +561,14 @@ export interface FileRouteTypes {
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/folding-rack'
     | '/fortune-series'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
     | '/grace-rose-gold'
+    | '/khutti-accessories'
+    | '/makeup-mirror'
     | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
@@ -507,9 +576,11 @@ export interface FileRouteTypes {
     | '/oyster-series'
     | '/products'
     | '/pyramid-series'
+    | '/rectus-black'
     | '/rectus-chrome'
     | '/rectus-gold'
     | '/rectus-rose-gold'
+    | '/shelf'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -524,6 +595,7 @@ export interface FileRouteTypes {
     | '/swatch-gold'
     | '/swatch-rose-gold'
     | '/swatch-series'
+    | '/toilet-brush-holder'
     | '/unity-series'
     | '/warranty'
     | '/category/$slug'
@@ -540,11 +612,14 @@ export interface RootRouteChildren {
   CartRoute: typeof CartRoute
   CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
+  FoldingRackRoute: typeof FoldingRackRoute
   FortuneSeriesRoute: typeof FortuneSeriesRoute
   GraceBlackRoute: typeof GraceBlackRoute
   GraceChromeRoute: typeof GraceChromeRoute
   GraceGoldRoute: typeof GraceGoldRoute
   GraceRoseGoldRoute: typeof GraceRoseGoldRoute
+  KhuttiAccessoriesRoute: typeof KhuttiAccessoriesRoute
+  MakeupMirrorRoute: typeof MakeupMirrorRoute
   OvilioChromeRoute: typeof OvilioChromeRoute
   OysterBlackRoute: typeof OysterBlackRoute
   OysterChromeRoute: typeof OysterChromeRoute
@@ -552,9 +627,11 @@ export interface RootRouteChildren {
   OysterSeriesRoute: typeof OysterSeriesRoute
   ProductsRoute: typeof ProductsRoute
   PyramidSeriesRoute: typeof PyramidSeriesRoute
+  RectusBlackRoute: typeof RectusBlackRoute
   RectusChromeRoute: typeof RectusChromeRoute
   RectusGoldRoute: typeof RectusGoldRoute
   RectusRoseGoldRoute: typeof RectusRoseGoldRoute
+  ShelfRoute: typeof ShelfRoute
   SigmaChromeRoute: typeof SigmaChromeRoute
   SigmaGoldRoute: typeof SigmaGoldRoute
   SigmaRoseGoldRoute: typeof SigmaRoseGoldRoute
@@ -569,6 +646,7 @@ export interface RootRouteChildren {
   SwatchGoldRoute: typeof SwatchGoldRoute
   SwatchRoseGoldRoute: typeof SwatchRoseGoldRoute
   SwatchSeriesRoute: typeof SwatchSeriesRoute
+  ToiletBrushHolderRoute: typeof ToiletBrushHolderRoute
   UnitySeriesRoute: typeof UnitySeriesRoute
   WarrantyRoute: typeof WarrantyRoute
   CategorySlugRoute: typeof CategorySlugRoute
@@ -628,6 +706,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/folding-rack': {
+      id: '/folding-rack'
+      path: '/folding-rack'
+      fullPath: '/folding-rack'
+      preLoaderRoute: typeof FoldingRackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/fortune-series': {
       id: '/fortune-series'
       path: '/fortune-series'
@@ -661,6 +746,20 @@ declare module '@tanstack/react-router' {
       path: '/grace-rose-gold'
       fullPath: '/grace-rose-gold'
       preLoaderRoute: typeof GraceRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/khutti-accessories': {
+      id: '/khutti-accessories'
+      path: '/khutti-accessories'
+      fullPath: '/khutti-accessories'
+      preLoaderRoute: typeof KhuttiAccessoriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/makeup-mirror': {
+      id: '/makeup-mirror'
+      path: '/makeup-mirror'
+      fullPath: '/makeup-mirror'
+      preLoaderRoute: typeof MakeupMirrorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/ovilio-chrome': {
@@ -712,6 +811,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PyramidSeriesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/rectus-black': {
+      id: '/rectus-black'
+      path: '/rectus-black'
+      fullPath: '/rectus-black'
+      preLoaderRoute: typeof RectusBlackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rectus-chrome': {
       id: '/rectus-chrome'
       path: '/rectus-chrome'
@@ -731,6 +837,13 @@ declare module '@tanstack/react-router' {
       path: '/rectus-rose-gold'
       fullPath: '/rectus-rose-gold'
       preLoaderRoute: typeof RectusRoseGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shelf': {
+      id: '/shelf'
+      path: '/shelf'
+      fullPath: '/shelf'
+      preLoaderRoute: typeof ShelfRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sigma-chrome': {
@@ -831,6 +944,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SwatchSeriesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/toilet-brush-holder': {
+      id: '/toilet-brush-holder'
+      path: '/toilet-brush-holder'
+      fullPath: '/toilet-brush-holder'
+      preLoaderRoute: typeof ToiletBrushHolderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/unity-series': {
       id: '/unity-series'
       path: '/unity-series'
@@ -884,11 +1004,14 @@ const rootRouteChildren: RootRouteChildren = {
   CartRoute: CartRoute,
   CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
+  FoldingRackRoute: FoldingRackRoute,
   FortuneSeriesRoute: FortuneSeriesRoute,
   GraceBlackRoute: GraceBlackRoute,
   GraceChromeRoute: GraceChromeRoute,
   GraceGoldRoute: GraceGoldRoute,
   GraceRoseGoldRoute: GraceRoseGoldRoute,
+  KhuttiAccessoriesRoute: KhuttiAccessoriesRoute,
+  MakeupMirrorRoute: MakeupMirrorRoute,
   OvilioChromeRoute: OvilioChromeRoute,
   OysterBlackRoute: OysterBlackRoute,
   OysterChromeRoute: OysterChromeRoute,
@@ -896,9 +1019,11 @@ const rootRouteChildren: RootRouteChildren = {
   OysterSeriesRoute: OysterSeriesRoute,
   ProductsRoute: ProductsRoute,
   PyramidSeriesRoute: PyramidSeriesRoute,
+  RectusBlackRoute: RectusBlackRoute,
   RectusChromeRoute: RectusChromeRoute,
   RectusGoldRoute: RectusGoldRoute,
   RectusRoseGoldRoute: RectusRoseGoldRoute,
+  ShelfRoute: ShelfRoute,
   SigmaChromeRoute: SigmaChromeRoute,
   SigmaGoldRoute: SigmaGoldRoute,
   SigmaRoseGoldRoute: SigmaRoseGoldRoute,
@@ -913,6 +1038,7 @@ const rootRouteChildren: RootRouteChildren = {
   SwatchGoldRoute: SwatchGoldRoute,
   SwatchRoseGoldRoute: SwatchRoseGoldRoute,
   SwatchSeriesRoute: SwatchSeriesRoute,
+  ToiletBrushHolderRoute: ToiletBrushHolderRoute,
   UnitySeriesRoute: UnitySeriesRoute,
   WarrantyRoute: WarrantyRoute,
   CategorySlugRoute: CategorySlugRoute,
