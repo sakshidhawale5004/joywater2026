@@ -9,6 +9,8 @@ import { supremeSeriesProducts } from "./supremeSeriesProducts.ts";
 import { sigmaSeriesProducts } from "./sigmaSeriesProducts.ts";
 import { irisSeriesProducts } from "./irisSeriesProducts.ts";
 import { oysterSeriesProducts } from "./oysterSeriesProducts.ts";
+import { ovilioSeriesProducts } from "./ovilioSeriesProducts.ts";
+import { graceChromeSeriesProducts } from "./graceChromeSeriesProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -907,6 +909,26 @@ export const categories: Category[] = [
     description: "Complete Oyster Series bathroom accessories collection in Chrome, PVD Rose Gold, and Matte Black finishes.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/184.jpg",
     features: ["Brass Construction", "Multiple Finishes", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Ovilio Series - Premium Bathroom Accessories
+  {
+    slug: "ovilio-chrome",
+    title: "Ovilio Series - Chrome",
+    group: "ovilio-series",
+    description: "Ovilio Series bathroom accessories in elegant Chrome finish. Premium brass construction with sophisticated design.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/215.jpg",
+    features: ["Brass Construction", "Chrome Finish", "Elegant Design", "11 Years Unmatched Assurance"]
+  },
+
+  // Grace Chrome Series - Premium Bathroom Accessories
+  {
+    slug: "grace-chrome",
+    title: "Grace Chrome Series",
+    group: "grace-chrome-series",
+    description: "Grace Chrome Series bathroom accessories in premium SS Chrome finish. High-quality stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/226.jpg",
+    features: ["SS Construction", "Chrome Finish", "Premium Quality", "11 Years Unmatched Assurance"]
   },
 
   // Sigma Series - Premium Bathroom Accessories
@@ -2131,6 +2153,8 @@ const realCategoryProducts: Product[] = [
   ...sigmaSeriesProducts,
   ...irisSeriesProducts,
   ...oysterSeriesProducts,
+  ...ovilioSeriesProducts,
+  ...graceChromeSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2266,6 +2290,8 @@ export const megaMenu = {
       "oyster-chrome",
       "oyster-rose-gold",
       "oyster-black",
+      "ovilio-chrome",
+      "grace-chrome",
       "unity-series",
       "supreme-chrome",
       "supreme-gold",

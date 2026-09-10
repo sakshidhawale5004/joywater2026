@@ -17,6 +17,8 @@ import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
+import { Route as GraceChromeRouteImport } from './routes/grace-chrome'
+import { Route as OvilioChromeRouteImport } from './routes/ovilio-chrome'
 import { Route as OysterBlackRouteImport } from './routes/oyster-black'
 import { Route as OysterChromeRouteImport } from './routes/oyster-chrome'
 import { Route as OysterRoseGoldRouteImport } from './routes/oyster-rose-gold'
@@ -82,6 +84,16 @@ const ContactRoute = ContactRouteImport.update({
 const FortuneSeriesRoute = FortuneSeriesRouteImport.update({
   id: '/fortune-series',
   path: '/fortune-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GraceChromeRoute = GraceChromeRouteImport.update({
+  id: '/grace-chrome',
+  path: '/grace-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OvilioChromeRoute = OvilioChromeRouteImport.update({
+  id: '/ovilio-chrome',
+  path: '/ovilio-chrome',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OysterBlackRoute = OysterBlackRouteImport.update({
@@ -225,6 +237,8 @@ export interface FileRoutesByFullPath {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/grace-chrome': typeof GraceChromeRoute
+  '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
   '/oyster-rose-gold': typeof OysterRoseGoldRoute
@@ -261,6 +275,8 @@ export interface FileRoutesByTo {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/grace-chrome': typeof GraceChromeRoute
+  '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
   '/oyster-rose-gold': typeof OysterRoseGoldRoute
@@ -298,6 +314,8 @@ export interface FileRoutesById {
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/grace-chrome': typeof GraceChromeRoute
+  '/ovilio-chrome': typeof OvilioChromeRoute
   '/oyster-black': typeof OysterBlackRoute
   '/oyster-chrome': typeof OysterChromeRoute
   '/oyster-rose-gold': typeof OysterRoseGoldRoute
@@ -336,6 +354,8 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/grace-chrome'
+    | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
     | '/oyster-rose-gold'
@@ -372,6 +392,8 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/grace-chrome'
+    | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
     | '/oyster-rose-gold'
@@ -408,6 +430,8 @@ export interface FileRouteTypes {
     | '/checkout'
     | '/contact'
     | '/fortune-series'
+    | '/grace-chrome'
+    | '/ovilio-chrome'
     | '/oyster-black'
     | '/oyster-chrome'
     | '/oyster-rose-gold'
@@ -445,6 +469,8 @@ export interface RootRouteChildren {
   CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
   FortuneSeriesRoute: typeof FortuneSeriesRoute
+  GraceChromeRoute: typeof GraceChromeRoute
+  OvilioChromeRoute: typeof OvilioChromeRoute
   OysterBlackRoute: typeof OysterBlackRoute
   OysterChromeRoute: typeof OysterChromeRoute
   OysterRoseGoldRoute: typeof OysterRoseGoldRoute
@@ -529,6 +555,20 @@ declare module '@tanstack/react-router' {
       path: '/fortune-series'
       fullPath: '/fortune-series'
       preLoaderRoute: typeof FortuneSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/grace-chrome': {
+      id: '/grace-chrome'
+      path: '/grace-chrome'
+      fullPath: '/grace-chrome'
+      preLoaderRoute: typeof GraceChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ovilio-chrome': {
+      id: '/ovilio-chrome'
+      path: '/ovilio-chrome'
+      fullPath: '/ovilio-chrome'
+      preLoaderRoute: typeof OvilioChromeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/oyster-black': {
@@ -725,6 +765,8 @@ const rootRouteChildren: RootRouteChildren = {
   CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
   FortuneSeriesRoute: FortuneSeriesRoute,
+  GraceChromeRoute: GraceChromeRoute,
+  OvilioChromeRoute: OvilioChromeRoute,
   OysterBlackRoute: OysterBlackRoute,
   OysterChromeRoute: OysterChromeRoute,
   OysterRoseGoldRoute: OysterRoseGoldRoute,
