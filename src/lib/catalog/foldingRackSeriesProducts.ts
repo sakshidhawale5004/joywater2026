@@ -7,7 +7,7 @@ export const foldingRackSeriesProducts: Product[] = [
     name: "Folding Rack With Shelf",
     category: "folding-rack",
     finish: "Chrome Finish",
-    price: 3000,
+    price: 3330,
     code: "FTR-02",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/316.jpg",
     material: "SS"

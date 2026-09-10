@@ -51,7 +51,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1530,
+    price: 1620,
     code: "RT-G 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/281.jpg",
     material: "SS + Glass"
@@ -62,7 +62,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1260,
+    price: 1350,
     code: "RT-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/282.jpg",
     material: "SS + Glass"
@@ -73,7 +73,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1950,
+    price: 2160,
     code: "RT-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/287.jpg",
     material: "SS"
@@ -84,7 +84,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Dual Soap Holder",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 2250,
+    price: 2520,
     code: "RT-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/284.jpg",
     material: "SS"
@@ -95,7 +95,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Tumbler + Soap Holder",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 2250,
+    price: 2520,
     code: "RT-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/285.jpg",
     material: "SS + Glass"
@@ -106,7 +106,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 720,
+    price: 810,
     code: "RT-G 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/286.jpg",
     material: "SS"

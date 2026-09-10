@@ -2360,7 +2360,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-282",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1080,
+    price: 1620,
     code: "DL 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/281.jpg"
   },
@@ -2370,7 +2370,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-283",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 700,
+    price: 1350,
     code: "DL 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/282.jpg"
   },
@@ -2390,7 +2390,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-285",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1170,
+    price: 2520,
     code: "DL 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/284.jpg"
   },
@@ -2400,7 +2400,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-286",
     category: "tumbler-holder",
     finish: "Chrome",
-    price: 720,
+    price: 2520,
     code: "DL 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/285.jpg"
   },
@@ -2410,7 +2410,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-287",
     category: "paper-holder",
     finish: "Chrome",
-    price: 945,
+    price: 810,
     code: "DL 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/286.jpg"
   },
@@ -2420,7 +2420,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-288",
     category: "robe-hook",
     finish: "Chrome",
-    price: 252,
+    price: 2160,
     code: "DL 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/287.jpg"
   },
@@ -2430,7 +2430,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-289",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1170,
+    price: 1710,
     code: "DL 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/288.jpg"
   },
@@ -2440,7 +2440,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-290",
     category: "liquid-dispenser",
     finish: "Chrome",
-    price: 1080,
+    price: 5940,
     code: "DL 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/289.jpg"
   },
@@ -2450,7 +2450,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-291",
     category: "bathroom-rack",
     finish: "Chrome",
-    price: 2160,
+    price: 1620,
     code: "FTR-01",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/290.jpg"
   },
@@ -2460,7 +2460,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-292",
     category: "bathroom-shelf",
     finish: "Chrome",
-    price: 3000,
+    price: 1350,
     code: "FTR-02",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/291.jpg"
   },
@@ -2480,7 +2480,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-294",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1350,
+    price: 1260,
     code: "DTB-01",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/293.jpg"
   },
@@ -2490,7 +2490,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-295",
     category: "towel-rod",
     finish: "Matt Black",
-    price: 9900,
+    price: 2520,
     code: "HGB-01",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/294.jpg"
   },
@@ -2500,7 +2500,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-296",
     category: "towel-rod",
     finish: "Chrome",
-    price: 2430,
+    price: 2520,
     code: "GB-300",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/295.jpg"
   },
@@ -2510,7 +2510,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-297",
     category: "towel-rod",
     finish: "Chrome",
-    price: 2700,
+    price: 810,
     code: "GB-400",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/296.jpg"
   },
@@ -2520,7 +2520,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-298",
     category: "towel-rod",
     finish: "Chrome",
-    price: 900,
+    price: 2160,
     code: "GB-25300",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/297.jpg"
   },
@@ -2530,7 +2530,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-299",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1080,
+    price: 1980,
     code: "GB-25450",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/298.jpg"
   },
@@ -2540,7 +2540,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-300",
     category: "towel-rod",
     finish: "Chrome",
-    price: 1350,
+    price: 6570,
     code: "GB-25600",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/299.jpg"
   },
@@ -2560,7 +2560,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-302",
     category: "toilet-brush-holder",
     finish: "Chrome",
-    price: 2610,
+    price: 1530,
     code: "TBH-RD",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/301.jpg"
   },
@@ -2570,7 +2570,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-303",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1300,
+    price: 1620,
     code: "CGS 01",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/302.jpg"
   },
@@ -2580,7 +2580,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-304",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1400,
+    price: 1530,
     code: "CGS 02",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/303.jpg"
   },
@@ -2590,7 +2590,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-305",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1500,
+    price: 2880,
     code: "CGS 03",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/304.jpg"
   },
@@ -2600,7 +2600,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-306",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1620,
+    price: 2800,
     code: "HCGS 01",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/305.jpg"
   },
@@ -2610,7 +2610,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-307",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1800,
+    price: 783,
     code: "HCGS 02",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/306.jpg"
   },
@@ -2620,7 +2620,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-308",
     category: "glass-shelf",
     finish: "Chrome",
-    price: 1980,
+    price: 2700,
     code: "HCGS 03",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/307.jpg"
   },
@@ -2710,7 +2710,7 @@ export const bathroomAccessoriesProducts: Product[] = [
     slug: "product-317",
     category: "towel-rod",
     finish: "Matt Black",
-    price: 3000,
+    price: 3330,
     code: "HCGS Matte Black - 02 (10x10)",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/316.jpg"
   },

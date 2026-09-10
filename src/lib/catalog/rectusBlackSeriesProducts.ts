@@ -7,7 +7,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 5940,
+    price: 6570,
     code: "RT Black 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/299.jpg",
     material: "SS"
@@ -18,7 +18,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 1800,
+    price: 1980,
     code: "RT Black 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/298.jpg",
     material: "SS"
@@ -29,7 +29,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 1350,
+    price: 1530,
     code: "RT Black 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/303.jpg",
     material: "SS"
@@ -40,7 +40,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 1350,
+    price: 1530,
     code: "RT Black 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/301.jpg",
     material: "SS"
@@ -51,7 +51,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 1440,
+    price: 1620,
     code: "RT Black 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/302.jpg",
     material: "SS + Glass"
@@ -62,7 +62,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 2430,
+    price: 2700,
     code: "RT Black 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/307.jpg",
     material: "SS"
@@ -73,7 +73,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Dual Soap Holder",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 2430,
+    price: 2800,
     code: "RT Black 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/305.jpg",
     material: "SS"
@@ -84,7 +84,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 2710,
+    price: 783,
     code: "RT Black 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/306.jpg",
     material: "SS"
@@ -95,7 +95,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Tumbler + Soap Holder",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 2510,
+    price: 2880,
     code: "RT Black 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/304.jpg",
     material: "SS + Glass"

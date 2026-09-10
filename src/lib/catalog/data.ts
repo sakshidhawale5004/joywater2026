@@ -100,6 +100,24 @@ export const categories: Category[] = [
       features: ["3 Functions", "Lever Click", "Vernet Cartridge", "11 Years Unmatched Assurance"]
     },
     {
+      slug: "shower-arm-1",
+      title: "Shower Arm 1",
+      group: "diverters",
+      description: "Premium Shower Arms collection.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/OTHERS/Bathroom Accessories & Fittings (27).png",
+      features: ["Premium Finish", "Solid Brass", "11 Years Unmatched Assurance"]
+    },
+    {
+      slug: "angle-valve-1",
+      title: "Angle Valve 1",
+      group: "diverters",
+      description: "Premium Angle Valves collection.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/OTHERS/Bathroom Accessories & Fittings (16).png",
+      features: ["Premium Finish", "Solid Brass", "11 Years Unmatched Assurance"]
+    },
+    {
       slug: "tile-drainers",
       title: "Tile Drainers",
       group: "tile-insert-drainers",
