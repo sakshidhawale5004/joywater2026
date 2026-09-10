@@ -8,7 +8,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-dual-soap-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 720,
+    price: 3060,
     code: "GR 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/228.jpg",
     material: "SS"
@@ -19,7 +19,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-napkin-holder-round",
     category: "grace-chrome",
     finish: "Chrome Round",
-    price: 2750,
+    price: 826,
     code: "GR 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/229.jpg",
     material: "SS"
@@ -30,7 +30,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-napkin-holder-square",
     category: "grace-chrome",
     finish: "Chrome Finish Square",
-    price: 810,
+    price: 891,
     code: "GR 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/229.jpg",
     material: "SS"
@@ -52,7 +52,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-soap-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 2720,
+    price: 783,
     code: "GR 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/230.jpg",
     material: "SS + Glass"
@@ -63,7 +63,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-liquid-dispenser",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 2810,
+    price: 891,
     code: "GR 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/235.jpg",
     material: "SS + Glass"
@@ -74,7 +74,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-tumbler-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 720,
+    price: 792,
     code: "GR 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/231.jpg",
     material: "SS + Glass"
@@ -85,7 +85,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-roll-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 1945,
+    price: 1080,
     code: "GR 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/232.jpg",
     material: "SS"
@@ -96,7 +96,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-paper-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 720,
+    price: 790,
     code: "GR 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/234.jpg",
     material: "SS"
@@ -107,7 +107,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-robe-hook",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 900,
+    price: 495,
     code: "GR 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/233.jpg",
     material: "SS"
@@ -118,7 +118,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-towel-rack",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 2790,
+    price: 3060,
     code: "GR 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/227.jpg",
     material: "SS"

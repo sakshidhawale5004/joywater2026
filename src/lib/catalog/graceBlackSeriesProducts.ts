@@ -7,7 +7,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 5900,
+    price: 6480,
     code: "GR-Black 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/256.jpg",
     size: "600mm",
@@ -19,7 +19,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Napkin Holder Round",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1530,
+    price: 1620,
     code: "GR-Black 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/257.jpg",
     material: "SS"
@@ -30,8 +30,8 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Napkin Holder Square",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1530,
-    code: "GR-RG 102B",
+    price: 1620,
+    code: "GR-Black 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/257.jpg",
     material: "SS"
   },
@@ -41,7 +41,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1080,
+    price: 1170,
     code: "GR-Black 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/258.jpg",
     material: "SS + Glass"
@@ -52,7 +52,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1440,
+    price: 1530,
     code: "GR-Black 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/259.jpg",
     material: "SS + Glass"
@@ -74,7 +74,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 2450,
+    price: 2700,
     code: "GR-Black 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/262.jpg",
     material: "SS + Glass"
@@ -85,7 +85,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1350,
+    price: 1440,
     code: "GR-Black 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/261.jpg",
     material: "SS + Glass"
@@ -96,7 +96,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 675,
+    price: 765,
     code: "GR-Black 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/263.jpg",
     material: "SS + Glass"

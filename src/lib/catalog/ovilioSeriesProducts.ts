@@ -98,7 +98,7 @@ export const ovilioSeriesProducts: Product[] = [
     slug: "ovilio-chrome-robe-hook",
     category: "ovilio-chrome",
     finish: "Chrome Finish",
-    price: 900,
+    price: 495,
     code: "OV 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/233.jpg",
     material: "Brass"

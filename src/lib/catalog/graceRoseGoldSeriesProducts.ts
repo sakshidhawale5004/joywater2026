@@ -7,7 +7,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 5310,
+    price: 5850,
     code: "GR-RG 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/246.jpg",
     size: "600mm",
@@ -19,7 +19,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1080,
+    price: 1170,
     code: "GR-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/247.jpg",
     material: "SS"
@@ -30,7 +30,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Napkin Holder Round",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1350,
+    price: 1440,
     code: "GR-RG 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/248.jpg",
     material: "SS"
@@ -41,7 +41,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Napkin Holder Square",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1430,
+    price: 1530,
     code: "GR-G 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/249.jpg",
     material: "SS"
@@ -52,7 +52,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 990,
+    price: 1080,
     code: "GR-RG-104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/250.jpg",
     material: "SS + Glass"
@@ -63,7 +63,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1170,
+    price: 1260,
     code: "GR-RG 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/251.jpg",
     material: "SS + Glass"
@@ -74,7 +74,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 2070,
+    price: 720,
     code: "GR-RG 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/252.jpg",
     material: "SS"
@@ -85,7 +85,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 650,
+    price: 1440,
     code: "GR-RG 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/253.jpg",
     material: "SS"
@@ -96,7 +96,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1530,
+    price: 1620,
     code: "GR-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/254.jpg",
     material: "SS"
@@ -107,7 +107,7 @@ export const graceRoseGoldSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "grace-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1350,
+    price: 2250,
     code: "GR-RG 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/255.jpg",
     material: "SS + Glass"

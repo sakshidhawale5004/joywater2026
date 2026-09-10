@@ -7,7 +7,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 5310,
+    price: 5850,
     code: "GR-G 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/236.jpg",
     size: "600mm",
@@ -19,7 +19,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1080,
+    price: 1170,
     code: "GR-G 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/237.jpg",
     material: "SS"
@@ -30,7 +30,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Napkin Holder Round",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1350,
+    price: 1440,
     code: "GR-G 102A",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/238.jpg",
     material: "SS"
@@ -41,7 +41,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Napkin Holder Square",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1430,
+    price: 1530,
     code: "GR-G 102B",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/238.jpg",
     material: "SS"
@@ -52,7 +52,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 990,
+    price: 1080,
     code: "GR-G 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/240.jpg",
     material: "SS + Glass"
@@ -63,7 +63,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1170,
+    price: 1260,
     code: "GR-G 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/241.jpg",
     material: "SS + Glass"
@@ -74,7 +74,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 2070,
+    price: 2250,
     code: "GR-G 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/242.jpg",
     material: "SS"
@@ -85,7 +85,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 650,
+    price: 720,
     code: "GR-G 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/243.jpg",
     material: "SS"
@@ -96,7 +96,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1530,
+    price: 1620,
     code: "GR-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/244.jpg",
     material: "SS"
@@ -107,7 +107,7 @@ export const graceGoldSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "grace-gold",
     finish: "PVD Gold Finish",
-    price: 1350,
+    price: 1440,
     code: "GR-G 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/245.jpg",
     material: "SS + Glass"

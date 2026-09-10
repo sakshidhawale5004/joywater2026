@@ -7,7 +7,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 5400,
+    price: 5940,
     code: "RT-G 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/278.png",
     material: "SS"
@@ -18,7 +18,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1620,
+    price: 1710,
     code: "RT-G 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/277.jpg",
     material: "SS"
@@ -29,7 +29,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1170,
+    price: 1260,
     code: "RT-G 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/279.jpg",
     material: "SS"
@@ -40,7 +40,7 @@ export const rectusGoldSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "rectus-gold",
     finish: "PVD Gold Finish",
-    price: 1130,
+    price: 1620,
     code: "RT-G 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/280.jpg",
     material: "SS"

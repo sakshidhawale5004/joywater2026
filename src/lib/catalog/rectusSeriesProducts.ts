@@ -7,7 +7,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Towel Rack",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 3250,
+    price: 3600,
     code: "RT 110",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/265.png",
     material: "SS"
@@ -18,7 +18,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 990,
+    price: 1080,
     code: "RT 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/264.png",
     material: "SS"
@@ -29,7 +29,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Soap Holder",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 810,
+    price: 891,
     code: "RT 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/270.png",
     material: "SS"
@@ -40,7 +40,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 720,
+    price: 792,
     code: "RT 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/267.png",
     material: "SS"
@@ -51,7 +51,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 1260,
+    price: 1350,
     code: "RT 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/268.jpg",
     material: "SS + Glass"
@@ -62,7 +62,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 880,
+    price: 1440,
     code: "RT 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/269.png",
     material: "SS + Glass"
@@ -73,7 +73,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Roll Holder With Flap",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 1260,
+    price: 1350,
     code: "RT 106",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/275.png",
     material: "SS"
@@ -84,7 +84,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Dual Soap Holder",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 1260,
+    price: 1440,
     code: "RT 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/272.png",
     material: "SS"
@@ -95,7 +95,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Tumbler + Soap Holder",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 1260,
+    price: 1350,
     code: "RT 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/273.png",
     material: "SS + Glass"
@@ -106,7 +106,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Robe Hook",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 595,
+    price: 630,
     code: "RT 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/274.jpg",
     material: "SS"
