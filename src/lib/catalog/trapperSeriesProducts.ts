@@ -210,5 +210,78 @@ export const trapperSeriesProducts: Product[] = [
     image: "/trappers/trapper-17.jpg",
     material: "SS 304",
     description: "150x150 | 75mm | ROUND TAPPER"
+  },
+  // New additions
+  {
+    id: "trapper-18",
+    slug: "trapper-18",
+    name: "SS Grating 304 - Rolex Jali With Hole",
+    category: "trapper",
+    finish: "SS 304",
+    price: 585,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/376.png",
+    material: "SS 304",
+    description: "150mm x 50mm | ROLEX JALI WITH HOLE"
+  },
+  {
+    id: "trapper-19",
+    slug: "trapper-19",
+    name: "SS Grating 304 - Linear Jali With Frame",
+    category: "trapper",
+    finish: "SS 304",
+    price: 250,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/379.jpg",
+    material: "SS 304",
+    description: "150mm x 150mm | LINEAR JALI WITH FRAME"
+  },
+  {
+    id: "trapper-20",
+    slug: "trapper-20",
+    name: "SS Grating 304 - Dorner Jali With Frame",
+    category: "trapper",
+    finish: "SS 304",
+    price: 1800,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/375.png",
+    material: "SS 304",
+    description: "200mm x 200mm | DORNER JALI WITH FRAME"
+  },
+  {
+    id: "trapper-21",
+    slug: "trapper-21",
+    name: "SS Grating 304 - Cockroach Trap With Hole",
+    category: "trapper",
+    finish: "SS 304",
+    price: 810,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/373.jpg",
+    material: "SS 304",
+    description: "150mm x 50mm | COCKROACH TRAP WITH HOLE"
+  },
+  {
+    id: "trapper-22",
+    slug: "trapper-22",
+    name: "SS Grating 304 - Round Jali With Frame",
+    category: "trapper",
+    finish: "SS 304",
+    price: 250,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/377.jpg",
+    material: "SS 304",
+    description: "150mm x 150mm | ROUND JALI WITH FRAME"
+  },
+  {
+    id: "trapper-23",
+    slug: "trapper-23",
+    name: "SS Grating 304 - Round Jali With Hole",
+    category: "trapper",
+    finish: "SS 304",
+    price: 225,
+    code: "SS GRATING 304",
+    image: "/JOY WATER BATHROOM ACCESSORIES (1)/378.jpg",
+    material: "SS 304",
+    description: "150mm x 150mm | ROUND JALI WITH HOLE"
   }
 ];

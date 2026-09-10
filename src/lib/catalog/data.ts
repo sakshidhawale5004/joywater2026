@@ -1034,6 +1034,54 @@ export const categories: Category[] = [
     bannerImage: "/trappers/trapper-1.jpg",
     features: ["SS 304 Construction", "Multiple Designs", "Round & Square Options", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "floor-accessories",
+    title: "Floor Accessories",
+    group: "floor-accessories-series",
+    description: "Premium floor-mounted bathroom accessories. Liquid dispensers, tumbler holders, and soap holders in brass construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/342.jpg",
+    features: ["Floor Mounted", "Brass Construction", "Chrome Finish", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "shower-arm",
+    title: "Shower Arms Collection",
+    group: "shower-arm-series",
+    description: "Comprehensive range of shower arms, ceiling mounts, and wall flanges. Multiple sizes available in brass construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/381.png",
+    features: ["Multiple Sizes", "Brass Construction", "Wall & Ceiling Mounts", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "angle-valve",
+    title: "Angle Valve Collection",
+    group: "angle-valve-series",
+    description: "Premium brass angle valves in multiple designer patterns. Chrome finish with superior quality construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/394.jpg",
+    features: ["Brass Construction", "Multiple Designs", "Chrome Finish", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "allied-products",
+    title: "Allied Products",
+    group: "allied-products-series",
+    description: "Essential bathroom fittings and plumbing accessories. Fasteners, valves, adapters, and installation essentials.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/401.jpg",
+    features: ["Plumbing Essentials", "Multiple Types", "Quality Materials", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "couplings",
+    title: "Couplings Collection",
+    group: "couplings-series",
+    description: "Waste couplings for basins and urinals. Full brass construction with chrome finish for durability.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/419.jpg",
+    features: ["Full Brass", "Chrome Finish", "Multiple Types", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "gasket-tape",
+    title: "Gasket & Tape Collection",
+    group: "gasket-tape-series",
+    description: "WC gaskets and teflon tape for plumbing connections. Essential products for bathroom installations.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/423.jpg",
+    features: ["WC Gaskets", "Teflon Tape", "Installation Essentials", "Quality Materials"]
+  },
 
   // Sigma Series - Premium Bathroom Accessories
   {
@@ -1292,6 +1340,12 @@ import { shelfSeriesProducts } from "./shelfSeriesProducts";
 import { khuttiAccessoriesProducts } from "./khuttiAccessoriesProducts";
 import { makeupMirrorProducts } from "./makeupMirrorProducts";
 import { trapperSeriesProducts } from "./trapperSeriesProducts";
+import { floorAccessoriesProducts } from "./floorAccessoriesProducts";
+import { showerArmProducts } from "./showerArmProducts";
+import { angleValveProducts } from "./angleValveProducts";
+import { alliedProductsProducts } from "./alliedProductsProducts";
+import { couplingsProducts } from "./couplingsProducts";
+import { gasketTapeProducts } from "./gasketTapeProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function slugify(text: string): string {
@@ -2272,6 +2326,12 @@ const realCategoryProducts: Product[] = [
   ...khuttiAccessoriesProducts,
   ...makeupMirrorProducts,
   ...trapperSeriesProducts,
+  ...floorAccessoriesProducts,
+  ...showerArmProducts,
+  ...angleValveProducts,
+  ...alliedProductsProducts,
+  ...couplingsProducts,
+  ...gasketTapeProducts,
 ];
 
 export const products: Product[] = [
@@ -2429,6 +2489,12 @@ export const megaMenu = {
       "khutti-accessories",
       "makeup-mirror",
       "trapper",
+      "floor-accessories",
+      "shower-arm",
+      "angle-valve",
+      "allied-products",
+      "couplings",
+      "gasket-tape",
       "soap-dispenser"
     ]
   },

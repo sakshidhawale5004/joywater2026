@@ -11,13 +11,18 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AlliedProductsRouteImport } from './routes/allied-products'
+import { Route as AngleValveRouteImport } from './routes/angle-valve'
 import { Route as BathroomAccessoriesRouteImport } from './routes/bathroom-accessories'
 import { Route as CareRouteImport } from './routes/care'
 import { Route as CartRouteImport } from './routes/cart'
 import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CouplingsRouteImport } from './routes/couplings'
+import { Route as FloorAccessoriesRouteImport } from './routes/floor-accessories'
 import { Route as FoldingRackRouteImport } from './routes/folding-rack'
 import { Route as FortuneSeriesRouteImport } from './routes/fortune-series'
+import { Route as GasketTapeRouteImport } from './routes/gasket-tape'
 import { Route as GraceBlackRouteImport } from './routes/grace-black'
 import { Route as GraceChromeRouteImport } from './routes/grace-chrome'
 import { Route as GraceGoldRouteImport } from './routes/grace-gold'
@@ -36,6 +41,7 @@ import { Route as RectusChromeRouteImport } from './routes/rectus-chrome'
 import { Route as RectusGoldRouteImport } from './routes/rectus-gold'
 import { Route as RectusRoseGoldRouteImport } from './routes/rectus-rose-gold'
 import { Route as ShelfRouteImport } from './routes/shelf'
+import { Route as ShowerArmRouteImport } from './routes/shower-arm'
 import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
 import { Route as SigmaGoldRouteImport } from './routes/sigma-gold'
 import { Route as SigmaRoseGoldRouteImport } from './routes/sigma-rose-gold'
@@ -69,6 +75,16 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AlliedProductsRoute = AlliedProductsRouteImport.update({
+  id: '/allied-products',
+  path: '/allied-products',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AngleValveRoute = AngleValveRouteImport.update({
+  id: '/angle-valve',
+  path: '/angle-valve',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BathroomAccessoriesRoute = BathroomAccessoriesRouteImport.update({
   id: '/bathroom-accessories',
   path: '/bathroom-accessories',
@@ -94,6 +110,16 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CouplingsRoute = CouplingsRouteImport.update({
+  id: '/couplings',
+  path: '/couplings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FloorAccessoriesRoute = FloorAccessoriesRouteImport.update({
+  id: '/floor-accessories',
+  path: '/floor-accessories',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FoldingRackRoute = FoldingRackRouteImport.update({
   id: '/folding-rack',
   path: '/folding-rack',
@@ -102,6 +128,11 @@ const FoldingRackRoute = FoldingRackRouteImport.update({
 const FortuneSeriesRoute = FortuneSeriesRouteImport.update({
   id: '/fortune-series',
   path: '/fortune-series',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GasketTapeRoute = GasketTapeRouteImport.update({
+  id: '/gasket-tape',
+  path: '/gasket-tape',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GraceBlackRoute = GraceBlackRouteImport.update({
@@ -192,6 +223,11 @@ const RectusRoseGoldRoute = RectusRoseGoldRouteImport.update({
 const ShelfRoute = ShelfRouteImport.update({
   id: '/shelf',
   path: '/shelf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ShowerArmRoute = ShowerArmRouteImport.update({
+  id: '/shower-arm',
+  path: '/shower-arm',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SigmaChromeRoute = SigmaChromeRouteImport.update({
@@ -309,13 +345,18 @@ const ShowersInFinishSlugRoute = ShowersInFinishSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/allied-products': typeof AlliedProductsRoute
+  '/angle-valve': typeof AngleValveRoute
   '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/couplings': typeof CouplingsRoute
+  '/floor-accessories': typeof FloorAccessoriesRoute
   '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/gasket-tape': typeof GasketTapeRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
@@ -334,6 +375,7 @@ export interface FileRoutesByFullPath {
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
+  '/shower-arm': typeof ShowerArmRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -360,13 +402,18 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/allied-products': typeof AlliedProductsRoute
+  '/angle-valve': typeof AngleValveRoute
   '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/couplings': typeof CouplingsRoute
+  '/floor-accessories': typeof FloorAccessoriesRoute
   '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/gasket-tape': typeof GasketTapeRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
@@ -385,6 +432,7 @@ export interface FileRoutesByTo {
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
+  '/shower-arm': typeof ShowerArmRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -412,13 +460,18 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/allied-products': typeof AlliedProductsRoute
+  '/angle-valve': typeof AngleValveRoute
   '/bathroom-accessories': typeof BathroomAccessoriesRoute
   '/care': typeof CareRoute
   '/cart': typeof CartRoute
   '/checkout': typeof CheckoutRoute
   '/contact': typeof ContactRoute
+  '/couplings': typeof CouplingsRoute
+  '/floor-accessories': typeof FloorAccessoriesRoute
   '/folding-rack': typeof FoldingRackRoute
   '/fortune-series': typeof FortuneSeriesRoute
+  '/gasket-tape': typeof GasketTapeRoute
   '/grace-black': typeof GraceBlackRoute
   '/grace-chrome': typeof GraceChromeRoute
   '/grace-gold': typeof GraceGoldRoute
@@ -437,6 +490,7 @@ export interface FileRoutesById {
   '/rectus-gold': typeof RectusGoldRoute
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
+  '/shower-arm': typeof ShowerArmRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -465,13 +519,18 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/allied-products'
+    | '/angle-valve'
     | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/couplings'
+    | '/floor-accessories'
     | '/folding-rack'
     | '/fortune-series'
+    | '/gasket-tape'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
@@ -490,6 +549,7 @@ export interface FileRouteTypes {
     | '/rectus-gold'
     | '/rectus-rose-gold'
     | '/shelf'
+    | '/shower-arm'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -516,13 +576,18 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/allied-products'
+    | '/angle-valve'
     | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/couplings'
+    | '/floor-accessories'
     | '/folding-rack'
     | '/fortune-series'
+    | '/gasket-tape'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
@@ -541,6 +606,7 @@ export interface FileRouteTypes {
     | '/rectus-gold'
     | '/rectus-rose-gold'
     | '/shelf'
+    | '/shower-arm'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -567,13 +633,18 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/allied-products'
+    | '/angle-valve'
     | '/bathroom-accessories'
     | '/care'
     | '/cart'
     | '/checkout'
     | '/contact'
+    | '/couplings'
+    | '/floor-accessories'
     | '/folding-rack'
     | '/fortune-series'
+    | '/gasket-tape'
     | '/grace-black'
     | '/grace-chrome'
     | '/grace-gold'
@@ -592,6 +663,7 @@ export interface FileRouteTypes {
     | '/rectus-gold'
     | '/rectus-rose-gold'
     | '/shelf'
+    | '/shower-arm'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -619,13 +691,18 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AlliedProductsRoute: typeof AlliedProductsRoute
+  AngleValveRoute: typeof AngleValveRoute
   BathroomAccessoriesRoute: typeof BathroomAccessoriesRoute
   CareRoute: typeof CareRoute
   CartRoute: typeof CartRoute
   CheckoutRoute: typeof CheckoutRoute
   ContactRoute: typeof ContactRoute
+  CouplingsRoute: typeof CouplingsRoute
+  FloorAccessoriesRoute: typeof FloorAccessoriesRoute
   FoldingRackRoute: typeof FoldingRackRoute
   FortuneSeriesRoute: typeof FortuneSeriesRoute
+  GasketTapeRoute: typeof GasketTapeRoute
   GraceBlackRoute: typeof GraceBlackRoute
   GraceChromeRoute: typeof GraceChromeRoute
   GraceGoldRoute: typeof GraceGoldRoute
@@ -644,6 +721,7 @@ export interface RootRouteChildren {
   RectusGoldRoute: typeof RectusGoldRoute
   RectusRoseGoldRoute: typeof RectusRoseGoldRoute
   ShelfRoute: typeof ShelfRoute
+  ShowerArmRoute: typeof ShowerArmRoute
   SigmaChromeRoute: typeof SigmaChromeRoute
   SigmaGoldRoute: typeof SigmaGoldRoute
   SigmaRoseGoldRoute: typeof SigmaRoseGoldRoute
@@ -684,6 +762,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/allied-products': {
+      id: '/allied-products'
+      path: '/allied-products'
+      fullPath: '/allied-products'
+      preLoaderRoute: typeof AlliedProductsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/angle-valve': {
+      id: '/angle-valve'
+      path: '/angle-valve'
+      fullPath: '/angle-valve'
+      preLoaderRoute: typeof AngleValveRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/bathroom-accessories': {
       id: '/bathroom-accessories'
       path: '/bathroom-accessories'
@@ -719,6 +811,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/couplings': {
+      id: '/couplings'
+      path: '/couplings'
+      fullPath: '/couplings'
+      preLoaderRoute: typeof CouplingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/floor-accessories': {
+      id: '/floor-accessories'
+      path: '/floor-accessories'
+      fullPath: '/floor-accessories'
+      preLoaderRoute: typeof FloorAccessoriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/folding-rack': {
       id: '/folding-rack'
       path: '/folding-rack'
@@ -731,6 +837,13 @@ declare module '@tanstack/react-router' {
       path: '/fortune-series'
       fullPath: '/fortune-series'
       preLoaderRoute: typeof FortuneSeriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gasket-tape': {
+      id: '/gasket-tape'
+      path: '/gasket-tape'
+      fullPath: '/gasket-tape'
+      preLoaderRoute: typeof GasketTapeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/grace-black': {
@@ -857,6 +970,13 @@ declare module '@tanstack/react-router' {
       path: '/shelf'
       fullPath: '/shelf'
       preLoaderRoute: typeof ShelfRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shower-arm': {
+      id: '/shower-arm'
+      path: '/shower-arm'
+      fullPath: '/shower-arm'
+      preLoaderRoute: typeof ShowerArmRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sigma-chrome': {
@@ -1019,13 +1139,18 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AlliedProductsRoute: AlliedProductsRoute,
+  AngleValveRoute: AngleValveRoute,
   BathroomAccessoriesRoute: BathroomAccessoriesRoute,
   CareRoute: CareRoute,
   CartRoute: CartRoute,
   CheckoutRoute: CheckoutRoute,
   ContactRoute: ContactRoute,
+  CouplingsRoute: CouplingsRoute,
+  FloorAccessoriesRoute: FloorAccessoriesRoute,
   FoldingRackRoute: FoldingRackRoute,
   FortuneSeriesRoute: FortuneSeriesRoute,
+  GasketTapeRoute: GasketTapeRoute,
   GraceBlackRoute: GraceBlackRoute,
   GraceChromeRoute: GraceChromeRoute,
   GraceGoldRoute: GraceGoldRoute,
@@ -1044,6 +1169,7 @@ const rootRouteChildren: RootRouteChildren = {
   RectusGoldRoute: RectusGoldRoute,
   RectusRoseGoldRoute: RectusRoseGoldRoute,
   ShelfRoute: ShelfRoute,
+  ShowerArmRoute: ShowerArmRoute,
   SigmaChromeRoute: SigmaChromeRoute,
   SigmaGoldRoute: SigmaGoldRoute,
   SigmaRoseGoldRoute: SigmaRoseGoldRoute,
