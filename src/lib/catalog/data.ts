@@ -2438,15 +2438,13 @@ export const megaMenu = {
     "Drainers": [
       "tile-drainers"
     ],
-    "Accessories": [
+    "Allied Products": [
       "abs-hook",
       "button-spout",
       "angle-valve",
       "bib-cock",
       "shower-arm",
-      "shower-holder"
-    ],
-    "Fittings": [
+      "shower-holder",
       "wall-outlet",
       "pop-up-coupling",
       "bottle-trap",
@@ -2459,13 +2457,13 @@ export const megaMenu = {
       "pyramid-series",
       "signature-series",
       "fortune-series",
-      "solitaire-series",
+      "solitaire-series"
+    ],
+    "Designer Collections": [
       "unity-series",
       "supreme-chrome",
       "supreme-gold",
-      "supreme-rose-gold"
-    ],
-    "Designer Collections": [
+      "supreme-rose-gold",
       "swatch-chrome",
       "swatch-gold",
       "swatch-rose-gold",
@@ -2486,7 +2484,9 @@ export const megaMenu = {
       "rectus-chrome",
       "rectus-gold",
       "rectus-rose-gold",
-      "rectus-black",
+      "rectus-black"
+    ],
+    "Specialty Items": [
       "folding-rack",
       "toilet-brush-holder",
       "shelf",
@@ -2494,12 +2494,12 @@ export const megaMenu = {
       "makeup-mirror",
       "trapper",
       "floor-accessories",
-      "shower-arm",
-      "angle-valve",
       "allied-products",
       "couplings",
       "gasket-tape",
-      "soap-dispenser"
+      "soap-dispenser",
+      "shower-arm",
+      "angle-valve"
     ]
   },
   "Mirrors": {
