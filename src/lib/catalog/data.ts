@@ -962,6 +962,22 @@ export const categories: Category[] = [
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/265.png",
     features: ["SS Construction", "Chrome Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
   },
+  {
+    slug: "rectus-gold",
+    title: "Rectus Gold Series",
+    group: "rectus-gold-series",
+    description: "Rectus Gold Series bathroom accessories with luxurious PVD Gold finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/278.png",
+    features: ["SS Construction", "PVD Gold Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "rectus-rose-gold",
+    title: "Rectus Rose Gold Series",
+    group: "rectus-rose-gold-series",
+    description: "Rectus Rose Gold Series bathroom accessories with elegant PVD Rose Gold finish. Premium stainless steel construction.",
+    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/289.jpg",
+    features: ["SS Construction", "PVD Rose Gold Finish", "Contemporary Design", "11 Years Unmatched Assurance"]
+  },
 
   // Sigma Series - Premium Bathroom Accessories
   {
@@ -1211,6 +1227,8 @@ import { graceGoldSeriesProducts } from "./graceGoldSeriesProducts";
 import { graceRoseGoldSeriesProducts } from "./graceRoseGoldSeriesProducts";
 import { graceBlackSeriesProducts } from "./graceBlackSeriesProducts";
 import { rectusSeriesProducts } from "./rectusSeriesProducts";
+import { rectusGoldSeriesProducts } from "./rectusGoldSeriesProducts";
+import { rectusRoseGoldSeriesProducts } from "./rectusRoseGoldSeriesProducts";
 
 // All products with authentic catalog prices and names from Catalog-Final-Doc-03 and Joy water merged PDFs
 function slugify(text: string): string {
@@ -2182,6 +2200,8 @@ const realCategoryProducts: Product[] = [
   ...graceRoseGoldSeriesProducts,
   ...graceBlackSeriesProducts,
   ...rectusSeriesProducts,
+  ...rectusGoldSeriesProducts,
+  ...rectusRoseGoldSeriesProducts,
 ];
 
 export const products: Product[] = [
@@ -2330,6 +2350,8 @@ export const megaMenu = {
       "grace-rose-gold",
       "grace-black",
       "rectus-chrome",
+      "rectus-gold",
+      "rectus-rose-gold",
       "soap-dispenser"
     ]
   },

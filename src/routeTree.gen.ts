@@ -29,6 +29,8 @@ import { Route as OysterSeriesRouteImport } from './routes/oyster-series'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as PyramidSeriesRouteImport } from './routes/pyramid-series'
 import { Route as RectusChromeRouteImport } from './routes/rectus-chrome'
+import { Route as RectusGoldRouteImport } from './routes/rectus-gold'
+import { Route as RectusRoseGoldRouteImport } from './routes/rectus-rose-gold'
 import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
 import { Route as SigmaGoldRouteImport } from './routes/sigma-gold'
 import { Route as SigmaRoseGoldRouteImport } from './routes/sigma-rose-gold'
@@ -148,6 +150,16 @@ const PyramidSeriesRoute = PyramidSeriesRouteImport.update({
 const RectusChromeRoute = RectusChromeRouteImport.update({
   id: '/rectus-chrome',
   path: '/rectus-chrome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RectusGoldRoute = RectusGoldRouteImport.update({
+  id: '/rectus-gold',
+  path: '/rectus-gold',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RectusRoseGoldRoute = RectusRoseGoldRouteImport.update({
+  id: '/rectus-rose-gold',
+  path: '/rectus-rose-gold',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SigmaChromeRoute = SigmaChromeRouteImport.update({
@@ -273,6 +285,8 @@ export interface FileRoutesByFullPath {
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/rectus-chrome': typeof RectusChromeRoute
+  '/rectus-gold': typeof RectusGoldRoute
+  '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -315,6 +329,8 @@ export interface FileRoutesByTo {
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/rectus-chrome': typeof RectusChromeRoute
+  '/rectus-gold': typeof RectusGoldRoute
+  '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -358,6 +374,8 @@ export interface FileRoutesById {
   '/products': typeof ProductsRoute
   '/pyramid-series': typeof PyramidSeriesRoute
   '/rectus-chrome': typeof RectusChromeRoute
+  '/rectus-gold': typeof RectusGoldRoute
+  '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
@@ -402,6 +420,8 @@ export interface FileRouteTypes {
     | '/products'
     | '/pyramid-series'
     | '/rectus-chrome'
+    | '/rectus-gold'
+    | '/rectus-rose-gold'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -444,6 +464,8 @@ export interface FileRouteTypes {
     | '/products'
     | '/pyramid-series'
     | '/rectus-chrome'
+    | '/rectus-gold'
+    | '/rectus-rose-gold'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -486,6 +508,8 @@ export interface FileRouteTypes {
     | '/products'
     | '/pyramid-series'
     | '/rectus-chrome'
+    | '/rectus-gold'
+    | '/rectus-rose-gold'
     | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
@@ -529,6 +553,8 @@ export interface RootRouteChildren {
   ProductsRoute: typeof ProductsRoute
   PyramidSeriesRoute: typeof PyramidSeriesRoute
   RectusChromeRoute: typeof RectusChromeRoute
+  RectusGoldRoute: typeof RectusGoldRoute
+  RectusRoseGoldRoute: typeof RectusRoseGoldRoute
   SigmaChromeRoute: typeof SigmaChromeRoute
   SigmaGoldRoute: typeof SigmaGoldRoute
   SigmaRoseGoldRoute: typeof SigmaRoseGoldRoute
@@ -691,6 +717,20 @@ declare module '@tanstack/react-router' {
       path: '/rectus-chrome'
       fullPath: '/rectus-chrome'
       preLoaderRoute: typeof RectusChromeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rectus-gold': {
+      id: '/rectus-gold'
+      path: '/rectus-gold'
+      fullPath: '/rectus-gold'
+      preLoaderRoute: typeof RectusGoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rectus-rose-gold': {
+      id: '/rectus-rose-gold'
+      path: '/rectus-rose-gold'
+      fullPath: '/rectus-rose-gold'
+      preLoaderRoute: typeof RectusRoseGoldRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sigma-chrome': {
@@ -857,6 +897,8 @@ const rootRouteChildren: RootRouteChildren = {
   ProductsRoute: ProductsRoute,
   PyramidSeriesRoute: PyramidSeriesRoute,
   RectusChromeRoute: RectusChromeRoute,
+  RectusGoldRoute: RectusGoldRoute,
+  RectusRoseGoldRoute: RectusRoseGoldRoute,
   SigmaChromeRoute: SigmaChromeRoute,
   SigmaGoldRoute: SigmaGoldRoute,
   SigmaRoseGoldRoute: SigmaRoseGoldRoute,
