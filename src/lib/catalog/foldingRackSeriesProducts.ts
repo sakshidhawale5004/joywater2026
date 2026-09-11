@@ -93,5 +93,16 @@ export const foldingRackSeriesProducts: Product[] = [
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/319.jpg",
     material: "SS-304",
     description: "Old Age & Handicap Peoples"
+  },
+  {
+    id: "folding-rack-f01",
+    slug: "folding-rack-f01",
+    name: "Folding Rack | 600mm",
+    category: "folding-rack",
+    finish: "Chrome Finish",
+    price: 2430,
+    code: "F01",
+    image: "/BATH ACCESORIES PRODUCT/FTR 01 F01 FOLDING RACK  600MM 2430 (1).jpg",
+    material: "SS"
   }
 ];

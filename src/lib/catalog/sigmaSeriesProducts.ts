@@ -251,5 +251,15 @@ export const sigmaSeriesProducts: Product[] = [
     price: 4410,
     code: "SI-RG 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/153.jpg"
+  },
+  {
+    id: "sigma-rose-gold-si-rg-109",
+    name: "Towel Rack | 600mm",
+    slug: "sigma-rose-gold-si-rg-109",
+    category: "sigma-rose-gold",
+    finish: "PVD Rose Gold Finish",
+    price: 11880,
+    code: "SI-RG-109",
+    image: "/BATH ACCESORIES PRODUCT/SI-RG 109 SIGMA ROSE GOLD TOWEL RACK 600MM 11880(2).jpg"
   }
 ];

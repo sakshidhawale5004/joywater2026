@@ -275,5 +275,36 @@ export const oysterSeriesProducts: Product[] = [
     price: 1260,
     code: "OY-Black 108",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/213.jpg"
+  },
+  // Additional Oyster Products
+  {
+    id: "oyster-chrome-110",
+    slug: "oyster-chrome-towel-rack-600mm",
+    name: "Towel Rack | 600mm",
+    category: "oyster-chrome",
+    finish: "Chrome",
+    price: 7650,
+    code: "OY 110",
+    image: "/BATH ACCESORIES PRODUCT/OY  110 OYSTER  TOWEL RACK 600MM 7650 (3).jpg"
+  },
+  {
+    id: "oyster-rose-gold-110",
+    slug: "oyster-rose-gold-towel-rack-600mm",
+    name: "Towel Rack | 600mm",
+    category: "oyster-rose-gold",
+    finish: "Rose Gold",
+    price: 10440,
+    code: "OY-RG 110",
+    image: "/BATH ACCESORIES PRODUCT/OY RG 110 OYSTER ROSE  TOWEL RACK 600MM 10440 (4).jpg"
+  },
+  {
+    id: "oyster-black-110",
+    slug: "oyster-black-towel-rack-600mm",
+    name: "Towel Rack | 600mm",
+    category: "oyster-black",
+    finish: "Matte Black",
+    price: 8100,
+    code: "OY-BL 110",
+    image: "/BATH ACCESORIES PRODUCT/OY BL 110 OYSTER BLACK TOWEL RACK 600MM 8100.jpg"
   }
 ];

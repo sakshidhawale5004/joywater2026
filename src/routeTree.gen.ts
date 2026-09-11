@@ -42,7 +42,6 @@ import { Route as RectusGoldRouteImport } from './routes/rectus-gold'
 import { Route as RectusRoseGoldRouteImport } from './routes/rectus-rose-gold'
 import { Route as ShelfRouteImport } from './routes/shelf'
 import { Route as ShowerArmRouteImport } from './routes/shower-arm'
-import { Route as SigmaChromeRouteImport } from './routes/sigma-chrome'
 import { Route as SigmaGoldRouteImport } from './routes/sigma-gold'
 import { Route as SigmaRoseGoldRouteImport } from './routes/sigma-rose-gold'
 import { Route as SigmaSeriesRouteImport } from './routes/sigma-series'
@@ -230,11 +229,6 @@ const ShowerArmRoute = ShowerArmRouteImport.update({
   path: '/shower-arm',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SigmaChromeRoute = SigmaChromeRouteImport.update({
-  id: '/sigma-chrome',
-  path: '/sigma-chrome',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const SigmaGoldRoute = SigmaGoldRouteImport.update({
   id: '/sigma-gold',
   path: '/sigma-gold',
@@ -376,7 +370,6 @@ export interface FileRoutesByFullPath {
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
   '/shower-arm': typeof ShowerArmRoute
-  '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
   '/sigma-series': typeof SigmaSeriesRoute
@@ -433,7 +426,6 @@ export interface FileRoutesByTo {
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
   '/shower-arm': typeof ShowerArmRoute
-  '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
   '/sigma-series': typeof SigmaSeriesRoute
@@ -491,7 +483,6 @@ export interface FileRoutesById {
   '/rectus-rose-gold': typeof RectusRoseGoldRoute
   '/shelf': typeof ShelfRoute
   '/shower-arm': typeof ShowerArmRoute
-  '/sigma-chrome': typeof SigmaChromeRoute
   '/sigma-gold': typeof SigmaGoldRoute
   '/sigma-rose-gold': typeof SigmaRoseGoldRoute
   '/sigma-series': typeof SigmaSeriesRoute
@@ -550,7 +541,6 @@ export interface FileRouteTypes {
     | '/rectus-rose-gold'
     | '/shelf'
     | '/shower-arm'
-    | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
     | '/sigma-series'
@@ -607,7 +597,6 @@ export interface FileRouteTypes {
     | '/rectus-rose-gold'
     | '/shelf'
     | '/shower-arm'
-    | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
     | '/sigma-series'
@@ -664,7 +653,6 @@ export interface FileRouteTypes {
     | '/rectus-rose-gold'
     | '/shelf'
     | '/shower-arm'
-    | '/sigma-chrome'
     | '/sigma-gold'
     | '/sigma-rose-gold'
     | '/sigma-series'
@@ -722,7 +710,6 @@ export interface RootRouteChildren {
   RectusRoseGoldRoute: typeof RectusRoseGoldRoute
   ShelfRoute: typeof ShelfRoute
   ShowerArmRoute: typeof ShowerArmRoute
-  SigmaChromeRoute: typeof SigmaChromeRoute
   SigmaGoldRoute: typeof SigmaGoldRoute
   SigmaRoseGoldRoute: typeof SigmaRoseGoldRoute
   SigmaSeriesRoute: typeof SigmaSeriesRoute
@@ -979,13 +966,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ShowerArmRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sigma-chrome': {
-      id: '/sigma-chrome'
-      path: '/sigma-chrome'
-      fullPath: '/sigma-chrome'
-      preLoaderRoute: typeof SigmaChromeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/sigma-gold': {
       id: '/sigma-gold'
       path: '/sigma-gold'
@@ -1170,7 +1150,6 @@ const rootRouteChildren: RootRouteChildren = {
   RectusRoseGoldRoute: RectusRoseGoldRoute,
   ShelfRoute: ShelfRoute,
   ShowerArmRoute: ShowerArmRoute,
-  SigmaChromeRoute: SigmaChromeRoute,
   SigmaGoldRoute: SigmaGoldRoute,
   SigmaRoseGoldRoute: SigmaRoseGoldRoute,
   SigmaSeriesRoute: SigmaSeriesRoute,
