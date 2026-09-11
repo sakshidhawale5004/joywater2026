@@ -55,11 +55,50 @@ const FINISH_STYLES: Record<string, string> = {
   "PVD Gold": "from-amber-200 to-amber-600",
 };
 
+function getProductMaterial(category: string): string {
+  const brassSeries = [
+    "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
+    "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
+    "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",
+    "oyster-series", "oyster-rose-gold", "oyster-black", "oyster-chrome",
+    "ovilio-series", "ovilio-chrome"
+  ];
+  
+  const stainlessSteelSeries = [
+    "grace-chrome", "grace-gold-series", "grace-rose-gold", "grace-black",
+    "rectus-chrome", "rectus-gold", "rectus-rose-gold", "rectus-black"
+  ];
+  
+  if (brassSeries.includes(category)) return "Only Brass";
+  if (stainlessSteelSeries.includes(category)) return "Stainless Steel (304 Grade)";
+  return "Solid Brass / Grade 304 SS";
+}
+
+function isBathAccessoriesCategory(category: string): boolean {
+  const bathAccessoriesCategories = [
+    "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
+    "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
+    "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",
+    "oyster-series", "oyster-rose-gold", "oyster-black", "oyster-chrome",
+    "ovilio-series", "ovilio-chrome",
+    "grace-chrome", "grace-gold-series", "grace-rose-gold", "grace-black",
+    "rectus-chrome", "rectus-gold", "rectus-rose-gold", "rectus-black"
+  ];
+  return bathAccessoriesCategories.includes(category);
+}
+
 function ProductPage() {
   const { product, cat, related } = Route.useLoaderData();
   const gradient = FINISH_STYLES[product.finish] ?? "from-neutral-200 to-neutral-400";
   const { items, addItem, removeItem, isInCart } = useCart();
   const inCart = isInCart(product.id);
+  
+  const materialType = getProductMaterial(product.category);
+  const isBathAccessory = isBathAccessoriesCategory(product.category);
 
   return (
     <SiteLayout>
@@ -172,16 +211,18 @@ function ProductPage() {
             </div>
             <div className="bg-secondary/40 p-3 rounded-lg border border-border/40">
               <dt className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Material</dt>
-              <dd className="mt-1 font-medium text-foreground">Solid Brass Grade 304 SS</dd>
+              <dd className="mt-1 font-medium text-foreground">{materialType}</dd>
             </div>
             <div className="bg-secondary/40 p-3 rounded-lg border border-border/40">
               <dt className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Warranty</dt>
               <dd className="mt-1 font-medium text-gold">11 Years Assurance</dd>
             </div>
-            <div className="bg-secondary/40 p-3 rounded-lg border border-border/40">
-              <dt className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Cartridge</dt>
-              <dd className="mt-1 font-medium text-foreground">French Vernet / Neoperl</dd>
-            </div>
+            {!isBathAccessory && (
+              <div className="bg-secondary/40 p-3 rounded-lg border border-border/40">
+                <dt className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Cartridge</dt>
+                <dd className="mt-1 font-medium text-foreground">French Vernet / Neoperl</dd>
+              </div>
+            )}
             <div className="bg-secondary/40 p-3 rounded-lg border border-border/40 col-span-2">
               <dt className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Quality Certification</dt>
               <dd className="mt-1 font-medium text-foreground">10+1 Years Extended Protection · Corrosion Resistant PVD</dd>
@@ -244,12 +285,14 @@ function ProductPage() {
                 Backed by our signature 11-Year comprehensive warranty (10+1 years extended protection) against manufacturing and finish defects.
               </p>
             </div>
-            <div className="bg-background/80 border border-border/60 p-6 rounded-xl">
-              <h3 className="font-serif text-lg text-foreground mb-2">French Vernet & Swiss Neoperl</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Integrated with world-class thermostatic cartridges from Vernet (France) and aerated flow regulators from Neoperl (Switzerland).
-              </p>
-            </div>
+            {!isBathAccessory && (
+              <div className="bg-background/80 border border-border/60 p-6 rounded-xl">
+                <h3 className="font-serif text-lg text-foreground mb-2">French Vernet & Swiss Neoperl</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Integrated with world-class thermostatic cartridges from Vernet (France) and aerated flow regulators from Neoperl (Switzerland).
+                </p>
+              </div>
+            )}
             <div className="bg-background/80 border border-border/60 p-6 rounded-xl">
               <h3 className="font-serif text-lg text-foreground mb-2">PVD Bonded Finish</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
