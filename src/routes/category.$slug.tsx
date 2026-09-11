@@ -214,14 +214,26 @@ function CategoryPage() {
               {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Premium Stainless Steel" : "High-Quality Craftsmanship") : "Extended Warranty"}
             </p>
           </div>
-          <div className="p-4 border-l border-border/50">
-            <p className="font-serif text-2xl md:text-3xl text-gold">
-              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Corrosion Resistant" : "Timeless Design") : "Vernet Inside"}
-            </p>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
-              {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Durable Finish" : "Handcrafted Elegance") : "French Thermostatic Cartridge"}
-            </p>
-          </div>
+          {(cat.group === "diverters" || cat.group === "basin-mixers") && (
+            <div className="p-4 border-l border-border/50">
+              <p className="font-serif text-2xl md:text-3xl text-gold">
+                Vernet Inside
+              </p>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+                French Thermostatic Cartridge
+              </p>
+            </div>
+          )}
+          {cat.group === "sanitaryware" && (
+            <div className="p-4 border-l border-border/50">
+              <p className="font-serif text-2xl md:text-3xl text-gold">
+                {cat.slug === "stainless-steel-wash-basins" ? "Corrosion Resistant" : "Timeless Design"}
+              </p>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+                {cat.slug === "stainless-steel-wash-basins" ? "Durable Finish" : "Handcrafted Elegance"}
+              </p>
+            </div>
+          )}
           <div className="p-4 border-l border-border/50">
             <p className="font-serif text-2xl md:text-3xl text-gold">
               {cat.group === "sanitaryware" ? (cat.slug === "stainless-steel-wash-basins" ? "Modern Edge" : "Easy Maintenance") : "PVD Bonded"}
