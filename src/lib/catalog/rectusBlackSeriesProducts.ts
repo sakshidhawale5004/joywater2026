@@ -73,7 +73,7 @@ export const rectusBlackSeriesProducts: Product[] = [
     name: "Dual Soap Holder",
     category: "rectus-black",
     finish: "PVD Black Finish",
-    price: 2800,
+    price: 2700,
     code: "RT Black 107",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/305.jpg",
     material: "SS"

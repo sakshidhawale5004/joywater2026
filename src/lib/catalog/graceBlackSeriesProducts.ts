@@ -63,7 +63,7 @@ export const graceBlackSeriesProducts: Product[] = [
     name: "Towel Bar",
     category: "grace-black",
     finish: "PVD Black Finish",
-    price: 1710,
+    price: 1890,
     code: "GR-Black 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/260.jpg",
     material: "SS"

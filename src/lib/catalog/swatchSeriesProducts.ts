@@ -197,7 +197,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-101",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 2160,
+    price: 2070,
     code: "SW-RG 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/88.jpg"
   },
@@ -207,7 +207,7 @@ export const swatchSeriesProducts: Product[] = [
     slug: "swatch-rose-gold-sw-rg-102",
     category: "swatch-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1800,
+    price: 2160,
     code: "SW-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/89.jpg"
   },

@@ -48,7 +48,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Liquid Dispenser",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 1890,
+    price: 1980,
     code: "OY 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/189.jpg"
   },
@@ -58,7 +58,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Double Soap Holder",
     category: "oyster-chrome",
     finish: "Chrome",
-    price: 2250,
+    price: 2700,
     code: "OY 104",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/190.jpg"
   },
@@ -120,7 +120,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 1140,
+    price: 2340,
     code: "OY-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/197.jpg"
   },
@@ -160,7 +160,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap Dish Tumbler Holder",
     category: "oyster-rose-gold",
     finish: "Rose Gold",
-    price: 3150,
+    price: 3330,
     code: "OY-RG 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/201.jpg"
   },
@@ -252,7 +252,7 @@ export const oysterSeriesProducts: Product[] = [
     name: "Soap Dish Tumbler Holder",
     category: "oyster-black",
     finish: "Matte Black",
-    price: 2650,
+    price: 2880,
     code: "OY-Black 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/211.jpg"
   },

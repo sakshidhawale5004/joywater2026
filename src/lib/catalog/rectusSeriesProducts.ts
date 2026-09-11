@@ -62,7 +62,7 @@ export const rectusSeriesProducts: Product[] = [
     name: "Tumbler Holder",
     category: "rectus-chrome",
     finish: "Chrome Finish",
-    price: 1440,
+    price: 990,
     code: "RT 105",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/269.png",
     material: "SS + Glass"

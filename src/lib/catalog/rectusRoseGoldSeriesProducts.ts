@@ -40,7 +40,7 @@ export const rectusRoseGoldSeriesProducts: Product[] = [
     name: "Napkin Ring",
     category: "rectus-rose-gold",
     finish: "PVD Rose Gold Finish",
-    price: 1620,
+    price: 1260,
     code: "RT-RG 102",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/290.jpg",
     material: "SS"

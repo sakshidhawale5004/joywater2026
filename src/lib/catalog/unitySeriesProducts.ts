@@ -33,7 +33,7 @@ export const unitySeriesProducts: Product[] = [
     slug: "unity-series-un-bg-103",
     category: "unity-series",
     finish: "Black Gold",
-    price: 3780,
+    price: 5760,
     code: "UN-BG-103",
     image: "https://joywater2026.vercel.app/JOY%20WATER%20BATHROOM%20ACCESSORIES%20(1)/99.jpg",
     material: "Brass",

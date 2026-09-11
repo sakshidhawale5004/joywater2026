@@ -8,7 +8,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-dual-soap-holder",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 3060,
+    price: 810,
     code: "GR 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/228.jpg",
     material: "SS"
@@ -41,7 +41,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-towel-bar",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 945,
+    price: 1080,
     code: "GR 103",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/226.jpg",
     material: "SS"
@@ -107,7 +107,7 @@ export const graceChromeSeriesProducts: Product[] = [
     slug: "grace-chrome-robe-hook",
     category: "grace-chrome",
     finish: "Chrome Finish",
-    price: 495,
+    price: 900,
     code: "GR 109",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/233.jpg",
     material: "SS"

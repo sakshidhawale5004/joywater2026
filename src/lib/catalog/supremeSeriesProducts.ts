@@ -197,7 +197,7 @@ export const supremeSeriesProducts: Product[] = [
     slug: "supreme-chrome-sp-101",
     category: "supreme-chrome",
     finish: "Chrome Finish",
-    price: 2880,
+    price: 3870,
     code: "SP 101",
     image: "/JOY WATER BATHROOM ACCESSORIES (1)/92.jpg"
   },
