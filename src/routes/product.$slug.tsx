@@ -58,7 +58,7 @@ const FINISH_STYLES: Record<string, string> = {
 function getProductMaterial(category: string): string {
   const brassSeries = [
     "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
-    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome", "swatch-black",
     "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
     "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
     "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",
@@ -79,7 +79,7 @@ function getProductMaterial(category: string): string {
 function isBathAccessoriesCategory(category: string): boolean {
   const bathAccessoriesCategories = [
     "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
-    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome", "swatch-black",
     "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
     "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
     "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",

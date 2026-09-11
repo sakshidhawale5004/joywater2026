@@ -1,5 +1,6 @@
 import { bathroomAccessoriesProducts } from "./bathroomAccessoriesProducts.ts";
 import { swatchSeriesProducts } from "./swatchSeriesProducts.ts";
+import { swatchBlackSeriesProducts } from "./swatchBlackSeriesProducts.ts";
 import { pyramidSeriesProducts } from "./pyramidSeriesProducts.ts";
 import { signatureSeriesProducts } from "./signatureSeriesProducts.ts";
 import { fortuneSeriesProducts } from "./fortuneSeriesProducts.ts";
@@ -798,6 +799,14 @@ export const categories: Category[] = [
     description: "Elegant Swatch Series bathroom accessories with PVD Rose Gold finish. Premium brass with luxurious rose gold coating.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/87.jpg",
     features: ["Brass Construction", "PVD Rose Gold Finish", "Premium Quality", "11 Years Unmatched Assurance"]
+  },
+  {
+    slug: "swatch-black",
+    title: "Swatch Series - Matt Black",
+    group: "swatch-series",
+    description: "Modern Swatch Series bathroom accessories with Matt Black finish. Premium brass with sophisticated matte black coating.",
+    bannerImage: "/SWATCH BLACK/sw-BL-101 SOAP DISH  1710.jpg",
+    features: ["Brass Construction", "Matt Black Finish", "Premium Quality", "11 Years Unmatched Assurance"]
   },
 
   // Pyramid Series - Premium Bathroom Accessories
@@ -2322,6 +2331,7 @@ const realCategoryProducts: Product[] = [
   ...mirrorProducts,
   ...bathroomAccessoriesProducts,
   ...swatchSeriesProducts,
+  ...swatchBlackSeriesProducts,
   ...pyramidSeriesProducts,
   ...signatureSeriesProducts,
   ...fortuneSeriesProducts,

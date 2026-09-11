@@ -35,7 +35,7 @@ export const Route = createFileRoute("/category/$slug")({
 function getMaterialType(slug: string): "brass" | "stainless-steel" | null {
   const brassSeries = [
     "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
-    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome", "swatch-black",
     "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
     "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
     "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",
