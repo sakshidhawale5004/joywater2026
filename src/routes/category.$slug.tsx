@@ -32,6 +32,27 @@ export const Route = createFileRoute("/category/$slug")({
   ),
 });
 
+function getMaterialType(slug: string): "brass" | "stainless-steel" | null {
+  const brassSeries = [
+    "pyramid-series", "signature-series", "fortune-series", "solitaire-series",
+    "swatch-series", "swatch-gold", "swatch-rose-gold", "swatch-chrome",
+    "unity-series", "supreme-gold", "supreme-rose-gold", "supreme-chrome",
+    "sigma-series", "sigma-gold", "sigma-rose-gold", "sigma-chrome",
+    "iris-series", "iris-gold", "iris-rose-gold", "iris-chrome",
+    "oyster-series", "oyster-rose-gold", "oyster-black", "oyster-chrome",
+    "ovilio-series", "ovilio-chrome"
+  ];
+  
+  const stainlessSteelSeries = [
+    "grace-chrome", "grace-gold-series", "grace-rose-gold", "grace-black",
+    "rectus-chrome", "rectus-gold", "rectus-rose-gold", "rectus-black"
+  ];
+  
+  if (brassSeries.includes(slug)) return "brass";
+  if (stainlessSteelSeries.includes(slug)) return "stainless-steel";
+  return null;
+}
+
 function getHeroSectionImage(cat: any, products: any[]): string {
   const map: Record<string, string> = {
     // Shower Main Categories
@@ -156,6 +177,9 @@ function CategoryPage() {
   const heroImg = cat.bannerImage || cat.image || (products.length > 0 ? products[0].image : "/images/w3-01.png");
   // Dedicated hero showcase image from /herosection/ folder
   const heroShowcaseImg = getHeroSectionImage(cat, products);
+  
+  // Get material type for this series
+  const materialType = getMaterialType(cat.slug);
 
   return (
     <SiteLayout>
@@ -231,6 +255,16 @@ function CategoryPage() {
               </p>
               <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
                 {cat.slug === "stainless-steel-wash-basins" ? "Durable Finish" : "Handcrafted Elegance"}
+              </p>
+            </div>
+          )}
+          {materialType && (
+            <div className="p-4 border-l border-border/50">
+              <p className="font-serif text-2xl md:text-3xl text-gold">
+                {materialType === "brass" ? "Only Brass" : "Stainless Steel"}
+              </p>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+                {materialType === "brass" ? "Premium Brass Construction" : "304 Grade SS"}
               </p>
             </div>
           )}
