@@ -2466,7 +2466,8 @@ export const megaMenu = {
       "5-function-diverters",
       "4-function-diverters",
       "3-function-click-diverters",
-      "3-function-lever-diverters"
+      "3-function-lever-diverters",
+      "spout"
     ],
     "Basin Mixers": [
       "round-controller-basin-mixer",
@@ -2483,8 +2484,10 @@ export const megaMenu = {
       "abs-hook",
       "button-spout",
       "angle-valve",
+      "angle-valve-1",
       "bib-cock",
       "shower-arm",
+      "shower-arm-1",
       "shower-holder",
       "wall-outlet",
       "pop-up-coupling",
@@ -2508,6 +2511,8 @@ export const megaMenu = {
       "swatch-chrome",
       "swatch-gold",
       "swatch-rose-gold",
+      "swatch-black",
+      "sigma-chrome",
       "sigma-gold",
       "sigma-rose-gold",
       "iris-chrome",
@@ -2538,9 +2543,7 @@ export const megaMenu = {
       "allied-products",
       "couplings",
       "gasket-tape",
-      "soap-dispenser",
-      "shower-arm",
-      "angle-valve"
+      "soap-dispenser"
     ]
   },
   "Mirrors": {
