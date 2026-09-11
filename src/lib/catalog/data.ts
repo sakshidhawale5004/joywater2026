@@ -1082,7 +1082,7 @@ export const categories: Category[] = [
   {
     slug: "shower-arm",
     title: "Shower Arms Collection",
-    group: "diverters",
+    group: "shower-arm-series",
     description: "Comprehensive range of shower arms, ceiling mounts, and wall flanges. Multiple sizes available in brass construction.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/381.png",
     features: ["Multiple Sizes", "Brass Construction", "Wall & Ceiling Mounts", "11 Years Unmatched Assurance"]
@@ -1090,7 +1090,7 @@ export const categories: Category[] = [
   {
     slug: "angle-valve",
     title: "Angle Valve Collection",
-    group: "diverters",
+    group: "angle-valve-series",
     description: "Premium brass angle valves in multiple designer patterns. Chrome finish with superior quality construction.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/394.jpg",
     features: ["Brass Construction", "Multiple Designs", "Chrome Finish", "11 Years Unmatched Assurance"]
@@ -2457,8 +2457,7 @@ export const megaMenu = {
       "5-function-diverters",
       "4-function-diverters",
       "3-function-click-diverters",
-      "3-function-lever-diverters",
-      "spout"
+      "3-function-lever-diverters"
     ],
     "Basin Mixers": [
       "round-controller-basin-mixer",
@@ -2474,6 +2473,7 @@ export const megaMenu = {
     "Allied Products": [
       "abs-hook",
       "button-spout",
+      "spout",
       "angle-valve",
       "angle-valve-1",
       "bib-cock",
@@ -2533,7 +2533,9 @@ export const megaMenu = {
       "allied-products",
       "couplings",
       "gasket-tape",
-      "soap-dispenser"
+      "soap-dispenser",
+      "shower-arm",
+      "angle-valve"
     ]
   },
   "Mirrors": {
