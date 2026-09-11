@@ -1082,7 +1082,7 @@ export const categories: Category[] = [
   {
     slug: "shower-arm",
     title: "Shower Arms Collection",
-    group: "shower-arm-series",
+    group: "diverters",
     description: "Comprehensive range of shower arms, ceiling mounts, and wall flanges. Multiple sizes available in brass construction.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/381.png",
     features: ["Multiple Sizes", "Brass Construction", "Wall & Ceiling Mounts", "11 Years Unmatched Assurance"]
@@ -1090,7 +1090,7 @@ export const categories: Category[] = [
   {
     slug: "angle-valve",
     title: "Angle Valve Collection",
-    group: "angle-valve-series",
+    group: "diverters",
     description: "Premium brass angle valves in multiple designer patterns. Chrome finish with superior quality construction.",
     bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/394.jpg",
     features: ["Brass Construction", "Multiple Designs", "Chrome Finish", "11 Years Unmatched Assurance"]
