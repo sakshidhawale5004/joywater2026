@@ -119,7 +119,7 @@ export const categories: Category[] = [
     },
     {
       slug: "tile-drainers",
-      title: "Tile Drainers",
+      title: "Channel Drainer",
       group: "tile-insert-drainers",
       description: "Premium tile insert drainers for seamless bathroom aesthetics.",
       bannerImage: "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
