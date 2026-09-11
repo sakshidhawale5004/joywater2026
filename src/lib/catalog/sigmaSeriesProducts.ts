@@ -7,19 +7,19 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-series-si-109",
     category: "sigma-series",
     finish: "Chrome",
-    price: 6300,
+    price: 8640,
     code: "SI-109",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/127.jpg"
+    image: "/sigma SERISE/SI 109 TOWEL RACK 8640.png"
   },
   {
     id: "sigma-series-si-101",
-    name: "Soap Holder",
+    name: "Soap Dish",
     slug: "sigma-series-si-101",
     category: "sigma-series",
     finish: "Chrome",
-    price: 1440,
+    price: 1980,
     code: "SI-101",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/128.jpg"
+    image: "/sigma SERISE/SI 101 SOAP DISH 1980.jpg"
   },
   {
     id: "sigma-series-si-102",
@@ -27,49 +27,39 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-series-si-102",
     category: "sigma-series",
     finish: "Chrome",
-    price: 1350,
+    price: 1890,
     code: "SI-102",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/129.jpg"
+    image: "/sigma SERISE/SI 102 NAPKIN RING 1890.png"
+  },
+  {
+    id: "sigma-series-si-105",
+    name: "Tumbler Holder",
+    slug: "sigma-series-si-105",
+    category: "sigma-series",
+    finish: "Chrome",
+    price: 2160,
+    code: "SI-105",
+    image: "/sigma SERISE/SI 105 TUMBLER HOLDER 2160.jpg"
   },
   {
     id: "sigma-series-si-106",
-    name: "Tumbler Holder",
+    name: "Liquid Dispenser",
     slug: "sigma-series-si-106",
     category: "sigma-series",
     finish: "Chrome",
-    price: 1620,
+    price: 3150,
     code: "SI-106",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/130.jpg"
-  },
-  {
-    id: "sigma-series-slt-105",
-    name: "Liquid Dispenser",
-    slug: "sigma-series-slt-105",
-    category: "sigma-series",
-    finish: "Chrome",
-    price: 2700,
-    code: "SLT-105",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/131.jpg"
+    image: "/sigma SERISE/SI 106 LIQUID DISPENSER 3150.jpg"
   },
   {
     id: "sigma-series-si-104",
-    name: "Soap Holder",
+    name: "Glass Soap Dish",
     slug: "sigma-series-si-104",
     category: "sigma-series",
     finish: "Chrome",
-    price: 1710,
+    price: 2340,
     code: "SI-104",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/133.jpg"
-  },
-  {
-    id: "sigma-series-si-103",
-    name: "Towel Bar | 600mm",
-    slug: "sigma-series-si-103",
-    category: "sigma-series",
-    finish: "Chrome",
-    price: 2850,
-    code: "SI-103",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/134.jpg"
+    image: "/sigma SERISE/SI 104 GLASS SOAP DISH 2340.jpg"
   },
   {
     id: "sigma-series-si-107",
@@ -77,9 +67,9 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-series-si-107",
     category: "sigma-series",
     finish: "Chrome",
-    price: 2160,
+    price: 2790,
     code: "SI-107",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/135.jpg"
+    image: "/sigma SERISE/SI 107 PAPER HOLDER WITH FLAP 2790.png"
   },
   {
     id: "sigma-series-si-108",
@@ -87,9 +77,9 @@ export const sigmaSeriesProducts: Product[] = [
     slug: "sigma-series-si-108",
     category: "sigma-series",
     finish: "Chrome",
-    price: 990,
+    price: 1350,
     code: "SI-108",
-    image: "/JOY WATER BATHROOM ACCESSORIES (1)/136.jpg"
+    image: "/sigma SERISE/SI 108 ROBE HOOK 1350.jpg"
   },
   {
     id: "sigma-gold-si-g-109",

@@ -1126,7 +1126,8 @@ export const categories: Category[] = [
     title: "Sigma Series - Chrome",
     group: "sigma-series",
     description: "Sigma Series bathroom accessories in elegant Chrome finish. High-quality brass construction with modern design.",
-    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/127.jpg",
+    bannerImage: "/sigma SERISE/SI 109 TOWEL RACK 8640.png",
+    image: "/sigma SERISE/SI 101 SOAP DISH 1980.jpg",
     features: ["Brass Construction", "Chrome Finish", "Modern Design", "11 Years Unmatched Assurance"]
   },
   {
@@ -1150,7 +1151,8 @@ export const categories: Category[] = [
     title: "Sigma Series - All Finishes",
     group: "sigma-series",
     description: "Complete Sigma Series bathroom accessories collection in Chrome, PVD Gold, and PVD Rose Gold finishes.",
-    bannerImage: "/JOY WATER BATHROOM ACCESSORIES (1)/127.jpg",
+    bannerImage: "/sigma SERISE/SI 109 TOWEL RACK 8640.png",
+    image: "/sigma SERISE/SI 101 SOAP DISH 1980.jpg",
     features: ["Brass Construction", "Multiple Finishes", "Modern Design", "11 Years Unmatched Assurance"]
   },
 
