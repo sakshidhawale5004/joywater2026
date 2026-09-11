@@ -12,6 +12,7 @@ import { irisSeriesProducts } from "./irisSeriesProducts.ts";
 import { oysterSeriesProducts } from "./oysterSeriesProducts.ts";
 import { ovilioSeriesProducts } from "./ovilioSeriesProducts.ts";
 import { graceChromeSeriesProducts } from "./graceChromeSeriesProducts.ts";
+import { spoutProducts } from "./spoutProducts.ts";
 
 export type CategoryGroup =
   | "ceiling-mounted-showers"
@@ -119,8 +120,17 @@ export const categories: Category[] = [
       features: ["Premium Finish", "Solid Brass", "11 Years Unmatched Assurance"]
     },
     {
+      slug: "spout",
+      title: "Spout",
+      group: "diverters",
+      description: "Premium Spouts in multiple finishes for elegant water flow control.",
+      bannerImage: "/SPOUT/JW-10043 CHROME FINISH SPOUT 3650.png",
+      image: "/SPOUT/JW-10043 CHROME FINISH SPOUT 3650.png",
+      features: ["Premium Finish", "Solid Brass", "Multiple Finishes", "11 Years Unmatched Assurance"]
+    },
+    {
       slug: "tile-drainers",
-      title: "Channel Drainer",
+      title: "Drainers",
       group: "tile-insert-drainers",
       description: "Premium tile insert drainers for seamless bathroom aesthetics.",
       bannerImage: "/HEROSECTIONIMAGES/Tile Insert Drain.jpg",
@@ -2359,6 +2369,7 @@ const realCategoryProducts: Product[] = [
   ...floorAccessoriesProducts,
   ...showerArmProducts,
   ...angleValveProducts,
+  ...spoutProducts,
   ...showerArmDiverterProducts,
   ...angleValveDiverterProducts,
   ...alliedProductsProducts,
