@@ -290,8 +290,8 @@ export const categories: Category[] = [
       title: "2 Function Hand Showers",
       group: "hand-showers",
       description: "2 Function hand showers for versatile showering experience.",
-      bannerImage: "/shower category/hand shower chrome 2250 (2).png",
-      image: "/shower category/hand shower chrome 2250 (2).png",
+      bannerImage: "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
+      image: "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
       features: ["2 Functions", "Compact", "Easy Grip", "11 Years Unmatched Assurance"]
     },
     {
@@ -1807,6 +1807,17 @@ const realCategoryProducts: Product[] = [
     ["JW-10156"]
   ),
   ...createCategoryProducts(
+    "2-function-hand-showers",
+    "2 function hand shower",
+    "JW-100",
+    [3550],
+    [
+      "/showers/Multifunctional Wall Mounted Shower (2 Function) (6).png",
+    ],
+    ["Brushed Gold Finish"],
+    ["JW-10154"]
+  ),
+  ...createCategoryProducts(
     "2-function-ceiling-showers",
     "2 function shower rain mist hexagon",
     "JW-100",
@@ -1982,9 +1993,9 @@ const realCategoryProducts: Product[] = [
       [54000, 63000, 63000, 63000],
       [
         "/diverters/Thermostatic Diverter (1).png",
-        "/diverters/Thermostatic Diverter (2).png",
-        "/diverters/Thermostatic Diverter (3).png",
         "/diverters/Thermostatic Diverter (4).png",
+        "/diverters/Thermostatic Diverter (4).png",
+        "/diverters/Thermostatic Diverter (3).png",
       ],
       ["Chrome", "Rose Gold", "Brushed Gold", "Graphite Grey"],
       ["JW-10007", "JW-10009", "JW-10008", "JW-10010"]
@@ -1995,9 +2006,9 @@ const realCategoryProducts: Product[] = [
     "JW-100",
     [23000, 27000, 27000],
     [
-      "/diverters/Lever Diverter Three Outlet (1).png",
       "/diverters/Lever Diverter Three Outlet (2).png",
       "/diverters/Lever Diverter Three Outlet (3).png",
+      "/diverters/Lever Diverter Three Outlet (1).png",
     ],
     ["Chrome", "Rose Gold", "Brushed Gold"],
     ["JW-10037", "JW-10036", "JW-10035"]
@@ -2217,13 +2228,7 @@ const realCategoryProducts: Product[] = [
     "/OTHERS/Bathroom Accessories & Fittings (11).png",
   ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
   ["JW-10048", "JW-10050", "JW-10047", "JW-10049"]),
-  ...createCategoryProducts("angle-valve", "Angle Valve", "JW-100", [1800, 1800, 650, 1800], [
-    "/OTHERS/Bathroom Accessories & Fittings (13).png",
-    "/OTHERS/Bathroom Accessories & Fittings (14).png",
-    "/OTHERS/Bathroom Accessories & Fittings (16).png",
-    "/OTHERS/Bathroom Accessories & Fittings (15).png",
-  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
-  ["JW-10022", "JW-10024", "JW-10083", "JW-10023"]),
+
   ...createCategoryProducts("bib-cock", "Bib Cock", "JW-100", [7200, 7200, 6500, 7200], [
     "/OTHERS/Bathroom Accessories & Fittings (5).png",
     "/OTHERS/Bathroom Accessories & Fittings (6).png",
@@ -2231,13 +2236,7 @@ const realCategoryProducts: Product[] = [
     "/OTHERS/Bathroom Accessories & Fittings (7).png",
   ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
   ["JW-10209", "JW-10211", "JW-10210", "JW-10208"]),
-  ...createCategoryProducts("shower-arm", "Shower Arm", "JW-100", [4850, 4850, 2700, 4850], [
-    "/OTHERS/Bathroom Accessories & Fittings (25).png",
-    "/OTHERS/Bathroom Accessories & Fittings (26).png",
-    "/OTHERS/Bathroom Accessories & Fittings (27).png",
-    "/OTHERS/Bathroom Accessories & Fittings (28).png",
-  ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
-  ["JW-10106", "JW-10108", "JW-10105", "JW-10107"]),
+
   ...createCategoryProducts("shower-holder", "Shower Holder", "JW-100", [645, 645, 350, 645], [
     "/OTHERS/Bathroom Accessories & Fittings.png",
     "/OTHERS/Bathroom Accessories & Fittings (29).png",
@@ -2474,17 +2473,15 @@ export const megaMenu = {
       "abs-hook",
       "button-spout",
       "spout",
-      "angle-valve",
-      "angle-valve-1",
       "bib-cock",
-      "shower-arm",
-      "shower-arm-1",
       "shower-holder",
       "wall-outlet",
       "pop-up-coupling",
       "bottle-trap",
       "shower-hose-tube",
-      "health-faucet"
+      "health-faucet",
+      "angle-valve-1",
+      "shower-arm-1"
     ]
   },
   "Bath Accessories": {
