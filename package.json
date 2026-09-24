@@ -4,11 +4,12 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vite --config vite.config.static.ts",
-    "build": "vite build --config vite.config.static.ts",
-    "build:old": "vite build",
-    "build:dist": "npm run build",
-    "preview": "vite preview --config vite.config.static.ts",
+    "dev": "vite dev",
+    "dev:static": "vite --config vite.config.static.ts",
+    "build": "vite build",
+    "build:static": "vite build --config vite.config.static.ts",
+    "build:dist": "npm run build:static",
+    "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
