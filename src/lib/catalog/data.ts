@@ -2322,6 +2322,13 @@ const realCategoryProducts: Product[] = [
   { id: "shower-drainer-12", slug: "shower-drainer-12", name: "SS 304 Shower Channel", category: "tile-drainers", finish: "SS 304", price: 9900, code: "JSC-404", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png", size: "1200 x 100 x 20mm" },
   { id: "shower-drainer-13", slug: "shower-drainer-13", name: "SS 304 Shower Channel", category: "tile-drainers", finish: "SS 304", price: 5580, code: "JSC-405", image: "/tile drainers/ss-340-shower-channel-wave-shower-drainer-3510.png", size: "750 x 100 x 20mm" },
 
+  // Tile Drainer - JW-JTD Series (450-1200mm)
+  { id: "tile-drainer-jtd-1", slug: "tile-drainer-jtd-1", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 4320, code: "JW-JTD-501", image: "/tile drainers/tile drainer.png", size: "450 x 100mm" },
+  { id: "tile-drainer-jtd-2", slug: "tile-drainer-jtd-2", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 5500, code: "JW-JTD-502", image: "/tile drainers/tile drainer.png", size: "600 x 100mm" },
+  { id: "tile-drainer-jtd-3", slug: "tile-drainer-jtd-3", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 7350, code: "JW-JTD-503", image: "/tile drainers/tile drainer.png", size: "900 x 100mm" },
+  { id: "tile-drainer-jtd-4", slug: "tile-drainer-jtd-4", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 9000, code: "JW-JTD-504", image: "/tile drainers/tile drainer.png", size: "1200 x 100mm" },
+  { id: "tile-drainer-jtd-5", slug: "tile-drainer-jtd-5", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 13500, code: "JW-JTD-505", image: "/tile drainers/tile drainer.png", size: "750 x 100mm" },
+
   // Tile Drainer - 150 x 150mm (JW-10134 to JW-10141 series)
   { id: "tiles-drainer-1", slug: "tiles-drainer-1", name: "Tile Drainer", category: "tile-drainers", finish: "SS Matte Finish", price: 4250, code: "JW-10134", image: "/tile drainers/tile-drainer-ss-matte-finish-4250.png", size: "150 x 150mm" },
   { id: "tiles-drainer-2", slug: "tiles-drainer-2", name: "Tile Drainer", category: "tile-drainers", finish: "Brushed Gold Finish", price: 5750, code: "JW-10135", image: "/tile drainers/tile-drainer-brushed-gold-finish-5750.png", size: "150 x 150mm" },
