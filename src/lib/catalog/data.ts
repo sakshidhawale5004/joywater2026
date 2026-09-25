@@ -2063,7 +2063,7 @@ const realCategoryProducts: Product[] = [
       "/basinmixer/Thermostatic Click Controller Basin Mixer (3).png",
     ],
     ["Rose Gold", "Brushed Gold", "Graphite Grey"],
-    ["JW-10158", "JW-10159", "JW-10160"]
+    ["JW-10164", "JW-10162", "JW-10163"]
   ),
   ...createCategoryProducts(
     "lever-basin-mixer",
