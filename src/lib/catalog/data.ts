@@ -2236,10 +2236,10 @@ const realCategoryProducts: Product[] = [
 
   // Others / Accessories
     ...createCategoryProducts("abs-hook", "ABS Hook", "JW-100", [1750, 1750, 990, 1750], [
-      "/abs hook/abs hook (1) gold 1750.png",
-      "/abs hook/abs hook (2) graphite grey 1750.png",
-      "/abs hook/abs hook (3) chrome 990.png",
-      "/abs hook/abs hook (4) rose gold 1750.png"
+      "/image/JW-10182 ABS HOOK brushed 1750 gold finish  (2).png",
+      "/image/JW-10181 ABS HOOK GRAPHITE GREY finish 1750.png",
+      "/image/JW-10180 ABS HOOK chrome finish 990.png",
+      "/image/JW-10183 ABS HOOK brushed  rosegold 1750.png"
     ], ["Brushed Gold", "Graphite Grey", "Chrome", "Rose Gold"],
     ["JW-10182", "JW-10181", "JW-10180", "JW-10183"]),
 
