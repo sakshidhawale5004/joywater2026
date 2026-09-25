@@ -102,6 +102,15 @@ export const categories: Category[] = [
       features: ["3 Functions", "Lever Click", "Vernet Cartridge", "11 Years Unmatched Assurance"]
     },
     {
+      slug: "3-function-round-controller-diverters",
+      title: "3 Function Diverter Round Controller",
+      group: "diverters",
+      description: "3 Function Diverter Round Controller with premium finish and precise control.",
+      bannerImage: "/HEROSECTIONIMAGES/5 Function Diverter.png",
+      image: "/diverters/three function diverter round contoller JW-10006 35000 chrome.png",
+      features: ["3 Functions", "Round Controller", "Premium Finish", "11 Years Unmatched Assurance"]
+    },
+    {
       slug: "shower-arm-1",
       title: "Shower Arm 1",
       group: "diverters",
@@ -2013,6 +2022,19 @@ const realCategoryProducts: Product[] = [
     ["Chrome", "Rose Gold", "Brushed Gold"],
     ["JW-10037", "JW-10036", "JW-10035"]
   ),
+  ...createCategoryProducts(
+    "3-function-round-controller-diverters",
+    "3 Function Diverter Round Controller",
+    "JW-100",
+    [35000, 39000, 39000],
+    [
+      "/diverters/three function diverter round contoller JW-10006 35000 chrome.png",
+      "/diverters/three function diverter round contoller JW-10005 39000 rose gold.png",
+      "/diverters/three function diverter round contoller JW-10093 39000 graphite grey.png",
+    ],
+    ["Chrome", "Rose Gold", "Graphite Grey"],
+    ["JW-10006", "JW-10005", "JW-10093"]
+  ),
 
 
 
@@ -2456,7 +2478,8 @@ export const megaMenu = {
       "5-function-diverters",
       "4-function-diverters",
       "3-function-click-diverters",
-      "3-function-lever-diverters"
+      "3-function-lever-diverters",
+      "3-function-round-controller-diverters"
     ],
     "Basin Mixers": [
       "round-controller-basin-mixer",
