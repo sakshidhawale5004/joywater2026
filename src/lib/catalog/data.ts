@@ -2486,6 +2486,7 @@ export const megaMenu = {
       "thermostatic-click-controller-basin-mixer",
       "lever-basin-mixer",
       "table-mounted-basin-mixer",
+      "progressive-controller-waterfall-basin-mixer",
       "ceiling-mounted-basin-mixer",
       "premium-basin-mixer"
     ],
